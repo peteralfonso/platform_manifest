@@ -127,8 +127,6 @@
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="hardware/ti/omap3" name="android_hardware_ti_omap3" remote="cm" revision="gingerbread" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="gingerbread" />
-  <project path="kernel/omap" name="platform_kernel_omap" remote="github" revision="gingerbread" />
-  <project path="kernel/samsung" name="platform_kernel_samsung" remote="github" revision="android-samsung-2.6.35" />
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" />
