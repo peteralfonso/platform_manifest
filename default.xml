@@ -184,6 +184,7 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
   <project path="system/wlan/ti" name="android_system_wlan_ti" remote="cm" revision="gingerbread" />
+  <project path="vendor/htc" name="platform_vendor_htc" remote="github" revision="gingerbread" />
   <project path="vendor/motorola" name="platform_vendor_motorola" remote="github" revision="gingerbread" />
   <project path="vendor/pete" name="platform_vendor_pete" remote="github" revision="gingerbread" />
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="github" revision="gingerbread" />
