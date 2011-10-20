@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="aosp"
-           fetch="http://android.googlesource.com/" />
+           fetch="https://android.googlesource.com/" />
   <remote name="pete"
            fetch="git://github.com/peteralfonso/" /> 
   <remote name="cm"
