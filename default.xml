@@ -21,6 +21,7 @@
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
   <project path="device/htc/common" name="device/htc/common" />
+  <project path="device/htc/inc" name="platform_device_htc_inc" remote="pete" revision="gingerbread" />
   <project path="device/htc/passion" name="platform_device_htc_passion" remote="pete" revision="gingerbread" />
   <project path="device/htc/passion-common" name="platform_device_htc_passion-common" remote="pete" revision="gingerbread" />
   <project path="device/motorola/sholes" name="platform_device_motorola_sholes" remote="pete" revision="gingerbread" />
@@ -120,8 +121,8 @@
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="gingerbread" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cm" revision="gingerbread" />
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="hardware/ti/omap3-compat" name="android_hardware_ti_omap3-compat" remote="cm" revision="gingerbread" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
@@ -173,7 +174,7 @@
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
-  <project path="system/vold" name="platform/system/vold" />
+  <project path="system/vold" name="android_system_vold" remote="cm" revision="gingerbread" />
   <project path="system/wlan/ti" name="android_system_wlan_ti" remote="cm" revision="gingerbread" />
   <project path="vendor/htc" name="platform_vendor_htc" remote="pete" revision="gingerbread" />
   <project path="vendor/motorola" name="platform_vendor_motorola" remote="pete" revision="gingerbread" />
