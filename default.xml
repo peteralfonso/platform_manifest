@@ -151,6 +151,7 @@
   <project path="packages/apps/SoundRecorder" name="platform_packages_apps_SoundRecorder" remote="pete" revision="gingerbread" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
+  <project path="packages/apps/Toolkit" name="platform_packages_apps_Toolkit" remote="pete" revision="gingerbread" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="pete" revision="gingerbread" />
