@@ -118,8 +118,8 @@
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/gpshim" name="android_hardware_gpsshim" remote="cm" revision="gingerbread" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="gingerbread" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="gingerbread" />
   <project path="hardware/msm7k" name="platform_hardware_msm7k" remote="pete" revision="gingerbread" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="gingerbread" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cm" revision="gingerbread" />
