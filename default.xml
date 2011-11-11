@@ -23,7 +23,7 @@
   <project path="device/htc/common" name="device/htc/common" />
   <project path="device/htc/inc" name="platform_device_htc_inc" remote="pete" revision="gingerbread" />
   <project path="device/htc/passion" name="platform_device_htc_passion" remote="pete" revision="gingerbread" />
-  <project path="device/htc/passion-common" name="android_device_htc_passion-common" remote="cm" revision="gingerbread" />
+  <project path="device/htc/passion-common" name="platform_device_htc_passion-common" remote="pete" revision="gingerbread" />
   <project path="device/motorola/sholes" name="platform_device_motorola_sholes" remote="pete" revision="gingerbread" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/crespo" name="platform_device_samsung_crespo" remote="pete" revision="gingerbread" />
