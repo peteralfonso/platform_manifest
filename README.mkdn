@@ -19,7 +19,7 @@ Please see the [Android source page](http://source.android.com/source/index.html
 
 To initialize your local repository using my trees, use the following command:
 
-    repo init -u git://github.com/peteralfonso/platform_manifest.git -b gingerbread
+    repo init -u git://github.com/peteralfonso/platform_manifest.git -b ics
 
 Then to sync up:
 
