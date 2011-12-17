@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com/" />
   <remote name="pete"
            fetch="git://github.com/peteralfonso/" /> 
-  <default revision="refs/tags/android-4.0.1_r1.2"
+  <default revision="refs/tags/android-4.0.3_r1"
            remote="aosp"
            sync-j="4" />
 
@@ -21,7 +21,12 @@
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
+  <project path="device/moto/common" name="device/moto/common" />
+  <project path="device/moto/stingray" name="device/moto/stingray" />
+  <project path="device/moto/wingray" name="device/moto/wingray" />
   <project path="device/sample" name="device/sample" />
+  <project path="device/samsung/crespo" name="device/samsung/crespo" />
+  <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" />
   <project path="device/samsung/maguro" name="platform_device_samsung_maguro" remote="pete" revision="ics" />
   <project path="device/samsung/tuna" name="platform_device_samsung_tuna" remote="pete" revision="ics" />
   <project path="device/ti/panda" name="device/ti/panda" />
@@ -92,6 +97,7 @@
   <project path="external/libvpx" name="platform/external/libvpx" />
   <project path="external/libxml2" name="platform/external/libxml2" />
   <project path="external/libxslt" name="platform/external/libxslt" />
+  <project path="external/libyuv" name="platform/external/libyuv" />
   <project path="external/llvm" name="platform/external/llvm" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
   <project path="external/markdown" name="platform/external/markdown" />
