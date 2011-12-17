@@ -28,6 +28,7 @@
   <project path="device/samsung/crespo" name="device/samsung/crespo" />
   <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" />
   <project path="device/samsung/maguro" name="platform_device_samsung_maguro" remote="pete" revision="ics" />
+  <project path="device/samsung/toro" name="device/samsung/toro" />
   <project path="device/samsung/tuna" name="platform_device_samsung_tuna" remote="pete" revision="ics" />
   <project path="device/ti/panda" name="device/ti/panda" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
