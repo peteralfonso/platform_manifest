@@ -30,7 +30,7 @@
   <project path="device/samsung/maguro" name="platform_device_samsung_maguro" remote="pete" revision="ics" />
   <project path="device/samsung/toro" name="platform_device_samsung_toro" remote="pete" revision="ics" />
   <project path="device/samsung/tuna" name="platform_device_samsung_tuna" remote="pete" revision="ics" />
-  <project path="device/ti/panda" name="device/ti/panda" />
+  <project path="device/ti/panda" name="platform_device_ti_panda" remote="pete" revision="ics" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/antlr" name="platform/external/antlr" />
