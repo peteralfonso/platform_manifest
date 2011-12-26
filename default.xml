@@ -152,7 +152,7 @@
   <project path="frameworks/base" name="platform_frameworks_base" remote="pete" revision="ics" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
-  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
+  <project path="frameworks/compile/slang" name="platform_frameworks_compile_slang" remote="pete" revision="ics" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
