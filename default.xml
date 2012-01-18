@@ -227,6 +227,7 @@
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
+  <project path="vendor/moto" name="platform_vendor_moto" remote="pete" revision="ics" />
   <project path="vendor/pete" name="platform_vendor_pete" remote="pete" revision="ics" />
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="pete" revision="ics" />
 
