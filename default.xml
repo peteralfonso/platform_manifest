@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com/" />
   <remote name="pete"
            fetch="git://github.com/peteralfonso/" /> 
-  <default revision="refs/tags/android-4.0.4_r1.2"
+  <default revision="refs/tags/android-4.0.4_r2.1"
            remote="aosp"
            sync-j="4" />
 
@@ -29,6 +29,7 @@
   <project path="device/samsung/crespo4g" name="platform_device_samsung_crespo4g" remote="pete" revision="ics" />
   <project path="device/samsung/maguro" name="platform_device_samsung_maguro" remote="pete" revision="ics" />
   <project path="device/samsung/toro" name="platform_device_samsung_toro" remote="pete" revision="ics" />
+  <project path="device/samsung/toroplus" name="platform_device_samsung_toroplus" remote="pete" revision="ics" />
   <project path="device/samsung/tuna" name="platform_device_samsung_tuna" remote="pete" revision="ics" />
   <project path="device/ti/panda" name="platform_device_ti_panda" remote="pete" revision="ics" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
