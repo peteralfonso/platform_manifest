@@ -37,7 +37,7 @@
   <project path="device/samsung/maguro" name="device/samsung/maguro" />
   <project path="device/samsung/toro" name="platform_device_samsung_toro" remote="pete" revision="jb" />
   <project path="device/samsung/torospr" name="device/samsung/torospr" />
-  <project path="device/samsung/tuna" name="device/samsung/tuna" />
+  <project path="device/samsung/tuna" name="platform_device_samsung_tuna" remote="pete" revision="jb" />
   <project path="device/ti/panda" name="device/ti/panda" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
@@ -185,7 +185,7 @@
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" />
-  <project path="frameworks/base" name="platform/frameworks/base" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="pete" revision="jb" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
