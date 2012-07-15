@@ -1,15 +1,7 @@
-Peter Alfonso
+Team Vanir's repo
+
+Credit for initial repo Peter Alfonso
 ===========
-
-Visit http://peteralfonso.com 
-
-Follow http://twitter.com/peteralfonso 
-
-Like http://facebook.com/peteralfonsojr
-
-Link http://linkedin.com/in/peteralfonso
-
-Circle http://profiles.google.com/peteralfonsojr
 
 
 Getting Started
@@ -19,7 +11,7 @@ Please see the [Android source page](http://source.android.com/source/index.html
 
 To initialize your local repository using my trees, use the following command:
 
-    repo init -u git://github.com/peteralfonso/platform_manifest.git -b jb
+    repo init -u git://github.com/VanirAOSP/platform_manifest.git -b jb
 
 Then to sync up:
 
