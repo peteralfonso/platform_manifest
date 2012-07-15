@@ -1,7 +1,7 @@
 Team Vanir's repo
-
-Credit for initial repo Peter Alfonso
 ===========
+
+Credit Peter Alfonso for base source
 
 
 Getting Started
