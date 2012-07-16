@@ -7,6 +7,8 @@
            fetch="git://github.com/peteralfonso/" /> 
   <remote name="vanir"
           fetch="git://github.com/VanirAOSP/" /> 
+ <remote name="aokp"
+          fetch="git://github.com/AOKP/" /> 
   <default revision="refs/tags/android-4.1.1_r1"
            remote="aosp"
            sync-j="4" />
