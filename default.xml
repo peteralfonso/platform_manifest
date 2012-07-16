@@ -232,7 +232,7 @@
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
-  <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
+  <project path="system/su" name="AOKP/android_system_su" remote="aokp" revision="jb" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="vanir" revision="jb" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
