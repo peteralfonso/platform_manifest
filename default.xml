@@ -7,8 +7,10 @@
            fetch="git://github.com/peteralfonso/" /> 
   <remote name="vanir"
           fetch="git://github.com/VanirAOSP/" /> 
- <remote name="aokp"
+  <remote name="aokp"
           fetch="git://github.com/AOKP/" /> 
+  <remote name="fnv"
+          fetch="git://github.com/FruitsAndVeggies/" />           
   <default revision="refs/tags/android-4.1.1_r1"
            remote="aosp"
            sync-j="4" />
@@ -215,6 +217,7 @@
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
+  <project path="packages/apps/AppWidgetPicker" name="packages_apps_AppWidgetPicker" remote="fnv" revision="ics" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="vanir" revision="jb" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
