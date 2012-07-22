@@ -10,7 +10,10 @@
   <remote name="aokp"
           fetch="git://github.com/AOKP/" /> 
   <remote name="fnv"
-          fetch="git://github.com/FruitsAndVeggies/" />           
+          fetch="git://github.com/FruitsAndVeggies/" />   
+  <remote  name="cm"
+           fetch="https://github.com/CyanogenMod/"
+           review="review.cyanogenmod.com" />
   <default revision="refs/tags/android-4.1.1_r1"
            remote="aosp"
            sync-j="4" />
@@ -52,6 +55,7 @@
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
+  <project path="external/busybox" name="android_external_busybox" remote="cm" revision="jellybean" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
   <project path="external/chromium" name="platform/external/chromium" />
@@ -109,6 +113,7 @@
   <project path="external/libgsm" name="platform/external/libgsm" />
   <project path="external/liblzf" name="platform/external/liblzf" />
   <project path="external/libmtp" name="platform/external/libmtp" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="cm" revision="jellybean" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" />
   <project path="external/libpcap" name="platform/external/libpcap" />
@@ -292,4 +297,5 @@
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="pete" revision="jb" />
   <project path="vendor/vanir" name="platform_vendor_vanir" remote="vanir" revision="jb" />
 
+  <project path="platform_manifest" nam"platform_manifest" remote="vanir" revision="jb" />
 </manifest>
