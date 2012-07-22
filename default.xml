@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
+  <remote name="aosp"
            fetch="https://android.googlesource.com/" />
   <remote name="pete"
            fetch="git://github.com/peteralfonso/" /> 
@@ -11,9 +11,9 @@
           fetch="git://github.com/AOKP/" /> 
   <remote name="fnv"
           fetch="git://github.com/FruitsAndVeggies/" />   
-  <remote  name="cm"
-           fetch="https://github.com/CyanogenMod/"
-           review="review.cyanogenmod.com" />
+  <remote name="cm"
+          fetch="https://github.com/CyanogenMod/"
+          review="review.cyanogenmod.com" />
   <default revision="refs/tags/android-4.1.1_r3"
            remote="aosp"
            sync-j="4" />
