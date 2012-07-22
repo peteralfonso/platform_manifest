@@ -18,6 +18,8 @@
            remote="aosp"
            sync-j="4" />
 
+  <project path="manifest" name="platform_manifest" remote="vanir" revision="jb" />
+
   <project path="build" name="platform_build" remote="vanir" revision="jb">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -297,5 +299,4 @@
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="pete" revision="jb" />
   <project path="vendor/vanir" name="platform_vendor_vanir" remote="vanir" revision="jb" />
 
-  <project path="manifest" name="platform_manifest" remote="vanir" revision="jb" />
 </manifest>
