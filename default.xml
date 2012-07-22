@@ -297,5 +297,5 @@
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="pete" revision="jb" />
   <project path="vendor/vanir" name="platform_vendor_vanir" remote="vanir" revision="jb" />
 
-  <project path="platform_manifest" nam"platform_manifest" remote="vanir" revision="jb" />
+  <project path="manifest" name="platform_manifest" remote="vanir" revision="jb" />
 </manifest>
