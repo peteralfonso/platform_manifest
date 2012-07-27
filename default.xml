@@ -37,7 +37,7 @@
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
-  <project path="device/sample" name="device/sample" />
+  <project path="device/sample" name="platform_device_sample" remote="vanir" revision="jb"/>
   <project path="device/samsung/maguro" name="platform_device_samsung_maguro" remote="pete" revision="jb" />
   <project path="device/samsung/toro" name="platform_device_samsung_toro" remote="pete" revision="jb" />
   <project path="device/samsung/torospr" name="device/samsung/torospr" />
