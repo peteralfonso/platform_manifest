@@ -6,7 +6,8 @@
   <remote name="pete"
            fetch="git://github.com/peteralfonso/" /> 
   <remote name="vanir"
-          fetch="git://github.com/VanirAOSP/" /> 
+          fetch="git://github.com/VanirAOSP/"
+          push="git@github.com:VanirAOSP/" /> 
   <remote name="aokp"
           fetch="git://github.com/AOKP/" /> 
   <remote name="fnv"
