@@ -38,8 +38,8 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
   <project path="device/sample" name="platform_device_sample" remote="vanir" revision="jb"/>
-  <project path="device/samsung/maguro" name="platform_device_samsung_maguro" remote="pete" revision="jb" />
-  <project path="device/samsung/toro" name="platform_device_samsung_toro" remote="pete" revision="jb" />
+  <project path="device/samsung/maguro" name="platform_device_samsung_maguro" remote="vanir" revision="jb" />
+  <project path="device/samsung/toro" name="platform_device_samsung_toro" remote="vanir" revision="jb" />
   <project path="device/samsung/torospr" name="android_device_samsung_toroplus" remote="vanir" revision="jb" />
   <project path="device/samsung/tuna" name="platform_device_samsung_tuna" remote="vanir" revision="jb" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
