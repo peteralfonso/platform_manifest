@@ -2,12 +2,13 @@
 <manifest>
 
   <remote name="aosp"
-           fetch="https://android.googlesource.com/" />
+          fetch="https://android.googlesource.com/" />
   <remote name="pete"
-           fetch="git://github.com/peteralfonso/" /> 
+          fetch="git://github.com/peteralfonso/" /> 
   <remote name="vanir"
           fetch="git://github.com/VanirAOSP/"
-          push="git@github.com:VanirAOSP/" /> 
+          push="git@github.com:VanirAOSP/"
+          remote="git@github.com:VanirAOSP/" /> 
   <remote name="aokp"
           fetch="git://github.com/AOKP/" /> 
   <remote name="fnv"
@@ -16,14 +17,14 @@
           fetch="https://github.com/CyanogenMod/"
           review="review.cyanogenmod.com" />
   <default revision="refs/tags/android-4.1.1_r3"
-           remote="aosp"
-           sync-j="4" />
+          remote="aosp"
+          sync-j="4" />
 
   <project path="manifest" name="platform_manifest" remote="vanir" revision="jb" />
 
   <project path="build" name="platform_build" remote="vanir" revision="jb">
     <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
+ </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="platform/bionic" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
