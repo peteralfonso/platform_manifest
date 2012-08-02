@@ -298,7 +298,7 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="platform/system/vold" />
-  <project path="vendor/samsung" name="platform_vendor_samsung" remote="pete" revision="jb" />
+  <project path="vendor/samsung" name="platform_vendor_samsung" remote="vanir" revision="jb" />
   <project path="vendor/vanir" name="platform_vendor_vanir" remote="vanir" revision="jb" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="jellybean" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="jellybean" />
