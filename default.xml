@@ -247,7 +247,7 @@
   <project path="packages/apps/Mms" name="packages_apps_Mms" remote="vanir" revision="jb" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
-  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
+  <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="vanir" revision="jb" />
   <project path="packages/apps/Phone" name="packages_apps_phone" remote="vanir" revision="jb" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="vanir" revision="jb" />
   <project path="packages/apps/SoundRecorder" name="packages_apps_soundrecorder" remote="vanir" revision="jb" />
