@@ -9,6 +9,7 @@
           fetch="git://github.com/VanirAOSP/"
           push="git@github.com:VanirAOSP/"
           remote="git@github.com:VanirAOSP/" /> 
+          review="http://emccann.net:8080/" />
   <remote name="aokp"
           fetch="git://github.com/AOKP/" /> 
   <remote name="fnv"
