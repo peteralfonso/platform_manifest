@@ -226,7 +226,7 @@
   <project path="libcore" name="platform_libcore" remote="vanir" revision="jb" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
-  <project path="packages/apps/AppWidgetPicker" name="packages_apps_AppWidgetPicker" remote="fnv" revision="ics" />
+  <project path="packages/apps/AppWidgetPicker" name="packages_apps_AppWidgetPicker" remote="fnv" revision="jb" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="vanir" revision="jb" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
