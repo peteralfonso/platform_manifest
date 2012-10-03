@@ -168,7 +168,7 @@
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
-  <project path="external/sqlite" name="platform_external_sqlite" remote="vanir" revision="jb"/>
+  <project path="external/sqlite" name="platform_external_sqlite" remote="vanir" revision="jellybean"/>
   <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/stlport" name="platform/external/stlport" />
