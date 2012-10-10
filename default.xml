@@ -168,7 +168,7 @@
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
-  <project path="external/sqlite" name="platform/external/sqlite" />
+  <project path="external/sqlite" name="platform_external_sqlite" remote="vanir" revision="jellybean"/>
   <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/stlport" name="platform/external/stlport" />
@@ -299,7 +299,7 @@
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
-  <project path="system/vold" name="platform/system/vold" />
+  <project path="system/vold" name="platform_system_vold" remote="vanir" revision="jb" />
   <project path="vendor/asus/grouper" name="vendor_asus_grouper" remote="vanir" revision="jb" />
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="vanir" revision="jb" />
   <project path="vendor/vanir" name="platform_vendor_vanir" remote="vanir" revision="jb" />
