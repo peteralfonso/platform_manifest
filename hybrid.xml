@@ -45,7 +45,7 @@
   <project path="device/samsung/toroplus" name="android_device_samsung_toroplus" remote="vanir" revision="jb" />
   <project path="device/samsung/tuna" name="platform_device_samsung_tuna" remote="vanir" revision="jb" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
-  <project path="external/aac" name="platform/external/aac" remote="aosp" revision="android-4.2_pre3" />
+  <project path="external/aac" name="platform/external/aac" remote="aosp" revision="android-4.2_pre2.2"/>
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/antlr" name="platform/external/antlr" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" />
