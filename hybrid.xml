@@ -62,7 +62,7 @@
   <project path="external/busybox" name="android_external_busybox" remote="cm" revision="jellybean" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" remote="aosp" revision="refs/tags/android-4.2_pre3" />
-  <project path="external/chromium" name="platform/external/chromium" remote="aosp" revision="refs/tags/android-4.2_pre3"/>
+  <project path="external/chromium" name="platform_external_chromium" remote="vanir" revision="jb42"/>
   <project path="external/chromium-trace" name="platform/external/chromium-trace" />
   <project path="external/cibu-fonts" name="platform/external/cibu-fonts" />
   <project path="external/clang" name="platform/external/clang" />
@@ -70,7 +70,7 @@
   <project path="external/dbus" name="platform/external/dbus" remote="aosp" revision="refs/tags/android-4.2_pre3"/>
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
-  <project path="external/dnsmasq" name="platform/external/dnsmasq" remote="aosp" revision="refs/tags/android-4.2_pre3" />
+  <project path="external/dnsmasq" name="platform_external_dnsmasq" remote="vanir" revision="jb2" />
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" remote="aosp" revision="refs/tags/android-4.2_pre3"/>
@@ -182,7 +182,7 @@
   <project path="external/tremolo" name="platform/external/tremolo" />
   <project path="external/v8" name="platform/external/v8" remote="aosp" revision="refs/tags/android-4.2_pre3"/>
   <project path="external/valgrind" name="platform/external/valgrind" remote="aosp" revision="refs/tags/android-4.2_pre3"/>
-  <project path="external/webkit" name="platform/external/webkit" remote="aosp" revision="refs/tags/android-4.2_pre3"/>
+  <project path="external/webkit" name="platform_external_webkit" remote="vanir" revision="jb42"/>
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
