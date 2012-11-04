@@ -191,7 +191,7 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="cm" revision="jb" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="cm" revision="jellybean" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="vanir" revision="jb" />
   <project path="frameworks/compile/libbcc" name="android_frameworks_compile_libbcc" remote="cm" revision="jellybean"/>
   <project path="frameworks/compile/linkloader" name="android_frameworks_compile_linkloader" remote="cm" revision="jellybean"/>
