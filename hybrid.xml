@@ -294,7 +294,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/bluetooth" name="system_bluetooth" remote="aokp" revision="jb" />
+  <project path="system/bluetooth" name="android_system_bluetooth" remote="aokp" revision="jb" />
   <project path="system/core" name="platform_system_core" remote="vanir" revision="jb"  />
   <project path="system/extras" name="platform_system_extras" remote="vanir" revision="jb" />
   <project path="system/media" name="platform/system/media" />
