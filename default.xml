@@ -3,15 +3,13 @@
 
   <remote name="aosp"
           fetch="https://android.googlesource.com/" />
-  <remote name="pete"
-          fetch="git://github.com/peteralfonso/" /> 
   <remote name="vanir"
-          fetch="git://github.com/VanirAOSP/" 
+          fetch="git://github.com/VanirAOSP/"
           review="vaniraosp.goo.im" />
   <remote name="aokp"
-          fetch="git://github.com/AOKP/" /> 
+          fetch="git://github.com/AOKP/" />
   <remote name="fnv"
-          fetch="git://github.com/FruitsAndVeggies/" />   
+          fetch="git://github.com/FruitsAndVeggies/" />
   <remote name="cm"
           fetch="https://github.com/CyanogenMod/"
           review="review.cyanogenmod.com" />
@@ -30,7 +28,7 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="platform_dalvik" remote="vanir" revision="jb"/>
+  <project path="dalvik" name="platform_dalvik" remote="vanir" revision="jb" />
   <project path="development" name="platform/development" />
   <project path="device/asus/grouper" name="platform_device_asus_grouper" remote="vanir" revision="jb" />
   <project path="device/common" name="device/common" />
@@ -39,7 +37,7 @@
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
-  <project path="device/sample" name="platform_device_sample" remote="vanir" revision="jb"/>
+  <project path="device/sample" name="platform_device_sample" remote="vanir" revision="jb" />
   <project path="device/samsung/maguro" name="platform_device_samsung_maguro" remote="vanir" revision="jb" />
   <project path="device/samsung/toro" name="platform_device_samsung_toro" remote="vanir" revision="jb" />
   <project path="device/samsung/toroplus" name="android_device_samsung_toroplus" remote="vanir" revision="jb" />
@@ -54,7 +52,7 @@
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluez" name="platform_external_bluetooth_bluez" remote="vanir" revision="jb"/>
+  <project path="external/bluetooth/bluez" name="platform_external_bluetooth_bluez" remote="vanir" revision="jb" />
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
@@ -62,7 +60,7 @@
   <project path="external/busybox" name="android_external_busybox" remote="cm" revision="jellybean" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
-  <project path="external/chromium" name="platform_external_chromium" remote="vanir" revision="jellybean"/>
+  <project path="external/chromium" name="platform_external_chromium" remote="vanir" revision="jellybean" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" />
   <project path="external/cibu-fonts" name="platform/external/cibu-fonts" />
   <project path="external/clang" name="platform/external/clang" />
@@ -164,11 +162,11 @@
   <project path="external/replicaisland" name="platform/external/replicaisland" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/sepolicy" name="platform/external/sepolicy" />
-  <project path="external/skia" name="platform_external_skia" remote="vanir" revision="jb"/>
+  <project path="external/skia" name="platform_external_skia" remote="vanir" revision="jb" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
-  <project path="external/sqlite" name="platform_external_sqlite" remote="vanir" revision="jellybean"/>
+  <project path="external/sqlite" name="platform_external_sqlite" remote="vanir" revision="jellybean" />
   <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/stlport" name="platform/external/stlport" />
@@ -182,7 +180,7 @@
   <project path="external/tremolo" name="platform/external/tremolo" />
   <project path="external/v8" name="platform/external/v8" />
   <project path="external/valgrind" name="platform/external/valgrind" />
-  <project path="external/webkit" name="platform_external_webkit" remote="vanir" revision="jb"/>
+  <project path="external/webkit" name="platform_external_webkit" remote="vanir" revision="jb" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
@@ -193,24 +191,24 @@
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="android_frameworks_av" remote="cm" revision="jellybean" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="vanir" revision="jb" />
-  <project path="frameworks/compile/libbcc" name="android_frameworks_compile_libbcc" remote="cm" revision="jellybean"/>
-  <project path="frameworks/compile/linkloader" name="android_frameworks_compile_linkloader" remote="cm" revision="jellybean"/>
-  <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="cm" revision="jellybean"/>
-  <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="cm" revision="jellybean"/>
-  <project path="frameworks/ex" name="android_frameworks_ex" remote="cm" revision="jellybean"/>
-  <project path="frameworks/mff" name="android_frameworks_mff" remote="cm" revision="jellybean"/>
-  <project path="frameworks/ml" name="android_frameworks_ml" remote="cm" revision="jellybean"/>
+  <project path="frameworks/compile/libbcc" name="android_frameworks_compile_libbcc" remote="cm" revision="jellybean" />
+  <project path="frameworks/compile/linkloader" name="android_frameworks_compile_linkloader" remote="cm" revision="jellybean" />
+  <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="cm" revision="jellybean" />
+  <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="cm" revision="jellybean" />
+  <project path="frameworks/ex" name="android_frameworks_ex" remote="cm" revision="jellybean" />
+  <project path="frameworks/mff" name="android_frameworks_mff" remote="cm" revision="jellybean" />
+  <project path="frameworks/ml" name="android_frameworks_ml" remote="cm" revision="jellybean" />
   <project path="frameworks/native" name="platform_framworks_native" remote="vanir" revision="jb" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
-  <project path="frameworks/rs" name="android_frameworks_rs" remote="cm" revision="jellybean"/>
-  <project path="frameworks/support" name="android_frameworks_support" remote="cm" revision="jellybean"/>
+  <project path="frameworks/rs" name="android_frameworks_rs" remote="cm" revision="jellybean" />
+  <project path="frameworks/support" name="android_frameworks_support" remote="cm" revision="jellybean" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
-  <project path="frameworks/wilhelm" name="android_frameworks_wilhelm" remote="cm" revision="jellybean"/>
-  <project path="gdk" name="platform/gdk"/>
+  <project path="frameworks/wilhelm" name="android_frameworks_wilhelm" remote="cm" revision="jellybean" />
+  <project path="gdk" name="platform/gdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="vanir" revision="jb" />
@@ -237,7 +235,7 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cm" revision="jellybean" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="vanir" revision="jb" />
-  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="vanir" revision="jb"/>
+  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="vanir" revision="jb" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="vanir" revision="jb" />
@@ -256,7 +254,7 @@
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="packages_input_LatinIME" remote="vanir" revision="jb"/>
+  <project path="packages/inputmethods/LatinIME" name="packages_input_LatinIME" remote="vanir" revision="jb" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
@@ -279,7 +277,7 @@
   <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" />
   <project path="prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3" name="platform/prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3" />
   <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6"/>
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" />
