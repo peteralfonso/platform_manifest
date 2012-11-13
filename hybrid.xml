@@ -235,10 +235,10 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cm" revision="jellybean" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="vanir" revision="jb" />
-  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" revision="refs/tags/android-4.2_r1" />
+  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" revision="refs/tags/android-4.2_r1" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
-  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="vanir" revision="jb" />
+  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform_packages_apps_Launcher2" remote="vanir" revision="jb" />
