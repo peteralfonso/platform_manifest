@@ -56,11 +56,9 @@
   <project path="external/astl" name="platform/external/astl" revision="refs/tags/android-4.2_r1" />
   <project path="external/bison" name="platform/external/bison" revision="refs/tags/android-4.2_r1" />
   <project path="external/blktrace" name="platform/external/blktrace" revision="refs/tags/android-4.2_r1" />
-  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" revision="refs/tags/android-4.2_r1" />
- 
-<!-- <project path="external/bluetooth/bluez" name="platform_external_bluetooth_bluez" remote="vanir" revision="jb" />
+  <project path="external/bluetooth/bluez" name="platform_external_bluetooth_bluez" remote="vanir" revision="jb" />
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
-  <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />-->
+  <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" revision="refs/tags/android-4.2_r1" />
   <project path="external/bsdiff" name="platform/external/bsdiff" revision="refs/tags/android-4.2_r1" />
   <project path="external/bzip2" name="platform/external/bzip2" revision="refs/tags/android-4.2_r1" />
