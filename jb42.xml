@@ -269,14 +269,8 @@
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
   <project path="packages/apps/VanirTweaks" name="platform_packages_apps_VanirTweaks" remote="vanir" revision="jb" />
   <project path="pdk" name="platform/pdk" />
-  <project path="prebuilt" name="platform/prebuilt" />
-  <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" />
-  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3" />
-  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" />
-  <project path="prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3" name="platform/prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3" />
-  <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" />
+  <project path="prebuilt" name="platform/prebuilt" revision="refs/tags/android-4.2_r1" />
+  <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" />  
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" />
