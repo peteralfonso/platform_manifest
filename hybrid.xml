@@ -144,7 +144,7 @@
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" revision="refs/tags/android-4.2_r1" />
   <project path="external/markdown" name="platform/external/markdown" revision="refs/tags/android-4.2_r1" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" revision="refs/tags/android-4.2_r1" />
-  <project path="external/mesa3d" name="platform/external/mesa3d" revision="refs/tags/android-4.2_r1" />
+  <project path="external/mesa3d" name="external_mesa3d" remote="vanir" revision="jb" />
   <project path="external/mksh" name="platform/external/mksh" revision="refs/tags/android-4.2_r1" />
   <project path="external/mockwebserver" name="platform/external/mockwebserver" revision="refs/tags/android-4.2_r1" />
   <project path="external/mp4parser" name="platform/external/mp4parser" revision="refs/tags/android-4.2_r1" />
