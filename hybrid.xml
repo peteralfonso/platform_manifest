@@ -312,11 +312,11 @@
   <project path="sdk" name="platform/sdk" revision="refs/tags/android-4.2_r1" />
   <project path="system/bluetooth" name="android_system_bluetooth" remote="cm" revision="jellybean" />
   <project path="system/core" name="platform_system_core" remote="vanir" revision="jb"  />
-  <project path="system/extras" name="platform_system_extras" revision="refs/tags/android-4.2_r1" />
-  <project path="system/media" name="android_system_media" revision="refs/tags/android-4.2_r1" />
+  <project path="system/extras" name="platform/system/extras" revision="refs/tags/android-4.2_r1" />
+  <project path="system/media" name="platform/system/media" revision="refs/tags/android-4.2_r1" />
   <project path="system/netd" name="platform/system/netd" revision="refs/tags/android-4.2_r1" />
   <project path="system/security" name="platform/system/security" revision="refs/tags/android-4.2_r1" />
-  <project path="system/vold" name="platform_system_vold" revision="refs/tags/android-4.2_r1" />
+  <project path="system/vold" name="platform/system/vold" revision="refs/tags/android-4.2_r1" />
   <project path="vendor/asus/grouper" name="vendor_asus_grouper" remote="vanir" revision="jb" />
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="vanir" revision="jb" />
   <project path="vendor/vanir" name="platform_vendor_vanir" remote="vanir" revision="jb" />
