@@ -215,9 +215,13 @@
   <project path="frameworks/ml" name="platform/frameworks/ml" revision="refs/tags/android-4.2_r1" />
   <project path="frameworks/native" name="platform_framworks_native" remote="vanir" revision="jb" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" revision="refs/tags/android-4.2_r1" />
+  <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" revision="refs/tags/android-4.2_r1" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" revision="refs/tags/android-4.2_r1" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" revision="refs/tags/android-4.2_r1" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" revision="refs/tags/android-4.2_r1" />
+  <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" revision="refs/tags/android-4.2_r1" />
+  <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" revision="refs/tags/android-4.2_r1" />
+  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" revision="refs/tags/android-4.2_r1" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" revision="refs/tags/android-4.2_r1" />
   <project path="frameworks/rs" name="platform/frameworks/rs" revision="refs/tags/android-4.2_r1" />
   <project path="frameworks/support" name="platform/frameworks/support" revision="refs/tags/android-4.2_r1" />
