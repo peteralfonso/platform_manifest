@@ -288,22 +288,24 @@
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" revision="refs/tags/android-4.2_r1" />
   <project path="packages/apps/VanirTweaks" name="platform_packages_apps_VanirTweaks" remote="vanir" revision="jb" />
   <project path="pdk" name="platform/pdk" revision="refs/tags/android-4.2_r1" />
+  <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" revision="refs/tags/android-4.2_r1" />
+  <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" revision="refs/tags/android-4.2_r1" />
+  <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="linux" revision="refs/tags/android-4.2_r1" />
+  <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="linux" revision="refs/tags/android-4.2_r1" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" revision="refs/tags/android-4.2_r1" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" />
-  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3" />
-  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" />
-  <project path="prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3" name="platform/prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3" />
-  <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" />
-  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" />
-  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" />
-  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3" />
-  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" />
-  <project path="prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3" name="platform/prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3" />
-  <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" />
+  <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse"  revision="refs/tags/android-4.2_r1" />
+  <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse"  revision="refs/tags/android-4.2_r1" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" groups="darwin,arm"  revision="refs/tags/android-4.2_r1" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" groups="darwin,arm"  revision="refs/tags/android-4.2_r1" />
+  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" groups="darwin,mips"  revision="refs/tags/android-4.2_r1" />
+  <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="darwin,x86"  revision="refs/tags/android-4.2_r1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="linux,arm"  revision="refs/tags/android-4.2_r1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm"  revision="refs/tags/android-4.2_r1" />
+  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="linux"  revision="refs/tags/android-4.2_r1" />
+  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="linux"  revision="refs/tags/android-4.2_r1" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="linux"  revision="refs/tags/android-4.2_r1" />
+  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" groups="linux,mips"  revision="refs/tags/android-4.2_r1" />
+  <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="linux,x86"  revision="refs/tags/android-4.2_r1" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" revision="refs/tags/android-4.2_r1" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" revision="refs/tags/android-4.2_r1" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" revision="refs/tags/android-4.2_r1" />
