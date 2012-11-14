@@ -240,52 +240,52 @@
   <project path="libnativehelper" name="platform/libnativehelper" revision="refs/tags/android-4.2_r1" />
   <project path="ndk" name="platform/ndk" revision="refs/tags/android-4.2_r1" />
   <project path="packages/apps/AppWidgetPicker" name="packages_apps_AppWidgetPicker" remote="fnv" revision="jb" />
-  <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
+  <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" revision="refs/tags/android-4.2_r1" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="vanir" revision="jb" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="cm" revision="jellybean" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" revision="refs/tags/android-4.2_r1"/>
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" revision="refs/tags/android-4.2_r1" />
-  <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" revision="android-4.2_r1" />
-  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" revision="android-4.2_r1" />
+  <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" revision="refs/tags/android-4.2_r1" />
+  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" revision="refs/tags/android-4.2_r1" />
   <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cm" revision="jellybean" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="vanir" revision="jb" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" revision="refs/tags/android-4.2_r1" />
-  <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="android-4.2_r1" />
-  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" revision="android-4.2_r1" />
+  <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="refs/tags/android-4.2_r1" />
+  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" revision="refs/tags/android-4.2_r1" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" revision="refs/tags/android-4.2_r1"/>
-  <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" revision="android-4.2_r1" />
-  <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" revision="android-4.2_r1" />
+  <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" revision="refs/tags/android-4.2_r1" />
+  <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" revision="refs/tags/android-4.2_r1" />
   <project path="packages/apps/Launcher2" name="platform_packages_apps_Launcher2" remote="vanir" revision="jb" />
   <project path="packages/apps/Mms" name="packages_apps_Mms" remote="vanir" revision="jb" />
-  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" revision="android-4.2_r1" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="android-4.2_r1" />
+  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" revision="refs/tags/android-4.2_r1" />
+  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="refs/tags/android-4.2_r1" />
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="vanir" revision="jb" />
   <project path="packages/apps/Phone" name="packages_apps_phone" remote="vanir" revision="jb" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="vanir" revision="jb" />
-  <project path="packages/apps/SoundRecorder" name="packages_apps_soundrecorder" revision="android-4.2_r1" />
-  <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" revision="android-4.2_r1" />
-  <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" revision="android-4.2_r1" />
-  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" revision="android-4.2_r1" />
-  <project path="packages/apps/Tag" name="platform/packages/apps/Tag" revision="android-4.2_r1" />
-  <project path="packages/experimental" name="platform/packages/experimental" revision="android-4.2_r1" />
+  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" revision="refs/tags/android-4.2_r1" />
+  <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" revision="refs/tags/android-4.2_r1" />
+  <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" revision="refs/tags/android-4.2_r1" />
+  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" revision="refs/tags/android-4.2_r1" />
+  <project path="packages/apps/Tag" name="platform/packages/apps/Tag" revision="refs/tags/android-4.2_r1" />
+  <project path="packages/experimental" name="platform/packages/experimental" revision="refs/tags/android-4.2_r1" />
   <project path="packages/inputmethods/LatinIME" name="packages_input_LatinIME"  remote="vanir" revision="jb" />
-  <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" revision="android-4.2_r1" />
-  <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" revision="android-4.2_r1" />
-  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" revision="android-4.2_r1" />
-  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" revision="android-4.2_r1" />
-  <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" revision="android-4.2_r1" />
-  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" revision="android-4.2_r1" />
-  <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" revision="android-4.2_r1" />
+  <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" revision="refs/tags/android-4.2_r1" />
+  <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" revision="refs/tags/android-4.2_r1" />
+  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" revision="refs/tags/android-4.2_r1" />
+  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" revision="refs/tags/android-4.2_r1" />
+  <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" revision="refs/tags/android-4.2_r1" />
+  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" revision="refs/tags/android-4.2_r1" />
+  <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" revision="refs/tags/android-4.2_r1" />
   <project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" remote="vanir" revision="jb" />
-  <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" revision="android-4.2_r1" />
-  <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" revision="android-4.2_r1" />
-  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" revision="android-4.2_r1" />
-  <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" revision="android-4.2_r1" />
+  <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" revision="refs/tags/android-4.2_r1" />
+  <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" revision="refs/tags/android-4.2_r1" />
+  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" revision="refs/tags/android-4.2_r1" />
+  <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" revision="refs/tags/android-4.2_r1" />
   <project path="packages/apps/VanirTweaks" name="platform_packages_apps_VanirTweaks" remote="vanir" revision="jb" />
-  <project path="pdk" name="platform/pdk" revision="android-4.2_r1" />
-  <project path="prebuilt" name="platform/prebuilt" revision="android-4.2_r1" />
-  <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" revision="android-4.2_r1" />
+  <project path="pdk" name="platform/pdk" revision="refs/tags/android-4.2_r1" />
+  <project path="prebuilt" name="platform/prebuilt" revision="refs/tags/android-4.2_r1" />
+  <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" revision="refs/tags/android-4.2_r1" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" />
   <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3" />
@@ -301,12 +301,12 @@
   <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" />
   <project path="prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3" name="platform/prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3" />
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" />
-  <project path="prebuilts/misc" name="platform/prebuilts/misc" revision="android-4.2_r1" />
-  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" revision="android-4.2_r1" />
-  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" revision="android-4.2_r1" />
-  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" revision="android-4.2_r1" />
-  <project path="prebuilts/tools" name="platform/prebuilts/tools" revision="android-4.2_r1" />
-  <project path="sdk" name="platform/sdk" revision="android-4.2_r1" />
+  <project path="prebuilts/misc" name="platform/prebuilts/misc" revision="refs/tags/android-4.2_r1" />
+  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" revision="refs/tags/android-4.2_r1" />
+  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" revision="refs/tags/android-4.2_r1" />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" revision="refs/tags/android-4.2_r1" />
+  <project path="prebuilts/tools" name="platform/prebuilts/tools" revision="refs/tags/android-4.2_r1" />
+  <project path="sdk" name="platform/sdk" revision="refs/tags/android-4.2_r1" />
   <project path="system/bluetooth" name="android_system_bluetooth" remote="cm" revision="jellybean" />
   <project path="system/core" name="platform_system_core" remote="vanir" revision="jb"  />
   <project path="system/extras" name="platform_system_extras" remote="vanir" revision="jb" />
