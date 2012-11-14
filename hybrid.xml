@@ -23,10 +23,10 @@
     <copyfile src="core/root.mk" dest="Makefile" />
  </project>
   <project path="abi/cpp" name="platform/abi/cpp" revision="refs/tags/android-4.2_r1" />
-  <project path="bionic" name="platform/bionic" revision="refs/tags/android-4.2_r1" />
-  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" revision="refs/tags/android-4.2_r1" />
-  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" revision="refs/tags/android-4.2_r1" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" revision="refs/tags/android-4.2_r1" />
+  <project path="bionic" name="platform_bionic" remote="vanir" revision="jb" />
+  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
+  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" revision="refs/tags/android-4.2_r1" />
   <project path="dalvik" name="platform_dalvik" remote="vanir" revision="jb" />
   <project path="development" name="platform/development" revision="refs/tags/android-4.2_r1" />
