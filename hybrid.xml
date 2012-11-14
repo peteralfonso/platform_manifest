@@ -204,7 +204,7 @@
   <project path="external/zxing" name="platform/external/zxing" revision="refs/tags/android-4.2_r1" />
   <project path="external/busybox" name="android_external_busybox" remote="cm" revision="jellybean" />
   <project path="external/libncurses" name="android_external_libncurses" remote="cm" revision="jellybean" />
-  <project path="frameworks/av" name="android_frameworks_av" revision="refs/tags/android-4.2_r1"  />
+  <project path="frameworks/av" name="platform/frameworks/av" revision="refs/tags/android-4.2_r1"  />
   <project path="frameworks/base" name="platform_frameworks_base" remote="vanir" revision="jb" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="refs/tags/android-4.2_r1" /> 	
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" revision="refs/tags/android-4.2_r1" />
@@ -222,7 +222,7 @@
   <project path="frameworks/rs" name="platform/frameworks/rs" revision="refs/tags/android-4.2_r1" />
   <project path="frameworks/support" name="platform/frameworks/support" revision="refs/tags/android-4.2_r1" />
   <project path="frameworks/testing" name="platform/frameworks/testing" revision="refs/tags/android-4.2_r1" />
-  <project path="frameworks/wilhelm" name="android_frameworks_wilhelm" revision="refs/tags/android-4.2_r1"  />
+  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" revision="refs/tags/android-4.2_r1"  />
   <project path="gdk" name="platform/gdk" revision="refs/tags/android-4.2_r1" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
