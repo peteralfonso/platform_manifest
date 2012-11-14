@@ -22,14 +22,14 @@
   <project path="build" name="platform_build" remote="vanir" revision="jb">
     <copyfile src="core/root.mk" dest="Makefile" />
  </project>
-  <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="platform_bionic" remote="vanir" revision="jb" />
-  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
-  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" />
-  <project path="cts" name="platform/cts" />
+  <project path="abi/cpp" name="platform/abi/cpp" revision="refs/tags/android-4.2_r1" />
+  <project path="bionic" name="platform_bionic" revision="refs/tags/android-4.2_r1" />
+  <project path="bootable/bootloader/legacy" revision="refs/tags/android-4.2_r1" />
+  <project path="bootable/diskinstaller" revision="refs/tags/android-4.2_r1" />
+  <project path="bootable/recovery" revision="refs/tags/android-4.2_r1" />
+  <project path="cts" revision="refs/tags/android-4.2_r1" />
   <project path="dalvik" name="platform_dalvik" remote="vanir" revision="jb" />
-  <project path="development" name="platform/development" />
+  <project path="development" name="platform/development" revision="refs/tags/android-4.2_r1" />
   <project path="device/asus/grouper" name="platform_device_asus_grouper" remote="vanir" revision="jb" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
@@ -42,7 +42,7 @@
   <project path="device/samsung/toro" name="platform_device_samsung_toro" remote="vanir" revision="jb" />
   <project path="device/samsung/toroplus" name="android_device_samsung_toroplus" remote="vanir" revision="jb" />
   <project path="device/samsung/tuna" name="platform_device_samsung_tuna" remote="vanir" revision="jb" />
-  <project path="docs/source.android.com" name="platform/docs/source.android.com" />
+  <project path="docs/source.android.com" name="platform/docs/source.android.com" revision="refs/tags/android-4.2_r1" />
   <project path="external/aac" name="platform/external/aac" revision="refs/tags/android-4.2_r1" />
   <project path="external/android-clat" name="platform/external/android-clat" revision="refs/tags/android-4.2_r1" />
   <project path="external/android-mock" name="platform/external/android-mock" revision="refs/tags/android-4.2_r1" />
@@ -310,8 +310,8 @@
   <project path="system/core" name="platform_system_core" remote="vanir" revision="jb"  />
   <project path="system/extras" name="platform_system_extras" remote="vanir" revision="jb" />
   <project path="system/media" name="android_system_media" remote="cm" revision="jellybean" />
-  <project path="system/netd" name="platform/system/netd" />
-  <project path="system/security" name="platform/system/security" />
+  <project path="system/netd" name="platform/system/netd" revision="refs/tags/android-4.2_r1" />
+  <project path="system/security" name="platform/system/security" revision="refs/tags/android-4.2_r1" />
   <project path="system/vold" name="platform_system_vold" remote="vanir" revision="jb" />
   <project path="vendor/asus/grouper" name="vendor_asus_grouper" remote="vanir" revision="jb" />
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="vanir" revision="jb" />
