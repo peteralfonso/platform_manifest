@@ -144,7 +144,7 @@
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" revision="refs/tags/android-4.2_r1" />
   <project path="external/markdown" name="platform/external/markdown" revision="refs/tags/android-4.2_r1" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" revision="refs/tags/android-4.2_r1" />
-  <project path="external/mesa3d" name="external_mesa3d" remote="vanir" revision="jb" />
+  <project path="external/mesa3d" name="platform/external/mesa3d" revision="refs/tags/android-4.2_r1" />
   <project path="external/mksh" name="platform/external/mksh" revision="refs/tags/android-4.2_r1" />
   <project path="external/mockwebserver" name="platform/external/mockwebserver" revision="refs/tags/android-4.2_r1" />
   <project path="external/mp4parser" name="platform/external/mp4parser" revision="refs/tags/android-4.2_r1" />
@@ -203,27 +203,27 @@
   <project path="external/zlib" name="platform/external/zlib" revision="refs/tags/android-4.2_r1" />
   <project path="external/zxing" name="platform/external/zxing" revision="refs/tags/android-4.2_r1" />
   <project path="external/busybox" name="android_external_busybox" remote="cm" revision="jellybean" />
-<project path="external/libncurses" name="android_external_libncurses" remote="cm" revision="jellybean" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="cm" revision="jellybean" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="cm" revision="jellybean" />
+  <project path="frameworks/av" name="android_frameworks_av" revision="refs/tags/android-4.2_r1"  />
   <project path="frameworks/base" name="platform_frameworks_base" remote="vanir" revision="jb" />
-  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="refs/changes/5dbac62" /> 	
-  <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
-  <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
-  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" />
-  <project path="frameworks/mff" name="platform/frameworks/mff" />
-  <project path="frameworks/ml" name="platform/frameworks/ml" />
+  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="refs/tags/android-4.2_r1" /> 	
+  <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" revision="refs/tags/android-4.2_r1" />
+  <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" revision="refs/tags/android-4.2_r1" />
+  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="refs/tags/android-4.2_r1" />
+  <project path="frameworks/ex" name="platform/frameworks/ex" revision="refs/tags/android-4.2_r1" />
+  <project path="frameworks/mff" name="platform/frameworks/mff" revision="refs/tags/android-4.2_r1" />
+  <project path="frameworks/ml" name="platform/frameworks/ml" revision="refs/tags/android-4.2_r1" />
   <project path="frameworks/native" name="platform_framworks_native" remote="vanir" revision="jb" />
-  <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
-  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
-  <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
-  <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
-  <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
-  <project path="frameworks/rs" name="platform/frameworks/rs" />
-  <project path="frameworks/support" name="platform/frameworks/support" />
-  <project path="frameworks/testing" name="platform/frameworks/testing" />
-  <project path="frameworks/wilhelm" name="android_frameworks_wilhelm" remote="cm" revision="jellybean" />
-  <project path="gdk" name="platform/gdk" />
+  <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" revision="refs/tags/android-4.2_r1" />
+  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" revision="refs/tags/android-4.2_r1" />
+  <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" revision="refs/tags/android-4.2_r1" />
+  <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" revision="refs/tags/android-4.2_r1" />
+  <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" revision="refs/tags/android-4.2_r1" />
+  <project path="frameworks/rs" name="platform/frameworks/rs" revision="refs/tags/android-4.2_r1" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="refs/tags/android-4.2_r1" />
+  <project path="frameworks/testing" name="platform/frameworks/testing" revision="refs/tags/android-4.2_r1" />
+  <project path="frameworks/wilhelm" name="android_frameworks_wilhelm" revision="refs/tags/android-4.2_r1"  />
+  <project path="gdk" name="platform/gdk" revision="refs/tags/android-4.2_r1" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="vanir" revision="jb" />
@@ -232,13 +232,13 @@
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
   <project path="hardware/ril" name="platform/hardware/ril" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
-  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
+  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="refs/tags/android-4.2_r1" />
+  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="refs/tags/android-4.2_r1" />
+  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="refs/tags/android-4.2_r1" />
+  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" revision="refs/tags/android-4.2_r1" />
   <project path="libcore" name="platform_libcore" remote="vanir" revision="jb" />
-  <project path="libnativehelper" name="platform/libnativehelper" />
-  <project path="ndk" name="platform/ndk" />
+  <project path="libnativehelper" name="platform/libnativehelper" revision="refs/tags/android-4.2_r1" />
+  <project path="ndk" name="platform/ndk" revision="refs/tags/android-4.2_r1" />
   <project path="packages/apps/AppWidgetPicker" name="packages_apps_AppWidgetPicker" remote="fnv" revision="jb" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="vanir" revision="jb" />
