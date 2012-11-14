@@ -213,7 +213,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="refs/tags/android-4.2_r1" />
   <project path="frameworks/mff" name="platform/frameworks/mff" revision="refs/tags/android-4.2_r1" />
   <project path="frameworks/ml" name="platform/frameworks/ml" revision="refs/tags/android-4.2_r1" />
-  <project path="frameworks/native" name="platform_framworks_native" revision="refs/tags/android-4.2_r1"  />
+  <project path="frameworks/native" name="platform/framworks/native" revision="refs/tags/android-4.2_r1"  />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" revision="refs/tags/android-4.2_r1" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" revision="refs/tags/android-4.2_r1" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" revision="refs/tags/android-4.2_r1" />
