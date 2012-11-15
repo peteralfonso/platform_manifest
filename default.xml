@@ -7,6 +7,9 @@
   <remote name="vanir"
           fetch="git://github.com/VanirAOSP/"
           review="vaniraosp.goo.im" />
+  <remote name="cm"
+          fetch="https://github.com/CyanogenMod/"
+          review="review.cyanogenmod.com" />
   <default revision="refs/tags/android-4.2_r1"
            remote="aosp"
            sync-j="4" />
