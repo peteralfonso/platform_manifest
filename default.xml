@@ -7,6 +7,9 @@
   <remote name="vanir"
           fetch="git://github.com/VanirAOSP/"
           review="vaniraosp.goo.im" />
+  <remote name="cm"
+          fetch="https://github.com/CyanogenMod/"
+          review="review.cyanogenmod.com" />
   <default revision="refs/tags/android-4.2_r1"
            remote="aosp"
            sync-j="4" />
@@ -58,7 +61,7 @@
   <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
-  <project path="external/busybox" name="platform_external_busybox" remote="vanir" revision="jb42" />
+  <project path="external/busybox" name="android_external_busybox" remote="cm" revision="jellybean" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
   <project path="external/chromium" name="platform/external/chromium" />
