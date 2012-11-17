@@ -200,7 +200,7 @@
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="vanir" revision="jb" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="vanir" revision="jb42" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
