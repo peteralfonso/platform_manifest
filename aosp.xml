@@ -37,9 +37,9 @@
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device" />
-  <project path="device/samsung/toro" name="platform_device_samsung_toro" groups="device" />
+  <project path="device/samsung/toro" name="platform/device/samsung/toro" groups="device" />
   <project path="device/samsung/toroplus" name="device/samsung/toroplus" groups="device" />
-  <project path="device/samsung/tuna" name="platform_device_samsung_tuna" groups="device" />
+  <project path="device/samsung/tuna" name="platform/device/samsung/tuna" groups="device" />
   <project path="device/ti/panda" name="device/ti/panda" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
@@ -323,7 +323,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="platform_system_core" />
+  <project path="system/core" name="platform/system/core" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
