@@ -19,4 +19,16 @@ Then to sync up:
 
     repo sync
 
+Vanir tester Resources:
 
+Our gerrit:
+
+	http://vaniraosp.goo.im/#/q/status:open,n,z
+
+[TUT] cherry-picking
+
+	http://pastebin.com/dB7tHyJz
+
+[TUT] capturing logcats
+	
+	http://pastebin.com/mqF7Ddz4
