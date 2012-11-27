@@ -333,4 +333,5 @@
   <project path="tools/motodev" name="platform/tools/motodev" />
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="vanir" revision="jb" groups="vendor" />
   <project path="vendor/vanir" name="platform_vendor_vanir" remote="vanir" revision="jb42"  groups="vendor" />
+  <project path="vendor/asus/grouper" name="vendor_asus_grouper" remote="vanir" revision="jb" groups="vendor" />
 </manifest>
