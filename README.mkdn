@@ -1,10 +1,10 @@
 Team Vanir's repo
 ===========
 
-This branch is for vanir's android-4.2_r1 based ROM
+This branch is for vanir's android-4.2.1_r1 based ROM
 
-Nuclearmistake is the greatest
-
+NuclearMistake is the greatest
+PrimeDirective is OHNOEZGOJIRRA!!!
 
 Getting Started
 ---------------
@@ -18,17 +18,26 @@ To initialize your local repository using my trees, use the following command:
 Then to sync up:
 
     repo sync
-
-Vanir tester Resources:
-
+    
 Our gerrit:
 
 	http://vaniraosp.goo.im/#/q/status:open,n,z
 
-[TUT] cherry-picking
-
-	http://pastebin.com/dB7tHyJz
+Vanir tester Resources:
 
 [TUT] capturing logcats
 	
 	http://pastebin.com/mqF7Ddz4
+
+[TUT] cherry-picking
+
+	http://pastebin.com/dB7tHyJz
+	
+[TUT] basic git commands & examples of use
+
+	http://pastebin.com/rLaGw0zj
+	
+[TUT] submitting to gerrit for review
+
+	http://pastebin.com/UFVH0M63
+
