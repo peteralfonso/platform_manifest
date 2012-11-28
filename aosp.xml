@@ -7,7 +7,7 @@
   <remote name="vanir"
           fetch="git://github.com/VanirAOSP/"
           review="vaniraosp.goo.im" />
-  <default revision="refs/tags/android-4.2_r1"
+  <default revision="refs/tags/android-4.2.1_r1"
            remote="aosp"
            sync-j="4" />
 
