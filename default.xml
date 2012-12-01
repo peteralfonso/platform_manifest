@@ -104,7 +104,7 @@
   <project path="external/guava" name="android_external_guava" remote="vanir" revision="jb42" />
   <project path="external/hamcrest" name="platform/external/hamcrest" />
   <project path="external/harfbuzz" name="platform/external/harfbuzz" />
-  <project path="external/htop" name="android_external_htop" remote="cm" revision="jb42" />
+  <project path="external/htop" name="android_external_htop" remote="cm" revision="mr1-staging" />
   <project path="external/hyphenation" name="platform/external/hyphenation" />
   <project path="external/icu4c" name="platform/external/icu4c" />
   <project path="external/iproute2" name="platform/external/iproute2" />
