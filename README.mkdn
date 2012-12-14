@@ -23,7 +23,11 @@ Our gerrit:
 
 	http://vaniraosp.goo.im/#/q/status:open,n,z
 
-Vanir tester Resources:
+Vanir developer Resources:
+
+[TUT] initializing the build environment
+
+	http://pastebin.com/1DD9ZfQ4
 
 [TUT] capturing logcats
 	
