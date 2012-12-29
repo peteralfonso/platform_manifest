@@ -257,7 +257,7 @@
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="vanir" revision="jb42" />
   <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
-  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" remote="cm" revision="cm-10.1" />
+  <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="vanir" revision="jb42" />
   <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="vanir" revision="jb42" />
