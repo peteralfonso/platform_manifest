@@ -83,7 +83,7 @@
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
-  <project path="external/elfutils" name="platform/external/elfutils" remote="vanir" revision="jb42" />
+  <project path="external/elfutils" name="platform_external_elfutils" remote="vanir" revision="jb42" />
   <project path="external/embunit" name="platform/external/embunit" />
   <project path="external/emma" name="platform/external/emma" />
   <project path="external/esd" name="platform/external/esd" />
@@ -168,7 +168,7 @@
   <project path="external/openfst" name="platform/external/openfst" />
   <project path="external/openssh" name="platform/external/openssh" />
   <project path="external/openssl" name="platform/external/openssl" />
-  <project path="external/oprofile" name="platform/external/oprofile" remote="vanir" revision="jb42" />
+  <project path="external/oprofile" name="platform_external_oprofile" remote="vanir" revision="jb42" />
   <project path="external/ping" name="platform/external/ping" />
   <project path="external/ping6" name="platform/external/ping6" />
   <project path="external/powertop" name="android_external_powertop" remote="cm" revision="cm-10.1" />
@@ -344,7 +344,7 @@
   <project path="system/extras" name="platform_system_extras" remote="vanir" revision="jb42" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
-  <project path="system/security" name="platform/system/security" remote="vanir" revision="jb42" />
+  <project path="system/security" name="platform_system_security" remote="vanir" revision="jb42" />
   <project path="system/vold" name="platform_system_vold" remote="vanir" revision="jb42" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
