@@ -75,8 +75,7 @@
   <project path="external/busybox" name="external_busybox" remote="vanir" revision="jb42" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
-  <!-- TODO: MERGE?  <project path="external/chromium" name="platform_external_chromium" remote="vanir" revision="jb42" />-->
-  <project path="external/chromium" name="platform/external/chromium" revision="6c05ecefa21154c1916a4af4e40fb1045ccaeb52" upstream="linaro_android_4.2.1"/>
+  <project path="external/chromium" name="platform_external_chromium" remote="vanir" revision="jb42" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" />
   <project path="external/cibu-fonts" name="platform/external/cibu-fonts" />
   <project path="external/clang" name="platform/external/clang" revision="f9e0e3657fb2a40f220e06030c2b16731b6700a1" upstream="linaro_android_4.2.1"/>
@@ -217,11 +216,9 @@
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" />
   <project path="external/tremolo" name="platform/external/tremolo" />
-  <!-- TODO: MERGE?  <project path="external/v8" name="AOKP/external_v8" remote="aokp" revision="jb-mr1" />-->
-  <project path="external/v8" name="platform/external/v8" revision="8db2b6bd311106e7e45cc2cb40f39715e999a986" upstream="linaro_android_4.2.1"/>
+  <project path="external/v8" name="platform_external_v8" remote="vanir" revision="jb42" />
   <project path="external/valgrind" name="platform/external/valgrind" />
-  <!-- TODO: MERGE?  <project path="external/webkit" name="platform_external_webkit" remote="vanir" revision="jb42" />-->
-  <project path="external/webkit" name="platform/external/webkit" revision="6999cd453f77d95bf2b65d06a2c7b8e8a3dafc24" upstream="linaro_android_4.2.1"/>
+  <project path="external/webkit" name="platform_external_webkit" remote="vanir" revision="jb42" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
