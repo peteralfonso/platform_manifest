@@ -197,8 +197,7 @@
   <project path="external/rsync" name="android_external_rsync" remote="cm" revision="cm-10.1" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/sepolicy" name="platform/external/sepolicy" />
-  <!-- TODO: MERGE?  <project path="external/skia" name="platform_external_skia" remote="vanir" revision="jb42" />-->
-  <project path="external/skia" name="platform/external/skia" revision="2db5e74d7a176c4ee282a3ea88b16141d1059ed6" upstream="linaro_android_4.2.1"/>
+  <project path="external/skia" name="platform_external_skia" remote="vanir" revision="jb42" />  
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" revision="94b00334484b28f5c080a3d0c3121b056d1171f3" upstream="linaro_android_4.2.1"/>
   <project path="external/speex" name="platform/external/speex" revision="b1d80753f24f4fc5e04246ea1f056ac46552cadf" upstream="linaro_mmwg"/>
