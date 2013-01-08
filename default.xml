@@ -128,7 +128,7 @@
   <project path="external/jhead" name="platform/external/jhead" />
   <project path="external/jmdns" name="platform/external/jmdns" />
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" />
-  <project name="people/tomgall/libjpeg-turbo/libjpeg-turbo" path="external/jpeg" remote="linaro-other" revision="android"/>
+  <project path="external/jpeg" name="platform_external_libjpeg-turbo" remote="vanir" revision="jb42"/>
   <project path="external/jsilver" name="platform/external/jsilver" />
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
