@@ -201,8 +201,7 @@
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" revision="linaro_android_4.2.1"/>
   <project path="external/speex" name="platform/external/speex" revision="linaro_mmwg"/>
-  <!-- TODO: MERGE?    <project path="external/sqlite" name="platform_external_sqlite" remote="vanir" revision="jb42" />-->
-  <project path="external/sqlite" name="platform/external/sqlite" revision="refs/tags/android-4.2.1_r1"/>
+  <project path="external/sqlite" name="platform_external_sqlite" remote="vanir" revision="jb42" />
   <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/stlport" name="platform/external/stlport" revision="linaro_android_4.2.1"/>
