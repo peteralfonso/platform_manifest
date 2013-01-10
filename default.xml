@@ -265,8 +265,7 @@
   <project path="hardware/ti/omap4xxx" name="platform_hardware_ti_omap4xxx" remote="vanir" revision="jb42" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
-  <!-- TODO: MERGE?      <project path="libcore" name="platform_libcore" remote="vanir" revision="jb42" />-->
-  <project path="libcore" name="platform/libcore" revision="linaro_android_4.2.1" />
+  <project path="libcore" name="platform_libcore" remote="vanir" revision="jb42" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AppWidgetPicker" name="packages_apps_AppWidgetPicker" remote="fnv" revision="jb" />
