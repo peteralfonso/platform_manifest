@@ -35,7 +35,7 @@ Vanir developer Resources:
 
 [TUT] cherry-picking
 
-	http://pastebin.com/dB7tHyJz
+	http://pastebin.com/StEbCWEY
 	
 [TUT] basic git commands & examples of use
 
