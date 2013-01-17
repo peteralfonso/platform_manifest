@@ -9,7 +9,7 @@
   <remote fetch="git://git.linaro.org/" name="linaro-other"/>
   <remote fetch="git://github.com/zyga/" name="zyga"/>
   <remote name="aokp"
-          fetch="git://github.com/"
+          fetch="git://github.com/AOKP"
           review="gerrit.sudoservers.com" />
   <remote name="cm"
           fetch="https://github.com/CyanogenMod/"
