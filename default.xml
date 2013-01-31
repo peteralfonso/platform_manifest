@@ -165,7 +165,7 @@
   <project path="external/lsof" name="android_external_lsof" remote="cm" revision="cm-10.1" />
   <project path="external/markdown" name="platform/external/markdown" revision="refs/tags/android-4.2.1_r1" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" revision="refs/tags/android-4.2.1_r1" />
-  <project path="external/mesa3d" name="platform/external/mesa3d" revision="linaro_android_4.2.1" />
+  <project path="external/mesa3d" name="platform_external_mesa3d" remote="vanir" revision="jb42" />
   <project path="external/mksh" name="platform/external/mksh" />
   <project path="external/mockwebserver" name="platform/external/mockwebserver" />
   <project path="external/mp4parser" name="platform/external/mp4parser" />
