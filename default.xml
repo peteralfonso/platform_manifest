@@ -16,7 +16,7 @@
           review="review.cyanogenmod.com" />
   <remote name="fnv"
           fetch="git://github.com/FruitsAndVeggies/" />
-  <default revision="refs/tags/android-4.2.1_r2"
+  <default revision="refs/tags/android-4.2.1_r1"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
