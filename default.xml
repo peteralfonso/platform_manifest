@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="vanir"
-          fetch="git://github.com/VanirAOSP/"
+          fetch="git@github.com:VanirAOSP/"
           review="vaniraosp.goo.im" />
   <remote name="aosp" fetch="git://android.git.linaro.org/" review="review.android.git.linaro.org" />
   <remote name="aosp-upstream" fetch="https://android.googlesource.com/" review="https://android-review.googlesource.com/" />
