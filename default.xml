@@ -4,6 +4,9 @@
   <remote name="vanir"
           fetch="git://github.com/VanirAOSP/"
           review="vaniraosp.goo.im" />
+  <remote name="dho"
+          fetch="git@github.com:VanirAOSP/"
+          review="git@github.com:VanirAOSP/" />
   <remote name="aosp" fetch="git://android.git.linaro.org/" review="review.android.git.linaro.org" />
   <remote name="aosp-upstream" fetch="https://android.googlesource.com/" review="https://android-review.googlesource.com/" />
   <remote fetch="git://git.linaro.org/" name="linaro-other" />
