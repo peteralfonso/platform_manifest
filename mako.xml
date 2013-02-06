@@ -37,6 +37,7 @@
   <project path="device/asus/grouper" name="platform_device_asus_grouper" remote="vanir" revision="jb42" />
   <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device" />
   <project path="device/lge/mako" name="platform_device_lge_mako" remote="vanir" revision="jb42" />
+  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
@@ -257,6 +258,18 @@
   <project path="hardware/invensense" name="android_hardware_invensense" remote="vanir" revision="jb42" />
   <project path="hardware/libhardware" name="hardware_libhardware"  remote="vanir" revision="jb42" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="linaro_android_4.2.1" />
+  <project path="hardware/msm7k" name="platform/hardware/msm7k" />
+  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" />
+  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" />
+  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" />
+  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" />
+  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
+  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
+  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
+  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
+  <project path="hardware/qcom/power" name="platform/hardware/qcom/power" />
+  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
+  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" />
   <project path="hardware/ril" name="platform/hardware/ril" revision="linaro_android_4.2.1" />
   <project path="hardware/samsung/origen/gralloc_ump" name="platform/hardware/samsung/origen/gralloc_ump" revision="linaro_android_jb" />
   <project path="hardware/samsung/origen/ump" name="platform/hardware/samsung/origen/ump" revision="linaro_android_jb" />
