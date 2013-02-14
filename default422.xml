@@ -363,7 +363,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" />
   <project path="vendor/vanir_themes/Vanir_Inverted" name="Vanir_Inverted" remote="vanir" revision="jb42" />
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="vanir" revision="jb42" groups="vendor" />
-  <project path="vendor/vanir" name="platform_vendor_vanir" remote="vanir" revision="jb42"  groups="vendor" />
+  <project path="vendor/vanir" name="platform_vendor_vanir" remote="vanir" revision="jb422"  groups="vendor" />
   <project path="vendor/asus/grouper" name="vendor_asus_grouper" remote="vanir" revision="jb" groups="vendor" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
