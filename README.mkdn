@@ -1,10 +1,8 @@
 Team Vanir's repo
 ===========
 
-This branch is for vanir's android-4.2.1_r1 based ROM
+This branch is for Vanir's android-4.2.2_r1 based ROM
 
-NuclearMistake is the greatest
-PrimeDirective is OHNOEZGOJIRRA!!!
 
 Getting Started
 ---------------
@@ -17,7 +15,7 @@ To initialize your local repository using my trees, use the following command:
 
 Then to sync up:
 
-    repo sync
+    repo sync -j8
     
 Our gerrit:
 
