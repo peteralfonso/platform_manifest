@@ -35,7 +35,7 @@
   <project path="dalvik" name="platform_dalvik" remote="vanir" revision="jb42" />
   <project name="platform/development" path="development" revision="linaro_android_4.2.2" />
   <project path="device/asus/grouper" name="platform_device_asus_grouper" remote="vanir" revision="jb42" />
-  <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device" />
+  <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="device/lge/mako" name="platform_device_lge_mako" remote="vanir" revision="jb42" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" revision="refs/tags/android-4.2.1_r1.2" groups="device" />
   <project path="device/common" name="device/common" />
@@ -49,7 +49,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/sample" name="platform_device_sample" remote="vanir" revision="jb42" />
   <project path="device/samsung/maguro" name="platform_device_samsung_maguro" remote="vanir" revision="jb42" groups="device" />
-  <project path="device/samsung/manta" name="device/samsung/manta" groups="device" />
+  <project path="device/samsung/manta" name="device/samsung/manta" groups="device" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="device/samsung/toro" name="platform_device_samsung_toro" remote="vanir" revision="jb42" groups="device" />
   <project path="device/samsung/toroplus" name="android_device_samsung_toroplus" remote="vanir" revision="jb42" groups="device" />
   <project path="device/samsung/tuna" name="platform_device_samsung_tuna" remote="vanir" revision="jb42" groups="device" />
@@ -254,7 +254,7 @@
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" revision="linaro_android_4.2.2" />
   <project path="gdk" name="platform/gdk" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/invensense" name="android_hardware_invensense" remote="vanir" revision="jb42" />
   <project path="hardware/libhardware" name="hardware_libhardware"  remote="vanir" revision="jb42" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="linaro_android_4.2.2" />
@@ -274,10 +274,10 @@
   <project path="hardware/samsung/origen/gralloc_ump" name="platform/hardware/samsung/origen/gralloc_ump" revision="linaro_android_jb" />
   <project path="hardware/samsung/origen/ump" name="platform/hardware/samsung/origen/ump" revision="linaro_android_jb" />
   <project path="hardware/samsung_slsi/exynos5" name="platform_hardware_samsung_slsi_exynos5" remote="vanir" revision="jb42" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
+  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/ti/omap4xxx" name="platform_hardware_ti_omap4xxx" remote="vanir" revision="jb42" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
-  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
+  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="libcore" name="platform_libcore" remote="vanir" revision="jb42" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
