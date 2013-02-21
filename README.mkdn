@@ -12,6 +12,8 @@ Please see the [Android source page](http://source.android.com/source/index.html
 To initialize your local repository using my trees, use the following command:
 
     repo init -u git://github.com/VanirAOSP/platform_manifest.git -b jb42
+    or for Mako
+    repo init -u git://github.com/VanirAOSP/platform_manifest.git -m mako.xml -b jb42
 
 Then to sync up:
 
