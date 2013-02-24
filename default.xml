@@ -48,7 +48,6 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/mako" name="device_lge_mako" remote="aokp" revision="jb-mr1" />
-  <project path="kernel/lge/mako" name="mako" remote="faux" revision="jb_mr1.1_exp" />
   <project path="device/sample" name="platform_device_sample" remote="vanir" revision="jb42" />
   <project path="device/samsung/maguro" name="platform_device_samsung_maguro" remote="vanir" revision="jb42" groups="device" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device" revision="refs/tags/android-4.2.1_r1.2" />
@@ -267,7 +266,7 @@
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" revision="refs/tags/android-4.2.1_r1.2" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="vanir" revision="jb42" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" revision="refs/tags/android-4.2.1_r1.2" />
