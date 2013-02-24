@@ -377,7 +377,6 @@
   <project path="system/vold" name="platform_system_vold" remote="vanir" revision="jb42" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
-  <project path="vendor/vanir_themes/Vanir_Inverted" name="Vanir_Inverted" remote="vanir" revision="jb42" />
   <project path="vendor/asus" name="vendor_asus" remote="vanir" revision="jb42" groups="vendor" />
   <project path="vendor/lge" name="vendor_lge" remote="aokp" revision="jb-mr1" />
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="vanir" revision="jb42" groups="vendor" />
