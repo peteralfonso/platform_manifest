@@ -14,6 +14,8 @@
   <remote name="cm"
           fetch="https://github.com/CyanogenMod/"
           review="review.cyanogenmod.com" />
+  <remote name="faux"
+          fetch="https://github.com/faux123/" />
   <remote name="fnv"
           fetch="git://github.com/FruitsAndVeggies/" />
   <default revision="refs/tags/android-4.2.2_r1"
@@ -46,6 +48,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/mako" name="device_lge_mako" remote="aokp" revision="jb-mr1" />
+  <project path="kernel/lge/mako" name="mako" remote="faux" revision="jb_mr1.1_exp" />
   <project path="device/sample" name="platform_device_sample" remote="vanir" revision="jb42" />
   <project path="device/samsung/maguro" name="platform_device_samsung_maguro" remote="vanir" revision="jb42" groups="device" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device" revision="refs/tags/android-4.2.1_r1.2" />
