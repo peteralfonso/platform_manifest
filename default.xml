@@ -269,7 +269,7 @@
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="vanir" revision="jb42" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" revision="refs/tags/android-4.2.1_r1.2" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" remote="vanir" revision="jb42" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="vanir" revision="jb42" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" revision="refs/tags/android-4.2.1_r1.2" />
