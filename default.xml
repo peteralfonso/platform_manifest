@@ -371,7 +371,7 @@
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="android_system_bluetooth" remote="cm" revision="cm-10.1" />
   <project path="system/core" name="platform_system_core" remote="vanir" revision="jb42" />
-  <project path="system/extras" name="platform/system/extras" remote="linaro" revision="linaro_android_4.2.2" />
+  <project path="system/extras" name="platform_system_extras" remote="vanir" revision="jb42" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" remote="linaro" revision="linaro_android_4.2.2" />
