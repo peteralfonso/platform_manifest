@@ -17,10 +17,8 @@
   <remote name="cm"
           fetch="https://github.com/CyanogenMod/"
           review="review.cyanogenmod.com" />
-  <remote name="faux"
-          fetch="https://github.com/faux123/" />
-  <remote name="fnv"
-          fetch="git://github.com/FruitsAndVeggies/" />
+  <remote name="github"
+          fetch="git://github.com/" />
   <default revision="refs/tags/android-4.2.2_r1"
           sync-c="true"
           remote="aosp" />
@@ -239,7 +237,7 @@
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" remote="linaro" revision="linaro_android_4.2.2" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" remote="linaro" revision="linaro_android_4.2.2" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" remote="linaro" revision="linaro_android_4.2.2" />
+  <project path="frameworks/ex" name="CarbonDev/frameworks_ex" remote="github" revision="jb2" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
   <project path="frameworks/native" name="platform_framworks_native" remote="vanir" revision="jb42" />
@@ -284,7 +282,7 @@
   <project path="libcore" name="platform_libcore" remote="vanir" revision="jb42" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
-  <project path="packages/apps/AppWidgetPicker" name="packages_apps_AppWidgetPicker" remote="fnv" revision="jb" />
+  <project path="packages/apps/AppWidgetPicker" name="FruitsAndVeggies/packages_apps_AppWidgetPicker" remote="fnv" revision="jb" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="vanir" revision="jb42" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="vanir" revision="jb42" />
