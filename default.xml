@@ -260,17 +260,19 @@
   <project path="hardware/libhardware" name="hardware_libhardware"  remote="vanir" revision="jb42" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" remote="linaro" revision="linaro_android_4.2.2" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" revision="refs/tags/android-4.2.1_r1.2" />
-  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" revision="refs/tags/android-4.2.1_r1.2" />
-  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" revision="refs/tags/android-4.2.1_r1.2" />
-  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="cm-10.1"  />
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="cm" revision="cm-10.1"  />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="vanir" revision="jb42" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="vanir" revision="jb42" />
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="vanir" revision="jb42" />
-  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" revision="refs/tags/android-4.2.1_r1.2" />
-  <project path="hardware/qcom/power" name="platform/hardware/qcom/power" revision="refs/tags/android-4.2.1_r1.2" />
-  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" revision="refs/tags/android-4.2.1_r1.2" />
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/ril" name="platform/hardware/ril" remote="linaro" revision="linaro_android_4.2.2" />
   <project path="hardware/samsung/origen/gralloc_ump" name="platform/hardware/samsung/origen/gralloc_ump" remote="linaro" revision="linaro_android_jb" />
   <project path="hardware/samsung/origen/ump" name="platform/hardware/samsung/origen/ump" remote="linaro" revision="linaro_android_jb" />
