@@ -2,9 +2,6 @@
 <manifest>
 
   <remote name="vanir"
-          fetch="http://vaniraosp.goo.im/"
-          review="vaniraosp.goo.im" />
-  <remote name="vanirgithub"
           fetch="https://github.com/VanirAOSP/" 
           review="vaniraosp.goo.im" />
   <remote name="linaro" fetch="http://android.git.linaro.org/git-ro/" review="review.android.git.linaro.org" />
@@ -131,7 +128,7 @@
   <project path="external/jhead" name="platform/external/jhead" />
   <project path="external/jmdns" name="platform/external/jmdns" />
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" />
-  <project path="external/jpeg" name="platform_external_libjpeg-turbo" remote="vanirgithub" revision="libjpeg-turbo_1.3.0" />
+  <project path="external/jpeg" name="platform_external_libjpeg-turbo" remote="vanir" revision="libjpeg-turbo_1.3.0" />
   <project path="external/jsilver" name="platform/external/jsilver" />
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
