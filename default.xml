@@ -4,7 +4,7 @@
   <remote name="vanir"
           fetch="https://github.com/VanirAOSP/" 
           review="vaniraosp.goo.im" />
-  <remote name="linaro" fetch="git://android.git.linaro.org/" review="review.android.git.linaro.org" />
+  <remote name="linaro" fetch="http://android.git.linaro.org/git" review="review.android.git.linaro.org" />
   <remote name="aosp" fetch="https://android.googlesource.com/" review="https://android-review.googlesource.com/" />
   <remote fetch="git://git.linaro.org/" name="linaro-other" />
   <remote fetch="git://github.com/zyga/" name="zyga" />
