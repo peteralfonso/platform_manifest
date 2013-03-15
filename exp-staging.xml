@@ -72,7 +72,7 @@
   <project path="external/chromium" name="platform_external_chromium" remote="vanir" revision="jb42" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" />
   <project path="external/cibu-fonts" name="platform/external/cibu-fonts" />
-  <project path="external/clang" name="external_clang" remote="aosp" revision="master" />
+  <project path="external/clang" name="external/clang" remote="aosp" revision="master" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
@@ -150,7 +150,7 @@
   <project path="external/libyuv" name="platform/external/libyuv" />
   <project path="external/linux-tools-perf" name="platform_external_linux-tools-perf" remote="vanir" revision="linaro_android_4.2.2" />
   <project path="external/littlemock" name="platform/external/littlemock" />
-  <project path="external/llvm" name="external_llvm" remote="aosp" revision="master" />
+  <project path="external/llvm" name="external/llvm" remote="aosp" revision="master" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
   <project path="external/lrzsz" name="platform_external_lrzsz" remote="vanir" revision="linaro-master" />
   <project path="external/lsof" name="CyanogenMod/android_external_lsof" remote="cm" revision="cm-10.1" />
@@ -220,7 +220,7 @@
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="android_frameworks_av" remote="vanir" revision="jb42" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="vanir" revision="jb42" />
-  <project path="frameworks/compile/libbcc" name="platform_frameworks_compile_libbcc" remote="aosp" revision="master" />
+  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" remote="aosp" revision="master" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
   <project path="frameworks/compile/mclinker" name="platform_frameworks_compile_mclinker" remote="vanir" revision="linaro_android_4.2.2" />
