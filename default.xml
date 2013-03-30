@@ -2,9 +2,11 @@
 <manifest>
 
   <remote name="vanir"
-          fetch="https://github.com/VanirAOSP/" 
+          fetch="https://github.com/VanirAOSP/"
           review="vaniraosp.goo.im" />
-  <remote name="aosp" fetch="https://android.googlesource.com/" review="https://android-review.googlesource.com/" />
+  <remote name="aosp"
+          fetch="https://android.googlesource.com/"
+          review="https://android-review.googlesource.com/" />
   <remote name="aokp"
           fetch="git://github.com/"
           review="gerrit.sudoservers.com" />
@@ -29,7 +31,7 @@
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform_dalvik" remote="vanir" revision="jb42" />
-  <project name="platform_development" path="development" remote="vanir" revision="linaro_android_4.2.2" />
+  <project path="development" name="platform_development" remote="vanir" revision="linaro_android_4.2.2" />
   <project path="device/asus/grouper" name="platform_device_asus_grouper" remote="vanir" revision="jb42" />
   <project path="device/asus/tilapia" name="device_asus_tilapia" groups="device" remote="vanir" revision="jb42" />
   <project path="device/common" name="device/common" />
@@ -76,7 +78,7 @@
   <project path="external/compiler-rt" name="platform/external/compiler-rt" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
-  <project path="external/dhcpcd" name="platform/external/dhcpcd" />  
+  <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="external_dnsmasq" remote="vanir" revision="linaro_android_4.2.2" />
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
@@ -124,6 +126,8 @@
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
+  <project path="external/koush/Superuser" name="koush/Superuser" remote="github" revision="master" />
+  <project path="external/koush/Widgets" name="koush/Widgets" remote="github" revision="master" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" />
@@ -245,13 +249,13 @@
   <project path="gdk" name="platform/gdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/invensense" name="android_hardware_invensense" remote="vanir" revision="jb42" />
-  <project path="hardware/libhardware" name="hardware_libhardware"  remote="vanir" revision="jb42" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="vanir" revision="jb42" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware-legacy" remote="vanir" revision="linaro_android_4.2.2" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="cm" revision="cm-10.1"  />
-  <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" remote="cm" revision="cm-10.1"  />
+  <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="vanir" revision="jb42" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="vanir" revision="jb42" />
@@ -269,8 +273,6 @@
   <project path="hardware/ti/omap4xxx" name="platform_hardware_ti_omap4xxx" remote="vanir" revision="jb42" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" revision="refs/tags/android-4.2.1_r1.2" />
-  <project name="koush/Superuser" path="external/koush/Superuser" remote="github" revision="master" />
-  <project name="koush/Widgets" path="external/koush/Widgets" remote="github" revision="master" />
   <project path="libcore" name="platform_libcore" remote="vanir" revision="jb42" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
@@ -371,7 +373,7 @@
   <project path="vendor/asus" name="vendor_asus" remote="vanir" revision="jb42" groups="vendor" />
   <project path="vendor/lge" name="vendor_lge" remote="vanir" revision="jb42" />
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="vanir" revision="jb42" groups="vendor" />
-  <project path="vendor/vanir" name="platform_vendor_vanir" remote="vanir" revision="jb42"  groups="vendor" />
+  <project path="vendor/vanir" name="platform_vendor_vanir" remote="vanir" revision="jb42" groups="vendor" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.1" />
