@@ -15,7 +15,7 @@
           review="review.cyanogenmod.com" />
   <remote name="github"
           fetch="git://github.com/" />
-  <default revision="refs/tags/master"
+  <default revision="master"
           sync-c="true"
           remote="aosp" />
 
