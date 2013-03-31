@@ -78,7 +78,7 @@
   <project path="external/compiler-rt" name="platform/external/compiler-rt" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
-  <project path="external/dhcpcd" name="platform/external/dhcpcd" />
+  <project path="external/dhcpcd" name="platform/external/dhcpcd" revision="refs/tags/jb-mr1-dev-plus-aosp" />
   <project path="external/dnsmasq" name="external_dnsmasq" remote="vanir" revision="linaro_android_4.2.2" />
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
