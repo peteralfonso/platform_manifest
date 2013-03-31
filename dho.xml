@@ -52,7 +52,7 @@
   <project path="device/samsung/tuna" name="platform_device_samsung_tuna" remote="vanir" revision="jb42" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
-  <project path="external/android-clat" name="platform/external/android-clat" />
+  <project path="external/android-clat" name="platform/external/android-clat" revision="refs/tags/android-4.2.2_r1" />
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/ant-glob" name="platform/external/ant-glob" />
   <project path="external/antlr" name="platform/external/antlr" />
