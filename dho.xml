@@ -20,17 +20,17 @@
           remote="aosp" />
 
   <project path="manifest" name="platform_manifest" remote="vanir" revision="jb42" />
-  <project path="build" name="platform_build" remote="vanir" revision="jb42">
+  <project path="build" name="platform_build" remote="vanir" revision="jb42-master">
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="tools/BUILD_COMMAND_README" dest="BUILD_COMMAND_README" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="platform_bionic" remote="vanir" revision="jb42" />
+  <project path="bionic" name="platform_bionic" remote="vanir" revision="master" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="platform_dalvik" remote="vanir" revision="jb42" />
+  <project path="dalvik" name="platform_dalvik" remote="vanir" revision="jb42-master" />
   <project path="development" name="platform_development" remote="vanir" revision="jb42-master" />
   <project path="device/asus/grouper" name="platform_device_asus_grouper" remote="vanir" revision="jb42" />
   <project path="device/asus/tilapia" name="device_asus_tilapia" groups="device" remote="vanir" revision="jb42" />
@@ -52,21 +52,21 @@
   <project path="device/samsung/tuna" name="platform_device_samsung_tuna" remote="vanir" revision="jb42" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
-  <project path="external/android-clat" name="platform/external/android-clat" revision="refs/tags/android-4.2.2_r1" />
+  <project path="external/android-clat" name="platform/external/android-clat" revision="refs/tags/android-4.2.2_r1" groups="dmaster" />
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/ant-glob" name="platform/external/ant-glob" />
   <project path="external/antlr" name="platform/external/antlr" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" />
-  <project path="external/apache-http" name="platform/external/apache-http" />
+  <project path="external/apache-http" name="platform/external/apache-http" revision="refs/tags/android-4.2.2_r1" groups="dmaster" />
   <project path="external/apache-qp" name="platform/external/apache-qp" />
-  <project path="external/apache-xml" name="platform/external/apache-xml" revision="refs/tags/android-4.2.2_r1" />
+  <project path="external/apache-xml" name="platform/external/apache-xml" revision="refs/tags/android-4.2.2_r1" groups="dmaster" />
   <project path="external/arduino" name="platform/external/arduino" />
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bash" name="android_external_bash" remote="vanir" revision="jb42" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
   <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" remote="cm" revision="cm-10.1" />
-  <project path="external/bouncycastle" name="platform/external/bouncycastle" revision="refs/tags/android-4.2.2_r1" />
+  <project path="external/bouncycastle" name="platform/external/bouncycastle" revision="refs/tags/android-4.2.2_r1" groups="dmaster" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/busybox" name="external_busybox" remote="vanir" revision="jb42" />
   <project path="external/bzip2" name="platform/external/bzip2" />
@@ -78,7 +78,7 @@
   <project path="external/compiler-rt" name="platform/external/compiler-rt" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
-  <project path="external/dhcpcd" name="platform/external/dhcpcd" revision="jb-mr1-dev-plus-aosp" />
+  <project path="external/dhcpcd" name="platform/external/dhcpcd" revision="jb-mr1-dev-plus-aosp" groups="dmaster" />
   <project path="external/dnsmasq" name="external_dnsmasq" remote="vanir" revision="linaro_android_4.2.2" />
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
@@ -100,7 +100,7 @@
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
   <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" />
-  <project path="external/genext2fs" name="platform/external/genext2fs" revision="refs/tags/android-4.2.2_r1" />
+  <project path="external/genext2fs" name="platform/external/genext2fs" revision="refs/tags/android-4.2.2_r1" groups="dmaster" />
   <project path="external/giflib" name="platform/external/giflib" />
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" />
   <project path="external/grub" name="platform/external/grub" />
@@ -201,7 +201,7 @@
   <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/stlport" name="platform_external_stlport" remote="vanir" revision="linaro_android_4.2.2" />
-  <project path="external/strace" name="platform/external/strace" revision="jb-mr1-dev-plus-aosp" />
+  <project path="external/strace" name="platform/external/strace" revision="jb-mr1-dev-plus-aosp" groups="dmaster" />
   <project path="external/stressapptest" name="platform/external/stressapptest" />
   <project path="external/svox" name="platform/external/svox" />
   <project path="external/tagsoup" name="platform/external/tagsoup" />
@@ -220,7 +220,7 @@
   <project path="external/x264" name="platform_external_x264" remote="vanir" revision="linaro-master" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
-  <project path="external/yaffs2" name="platform/external/yaffs2" revision="jb-mr1-dev-plus-aosp" />
+  <project path="external/yaffs2" name="platform/external/yaffs2" revision="jb-mr1-dev-plus-aosp" groups="dmaster" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="android_frameworks_av" remote="vanir" revision="jb42-master" />
@@ -241,7 +241,7 @@
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="vanir" revision="jb42" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="vanir" revision="jb42-master" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/rs" name="platform_frameworks_rs" remote="vanir" revision="linaro_android_4.2.2" />
   <project path="frameworks/support" name="platform_frameworks_support" remote="vanir" revision="linaro_android_4.2.2" />
@@ -363,7 +363,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" remote="cm" revision="cm-10.1" />
-  <project path="system/core" name="platform_system_core" remote="vanir" revision="jb42" />
+  <project path="system/core" name="platform_system_core" remote="vanir" revision="jb42-master" />
   <project path="system/extras" name="platform_system_extras" remote="vanir" revision="jb42" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
