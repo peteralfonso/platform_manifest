@@ -52,7 +52,7 @@
   <project path="device/samsung/tuna" name="platform_device_samsung_tuna" remote="vanir" revision="jb42" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
-  <project path="external/android-clat" name="platform/external/android-clat" revision="refs/tags/android-4.2.2_r1" groups="dmaster" />
+  <project path="external/android-clat" name="platform/external/android-clat" />
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/ant-glob" name="platform/external/ant-glob" />
   <project path="external/antlr" name="platform/external/antlr" />
@@ -66,7 +66,7 @@
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
   <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" remote="cm" revision="cm-10.1" />
-  <project path="external/bouncycastle" name="platform/external/bouncycastle" revision="refs/tags/android-4.2.2_r1" groups="dmaster" />
+  <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/busybox" name="external_busybox" remote="vanir" revision="jb42" />
   <project path="external/bzip2" name="platform/external/bzip2" />
@@ -175,7 +175,7 @@
   <project path="external/okhttp" name="platform/external/okhttp" />
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
-  <project path="external/openssh" name="platform_external_openssh" remote="vanir" revision="linaro_android_4.2.2" />
+  <project path="external/openssh" name="platform_external_openssh" remote="vanir" revision="jb42-master" />
   <project path="external/openssl" name="platform_external_openssl" remote="vanir" revision="linaro_android_4.2.2" />
   <project path="external/oprofile" name="android_external_oprofile" remote="vanir" revision="jb42" />
   <project path="external/ping" name="platform_external_ping" remote="vanir" revision="linaro_android_4.2.2" />
@@ -225,7 +225,7 @@
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="android_frameworks_av" remote="vanir" revision="jb42-master" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="vanir" revision="jb42-master" />
-  <project path="frameworks/compile/libbcc" name="platform_frameworks_compile_libbcc" remote="vanir" revision="linaro_android_4.2.2" />
+  <project path="frameworks/compile/libbcc" name="platform_frameworks_compile_libbcc" remote="vanir" revision="jb42-master" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
   <project path="frameworks/compile/mclinker" name="platform_frameworks_compile_mclinker" remote="vanir" revision="linaro_android_4.2.2" />
