@@ -62,16 +62,14 @@
   <project path="external/apache-xml" name="platform/external/apache-xml" revision="refs/tags/android-4.2.2_r1" groups="dmaster" />
   <project path="external/arduino" name="platform/external/arduino" />
   <project path="external/astl" name="platform/external/astl" />
-  <project path="external/bash" name="android_external_bash" remote="vanir" revision="jb42" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
   <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" remote="cm" revision="cm-10.1" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
-  <project path="external/busybox" name="external_busybox" remote="vanir" revision="jb42" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
-  <project path="external/chromium" name="platform_external_chromium" remote="vanir" revision="jb42" />
+  <project path="external/chromium" name="platform_external_chromium" remote="vanir" revision="jb42-master" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" />
   <project path="external/cibu-fonts" name="platform/external/cibu-fonts" />
   <project path="external/clang" name="external_clang" remote="vanir" revision="jb42" />
@@ -374,7 +372,7 @@
   <project path="vendor/asus" name="vendor_asus" remote="vanir" revision="jb42" groups="vendor" />
   <project path="vendor/lge" name="vendor_lge" remote="vanir" revision="jb42" />
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="vanir" revision="jb42" groups="vendor" />
-  <project path="vendor/vanir" name="platform_vendor_vanir" remote="vanir" revision="jb42" groups="vendor" />
+  <project path="vendor/vanir" name="platform_vendor_vanir" remote="vanir" revision="jb42-master" groups="vendor" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.1" />
