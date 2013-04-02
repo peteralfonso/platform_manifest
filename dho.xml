@@ -167,7 +167,6 @@
   <project path="external/netcat" name="platform/external/netcat" />
   <project path="external/netperf" name="platform/external/netperf" />
   <project path="external/neven" name="platform/external/neven" />
-  <project path="external/nist-pkits" name="platform/external/nist-pkits" />
   <project path="external/nist-sip" name="platform/external/nist-sip" />
   <project path="external/oauth" name="platform/external/oauth" />
   <project path="external/okhttp" name="platform/external/okhttp" />
@@ -214,7 +213,7 @@
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
-  <project path="external/wpa_supplicant_8" name="platform_external_wpa-supplicant-8" remote="vanir" revision="linaro_android_4.2.2" />
+  <project path="external/wpa_supplicant_8" name="platform_external_wpa-supplicant-8" remote="vanir" revision="jb42-master />
   <project path="external/x264" name="platform_external_x264" remote="vanir" revision="linaro-master" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
@@ -301,7 +300,7 @@
   <project path="packages/apps/Phone" name="packages_apps_phone" remote="vanir" revision="jb42" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="packages_apps_quicksearchbox" remote="vanir" revision="jb42" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="vanir" revision="jb42" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="vanir" revision="jb42-master" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="packages_apps_soundrecorder" remote="vanir" revision="jb42" />
   <project path="packages/apps/SpeakerProximity" name="packages_apps_SpeakerProximity" remote="vanir" revision="jb42" />
@@ -362,10 +361,10 @@
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" remote="cm" revision="cm-10.1" />
   <project path="system/core" name="platform_system_core" remote="vanir" revision="jb42-master" />
-  <project path="system/extras" name="platform_system_extras" remote="vanir" revision="jb42" />
+  <project path="system/extras" name="platform_system_extras" remote="vanir" revision="jb42-master" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
-  <project path="system/security" name="platform_system_security" remote="vanir" revision="linaro_android_4.2.2" />
+  <project path="system/security" name="platform_system_security" remote="vanir" revision="jb42-master" />
   <project path="system/vold" name="platform_system_vold" remote="vanir" revision="jb42" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
