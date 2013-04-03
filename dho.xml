@@ -213,7 +213,7 @@
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
-  <project path="external/wpa_supplicant_8" name="platform_external_wpa-supplicant-8" remote="vanir" revision="jb42-master />
+  <project path="external/wpa_supplicant_8" name="platform_external_wpa-supplicant-8" remote="vanir" revision="jb42-master" />
   <project path="external/x264" name="platform_external_x264" remote="vanir" revision="linaro-master" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
