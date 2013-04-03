@@ -47,9 +47,9 @@
   <project path="device/sample" name="platform_device_sample" remote="vanir" revision="jb42" />
   <project path="device/samsung/maguro" name="platform_device_samsung_maguro" remote="vanir" revision="jb42" groups="device" />
   <project path="device/samsung/manta" name="platform_device_samsung_manta" remote="vanir" revision="jb42" groups="device" />
-  <project path="device/samsung/toro" name="platform_device_samsung_toro" remote="vanir" revision="jb42" groups="device" />
+  <project path="device/samsung/toro" name="platform_device_samsung_toro" remote="vanir" revision="jb42-master" groups="device" />
   <project path="device/samsung/toroplus" name="android_device_samsung_toroplus" remote="vanir" revision="jb42" groups="device" />
-  <project path="device/samsung/tuna" name="platform_device_samsung_tuna" remote="vanir" revision="jb42" groups="device" />
+  <project path="device/samsung/tuna" name="platform_device_samsung_tuna" remote="vanir" revision="jb42-master" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -57,9 +57,9 @@
   <project path="external/ant-glob" name="platform/external/ant-glob" />
   <project path="external/antlr" name="platform/external/antlr" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" />
-  <project path="external/apache-http" name="platform/external/apache-http" revision="refs/tags/android-4.2.2_r1" groups="dmaster" />
+  <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/apache-qp" name="platform/external/apache-qp" />
-  <project path="external/apache-xml" name="platform/external/apache-xml" revision="refs/tags/android-4.2.2_r1" groups="dmaster" />
+  <project path="external/apache-xml" name="platform/external/apache-xml" />
   <project path="external/arduino" name="platform/external/arduino" />
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
@@ -198,7 +198,7 @@
   <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/stlport" name="platform_external_stlport" remote="vanir" revision="linaro_android_4.2.2" />
-  <project path="external/strace" name="platform/external/strace" revision="jb-mr1-dev-plus-aosp" groups="dmaster" />
+  <project path="external/strace" name="platform/external/strace" />
   <project path="external/stressapptest" name="platform/external/stressapptest" />
   <project path="external/svox" name="platform/external/svox" />
   <project path="external/tagsoup" name="platform/external/tagsoup" />
@@ -209,7 +209,7 @@
   <project path="external/tremolo" name="platform/external/tremolo" />
   <project path="external/v8" name="platform_external_v8" remote="vanir" revision="jb42" />
   <project path="external/valgrind" name="platform/external/valgrind" />
-  <project path="external/webkit" name="platform_external_webkit" remote="vanir" revision="jb42" />
+  <project path="external/webkit" name="platform_external_webkit" remote="vanir" revision="jb42-master" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
