@@ -32,6 +32,7 @@
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform_dalvik" remote="vanir" revision="jb42" />
   <project path="development" name="platform_development" remote="vanir" revision="linaro_android_4.2.2" />
+  <project path="device/asus/tf700t" name="platform_device_asus_tf700t" remote="vanir" revision="cm10.1" />
   <project path="device/asus/grouper" name="platform_device_asus_grouper" remote="vanir" revision="jb42" />
   <project path="device/asus/tilapia" name="device_asus_tilapia" groups="device" remote="vanir" revision="jb42" />
   <project path="device/common" name="device/common" />
