@@ -12,6 +12,11 @@ Please see the [Android source page](http://source.android.com/source/index.html
 To initialize your local repository using my trees, use the following command:
 
     repo init -u git://github.com/VanirAOSP/platform_manifest.git -b jb42
+    
+To add a kernel (i.e TF700T)
+	Sync, open the manifest folder and look for your kernel.
+	Run the kernel script from the root directory.  For example"
+	. ./manifest/700-kernel/kernel.sh
 
 Then to sync up:
 
