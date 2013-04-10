@@ -264,7 +264,7 @@
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="cm" revision="cm-10.1" />
-  <project path="hardware/ril" name="platform_hardware_ril" remote="vanir" revision="jb42-master />
+  <project path="hardware/ril" name="platform_hardware_ril" remote="vanir" revision="jb42-master" />
   <project path="hardware/samsung/origen/gralloc_ump" name="platform_hardware_samsung_origen_gralloc-ump" remote="vanir" revision="linaro_android_jb" />
   <project path="hardware/samsung/origen/ump" name="platform_hardware_samsung_origen_ump" remote="vanir" revision="linaro_android_jb" />
   <project path="hardware/samsung_slsi/exynos5" name="platform_hardware_samsung_slsi_exynos5" remote="vanir" revision="jb42" />
