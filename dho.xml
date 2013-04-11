@@ -15,8 +15,6 @@
           review="review.cyanogenmod.com" />
   <remote name="github"
           fetch="git://github.com/" />
-  <remote name="bitbucket"
-          fetch="https://bitbucket.org/" />
   <default revision="master"
           sync-c="true"
           remote="aosp" />
@@ -127,7 +125,7 @@
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
-  <project path="external/koush/Superuser" name="codefirex/superuser" remote="bitbucket" revision="jb-devel" />
+  <project path="external/koush/Superuser" name="koush/Superuser" remote="github" revision="master" />
   <project path="external/koush/Widgets" name="koush/Widgets" remote="github" revision="master" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
   <project path="external/libffi" name="platform/external/libffi" />
