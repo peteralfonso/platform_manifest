@@ -247,9 +247,9 @@
   <project path="frameworks/wilhelm" name="platform_frameworks_wilhelm" remote="vanir" revision="linaro_android_4.2.2" />
   <project path="gdk" name="platform/gdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
-  <project path="hardware/invensense" name="android_hardware_invensense" remote="vanir" revision="jb42" />
-  <project path="hardware/libhardware" name="hardware_libhardware" remote="vanir" revision="jb42" />
-  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware-legacy" remote="vanir" revision="linaro_android_4.2.2" />
+  <project path="hardware/invensense" name="android_hardware_invensense" remote="vanir" revision="jb42-master" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="vanir" revision="jb42-master" />
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware-legacy" remote="vanir" revision="jb42-master" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="cm" revision="cm-10.1" />
@@ -294,10 +294,10 @@
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform_packages_apps_Launcher2" remote="vanir" revision="jb42" />
   <project path="packages/apps/LegacyCamera" name="platform_packages_apps_LegacyCamera" remote="vanir" revision="linaro_android_4.2.2" />
-  <project path="packages/apps/Mms" name="packages_apps_Mms" remote="vanir" revision="jb42" />
+  <project path="packages/apps/Mms" name="packages_apps_Mms" remote="vanir" revision="jb42-master" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="vanir" revision="jb-mr1" />
-  <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="vanir" revision="jb42" />
+  <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="vanir" revision="jb42-master" />
   <project path="packages/apps/Phone" name="packages_apps_phone" remote="vanir" revision="jb42-master" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="packages_apps_quicksearchbox" remote="vanir" revision="jb42" />
