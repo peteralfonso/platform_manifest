@@ -198,7 +198,7 @@
   <project path="external/sqlite" name="platform_external_sqlite" remote="vanir" revision="jb42-master" />
   <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
-  <project path="external/stlport" name="platform_external_stlport" remote="vanir" revision="vb42-master" />
+  <project path="external/stlport" name="platform_external_stlport" remote="vanir" revision="jb42-master" />
   <project path="external/strace" name="platform/external/strace" />
   <project path="external/stressapptest" name="platform/external/stressapptest" />
   <project path="external/svox" name="platform/external/svox" />
