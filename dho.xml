@@ -44,7 +44,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/mako" name="device_lge_mako" remote="vanir" revision="jb42" />
-  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" />
+  <project path="device/lge/mako-kernel" name="faux123/mako" remote="aokp" revision="enhanced_stock"  />
   <project path="device/sample" name="platform_device_sample" remote="vanir" revision="jb42-master" />
   <project path="device/samsung/maguro" name="platform_device_samsung_maguro" remote="vanir" revision="jb42" groups="device" />
   <project path="device/samsung/manta" name="platform_device_samsung_manta" remote="vanir" revision="jb42" groups="device" />
