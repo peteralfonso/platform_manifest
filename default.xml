@@ -15,7 +15,7 @@
           review="review.cyanogenmod.com" />
   <remote name="github"
           fetch="git://github.com/" />
-  <default revision="refs/tags/android-4.2.2_r1"
+  <default revision="refs/tags/android-4.2.2_r2"
           sync-c="true"
           remote="aosp" />
 
