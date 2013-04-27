@@ -296,7 +296,7 @@
   <project path="packages/apps/Launcher2" name="platform_packages_apps_Launcher2" remote="vanir" revision="jb42" />
   <project path="packages/apps/LegacyCamera" name="platform_packages_apps_LegacyCamera" remote="vanir" revision="linaro_android_4.2.2" />
   <project path="packages/apps/Mms" name="packages_apps_Mms" remote="vanir" revision="jb42" />
-  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
+  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" revision="refs/tags/android-4.2.2_r1.1" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="vanir" revision="jb-mr1" />
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="vanir" revision="jb42" />
   <project path="packages/apps/Phone" name="packages_apps_phone" remote="vanir" revision="jb42" />
@@ -312,10 +312,10 @@
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" revision="refs/tags/android-4.2.2_r1.1" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/inputmethods/LatinIME" name="packages_input_LatinIME" remote="vanir" revision="jb42" />
-  <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
+  <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" revision="refs/tags/android-4.2.2_r1.1" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" revision="refs/tags/android-4.2.2_r1.1" />
-  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
-  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
+  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" revision="refs/tags/android-4.2.2_r1.1" />
+  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" revision="refs/tags/android-4.2.2_r1.1" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" revision="refs/tags/android-4.2.2_r1.1" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
