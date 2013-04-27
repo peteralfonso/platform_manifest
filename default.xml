@@ -300,17 +300,17 @@
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="vanir" revision="jb-mr1" />
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="vanir" revision="jb42" />
   <project path="packages/apps/Phone" name="packages_apps_phone" remote="vanir" revision="jb42" />
-  <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
+  <project path="packages/apps/Provision" name="platform/packages/apps/Provision" revision="refs/tags/android-4.2.2_r1.1" />
   <project path="packages/apps/QuickSearchBox" name="packages_apps_quicksearchbox" remote="vanir" revision="jb42" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="vanir" revision="jb42" />
-  <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
+  <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" revision="refs/tags/android-4.2.2_r1.1" />
   <project path="packages/apps/SoundRecorder" name="packages_apps_soundrecorder" remote="vanir" revision="jb42" />
   <project path="packages/apps/SpeakerProximity" name="packages_apps_SpeakerProximity" remote="vanir" revision="jb42" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" revision="refs/tags/android-4.2.2_r1.1" />
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" remote="cm" revision="cm-10.1" />
-  <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
+  <project path="packages/apps/Tag" name="platform/packages/apps/Tag" revision="refs/tags/android-4.2.2_r1.1" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" revision="refs/tags/android-4.2.2_r1.1" />
-  <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
+  <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" revision="refs/tags/android-4.2.2_r1.1" />
   <project path="packages/inputmethods/LatinIME" name="packages_input_LatinIME" remote="vanir" revision="jb42" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" revision="refs/tags/android-4.2.2_r1.1" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" revision="refs/tags/android-4.2.2_r1.1" />
