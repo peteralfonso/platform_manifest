@@ -15,7 +15,7 @@
           review="review.cyanogenmod.com" />
   <remote name="github"
           fetch="git://github.com/" />
-  <default revision="refs/tags/android-4.2.2_r1"
+  <default revision="refs/tags/android-4.2.2_r1.2"
           sync-c="true"
           remote="aosp" />
 
@@ -249,7 +249,7 @@
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/wilhelm" name="platform_frameworks_wilhelm" remote="vanir" revision="linaro_android_4.2.2" />
   <project path="gdk" name="platform/gdk" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/invensense" name="android_hardware_invensense" remote="vanir" revision="jb42" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="vanir" revision="jb42" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware-legacy" remote="vanir" revision="linaro_android_4.2.2" />
