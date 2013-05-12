@@ -13,7 +13,7 @@
   <remote name="cm"
           fetch="https://github.com/"
           review="review.cyanogenmod.com" />
- <remote name="ctx"
+  <remote name="cfx"
           fetch="https://bitbucket.org/codefirex/" />
   <remote name="github"
           fetch="git://github.com/" />
