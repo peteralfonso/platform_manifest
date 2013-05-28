@@ -54,6 +54,7 @@
   <project path="device/sample" name="platform_device_sample" remote="vanir" revision="jb42" />
   <project path="device/samsung/maguro" name="platform_device_samsung_maguro" remote="vanir" revision="jb42" groups="device" />
   <project path="device/samsung/manta" name="platform_device_samsung_manta" remote="vanir" revision="jb42" groups="device" />
+  <project path="device/samsung/i605" name="device_samsung_i605" remote="vanir" revision="jb-mr1" groups="device" />
   <project path="device/samsung/toro" name="platform_device_samsung_toro" remote="vanir" revision="jb42" groups="device" />
   <project path="device/samsung/toroplus" name="android_device_samsung_toroplus" remote="vanir" revision="jb42" groups="device" />
   <project path="device/samsung/tuna" name="platform_device_samsung_tuna" remote="vanir" revision="jb42" groups="device" />
