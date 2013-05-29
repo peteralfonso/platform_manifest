@@ -55,7 +55,7 @@
   <project path="device/samsung/i605" name="device_samsung_i605" remote="vanir" revision="jb-mr1" groups="device" />
   <project path="device/samsung/maguro" name="platform_device_samsung_maguro" remote="vanir" revision="jb42" groups="device" />
   <project path="device/samsung/manta" name="platform_device_samsung_manta" remote="vanir" revision="jb42" groups="device" />
-  <project path="device/samsung/smdk4412-common" name="CarbonDev/android_device_samsung_smdk4412-common" remote="github" revision="jb2" groups="device" /
+  <project path="device/samsung/smdk4412-common" name="CarbonDev/android_device_samsung_smdk4412-common" remote="github" revision="jb2" groups="device" />
   <project path="device/samsung/smdk4412-qcom-common" name="CyanogenMod/android_device_samsung_smdk4412-qcom-common" remote="cm" revision="cm-10.1" groups="device" />
   <project path="device/samsung/t0ltecdma" name="device_samsung_t0ltecdma" remote="vanir" revision="jb-mr1" groups="device" />
   <project path="device/samsung/toro" name="platform_device_samsung_toro" remote="vanir" revision="jb42" groups="device" />
