@@ -274,6 +274,7 @@
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="vanir" revision="linaro_android_4.2.2" />
+  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="cm" revision="cm-10.1" />
   <project path="hardware/samsung_slsi/exynos5" name="platform_hardware_samsung_slsi_exynos5" remote="vanir" revision="jb42" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform_hardware_ti_omap4xxx" remote="vanir" revision="jb42" />
