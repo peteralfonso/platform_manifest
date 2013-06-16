@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="vanir"
+          fetch="https://github.com/VanirAOSP/"
+          review="vaniraosp.goo.im" />
+  <remote name="aosp"
+          fetch="https://android.googlesource.com/"
+          review="https://android-review.googlesource.com/" />
+  <remote name="aokp"
+          fetch="git://github.com/"
+          review="gerrit.sudoservers.com" />
+  <remote name="cm"
+          fetch="https://github.com/"
+          review="review.cyanogenmod.com" />
+  <remote name="cfx"
+          fetch="https://bitbucket.org/codefirex/" />
+  <remote name="github"
+          fetch="https://github.com/" />
+  <remote name="linaro"
+          fetch="git://android.git.linaro.org/" 
+          review="review.android.git.linaro.org" />
+  <default revision="master"
+          sync-c="true"
+          remote="aosp" />
+
+  <!-- This is a based off CFX's, but trying to tweak to Vanir -->
+
+  <!--AOSP -->
+  <project path="benchmark" name="toolchain/benchmark" />
+  <project path="binutils" name="toolchain/binutils" />
+  <project path="clang" name="toolchain/clang" revision="release_33" />
+  <project path="compiler-rt" name="toolchain/compiler-rt" />
+  <project path="expat" name="toolchain/expat" />
+  <project path="isl" name="toolchain/isl" />
+  <project path="llvm" name="toolchain/llvm" revision="release_33" />
+  <project path="perl" name="toolchain/perl" />
+  <project path="ppl" name="Mustaavalkosta/toolchain_ppl" remote="gh" revision="master" />
+  <project path="python" name="toolchain/python" />
+  <project path="valgrind" name="toolchain/valgrind" />
+
+  <!-- codefireX Bitbucket -->
+  <project path="build" name="toolchain_build" remote="cfx" revision="jb-devel" />
+  <project path="cloog" name="toolchain_cloog" remote ="cfx" revision="jb-devel" />
+  <project path="gcc" name="toolchain_gcc" remote="cfx" revision="jb-devel" />
+  <project path="gcc/gcc-4.8" name="toolchain_gcc-4.8" remote="cfx" revision="jb-devel" />
+  <project path="gcc/gcc-4.9" name="toolchain_gcc-4.9" remote="cfx" revision="jb-devel" />
+  <project path="gdb" name="toolchain_gdb" remote="cfx" revision="jb-devel" />
+  <project path="gmp" name="toolchain_gmp" remote="cfx" revision="jb-devel" />
+  <project path="mpc" name="toolchain_mpc" remote="cfx" revision="jb-devel" />
+  <project path="mpfr" name="toolchain_mpfr" remote="cfx" revision="jb-devel" />
+
+  <!-- Linaro Toolchain -->
+  <project path="gcc/gcc-upstream" name="toolchain/gcc-upstream" remote="linaro" revision="trunk" />
+  <project path="gcc-patches" name="toolchain/gcc-patches" remote="linaro" revision="master" />
+  <project path="ppl/ppl-upstream" name="toolchain/ppl" remote="linaro" revision="master" />
+
+  <!-- Linaro Android -->
+  <project name="device/linaro/common" path="android/device/linaro/common" remote="linaro" revision="linaro-jb"/>
+  <project name="device/linaro/pandaboard" path="android/device/linaro/pandaboard" remote="linaro" revision="linaro-jb"/>
+
+
+  <!-- Bionic and the minimal parts of the Android build system needed to build it - needed for libgomp and friends -->
+  <project path="android/build" name="platform/build">
+    <copyfile dest="android/Makefile" src="core/root.mk"/>
+  </project>
+  <project name="device/common" path="android/device/common" />
+  <project name="platform/hardware/ti/omap4xxx" path="android/hardware/ti/omap4xxx" />
+  <project name="platform/frameworks/base" path="android/frameworks/base" />
+  <project name="platform/frameworks/native" path="android/frameworks/native" />
+  <project name="platform/external/elfutils" path="android/external/elfutils" />
+  <project name="platform/external/svox" path="android/external/svox" />
+  <project name="platform/system/core" path="android/system/core" />
+  <project path="android/bionic" name="platform/bionic" />
+
+  <!-- Other -->
+
+  <!-- Used in linaro, may need -->
+# <project name="platform/external/elfutils" path="android/external/elfutils" revision="1d641eedf594a59724c8bf9300f79bf6e0596119" upstream="linaro_android_4.1.2"/>
+# <project name="platform/external/svox" path="android/external/svox" revision="358de7f221657b7ebd2619f887007f1669c20f7f" upstream="refs/tags/android-4.1.2_r1"/>
+# <project name="platform/hardware/ti/omap4xxx" path="android/hardware/ti/omap4xxx" revision="7cc40a376a149e24fe4907db31b7d0f0b5e73645" upstream="linaro_android_4.1.2"/>
+</manifest>
+
+
