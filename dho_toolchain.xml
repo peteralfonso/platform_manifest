@@ -75,10 +75,11 @@
   <!-- Other -->
   <project path="ppl" name="Mustaavalkosta/toolchain_ppl" remote="github" revision="master" />
 
-  <!-- Used in linaro, may need -->
+  <!-- Used in linaro, may need 
 # <project name="platform/external/elfutils" path="android/external/elfutils" revision="1d641eedf594a59724c8bf9300f79bf6e0596119" upstream="linaro_android_4.1.2"/>
 # <project name="platform/external/svox" path="android/external/svox" revision="358de7f221657b7ebd2619f887007f1669c20f7f" upstream="refs/tags/android-4.1.2_r1"/>
 # <project name="platform/hardware/ti/omap4xxx" path="android/hardware/ti/omap4xxx" revision="7cc40a376a149e24fe4907db31b7d0f0b5e73645" upstream="linaro_android_4.1.2"/>
+-->
 </manifest>
 
 
