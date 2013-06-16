@@ -21,7 +21,7 @@
           fetch="git://android.git.linaro.org/" />
   <default revision="refs/tags/android-4.2.2_r1.2"
           sync-c="true"
-          remote="aosp" />
+          remote="master" />
 
   <project path="manifest" name="platform_manifest" remote="vanir" revision="jb42" />
   <project path="build" name="platform_build" remote="vanir" revision="jb42-master">
