@@ -35,7 +35,6 @@
   <project path="isl" name="toolchain/isl" />
   <project path="llvm" name="toolchain/llvm" revision="release_33" />
   <project path="perl" name="toolchain/perl" />
-  <project path="ppl" name="Mustaavalkosta/toolchain_ppl" remote="gh" revision="master" />
   <project path="python" name="toolchain/python" />
   <project path="valgrind" name="toolchain/valgrind" />
 
@@ -74,6 +73,7 @@
   <project path="android/bionic" name="platform/bionic" />
 
   <!-- Other -->
+  <project path="ppl" name="Mustaavalkosta/toolchain_ppl" remote="github" revision="master" />
 
   <!-- Used in linaro, may need -->
 # <project name="platform/external/elfutils" path="android/external/elfutils" revision="1d641eedf594a59724c8bf9300f79bf6e0596119" upstream="linaro_android_4.1.2"/>
