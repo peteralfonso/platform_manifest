@@ -10,4 +10,7 @@
 #git clone git://github.com/faux123/mako kernel/lge/mako
 
 # Note 2
-git clone -b cm-10.1 --single-branch git://github.com/CyanogenMod/android_kernel_samsung_smdk4412 kernel/samsung/smdk4412 
+git clone -b cm-10.1 git://github.com/CyanogenMod/android_kernel_samsung_smdk4412 kernel/samsung/smdk4412
+
+# Galaxy S4
+git clone -b cm-10.1 git://github.com/CyanogenMod/android_kernel_samsung_jf kernel/samsung/jf

@@ -53,8 +53,12 @@
   <project path="device/lge/mako" name="device_lge_mako" remote="vanir" revision="jb42" />
   <project path="device/sample" name="platform_device_sample" remote="vanir" revision="jb42" />
   <project path="device/samsung/i605" name="CyanogenMod/android_device_samsung_i605" remote="cm" revision="cm-10.1" groups="device" />
+  <project path="device/samsung/jf-common" name="android_device_samsung_jf-common" remote="vanir" revision="jb42" groups="device" />
+  <project path="device/samsung/jfltevzw" name="android_device_samsung_jfltevzw" remote="vanir" revision="jb42" groups="device" />
+  <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="vanir" revision="jb42" groups="device" />
   <project path="device/samsung/maguro" name="platform_device_samsung_maguro" remote="vanir" revision="jb42" groups="device" />
   <project path="device/samsung/manta" name="platform_device_samsung_manta" remote="vanir" revision="jb42" groups="device" />
+  <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="vanir" revision="jb42" groups="device" />
   <project path="device/samsung/smdk4412-common" name="CyanogenMod/android_device_samsung_smdk4412-common" remote="cm" revision="cm-10.1" groups="device" />
   <project path="device/samsung/smdk4412-qcom-common" name="device_samsung_smdk4412-qcom-common" remote="vanir" revision="jb42" groups="device" />
   <project path="device/samsung/t0lte" name="device_samsung_t0lte" remote="vanir" revision="jb42" groups="device" />
