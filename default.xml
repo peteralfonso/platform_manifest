@@ -237,7 +237,7 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="vanir" revision="jb42" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="vanir" revision="jb421" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="vanir" revision="jb42" />
   <project path="frameworks/compile/libbcc" name="platform_frameworks_compile_libbcc" remote="vanir" revision="linaro_android_4.2.2" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
@@ -264,16 +264,18 @@
   <project path="gdk" name="platform/gdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/invensense" name="android_hardware_invensense" remote="vanir" revision="jb42" />
-  <project path="hardware/libhardware" name="hardware_libhardware" remote="vanir" revision="jb42" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" remote="linaro" revision="linaro_android_4.2.2" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="vanir" revision="jb421" />
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware-legacy" remote="vanir" revision="jb42" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
-  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="vanir" revision="jb42" />
+  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="vanir" revision="jb42" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="vanir" revision="aosp42" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="vanir" revision="aosp42" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="vanir" revision="jb42" />
+  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="vanir" revision="jb42" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="vanir" revision="jb42" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="vanir" revision="aosp42" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="vanir" revision="jb42" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
   <project path="hardware/qcom/power" name="platform_hardware_qcom_power" remote="vanir" revision="jb42" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
