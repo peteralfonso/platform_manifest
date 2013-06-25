@@ -282,7 +282,7 @@
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="vanir" revision="jb42" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="vanir" revision="jb42" />
-  <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="vanir" revision="jb42" />
   <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/power" name="platform_hardware_qcom_power" remote="vanir" revision="jb42" />
   <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" remote="cm" revision="cm-10.1" />
