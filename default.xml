@@ -56,6 +56,7 @@
   <project path="device/samsung/jflteatt" name="android_device_samsung_jflteatt" remote="vanir" revision="jb42" groups="device" />
   <project path="device/samsung/jfltecan" name="android_device_samsung_jfltecan" remote="vanir" revision="jb42" groups="device" />
   <project path="device/samsung/jfltecri" name="android_device_samsung_jfltecri" remote="vanir" revision="jb42" groups="device" />
+  <project path="device/samsung/jfltespr" name="android_device_samsung_jfltespr" remote="vanir" revision="jb42" groups="device" />
   <project path="device/samsung/jfltetmo" name="android_device_samsung_jfltetmo" remote="vanir" revision="jb42" groups="device" />
   <project path="device/samsung/jfltevzw" name="android_device_samsung_jfltevzw" remote="vanir" revision="jb42" groups="device" />
   <project path="device/samsung/jfltexx" name="android_device_samsung_jfltexx" remote="vanir" revision="jb42" groups="device" />
