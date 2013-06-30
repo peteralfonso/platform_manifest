@@ -317,7 +317,7 @@
   <project path="packages/apps/Launcher2" name="platform_packages_apps_Launcher2" remote="vanir" revision="jb42" />
   <project path="packages/apps/Mms" name="packages_apps_Mms" remote="vanir" revision="jb42" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" revision="refs/tags/android-4.2.2_r1.1" />
-  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="vanir" revision="jb-mr1" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="vanir" revision="jb42" />
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="vanir" revision="jb42" />
   <project path="packages/apps/Phone" name="packages_apps_phone" remote="vanir" revision="jb42" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" revision="refs/tags/android-4.2.2_r1.1" />
