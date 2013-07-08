@@ -130,6 +130,7 @@
   <project path="external/guava" name="android_external_guava" remote="vanir" revision="linaro_android_4.2.2" />
   <project path="external/hamcrest" name="platform/external/hamcrest" />
   <project path="external/harfbuzz" name="platform/external/harfbuzz" />
+  <project path="external/heimdall" name="CyanogenMod/android_external_heimdall" remote="cm" revision="cm-10.1" />
   <project path="external/htop" name="CyanogenMod/android_external_htop" remote="cm" revision="cm-10.1" />
   <project path="external/hyphenation" name="platform/external/hyphenation" />
   <project path="external/icu4c" name="platform/external/icu4c" />
