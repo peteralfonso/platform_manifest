@@ -112,6 +112,7 @@
   <project path="external/emma" name="platform/external/emma" />
   <project path="external/esd" name="platform/external/esd" />
   <project path="external/expat" name="platform/external/expat" />
+  <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="cm" revision="cm-10.1" />
   <project path="external/eyes-free" name="platform/external/eyes-free" />
   <project path="external/fat32lib" name="platform/external/fat32lib" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
