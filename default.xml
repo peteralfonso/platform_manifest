@@ -39,7 +39,7 @@
   <project path="device/asus/tf700t" name="android_device_asus_tf700t" remote="vanir" revision="cm-10.1" />
   <project path="device/asus/grouper" name="platform_device_asus_grouper" remote="vanir" revision="jb42" />
   <project path="device/asus/tilapia" name="device_asus_tilapia" groups="device" remote="vanir" revision="jb42" />
-  <project path="device/common" name="device/common" />
+  <project path="device/common" name="CyanogenMod/android_device_common" remote="cm" revision="cm-10.1" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
   <project path="device/generic/common" name="device/generic/common" />
