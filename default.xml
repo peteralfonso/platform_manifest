@@ -128,6 +128,7 @@
   <project path="external/giflib" name="platform/external/giflib" />
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" />
   <project path="external/grub" name="platform/external/grub" />
+  <project path="external/gson" name="CyanogenMod/android_external_gson" remote="cm" revision="cm-10.1" />
   <project path="external/gtest" name="platform/external/gtest" />
   <project path="external/guava" name="android_external_guava" remote="vanir" revision="linaro_android_4.2.2" />
   <project path="external/hamcrest" name="platform/external/hamcrest" />
