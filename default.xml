@@ -151,8 +151,8 @@
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
-  <project path="external/koush/ion" name="CyanogenMod/ion" remote="cm" revision="cm-10.1" />
-  <project path="external/koush/AndroidAsync" name="CyanogenMod/AndroidAsync" remote="cm" revision="cm-10.1" />
+  <project path="external/koush/ion" name="koush/ion" remote="github" revision="master" />
+  <project path="external/koush/AndroidAsync" name="koush/AndroidAsync" remote="github" revision="master" />
   <project path="external/koush/Superuser" name="koush/Superuser" remote="github" revision="master" />
   <project path="external/koush/Widgets" name="koush/Widgets" remote="github" revision="master" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
@@ -305,7 +305,7 @@
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AppWidgetPicker" name="FruitsAndVeggies/packages_apps_AppWidgetPicker" remote="github" revision="jb" />
-  <project path="packages/apps/Babel" name="CyanogenMod/android_packages_apps_Babel" remote="cm" revision="cm-10.1" />
+  <project path="packages/apps/Babel" name="koush/android_packages_apps_Babel" remote="github" revision="master" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="vanir" revision="jb42" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="vanir" revision="jb42" />
