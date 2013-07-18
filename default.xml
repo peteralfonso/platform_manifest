@@ -182,7 +182,7 @@
   <project path="external/llvm" name="external_llvm" remote="vanir" revision="jb42" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
   <project path="external/lrzsz" name="platform_external_lrzsz" remote="vanir" revision="linaro-master" />
-  <project path="external/lsof" name="CyanogenMod/android_external_lsof" remote="cm" revision="cm-10.1" />
+  <project path="external/lsof" name="external_lsof" remote="vanir" revision="jb42" />
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" />
   <project path="external/mesa3d" name="platform_external_mesa3d" remote="vanir" revision="jb42" />
