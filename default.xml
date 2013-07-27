@@ -148,6 +148,7 @@
   <project path="external/jsr305" name="android_external_jsr305" />
   <project path="external/junit" name="android_external_junit" />
   <project path="external/kernel-headers" name="android_external_kernel-headers" />
+  <project path="external/kissfft" name="CyanogenMod/android_external_kissfft" remote="cm" revision="cm-10.2" />
   <project path="external/koush/ion" name="CyanogenMod/ion" remote="cm" revision="cm-10.2" />
   <project path="external/koush/AndroidAsync" name="CyanogenMod/AndroidAsync" remote="cm" revision="cm-10.2" />
   <project path="external/koush/Superuser" name="koush/Superuser" remote="github" revision="master" />
