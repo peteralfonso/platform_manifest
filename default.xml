@@ -14,7 +14,8 @@
           fetch="https://github.com/"
           review="review.cyanogenmod.com" />
   <remote name="cm2"
-          fetch="https://github.com/CyanogenMod/" />
+          fetch="https://github.com/CyanogenMod"
+          review="review.cyanogenmod.com" />
   <remote name="cfx"
           fetch="https://bitbucket.org/codefirex/" />
   <remote name="github"
