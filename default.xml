@@ -44,7 +44,7 @@
   <project path="device/common" name="CyanogenMod/android_device_common" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="android_device_generic_armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="CyanogenMod/android_device_generic_common" remote="cm" revision="cm-10.2" groups="pdk" />
-  <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="pdk" />
+  <project path="device/generic/goldfish" name="device_generic_goldfish" remote="vanir" revision="jb43" groups="pdk" />
   <project path="device/generic/mips" name="android_device_generic_mips" groups="pdk" />
   <project path="device/generic/x86" name="android_device_generic_x86" groups="pdk" />
   <project path="device/lge/mako" name="device_lge_mako" remote="vanir" revision="jb43" />
