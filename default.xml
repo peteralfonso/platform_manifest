@@ -7,9 +7,6 @@
   <remote name="aosp"
           fetch="https://android.googlesource.com/"
           review="https://android-review.googlesource.com/" />
-  <remote name="aokp"
-          fetch="git://github.com/"
-          review="gerrit.sudoservers.com" />
   <remote name="cm"
           fetch="https://github.com/"
           review="review.cyanogenmod.com" />
@@ -82,7 +79,7 @@
   <project path="external/apache-xml" name="android_external_apache-xml" />
   <project path="external/arduino" name="android_external_arduino" />
   <project path="external/bash" name="android_external_bash" remote="vanir" revision="jb43" />
-  <project path="external/bison" name="android_external_bison" groups="pdk"/>
+  <project path="external/bison" name="android_external_bison" groups="pdk" />
   <project path="external/blktrace" name="android_external_blktrace" />
   <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="external/bouncycastle" name="android_external_bouncycastle" />
