@@ -108,6 +108,7 @@
   <project path="external/expat" name="android_external_expat" groups="pdk" />
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="cm" revision="cm-10.2" />
   <project path="external/eyes-free" name="android_external_eyes-free" />
+  <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="external/fdlibm" name="android_external_fdlibm" />
   <project path="external/ffmpeg" name="platform_external_ffmpeg" remote="vanir" revision="jb43" />
   <project path="external/flac" name="android_external_flac" groups="pdk" />
@@ -194,9 +195,11 @@
   <project path="external/netperf" name="android_external_netperf" />
   <project path="external/neven" name="android_external_neven" />
   <project path="external/nist-sip" name="android_external_nist-sip" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" remote="cm" revision="cm-10.2" />
   <project path="external/oauth" name="android_external_oauth" />
   <project path="external/okhttp" name="android_external_okhttp" />
+  <project path="external/open-vcdiff" name="platform/external/open-vcdiff" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="external/opencv" name="android_external_opencv" />
   <project path="external/openfst" name="android_external_openfst" />
   <project path="external/openssh" name="platform_external_openssh" remote="vanir" revision="jb43" />
@@ -214,10 +217,12 @@
   <project path="external/quake" name="platform_external_quake" remote="vanir" revision="jb43" />
   <project path="external/regex-re2" name="android_external_regex-re2" />
   <project path="external/replicaisland" name="android_external_replicaisland" />
+  <project path="external/robolectric" name="platform/external/robolectric" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="external/rsync" name="CyanogenMod/android_external_rsync" remote="cm" revision="cm-10.2" />
   <project path="external/safe-iop" name="android_external_safe-iop" groups="pdk" />
   <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" />
   <project path="external/skia" name="platform_external_skia" remote="vanir" revision="jb43" />
+  <project path="external/smack" name="platform/external/smack" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="external/smali" name="android_external_smali" />
   <project path="external/sonivox" name="platform_external_sonivox" remote="vanir" revision="jb43" groups="pdk" />
   <project path="external/speex" name="platform_external_speex" remote="vanir" revision="jb43" groups="pdk" />
@@ -230,6 +235,7 @@
   <project path="external/svox" name="android_external_svox" />
   <project path="external/tagsoup" name="android_external_tagsoup" />
   <project path="external/tcpdump" name="platform_external_tcpdump" remote="vanir" revision="jb43" />
+  <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" groups="pdk" />
   <project path="external/tinyxml" name="android_external_tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="android_external_tinyxml2" groups="pdk" />
@@ -266,6 +272,7 @@
   <project path="frameworks/opt/net/voip" name="frameworks_opt_net_voip" remote="vanir" revision="jb43" />
   <project path="frameworks/opt/photoviewer" name="android_frameworks_opt_photoviewer" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="vanir" revision="jb43" groups="pdk" />
+  <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" remote="cm" revision="cm-10.2" />
   <project path="frameworks/rs" name="platform_frameworks_rs" remote="vanir" revision="jb43" />
   <project path="frameworks/support" name="platform_frameworks_support" remote="vanir" revision="jb43" />
@@ -407,12 +414,12 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.2" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.2" />
 
-  <!-- sort when this manifest is less of a fucking pain in the ass -->
-  <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
-  <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" />
-  <project path="external/robolectric" name="platform/external/robolectric" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
-  <project path="external/smack" name="platform/external/smack" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
-  <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
-  <project path="external/noto-fonts" name="platform/external/noto-fonts" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
-  <project path="external/open-vcdiff" name="platform/external/open-vcdiff" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
+<!-- Additional vendors -->
+  <project path="vendor/csr" name="TheMuppets/proprietary_vendor_csr" remote="github" revision="cm-10.2" />
+  <project path="vendor/imgtec" name="TheMuppets/proprietary_vendor_imgtec" remote="github" revision="cm-10.2" />
+  <project path="vendor/invensense" name="TheMuppets/proprietary_vendor_invensense" remote="github" revision="cm-10.2" />
+  <project path="vendor/nxp" name="TheMuppets/proprietary_vendor_nxp" remote="github" revision="cm-10.2" />
+  <project path="vendor/ti" name="TheMuppets/proprietary_vendor_ti" remote="github" revision="cm-10.2" />
+  <project path="vendor/widevine" name="TheMuppets/proprietary_vendor_widevine" remote="github" revision="cm-10.2" />
+
 </manifest>
