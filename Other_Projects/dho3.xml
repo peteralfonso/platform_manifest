@@ -258,10 +258,10 @@
   <project path="frameworks/compile/libbcc" name="platform_frameworks_compile_libbcc" remote="vanir" revision="jb43" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform_frameworks_compile_mclinker" remote="vanir" revision="jb43" />
   <project path="frameworks/compile/slang" name="platform_frameworks_compile_slang" remote="vanir" revision="jb43-L" groups="pdk" />
-  <project path="frameworks/ex" name="platform_frameworks_ex" remote="vanir" revision="jb43" />
+  <project path="frameworks/ex" name="platform_frameworks_ex" remote="vanir" revision="jb43-L" />
   <project path="frameworks/mff" name="android_frameworks_mff" />
   <project path="frameworks/ml" name="android_frameworks_ml" />
-  <project path="frameworks/native" name="platform_framworks_native" remote="vanir" revision="jb43" groups="pdk" />
+  <project path="frameworks/native" name="platform_framworks_native" remote="vanir" revision="jb43-L" groups="pdk" />
   <project path="frameworks/opt/calendar" name="android_frameworks_opt_calendar" />
   <project path="frameworks/opt/carddav" name="android_frameworks_opt_carddav" />
   <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" />
@@ -270,38 +270,38 @@
   <project path="frameworks/opt/inputmethodcommon" name="android_frameworks_opt_inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="android_frameworks_opt_mailcommon" />
   <project path="frameworks/opt/mms" name="android_frameworks_opt_mms" />
-  <project path="frameworks/opt/net/voip" name="frameworks_opt_net_voip" remote="vanir" revision="jb43" />
+  <project path="frameworks/opt/net/voip" name="frameworks_opt_net_voip" remote="vanir" revision="jb43-L" />
   <project path="frameworks/opt/photoviewer" name="android_frameworks_opt_photoviewer" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="vanir" revision="jb43" groups="pdk" />
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" remote="cm" revision="cm-10.2" />
   <project path="frameworks/rs" name="platform_frameworks_rs" remote="vanir" revision="jb43" />
-  <project path="frameworks/support" name="platform_frameworks_support" remote="vanir" revision="jb43" />
+  <project path="frameworks/support" name="platform_frameworks_support" remote="vanir" revision="jb43-L" />
   <project path="frameworks/testing" name="android_frameworks_testing" />
   <project path="frameworks/volley" name="android_frameworks_volley" />
   <project path="frameworks/webview" name="android_frameworks_webview" />
-  <project path="frameworks/wilhelm" name="platform_frameworks_wilhelm" remote="vanir" revision="jb43" />
+  <project path="frameworks/wilhelm" name="platform_frameworks_wilhelm" remote="vanir" revision="jb43-L" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" />
   <project path="hardware/invensense" name="android_hardware_invensense" remote="vanir" revision="jb43" />
-  <project path="hardware/libhardware" name="hardware_libhardware" remote="vanir" revision="jb43" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware-legacy" remote="vanir" revision="jb43" groups="pdk" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="vanir" revision="jb43-L" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware-legacy" remote="vanir" revision="jb43-L" groups="pdk" />
   <project path="hardware/msm7k" name="android_hardware_msm7k" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="vanir" revision="jb43" />
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="vanir" revision="jb43" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="vanir" revision="jb43" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="vanir" revision="jb43-L" />
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="vanir" revision="jb43" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="vanir" revision="jb43" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="vanir" revision="jb43-L" />
   <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="vanir" revision="jb43" />
   <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" remote="cm" revision="cm-10.2" />
   <project path="hardware/qcom/power" name="platform_hardware_qcom_power" remote="vanir" revision="jb43" />
   <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" remote="cm" revision="cm-10.2" />
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="cm" revision="cm-10.2" />
-  <project path="hardware/ril" name="platform_hardware_ril" remote="vanir" revision="jb43" groups="pdk" />
+  <project path="hardware/ril" name="platform_hardware_ril" remote="vanir" revision="jb43-L" groups="pdk" />
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="cm" revision="cm-10.2" />
-  <project path="hardware/samsung_slsi/exynos5" name="platform_hardware_samsung_slsi_exynos5" remote="vanir" revision="jb43" />
+  <project path="hardware/samsung_slsi/exynos5" name="platform_hardware_samsung_slsi_exynos5" remote="vanir" revision="jb43-L" />
   <project path="hardware/ti/omap3" name="android_hardware_ti_omap3" />
   <project path="hardware/ti/omap4xxx" name="platform_hardware_ti_omap4xxx" remote="vanir" revision="jb43" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" />
