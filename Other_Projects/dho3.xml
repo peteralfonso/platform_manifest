@@ -25,15 +25,15 @@
           remote="cm2" />
 
   <project path="manifest" name="platform_manifest" remote="vanir" revision="jb43" />
-  <project path="build" name="platform_build" remote="vanir" revision="jb43" groups="pdk" >
+  <project path="build" name="platform_build" remote="vanir" revision="jb43-L" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="tools/BUILD_COMMAND_README" dest="BUILD_COMMAND_README" />
   </project>
   <project path="abi/cpp" name="android_abi_cpp" groups="pdk" />
-  <project path="bionic" name="platform_bionic" remote="vanir" revision="jb43" groups="pdk" />
+  <project path="bionic" name="platform_bionic" remote="vanir" revision="jb43-L" groups="pdk" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
-  <project path="dalvik" name="platform_dalvik" remote="vanir" revision="jb43" />
+  <project path="dalvik" name="platform_dalvik" remote="vanir" revision="jb43-L" />
   <project path="development" name="platform_development" remote="vanir" revision="jb43" />
   <project path="device/asus/tf700t" name="android_device_asus_tf700t" remote="vanir" revision="cm-10.1" />
   <project path="device/asus/grouper" name="platform_device_asus_grouper" remote="vanir" revision="jb43" />
@@ -44,6 +44,7 @@
   <project path="device/generic/goldfish" name="device_generic_goldfish" remote="vanir" revision="jb43" groups="pdk" />
   <project path="device/generic/mips" name="android_device_generic_mips" groups="pdk" />
   <project path="device/generic/x86" name="android_device_generic_x86" groups="pdk" />
+  <project path="device/linaro/common" name="device/linaro/common" remote="linaro" revision="linaro-jb" />
   <project path="device/lge/mako" name="device_lge_mako" remote="vanir" revision="jb43" />
   <project path="device/sample" name="platform_device_sample" remote="vanir" revision="jb43" groups="pdk" />
   <project path="device/samsung/i605" name="CyanogenMod/android_device_samsung_i605" remote="cm" revision="cm-10.1" groups="device" />
@@ -56,7 +57,7 @@
   <project path="device/samsung/jfltetmo" name="android_device_samsung_jfltetmo" remote="vanir" revision="jb43" groups="device" />
   <project path="device/samsung/jfltevzw" name="android_device_samsung_jfltevzw" remote="vanir" revision="jb43" groups="device" />
   <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="vanir" revision="jb43" groups="device" />
-  <project path="device/samsung/maguro" name="platform_device_samsung_maguro" remote="vanir" revision="jb43" groups="device" />
+  <project path="device/samsung/maguro" name="platform_device_samsung_maguro" remote="vanir" revision="jb43-L" groups="device" />
   <project path="device/samsung/manta" name="platform_device_samsung_manta" remote="vanir" revision="jb43" groups="device" />
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="vanir" revision="jb43" groups="device" />
   <project path="kernel/samsung/smdk4412" name="CyanogenMod/android_kernel_samsung_smdk4412" remote="cm" revision="cm-10.2" />
@@ -66,7 +67,7 @@
   <project path="device/samsung/t0ltetmo" name="CyanogenMod/android_device_samsung_t0ltetmo" remote="cm" revision="cm-10.2" groups="device" />
   <project path="device/samsung/toro" name="platform_device_samsung_toro" remote="vanir" revision="jb43" groups="device" />
   <project path="device/samsung/toroplus" name="android_device_samsung_toroplus" remote="vanir" revision="jb43" groups="device" />
-  <project path="device/samsung/tuna" name="platform_device_samsung_tuna" remote="vanir" revision="jb43" groups="device" />
+  <project path="device/samsung/tuna" name="platform_device_samsung_tuna" remote="vanir" revision="jb43-L" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="external/aac" name="android_external_aac" groups="pdk" />
   <project path="external/android-clat" name="android_external_android-clat" />
@@ -88,20 +89,20 @@
   <project path="external/bzip2" name="android_external_bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="external/checkpolicy" name="android_external_checkpolicy" groups="pdk" />
-  <project path="external/chromium" name="platform_external_chromium" remote="vanir" revision="jb43" />
+  <project path="external/chromium" name="platform_external_chromium" remote="vanir" revision="jb43-L" />
   <project path="external/chromium-trace" name="android_external_chromium-trace" groups="pdk" />
-  <project path="external/clang" name="external_clang" remote="vanir" revision="jb43" groups="pdk" />
+  <project path="external/clang" name="external_clang" remote="vanir" revision="jb43-L" groups="pdk" />
   <project path="external/compiler-rt" name="android_external_compiler-rt" groups="pdk" />
   <project path="external/dexmaker" name="android_external_dexmaker" />
   <project path="external/dhcpcd" name="android_external_dhcpcd" />
-  <project path="external/dnsmasq" name="external_dnsmasq" remote="vanir" revision="jb43" groups="pdk" />
+  <project path="external/dnsmasq" name="external_dnsmasq" remote="vanir" revision="jb43-L" groups="pdk" />
   <project path="external/doclava" name="android_external_doclava" />
   <project path="external/dropbear" name="android_external_dropbear" />
   <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="vanir" revision="jb43" groups="pdk" />
   <project path="external/easymock" name="android_external_easymock" />
   <project path="external/eclipse-basebuilder" name="android_external_eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="android_external_eclipse-windowbuilder" />
-  <project path="external/elfutils" name="platform_external_elfutils" remote="vanir" revision="jb43" />
+  <project path="external/elfutils" name="platform_external_elfutils" remote="vanir" revision="jb43-L" />
   <project path="external/embunit" name="platform_external_embunit" remote="vanir" revision="jb43" />
   <project path="external/emma" name="android_external_emma" />
   <project path="external/esd" name="android_external_esd" />
@@ -110,7 +111,7 @@
   <project path="external/eyes-free" name="android_external_eyes-free" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="external/fdlibm" name="android_external_fdlibm" />
-  <project path="external/ffmpeg" name="platform_external_ffmpeg" remote="vanir" revision="jb43" />
+  <project path="external/ffmpeg" name="platform_external_ffmpeg" remote="vanir" revision="jb43-L" />
   <project path="external/flac" name="android_external_flac" groups="pdk" />
   <project path="external/focal" name="CyanogenMod/android_external_Focal" remote="cm" revision="cm-10.2" />
   <project path="external/freetype" name="platform_external_freetype" remote="vanir" revision="jb43" groups="pdk" />
@@ -178,9 +179,9 @@
   <project path="external/libxml2" name="android_external_libxml2" />
   <project path="external/libxslt" name="android_external_libxslt" />
   <project path="external/libyuv" name="android_external_libyuv" groups="libyuv" />
-  <project path="external/linux-tools-perf" name="platform_external_linux-tools-perf" remote="vanir" revision="jb43" />
+  <project path="external/linux-tools-perf" name="platform_external_linux-tools-perf" remote="vanir" revision="jb43-L" />
   <project path="external/littlemock" name="android_external_littlemock" />
-  <project path="external/llvm" name="external_llvm" remote="vanir" revision="jb43" groups="pdk" />
+  <project path="external/llvm" name="external_llvm" remote="vanir" revision="jb43-L" groups="pdk" />
   <project path="external/lrzsz" name="platform_external_lrzsz" remote="vanir" revision="jb43" />
   <project path="external/lsof" name="external_lsof" remote="vanir" revision="jb43" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
@@ -202,11 +203,11 @@
   <project path="external/open-vcdiff" name="platform/external/open-vcdiff" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="external/opencv" name="android_external_opencv" />
   <project path="external/openfst" name="android_external_openfst" />
-  <project path="external/openssh" name="platform_external_openssh" remote="vanir" revision="jb43" />
-  <project path="external/openssl" name="platform_external_openssl" remote="vanir" revision="jb43" groups="pdk" />
-  <project path="external/oprofile" name="android_external_oprofile" remote="vanir" revision="jb43" />
-  <project path="external/ping" name="platform_external_ping" remote="vanir" revision="jb43" />
-  <project path="external/ping6" name="platform_external_ping6" remote="vanir" revision="jb43" />
+  <project path="external/openssh" name="platform_external_openssh" remote="vanir" revision="jb43-L" />
+  <project path="external/openssl" name="platform_external_openssl" remote="vanir" revision="jb43-L" groups="pdk" />
+  <project path="external/oprofile" name="android_external_oprofile" remote="vanir" revision="jb43-L" />
+  <project path="external/ping" name="platform_external_ping" remote="vanir" revision="jb43-L" />
+  <project path="external/ping6" name="platform_external_ping6" remote="vanir" revision="jb43-L" />
   <project path="external/powertop" name="CyanogenMod/android_external_powertop" remote="cm" revision="cm-10.2" />
   <project path="external/ppp" name="android_external_ppp" />
   <project path="external/proguard" name="android_external_proguard" groups="pdk" />
@@ -214,22 +215,22 @@
   <project path="external/qemu" name="android_external_qemu" />
   <project path="external/qemu-pc-bios" name="android_external_qemu-pc-bios" />
   <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="cm" revision="cm-10.2" />
-  <project path="external/quake" name="platform_external_quake" remote="vanir" revision="jb43" />
+  <project path="external/quake" name="platform_external_quake" remote="vanir" revision="jb43-L" />
   <project path="external/regex-re2" name="android_external_regex-re2" />
   <project path="external/replicaisland" name="android_external_replicaisland" />
   <project path="external/robolectric" name="platform/external/robolectric" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="external/rsync" name="CyanogenMod/android_external_rsync" remote="cm" revision="cm-10.2" />
   <project path="external/safe-iop" name="android_external_safe-iop" groups="pdk" />
   <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" />
-  <project path="external/skia" name="platform_external_skia" remote="vanir" revision="jb43" />
+  <project path="external/skia" name="platform_external_skia" remote="vanir" revision="jb43-L" />
   <project path="external/smack" name="platform/external/smack" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="external/smali" name="android_external_smali" />
-  <project path="external/sonivox" name="platform_external_sonivox" remote="vanir" revision="jb43" groups="pdk" />
+  <project path="external/sonivox" name="platform_external_sonivox" remote="vanir" revision="jb43-L" groups="pdk" />
   <project path="external/speex" name="platform_external_speex" remote="vanir" revision="jb43" groups="pdk" />
   <project path="external/sqlite" name="platform_external_sqlite" remote="vanir" revision="jb43" groups="pdk" />
   <project path="external/srec" name="android_external_srec" />
   <project path="external/srtp" name="android_external_srtp" />
-  <project path="external/stlport" name="platform_external_stlport" remote="vanir" revision="jb43" />
+  <project path="external/stlport" name="platform_external_stlport" remote="vanir" revision="jb43-L" />
   <project path="external/strace" name="android_external_strace" />
   <project path="external/stressapptest" name="android_external_stressapptest" />
   <project path="external/svox" name="android_external_svox" />
@@ -240,9 +241,9 @@
   <project path="external/tinyxml" name="android_external_tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="android_external_tinyxml2" groups="pdk" />
   <project path="external/tremolo" name="android_external_tremolo" groups="pdk" />
-  <project path="external/v8" name="platform_external_v8" remote="vanir" revision="jb43" />
+  <project path="external/v8" name="platform_external_v8" remote="vanir" revision="jb43-L" />
   <project path="external/valgrind" name="android_external_valgrind" groups="pdk" />
-  <project path="external/webkit" name="platform_external_webkit" remote="vanir" revision="jb43" />
+  <project path="external/webkit" name="platform_external_webkit" remote="vanir" revision="jb43-L" />
   <project path="external/webp" name="android_external_webp" />
   <project path="external/webrtc" name="android_external_webrtc" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="platform_external_wpa-supplicant-8" remote="vanir" revision="jb43" groups="pdk" />
