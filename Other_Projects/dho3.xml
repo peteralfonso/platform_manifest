@@ -25,7 +25,7 @@
           remote="cm2" />
 
   <project path="manifest" name="platform_manifest" remote="vanir" revision="jb43" />
-  <project path="build" name="platform_build" remote="vanir" revision="jb43-L" groups="pdk" >
+  <project path="build" name="platform_build" remote="vanir" revision="jb43" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="tools/BUILD_COMMAND_README" dest="BUILD_COMMAND_README" />
   </project>
