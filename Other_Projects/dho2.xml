@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<!-- Amlogic 4.2 repo -->
+
   <remote name="vanir"
           fetch="https://github.com/VanirAOSP/"
           review="vaniraosp.goo.im" />
