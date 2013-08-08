@@ -290,7 +290,7 @@
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="vanir" revision="jb43" />
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="vanir" revision="jb43" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="vanir" revision="jb43-L" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="vanir" revision="jb43" />
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="vanir" revision="jb43" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="cm" revision="cm-10.2" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="vanir" revision="jb43-L" />
