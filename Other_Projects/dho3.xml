@@ -275,12 +275,12 @@
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="vanir" revision="jb43" groups="pdk" />
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" remote="cm" revision="cm-10.2" />
-  <project path="frameworks/rs" name="platform_frameworks_rs" remote="vanir" revision="jb43-L" />
+  <project path="frameworks/rs" name="platform_frameworks_rs" remote="vanir" revision="jb43" />
   <project path="frameworks/support" name="platform_frameworks_support" remote="vanir" revision="jb43" />
   <project path="frameworks/testing" name="android_frameworks_testing" />
   <project path="frameworks/volley" name="android_frameworks_volley" />
   <project path="frameworks/webview" name="android_frameworks_webview" />
-  <project path="frameworks/wilhelm" name="platform_frameworks_wilhelm" remote="vanir" revision="jb43-L" />
+  <project path="frameworks/wilhelm" name="platform_frameworks_wilhelm" remote="vanir" revision="jb43" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" />
   <project path="hardware/invensense" name="android_hardware_invensense" remote="vanir" revision="jb43" />
