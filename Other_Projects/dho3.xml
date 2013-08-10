@@ -89,7 +89,7 @@
   <project path="external/bzip2" name="android_external_bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="external/checkpolicy" name="android_external_checkpolicy" groups="pdk" />
-  <project path="external/chromium" name="platform_external_chromium" remote="vanir" revision="jb43-L" />
+  <project path="external/chromium" name="platform_external_chromium" remote="vanir" revision="jb43-2L" />
   <project path="external/chromium-trace" name="android_external_chromium-trace" groups="pdk" />
   <project path="external/clang" name="external_clang" remote="vanir" revision="jb43-L" groups="pdk" />
   <project path="external/compiler-rt" name="android_external_compiler-rt" groups="pdk" />
