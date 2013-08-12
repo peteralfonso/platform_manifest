@@ -36,6 +36,7 @@
   <project path="dalvik" name="platform_dalvik" remote="vanir" revision="jb43" />
   <project path="development" name="platform_development" remote="vanir" revision="jb43" />
   <project path="device/asus/tf700t" name="android_device_asus_tf700t" remote="vanir" revision="cm-10.1" />
+  <project path="device/asus/flo" name="device_asus_flo" remote="vanir" revision="jb43" /> 
   <project path="device/asus/grouper" name="platform_device_asus_grouper" remote="vanir" revision="jb43" />
   <project path="device/asus/tilapia" name="device_asus_tilapia" groups="device" remote="vanir" revision="jb43" />
   <project path="device/common" name="CyanogenMod/android_device_common" remote="cm" revision="cm-10.2" groups="pdk" />
@@ -167,6 +168,7 @@
   <project path="external/libogg" name="android_external_libogg" />
   <project path="external/libpcap" name="android_external_libpcap" />
   <project path="external/libphonenumber" name="android_external_libphonenumber" />
+  <project path="external/libphonenumbergoogle" name="android_external_libphonenumbergoogle" /> 
   <project path="external/libpng" name="platform_external_libpng" remote="vanir" revision="jb43" groups="pdk" />
   <project path="external/libppp" name="android_external_libppp" />
   <project path="external/libselinux" name="android_external_libselinux" groups="pdk" />
@@ -253,7 +255,7 @@
   <project path="external/yaffs2" name="android_external_yaffs2" groups="pdk" />
   <project path="external/zlib" name="android_external_zlib" groups="pdk" />
   <project path="external/zxing" name="android_external_zxing" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="vanir" revision="jb43-L" groups="pdk" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="vanir" revision="jb43" groups="pdk" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="vanir" revision="jb43-L" />
   <project path="frameworks/compile/libbcc" name="platform_frameworks_compile_libbcc" remote="vanir" revision="jb43" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform_frameworks_compile_mclinker" remote="vanir" revision="jb43" />
@@ -267,6 +269,7 @@
   <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" />
   <project path="frameworks/opt/datetimepicker" name="android_frameworks_opt_datetimepicker" />
   <project path="frameworks/opt/emoji" name="android_frameworks_opt_emoji" />
+  <project path="frameworks/opt/hardware" name="android_frameworks_opt_hardware" /> 
   <project path="frameworks/opt/inputmethodcommon" name="android_frameworks_opt_inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="android_frameworks_opt_mailcommon" />
   <project path="frameworks/opt/mms" name="android_frameworks_opt_mms" />
