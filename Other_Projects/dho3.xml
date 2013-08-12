@@ -183,7 +183,7 @@
   <project path="external/libyuv" name="android_external_libyuv" groups="libyuv" />
   <project path="external/linux-tools-perf" name="platform_external_linux-tools-perf" remote="vanir" revision="jb43-L" />
   <project path="external/littlemock" name="android_external_littlemock" />
-  <project path="external/llvm" name="external_llvm" remote="vanir" revision="jb43-L" groups="pdk" />
+  <project path="external/llvm" name="external_llvm" remote="vanir" revision="jb43" groups="pdk" />
   <project path="external/lrzsz" name="platform_external_lrzsz" remote="vanir" revision="jb43" />
   <project path="external/lsof" name="external_lsof" remote="vanir" revision="jb43" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
@@ -263,7 +263,7 @@
   <project path="frameworks/ex" name="platform_frameworks_ex" remote="vanir" revision="jb43-L" />
   <project path="frameworks/mff" name="android_frameworks_mff" />
   <project path="frameworks/ml" name="android_frameworks_ml" />
-  <project path="frameworks/native" name="platform_framworks_native" remote="vanir" revision="jb43-L" groups="pdk" />
+  <project path="frameworks/native" name="platform_framworks_native" remote="vanir" revision="jb43" groups="pdk" />
   <project path="frameworks/opt/calendar" name="android_frameworks_opt_calendar" />
   <project path="frameworks/opt/carddav" name="android_frameworks_opt_carddav" />
   <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" />
