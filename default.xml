@@ -42,6 +42,7 @@
   <project path="device/generic/goldfish" name="device_generic_goldfish" remote="vanir" revision="jb43" groups="pdk" />
   <project path="device/generic/mips" name="android_device_generic_mips" groups="pdk" />
   <project path="device/generic/x86" name="android_device_generic_x86" groups="pdk" />
+  <project path="kernel/lge/mako" name="lge-kernel-mako" />
   <project path="device/lge/mako" name="device_lge_mako" remote="vanir" revision="jb43" />
   <project path="device/sample" name="platform_device_sample" remote="vanir" revision="jb43" groups="pdk" />
   <project path="device/samsung/i605" name="android_device_samsung_i605" remote="cm" revision="cm-10.2" groups="device" />
