@@ -412,6 +412,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="vendor/asus" name="vendor_asus" remote="vanir" revision="jb43" groups="vendor" />
   <project path="vendor/lge" name="vendor_lge" remote="vanir" revision="jb43" />
+  <project path="vendor/motorola" name="vendor_motorola" remote="vanir" revision="jb43" groups="vendor" />
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" />
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="vanir" revision="jb43" groups="vendor" />
   <project path="vendor/vanir" name="platform_vendor_vanir" remote="vanir" revision="jb43" groups="vendor" />
