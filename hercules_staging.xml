@@ -1,6 +1,6 @@
-    <?xml version="1.0" encoding="UTF-8"?>
-    <manifest>
-     
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
       <remote name="vanir"
               fetch="https://github.com/VanirAOSP/"
               review="vaniraosp.goo.im" />
@@ -434,4 +434,4 @@
     <!--  <project path="vendor/ti" name="TheMuppets/proprietary_vendor_ti" remote="github" revision="cm-10.2" /> -->
       <project path="vendor/widevine" name="TheMuppets/proprietary_vendor_widevine" remote="github" revision="cm-10.2" />
      
-    </manifest>
+</manifest>
