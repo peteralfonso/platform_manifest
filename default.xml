@@ -34,7 +34,7 @@
   <project path="development" name="platform_development" remote="vanir" revision="jb43" />
   <project path="device/asus/tf700t" name="android_device_asus_tf700t" remote="vanir" revision="cm-10.1" />
   <project path="kernel/google/msm" name="android_kernel_google_msm" />
-  <project path="device/asus/deb" name="device_asus_deb" remote="vanir" revision="jb43" />
+  <project path="device/asus/deb" name="android_device_asus_deb" />
   <project path="device/asus/flo" name="device_asus_flo" remote="vanir" revision="jb43" />
   <project path="device/asus/grouper" name="platform_device_asus_grouper" remote="vanir" revision="jb43" />
   <project path="device/asus/tilapia" name="device_asus_tilapia" groups="device" remote="vanir" revision="jb43" />
