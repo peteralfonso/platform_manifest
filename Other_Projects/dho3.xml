@@ -64,7 +64,7 @@
   <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="vanir" revision="jb43" groups="device" />
   <project path="device/samsung/maguro" name="platform_device_samsung_maguro" remote="vanir" revision="jb43" groups="device" />
   <project path="device/samsung/manta" name="platform_device_samsung_manta" remote="vanir" revision="jb43" groups="device" />
-  <project path="device/samsung/msm8660-common" name="device_samsung_msm8660-common" groups="device" remote="vanir" revision="jb43" groups="device" />
+  <project path="device/samsung/msm8660-common" name="device_samsung_msm8660-common" remote="vanir" revision="jb43" groups="device" />
   <project path="kernel/samsung/msm8660-common" name="android_kernel_samsung_msm8660-common" groups="device" />
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="vanir" revision="jb43" groups="device" />
   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" />
