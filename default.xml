@@ -292,7 +292,7 @@
   <project path="hardware/invensense" name="android_hardware_invensense" remote="vanir" revision="jb43" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="vanir" revision="jb43" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware-legacy" remote="vanir" revision="jb43" groups="pdk" />
-  <project path="hardware/msm7k" name="android_hardware_msm7k" />
+  <project path="hardware/msm7k" name="android_hardware_msm7k" remote="vanir" revision="jb43" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="vanir" revision="jb43" />
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="vanir" revision="jb43" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" />
