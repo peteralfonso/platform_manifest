@@ -76,7 +76,7 @@
   <project path="device/samsung/toroplus" name="android_device_samsung_toroplus" remote="vanir" revision="jb43" groups="device" />
   <project path="device/samsung/tuna" name="platform_device_samsung_tuna" remote="vanir" revision="jb43" groups="device" />
   <project path="device/sony/common" name="android_device_sony_common" />
-  <project path="device/sony/fusion3-common" name="android_device_sony_fusion3-common" />
+  <project path="device/sony/fusion3-common" name="device_sony_fusion3-common" remote="vanir" revision="jb43" groups="device" />
   <project path="device/sony/qcom-common" name="android_device_sony_qcom-common" />
   <project path="device/sony/yuga" name="android_device_sony_yuga" />
   <project path="kernel/sony/apq8064" name="android_kernel_sony_apq8064" />
