@@ -28,7 +28,7 @@
   </project>
   <project path="abi/cpp" name="android_abi_cpp" groups="pdk" />
   <project path="bionic" name="platform_bionic" remote="vanir" revision="jb43" groups="pdk" />
-  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" />
+  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" revision="03667f68f8b32c3abf5ac006c2b4776159b71521" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
   <project path="dalvik" name="platform_dalvik" remote="vanir" revision="jb43" />
   <project path="development" name="platform_development" remote="vanir" revision="jb43" />
