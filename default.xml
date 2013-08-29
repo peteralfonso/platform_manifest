@@ -431,7 +431,7 @@
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="vendor/asus" name="vendor_asus" remote="vanir" revision="jb43" groups="vendor" />
-  <project path="vendor/htc" name="Team-Hydra/android_vendor_htc" remote="github" revision="cm-10.2" />
+  <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="github" revision="cm-10.2" />
   <project path="vendor/lge" name="vendor_lge" remote="vanir" revision="jb43" />
   <project path="vendor/motorola" name="vendor_motorola" remote="vanir" revision="jb43" groups="vendor" />
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" />
@@ -445,7 +445,6 @@
   <project path="vendor/audience" name="TheMuppets/proprietary_vendor_audience" remote="github" revision="cm-10.2" />
   <project path="vendor/broadcom" name="TheMuppets/proprietary_vendor_broadcom" remote="github" revision="cm-10.2" />
 <!--  <project path="vendor/csr" name="TheMuppets/proprietary_vendor_csr" remote="github" revision="cm-10.2" /> -->
-  <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="github" revision="cm-10.2" />
   <project path="vendor/imgtec" name="TheMuppets/proprietary_vendor_imgtec" remote="github" revision="cm-10.2" />
   <project path="vendor/invensense" name="TheMuppets/proprietary_vendor_invensense" remote="github" revision="cm-10.2" />
   <project path="vendor/nvidia" name="TheMuppets/proprietary_vendor_nvidia" remote="github" revision="cm-10.2" />
