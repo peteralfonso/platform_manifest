@@ -229,6 +229,7 @@
   <project path="external/openssh" name="platform_external_openssh" remote="vanir" revision="jb43" />
   <project path="external/openssl" name="platform_external_openssl" remote="vanir" revision="jb43" groups="pdk" />
   <project path="external/oprofile" name="android_external_oprofile" remote="vanir" revision="jb43" />
+  <project path="external/pigz" name="android_external_pigz" remote="cm" revision="cm-10.2" />
   <project path="external/ping" name="platform_external_ping" remote="vanir" revision="jb43" />
   <project path="external/ping6" name="platform_external_ping6" remote="vanir" revision="jb43" />
   <project path="external/powertop" name="android_external_powertop" />
@@ -251,6 +252,7 @@
   <project path="external/sonivox" name="platform_external_sonivox" remote="vanir" revision="jb43" groups="pdk" />
   <project path="external/speex" name="platform_external_speex" remote="vanir" revision="jb43" groups="pdk" />
   <project path="external/sqlite" name="platform_external_sqlite" remote="vanir" revision="jb43" groups="pdk" />
+  <project path="external/spongycastle" name="android_external_spongycastle" remote="cm" revision="cm-10.2" />
   <project path="external/srec" name="android_external_srec" />
   <project path="external/srtp" name="android_external_srtp" />
   <project path="external/stlport" name="platform_external_stlport" remote="vanir" revision="jb43" />
