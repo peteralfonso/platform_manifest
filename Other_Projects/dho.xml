@@ -59,7 +59,6 @@
   <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="vanir" revision="jb43" />
   <project path="device/htc/msm8660-common" name="Flyhalf205/android_device_htc_msm8660-common" remote="github" revision="cm-10.2" />
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="vanir" revision="jb43" />
-  <project path="kernel/htc/msm8960" name="android_kernel_htc_msm8960" />
   <project path="device/htc/vigor" name="device_htc_vigor" remote="vanir" revision="jb43" />
   <project path="kernel/htc/vigor-3.0" name="Flyhalf205/vigor_aosp_kernel" remote="github" revision="cm-10.2" />
   <project path="device/htc/s4-common" name="device_htc_s4-common" remote="vanir" revision="jb43" />
