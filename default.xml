@@ -46,6 +46,7 @@
   <project path="device/generic/x86" name="android_device_generic_x86" groups="pdk" />
   <project path="device/htc/jewel" name="android_device_htc_jewel" />
   <project path="device/htc/m7vzw" name="android_device_htc_m7vzw" remote="vanir" revision="jb43" />
+  <project path="device/htc/m7ul" name="android_device_htc_m7ul" remote="vanir" revision="jb43" />
   <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="vanir" revision="jb43" />
   <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="vanir" revision="jb43" />
   <project path="device/htc/msm8660-common" name="Flyhalf205/android_device_htc_msm8660-common" remote="github" revision="cm-10.2" />
