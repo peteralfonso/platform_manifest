@@ -290,7 +290,7 @@
   <project path="frameworks/ex" name="platform_frameworks_ex" remote="vanir" revision="jb43" />
   <project path="frameworks/mff" name="android_frameworks_mff" />
   <project path="frameworks/ml" name="android_frameworks_ml" />
-  <project path="frameworks/native" name="platform_framworks_native" remote="vanir" revision="jb43" groups="pdk" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="vanir" revision="jb43" groups="pdk" />
   <project path="frameworks/opt/calendar" name="android_frameworks_opt_calendar" />
   <project path="frameworks/opt/carddav" name="android_frameworks_opt_carddav" />
   <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" />
