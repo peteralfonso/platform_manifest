@@ -91,7 +91,9 @@
   <project path="kernel/samsung/tuna" name="jimsth/vanir_tuna" remote="github" revision="jim_mr2" />
   <project path="device/sony/common" name="android_device_sony_common" />
   <project path="device/sony/fusion3-common" name="device_sony_fusion3-common" remote="vanir" revision="jb43" groups="device" />
+  <project path="device/sony/pollux-common" name="android_device_sony_pollux-common" remote="cm" revision="cm-10.2" groups="device" />
   <project path="device/sony/qcom-common" name="android_device_sony_qcom-common" />
+  <project path="device/sony/pollux" name="MightyBear007/android_device_sony_pollux" remote="github" revision="master" />
   <project path="device/sony/yuga" name="android_device_sony_yuga" />
   <project path="kernel/sony/apq8064" name="android_kernel_sony_apq8064" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
