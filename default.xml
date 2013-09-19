@@ -74,6 +74,8 @@
   <project path="device/samsung/celox-common" name="android_device_samsung_celox-common" />
   <project path="device/samsung/hercules" name="android_device_samsung_hercules" remote="vanir" revision="jb43" />
   <project path="device/samsung/i605" name="android_device_samsung_i605" groups="device" />
+  <project path="device/samsung/i9300" name="android_device_samsung_i9300" groups="device" />
+  <project path="device/samsung/i9305" name="android_device_samsung_i9305" groups="device" />
   <project path="kernel/samsung/jf" name="android_kernel_samsung_jf" />
   <project path="device/samsung/jf-common" name="android_device_samsung_jf-common" remote="vanir" revision="jb43" groups="device" />
   <project path="device/samsung/jflteatt" name="android_device_samsung_jflteatt" remote="vanir" revision="jb43" groups="device" />
