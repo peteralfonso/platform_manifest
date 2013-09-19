@@ -72,6 +72,12 @@
   <project path="device/motorola/omap4-common" name="device_motorola_omap4-common" remote="vanir" revision="jb43" />
   <project path="device/sample" name="platform_device_sample" remote="vanir" revision="jb43" groups="pdk" />
   <project path="device/samsung/celox-common" name="android_device_samsung_celox-common" />
+  <project path="device/samsung/d2-common name="android_device_samsung_d2-common" groups="GS3_device" />
+  <project path="device/samsung/d2att" name="android_device_samsung_d2att" groups="GS3_device" />
+  <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" groups="GS3_device" />
+  <project path="device/samsung/d2tmo" name="android_device_samsung_d2tmo" groups="GS3_device" />
+  <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" groups="GS3_device" />
+  <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" groups="GS3_device" />
   <project path="device/samsung/hercules" name="android_device_samsung_hercules" remote="vanir" revision="jb43" />
   <project path="device/samsung/i605" name="android_device_samsung_i605" groups="device" />
   <project path="device/samsung/i9300" name="device_samsung_i9300" remote="vanir" revision="jb43" groups="GS3_device" />
