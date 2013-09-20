@@ -197,7 +197,7 @@
   <project path="external/kissfft" name="android_external_kissfft" />
   <project path="external/koush/ion" name="ion" />
   <project path="external/koush/AndroidAsync" name="AndroidAsync" />
-  <project path="external/koush/Superuser" name="Superuser" />
+  <project path="external/koush/Superuser" name="Superuser" revision="0c020642c31c92f5f017726e24683868f72c74f0" />
   <project path="external/koush/Widgets" name="koush/Widgets" remote="github" revision="master" />
   <project path="external/libcap-ng" name="android_external_libcap-ng" />
   <project path="external/libffi" name="android_external_libffi" />
