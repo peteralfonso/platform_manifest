@@ -397,6 +397,7 @@
   <project path="packages/apps/SpeakerProximity" name="packages_apps_SpeakerProximity" remote="vanir" revision="jb43" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" />
   <project path="packages/apps/Tag" name="android_packages_apps_Tag" />
+  <project path="packages/apps/VanirUpdater" name="android_packages_apps_VanirUpdater" remote="vanir" revision="jb43" />
   <project path="packages/apps/VoiceDialer" name="android_packages_apps_VoiceDialer" />
   <project path="packages/inputmethods/LatinIME" name="packages_input_LatinIME" remote="vanir" revision="jb43" />
   <project path="packages/providers/ApplicationsProvider" name="android_packages_providers_ApplicationsProvider" />
