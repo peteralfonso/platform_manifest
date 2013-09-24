@@ -39,6 +39,8 @@
   <project path="device/asus/grouper" name="platform_device_asus_grouper" remote="vanir" revision="jb43" />
   <project path="device/asus/tilapia" name="device_asus_tilapia" groups="device" remote="vanir" revision="jb43" />
   <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" />
+  <project path="device/asus/tf700t" name="android_device_asus_tf700t" />
+  <project path="kernel/asus/tf700t" name="android_kernel_asus_tf700t" />
   <project path="device/bn/common" name="device_bn_common" remote="vanir" revision="jb43" groups="Ovation_device" />
   <project path="kernel/bn/omap" name="android_kernel_bn_omap" groups="Ovation_device" />
   <project path="device/bn/ovation" name="android_device_bn_ovation" groups="Ovation_device" />
