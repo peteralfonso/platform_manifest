@@ -67,7 +67,6 @@
   <project path="device/lge/e980" name="android_device_lge_e980" />
   <project path="device/lge/gproj-common" name="device_lge_gproj-common" remote="vanir" revision="jb43" />
   <project path="kernel/lge/gproj" name="lge-kernel-gproj" />
-  <project path="kernel/lge/mako" name="lge-kernel-mako" />
   <project path="device/lge/mako" name="device_lge_mako" remote="vanir" revision="jb43" />
   <project path="kernel/lge/p880" name="mzhou/lge-kernel-p880-cyanogenmod" remote="github" revision="cm-10.2" />
   <project path="device/lge/p880" name="mzhou/vanir_device_lge_p880" remote="github" revision="jb43" />
