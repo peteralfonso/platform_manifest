@@ -32,7 +32,7 @@
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.3_r3" />
   <project path="dalvik" name="platform_dalvik" remote="vanir" revision="jb43" />
   <project path="development" name="platform_development" remote="vanir" revision="jb43" />
-  <project path="kernel/google/msm" name="android_kernel_google_msm" />
+  <project path="kernel/google/msm" name="android_kernel_google_msm" revision="d62863bf16e981a875b0386b8d1e3f13c34d73bc" />
   <project path="device/asus/deb" name="device_asus_deb" remote="vanir" revision="jb43" />
   <project path="device/asus/flo" name="device_asus_flo" remote="vanir" revision="jb43" />
   <project path="device/asus/grouper" name="platform_device_asus_grouper" remote="vanir" revision="jb43" />
