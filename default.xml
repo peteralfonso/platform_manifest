@@ -50,7 +50,7 @@
   <project path="device/generic/mips" name="android_device_generic_mips" groups="pdk" />
   <project path="device/generic/x86" name="android_device_generic_x86" groups="pdk" />
   <project path="device/htc/jewel" name="android_device_htc_jewel" />
-  <project path="kernel/htc/m7" name="android_kernel_htc_m7" />
+  <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="vanir" revision="sonic-dev" />
   <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="vanir" revision="jb43" />
   <project path="device/htc/m7att" name="android_device_htc_m7att" />
   <project path="device/htc/m7spr" name="android_device_htc_m7spr" />
