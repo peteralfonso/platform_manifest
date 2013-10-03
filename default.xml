@@ -3,7 +3,7 @@
 
   <remote name="vanir"
           fetch="https://github.com/VanirAOSP/"
-          review="emccann.net:8080" />
+          review="vaniraosp.goo.im" />
   <remote name="aosp"
           fetch="https://android.googlesource.com/"
           review="https://android-review.googlesource.com/" />
