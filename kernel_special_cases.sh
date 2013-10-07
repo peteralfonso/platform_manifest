@@ -8,7 +8,7 @@ case $1 in
         export remote="vanir"
         export remoterevision="sonic-dev"
     ;;
-    toro|tuna|maguro)
+    toro|toroplus|maguro)
         export remote="github"
         export remoterevision="jim_mr2"
         export kernelsource="jimsth/vanir_tuna"
