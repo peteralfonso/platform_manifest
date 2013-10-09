@@ -447,7 +447,7 @@
   <project path="system/extras" name="platform_system_extras" remote="vanir" revision="jb43" groups="pdk" />
   <project path="system/media" name="android_system_media" groups="pdk" />
   <project path="system/netd" name="android_system_netd" groups="pdk" />
-  <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
+  <project path="system/qcom" name="android_system_qcom" groups="qcom" />
   <project path="system/security" name="platform_system_security" remote="vanir" revision="jb43" groups="pdk" />
   <project path="system/vold" name="platform_system_vold" remote="vanir" revision="jb43" groups="pdk" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
