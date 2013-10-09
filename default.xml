@@ -96,6 +96,7 @@
   <project path="device/samsung/tuna" name="platform_device_samsung_tuna" remote="vanir" revision="jb43" groups="device" />
   <project path="device/sony/common" name="android_device_sony_common" />
   <project path="device/sony/fusion3-common" name="device_sony_fusion3-common" remote="vanir" revision="jb43" groups="device" />
+  <project path="device/sony/honami" name="MightyBear007/android_device_sony_honami" remote="github" reivsion="cm-10.2" />
   <project path="device/sony/pollux-common" name="android_device_sony_pollux-common" groups="device" />
   <project path="device/sony/qcom-common" name="android_device_sony_qcom-common" />
   <project path="device/sony/pollux" name="android_device_sony_pollux" remote="vanir" revision="jb43" />
