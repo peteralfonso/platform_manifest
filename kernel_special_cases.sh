@@ -7,11 +7,6 @@ case $1 in
     e975|e980)
         export kernelsource="lge-kernel-gproj"
     ;;
-    honami)
-        export remote="github"
-        export remoterevision="cm-10.2"
-        export kernelsource="MightyBear007/android_kernel_sony_msm8974"
-    ;;
     m7*)
         export remote="vanir"
         export remoterevision="sonic-dev"
