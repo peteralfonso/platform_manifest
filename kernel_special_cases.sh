@@ -4,6 +4,11 @@
 ## all non-specified kernels are assumed to be from CyanogenMod
 
 case $1 in
+    apache)
+        export remote="github"
+        export remoterevision="jb-3.0"
+        export kernelsource="TeamRugby/android_kernel_samsung_msm7x30"
+    ;;
     e975|e980)
         export kernelsource="lge-kernel-gproj"
     ;;
