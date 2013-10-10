@@ -6,8 +6,8 @@
 case $1 in
     apache)
         export remote="github"
-        export remoterevision="jb-3.0"
-        export kernelsource="TeamRugby/android_kernel_samsung_msm7x30"
+        export remoterevision="cm-10.1"
+        export kernelsource="Motorhead1991/samsung-kernel-msm7x30"
     ;;
     e975|e980)
         export kernelsource="lge-kernel-gproj"
