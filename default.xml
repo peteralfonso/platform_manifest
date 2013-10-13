@@ -57,7 +57,7 @@
   <project path="device/htc/vigor" name="device_htc_vigor" remote="vanir" revision="jb43" />
   <project path="device/htc/s4-common" name="device_htc_s4-common" remote="vanir" revision="jb43" />
   <project path="device/huawei/msm7x30-common" name="fredvj/android_device_huawei_msm7x30-common" remote="github" revision="cm-10.2" groups="u8860" />
-  <project path="device/huawei/u8860" name="fredvj/device_huawei_u8860" remote="github" revision="cm-10.2" groups="u8860" />
+  <project path="device/huawei/u8860" name="fredvj/device_huawei_u8860" remote="github" revision="cm10.2" groups="u8860" />
   <project path="device/lge/e975" name="android_device_lge_e975" />
   <project path="device/lge/e980" name="android_device_lge_e980" />
   <project path="device/lge/gproj-common" name="android_device_lge_gproj-common" />
