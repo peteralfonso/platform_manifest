@@ -470,6 +470,7 @@
   <project path="vendor/bn" name="vendor_bn" remote="vanir" revision="jb43" groups="vendor" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="vanir" revision="jb43" />
   <project path="vendor/lge" name="vendor_lge" remote="vanir" revision="jb43" />
+  <project path="vendor/huawei" name="vendor_huawei" remote="vanir" revision="jb43" />
   <project path="vendor/motorola" name="vendor_motorola" remote="vanir" revision="jb43" groups="vendor" />
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" />
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="vanir" revision="jb43" groups="vendor" />
@@ -482,12 +483,12 @@
 <!-- Additional vendors -->
   <project path="vendor/audience" name="TheMuppets/proprietary_vendor_audience" remote="github" revision="cm-10.2" />
   <project path="vendor/broadcom" name="TheMuppets/proprietary_vendor_broadcom" remote="github" revision="cm-10.2" />
-<!--  <project path="vendor/csr" name="TheMuppets/proprietary_vendor_csr" remote="github" revision="cm-10.2" /> -->
   <project path="vendor/imgtec" name="TheMuppets/proprietary_vendor_imgtec" remote="github" revision="cm-10.2" />
   <project path="vendor/invensense" name="TheMuppets/proprietary_vendor_invensense" remote="github" revision="cm-10.2" />
   <project path="vendor/nvidia" name="TheMuppets/proprietary_vendor_nvidia" remote="github" revision="cm-10.2" />
   <project path="vendor/nxp" name="TheMuppets/proprietary_vendor_nxp" remote="github" revision="cm-10.2" />
-<!--  <project path="vendor/ti" name="TheMuppets/proprietary_vendor_ti" remote="github" revision="cm-10.2" /> -->
   <project path="vendor/widevine" name="TheMuppets/proprietary_vendor_widevine" remote="github" revision="cm-10.2" />
+<!--  <project path="vendor/csr" name="TheMuppets/proprietary_vendor_csr" remote="github" revision="cm-10.2" /> -->
+<!--  <project path="vendor/ti" name="TheMuppets/proprietary_vendor_ti" remote="github" revision="cm-10.2" /> -->
 
 </manifest>
