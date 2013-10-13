@@ -329,7 +329,7 @@
   <project path="frameworks/volley" name="android_frameworks_volley" />
   <project path="frameworks/webview" name="android_frameworks_webview" />
   <project path="frameworks/wilhelm" name="platform_frameworks_wilhelm" remote="vanir" revision="jb43" />
-  <project path="hardware/atheros/wpa_supplicannt/libs" name="CyanCom/android_hardware_atheros_wpa_supplicant_libs" remote="github" revision="cm-10.2" groups="u8860" />
+  <project path="hardware/atheros/wpa_supplicannt/libs" name="CyanCom/android_hardware_atheros_wpa_supplicant_libs" remote="github" revision="jb" groups="u8860" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" />
   <project path="hardware/cm" name="android_hardware_cm" />
