@@ -38,7 +38,7 @@ case $1 in
     vigor*)
         export remote="github"
         export remoterevision="cm-10.2"
-        export kernelsource="Flyhalf205/vigor_aosp_kernel"
+        export kernelsource="vigor/vigor_aosp_kernel"
     ;;
     g2*)
        export remote="vanir"
