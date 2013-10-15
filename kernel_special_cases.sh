@@ -40,4 +40,11 @@ case $1 in
         export remoterevision="cm-10.2"
         export kernelsource="Flyhalf205/vigor_aosp_kernel"
     ;;
+    g2*)
+       export remote="vanir"
+       export remoterevision="jb43"
+       export kernelsource="android_kernel_lge_f320k"
+#       export remoterevision="dev-franco"
+#       export kernelsource="franco-c/android_kernel_lge_g2"
+   ;;
 esac
