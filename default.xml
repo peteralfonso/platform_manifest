@@ -21,7 +21,7 @@
           sync-j="12"
           remote="cm" />
 
-  <project path="platform_manifest" name="manifest" remote="vanir" revision="jb43" />
+  <project path="manifest" name="manifest" remote="vanir" revision="jb43" />
   <project path="build" name="build" remote="vanir" revision="jb43" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="tools/BUILD_COMMAND_README" dest="BUILD_COMMAND_README" />
