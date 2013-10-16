@@ -18,6 +18,7 @@ case $1 in
     m7*)
         export remote="vanir"
         export remoterevision="sonic-dev"
+        export kernelsource="kernel_htc_m7"
     ;;
     p880)
         export remote="github"
