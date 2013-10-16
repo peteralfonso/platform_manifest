@@ -59,7 +59,7 @@
   <project path="device/huawei/u8860" name="device_huawei_u8860" remote="vanir" revision="jb43" groups="u8860" />
   <project path="device/lge/e975" name="android_device_lge_e975" />
   <project path="device/lge/e980" name="android_device_lge_e980" />
-  <project path="device/lge/g2" name="android_device_lge_g2" remote="vanir" revision="jb43" />
+  <project path="device/lge/g2" name="device_lge_g2" remote="vanir" revision="jb43" />
   <project path="device/lge/gproj-common" name="android_device_lge_gproj-common" />
   <project path="device/lge/mako" name="device_lge_mako" remote="vanir" revision="jb43" />
   <project path="device/lge/p880" name="mzhou/vanir_device_lge_p880" remote="github" revision="jb43" />
