@@ -122,7 +122,7 @@
   <project path="external/apache-xml" name="android_external_apache-xml" />
   <project path="external/arduino" name="android_external_arduino" />
   <project path="external/bash" name="external_bash" remote="vanir" revision="jb43" />
-  <project path="external/bison" name="external_bison" groups="pdk" />
+  <project path="external/bison" name="android_external_bison" groups="pdk" />
   <project path="external/blktrace" name="android_external_blktrace" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" groups="pdk" />
   <project path="external/bouncycastle" name="android_external_bouncycastle" />
