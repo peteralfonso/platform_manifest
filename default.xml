@@ -325,7 +325,7 @@
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" />
   <project path="frameworks/rs" name="frameworks_rs" remote="vanir" revision="jb43" />
-  <project path="frameworks/support" name="platform_frameworks_support" remote="vanir" revision="jb43" />
+  <project path="frameworks/support" name="frameworks_support" remote="vanir" revision="jb43" />
   <project path="frameworks/testing" name="android_frameworks_testing" />
   <project path="frameworks/volley" name="android_frameworks_volley" />
   <project path="frameworks/webview" name="android_frameworks_webview" />
@@ -352,7 +352,7 @@
   <project path="hardware/qcom/media" name="hardware_qcom_media" remote="vanir" revision="jb43" groups="qcom" />
   <project path="hardware/qcom/media-caf" name="hardware_qcom_media-caf" remote="vanir" revision="jb43" groups="caf" />
   <project path="hardware/qcom/media-legacy" name="OpenSEMC/android_hardware_qcom_media-legacy" remote="github" revision="cm-10.2" />
-  <project path="hardware/qcom/media-legacy-legacy" name="android_hardware_qcom_media-legacy-legacy" remote="vanir" revision="jb43" />
+  <project path="hardware/qcom/media-legacy-legacy" name="hardware_qcom_media-legacy-legacy" remote="vanir" revision="jb43" />
   <project path="hardware/qcom/media-v4l2" name="android_hardware_qcom_media-v4l2" groups="honami" />
   <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="vanir" revision="jb43" />
@@ -391,7 +391,7 @@
   <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="vanir" revision="jb43" />
   <project path="packages/apps/OneTimeInitializer" name="android_packages_apps_OneTimeInitializer" />
-  <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="vanir" revision="jb43" />
+  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="vanir" revision="jb43" />
   <project path="packages/apps/Phone" name="packages_apps_phone" remote="vanir" revision="jb43" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Provision" name="android_packages_apps_Provision" />
