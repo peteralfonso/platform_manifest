@@ -195,6 +195,7 @@
   <project path="external/junit" name="android_external_junit" />
   <project path="external/kernel-headers" name="android_external_kernel-headers" />
   <project path="external/kissfft" name="android_external_kissfft" />
+  <project path="external/klogripper" name="external_klogripper" remote="vanir" revision="jb43" />
   <project path="external/koush/ion" name="ion" />
   <project path="external/koush/AndroidAsync" name="AndroidAsync" />
   <project path="external/koush/Superuser" name="Superuser" />
