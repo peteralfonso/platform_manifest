@@ -9,7 +9,7 @@ case $1 in
         export remoterevision="cm-10.1"
         export kernelsource="Motorhead1991/samsung-kernel-msm7x30"
     ;;
-    e975|e980|p700)
+    e975|e980)
         export kernelsource="lge-kernel-gproj"
     ;;
     flo|deb|mako)
@@ -24,6 +24,11 @@ case $1 in
         export remote="vanir"
         export remoterevision="sonic-dev"
         export kernelsource="kernel_htc_m7"
+    ;;
+    p700)
+        export remote="github"
+        export remoterevision="android-msm-3.4-jb4.3"
+        export kernelsource="bart452/lge-kernel-lproj"
     ;;
     p880)
         export remote="github"
