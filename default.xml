@@ -64,6 +64,7 @@
   <project path="device/lge/g2" name="device_lge_g2" remote="vanir" revision="jb43" />
   <project path="device/lge/gproj-common" name="android_device_lge_gproj-common" />
   <project path="device/lge/mako" name="device_lge_mako" remote="vanir" revision="jb43" />
+  <project path="device/lge/p700" name="TeamHackLG/android_device_lge_p700/" remote="github" revision="cm-10.2" />
   <project path="device/lge/p880" name="mzhou/vanir_device_lge_p880" remote="github" revision="jb43" />
   <project path="device/lge/g2-common" name="device_lge_g2-common" remote="vanir" revision="jb43" />
   <project path="device/lge/vs980" name="device_lge_vs980" remote="vanir" revision="jb43" />
