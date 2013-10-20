@@ -56,18 +56,18 @@
   <project path="device/htc/m7vzw" name="device_htc_m7vzw" remote="vanir" revision="jb43" />
   <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="vanir" revision="jb43" />
   <project path="device/htc/msm8660-common" name="vigor/android_device_htc_msm8660-common" remote="github" revision="cm-10.2" />
-  <project path="device/htc/vigor" name="vigor/device_htc_vigor" remote="github" revision="cm-10.2" />
   <project path="device/htc/s4-common" name="device_htc_s4-common" remote="vanir" revision="jb43" />
+  <project path="device/htc/vigor" name="vigor/device_htc_vigor" remote="github" revision="cm-10.2" />
   <project path="device/huawei/u8860" name="device_huawei_u8860" remote="vanir" revision="jb43" groups="u8860" />
   <project path="device/lge/e975" name="android_device_lge_e975" />
   <project path="device/lge/e980" name="android_device_lge_e980" />
   <project path="device/lge/g2" name="device_lge_g2" remote="vanir" revision="jb43" />
+  <project path="device/lge/g2-common" name="device_lge_g2-common" remote="vanir" revision="jb43" />
   <project path="device/lge/gproj-common" name="android_device_lge_gproj-common" />
   <project path="device/lge/mako" name="device_lge_mako" remote="vanir" revision="jb43" />
   <project path="device/lge/msm7x27a-common" name="TeamHackLG/android_device_lge_msm7x27a-common" remote="github" revision="cm-10.2" groups="p700" />
   <project path="device/lge/p700" name="TeamHackLG/android_device_lge_p700" remote="github" revision="cm-10.2" groups="p700" />
   <project path="device/lge/p880" name="mzhou/vanir_device_lge_p880" remote="github" revision="jb43" />
-  <project path="device/lge/g2-common" name="device_lge_g2-common" remote="vanir" revision="jb43" />
   <project path="device/lge/vs980" name="device_lge_vs980" remote="vanir" revision="jb43" />
   <project path="device/motorola/maserati" name="android_device_motorola_maserati" />
   <project path="device/motorola/omap4-common" name="device_motorola_omap4-common" remote="vanir" revision="jb43" />
