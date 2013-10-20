@@ -9,11 +9,16 @@ case $1 in
         export remoterevision="cm-10.1"
         export kernelsource="Motorhead1991/samsung-kernel-msm7x30"
     ;;
-    e975|e980)
+    e975|e980|p700)
         export kernelsource="lge-kernel-gproj"
     ;;
     flo|deb|mako)
         export remoterevision="56840ae52834c80175264db9a90d60aa1700c4dd"
+    ;;
+    g2*)
+        export remote="vanir"
+        export remoterevision="jb43"
+        export kernelsource="android_kernel_lge_f320k"
     ;;
     m7*)
         export remote="vanir"
@@ -39,10 +44,5 @@ case $1 in
         export remote="github"
         export remoterevision="cm-10.2"
         export kernelsource="vigor/vigor_aosp_kernel"
-    ;;
-    g2*)
-        export remote="vanir"
-        export remoterevision="jb43"
-        export kernelsource="android_kernel_lge_f320k"
    ;;
 esac
