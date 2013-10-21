@@ -65,7 +65,7 @@
   <project path="device/lge/g2-common" name="device_lge_g2-common" remote="vanir" revision="jb43" />
   <project path="device/lge/gproj-common" name="android_device_lge_gproj-common" />
   <project path="device/lge/mako" name="device_lge_mako" remote="vanir" revision="jb43" />
-  <project path="device/lge/msm7x27a-common" name="bart452/android_device_lge_msm7x27a-common" remote="github" revision="cm-10.2" groups="p700" />
+  <project path="device/lge/msm7x27a-common" name="TeamHackLG/android_device_lge_msm7x27a-common" remote="github" revision="cm-10.2" groups="p700" />
   <project path="device/lge/p700" name="bart452/android_device_lge_p700" remote="github" revision="cm-10.2" groups="p700" />
   <project path="device/lge/p880" name="mzhou/vanir_device_lge_p880" remote="github" revision="jb43" />
   <project path="device/lge/vs980" name="device_lge_vs980" remote="vanir" revision="jb43" />
@@ -354,6 +354,7 @@
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom"/>
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="vanir" revision="jb43" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="vanir" revision="jb43" groups="caf" />
+  <project path="hardware/qcom/display-caf-legacy" name="android_hardware_qcom_display-caf" remote="github" revision="cm-10.2" groups="p700" />
   <project path="hardware/qcom/display-mdss" name="android_hardware_qcom_display-mdss" groups="honami"/>
   <project path="hardware/qcom/display-legacy" name="OpenSEMC/android_hardware_qcom_display-legacy" remote="github" revision="cm-10.2" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom" />
