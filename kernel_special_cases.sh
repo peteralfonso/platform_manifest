@@ -15,11 +15,6 @@ case $1 in
     flo|deb|mako)
         export remoterevision="56840ae52834c80175264db9a90d60aa1700c4dd"
     ;;
-    g2*)
-        export remote="vanir"
-        export remoterevision="jb43"
-        export kernelsource="android_kernel_lge_f320k"
-    ;;
     m7*)
         export remote="vanir"
         export remoterevision="sonic-dev"
