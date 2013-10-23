@@ -53,7 +53,7 @@
   <project path="device/htc/m7ul" name="device_htc_m7ul" remote="vanir" revision="jb43" />
   <project path="device/htc/m7vzw" name="device_htc_m7vzw" remote="vanir" revision="jb43" />
   <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="vanir" revision="jb43" />
-  <project path="device/htc/msm8660-common" name="vigor/android_device_htc_msm8660-common" remote="github" revision="cm-10.2" />
+  <project path="device/htc/msm8660-common" name="device_htc_msm8660-common" remote="vanir" revision="jb43" />
   <project path="device/htc/s4-common" name="device_htc_s4-common" remote="vanir" revision="jb43" />
   <project path="device/htc/vigor" name="vigor/device_htc_vigor" remote="github" revision="cm-10.2" />
   <project path="device/huawei/u8860" name="device_huawei_u8860" remote="vanir" revision="jb43" groups="u8860" />
