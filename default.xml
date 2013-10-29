@@ -91,6 +91,7 @@
   <project path="device/samsung/jfltecri" name="device_samsung_jfltecri" remote="vanir" revision="jb43" groups="device" />
   <project path="device/samsung/jfltespr" name="device_samsung_jfltespr" remote="vanir" revision="jb43" groups="device" />
   <project path="device/samsung/jfltetmo" name="device_samsung_jfltetmo" remote="vanir" revision="jb43" groups="device" />
+  <project path="device/samsung/jflteusc" name="android_device_samsung_jflteusc" />
   <project path="device/samsung/jfltevzw" name="device_samsung_jfltevzw" remote="vanir" revision="jb43" groups="device" />
   <project path="device/samsung/jfltexx" name="android_device_samsung_jfltexx" groups="device" />
   <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="vanir" revision="jb43" groups="device" />
