@@ -477,8 +477,8 @@
   <project path="system/qcom" name="system_qcom" groups="qcom" remote="vanir" revision="kk44" />
   <project path="system/security" name="system_security" remote="vanir" revision="kk44" groups="pdk" />
   <project path="system/vold" name="system_vold" remote="vanir" revision="kk44" groups="pdk" />
-  <project path="tools/build" name="platform/tools/build" groups="toolsbuild" remote="aosp" revision="android-4.4_r1" />
-  <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project path="tools/build" name="platform/tools/build" groups="toolsbuild" remote="aosp" revision="android-4.3_r2.1" />
+  <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="vendor/asus" name="vendor_asus" remote="vanir" revision="kk44" groups="vendor" />
   <project path="vendor/bn" name="vendor_bn" remote="vanir" revision="kk44" groups="vendor" />
   <project path="vendor/htc" name="vendor_htc" remote="vanir" revision="kk44" />
