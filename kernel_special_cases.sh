@@ -3,6 +3,9 @@
 
 ## all non-specified kernels are assumed to be from CyanogenMod
 
+export defaultremote=cm
+export defaultrevision=cm-10.2
+
 case $1 in
     apache)
         export remote="github"
