@@ -8,7 +8,7 @@
           fetch="https://android.googlesource.com/"
           review="https://android-review.googlesource.com/" />
   <remote name="cm"
-          fetch="https://github.com/CyanogenMod"
+          fetch="http://github.com/CyanogenMod"
           review="review.cyanogenmod.com" />
   <remote name="cfx"
           fetch="https://bitbucket.org/codefirex/" />
