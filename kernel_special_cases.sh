@@ -16,7 +16,8 @@ case $1 in
         export kernelsource="lge-kernel-gproj"
     ;;
     flo|deb|mako)
-        export remoterevision="56840ae52834c80175264db9a90d60aa1700c4dd"
+        export remote="aosp"
+        export remoterevision="refs/tags/android-4.4_r1"
     ;;
     jflte*)
         export remote="vanir"

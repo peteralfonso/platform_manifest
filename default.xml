@@ -38,7 +38,7 @@
   <project path="device/asus/tf700t" name="device_asus_tf700t" remote="vanir" revision="kk44" groups="tf700_device" />
   <project path="device/bn/common" name="device_bn_common" remote="vanir" revision="kk44" groups="Ovation_device" />
   <project path="device/bn/ovation" name="android_device_bn_ovation" groups="Ovation_device" remote="cm" revision="cm-10.2" />
-  <project path="device/common" name="device" groups="pdk" />
+  <project path="device/common" name="device/common" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
   <project path="device/generic/goldfish" name="device_generic_goldfish" remote="vanir" revision="kk44" groups="pdk" />
@@ -263,7 +263,7 @@
   <project path="external/openssh" name="external_openssh" remote="vanir" revision="kk44" />
   <project path="external/openssl" name="external_openssl" remote="vanir" revision="kk44" groups="pdk" />
   <project path="external/oprofile" name="external_oprofile" remote="vanir" revision="kk44" />
-  <project path="external/pigz" name="platform_external_pigz" remote="cm" revision="cm-10.2" />
+  <project path="external/pigz" name="android_external_pigz" remote="cm" revision="cm-10.2" />
   <project path="external/ping" name="external_ping" remote="vanir" revision="kk44" />
   <project path="external/ping6" name="external_ping6" remote="vanir" revision="kk44" />
   <project path="external/powertop" name="android_external_powertop" remote="cm" revision="cm-10.2" />
