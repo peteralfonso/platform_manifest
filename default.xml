@@ -125,8 +125,8 @@
   <project path="device/sony/yuga" name="android_device_sony_yuga" remote="cm" revision="cm-10.2" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
-  <project path="external/platform-clat" name="android_external_platform-clat" remote="cm" revision="cm-10.2" />
-  <project path="external/platform-mock" name="android_external_platform-mock" remote="cm" revision="cm-10.2" />
+  <project path="external/android-clat" name="platform/external/android-clat" />
+  <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/ant-glob" name="platform/external/ant-glob" />
   <project path="external/antlr" name="platform/external/antlr" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" />
