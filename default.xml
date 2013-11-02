@@ -25,10 +25,15 @@
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="tools/BUILD_COMMAND_README" dest="BUILD_COMMAND_README" />
   </project>
+<<<<<<< HEAD
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
+=======
+  <project path="abi/cpp" name="android_abi_cpp" groups="pdk" />
+  <project path="art" name="platform/art"  groups="aosp44" />
+>>>>>>> 7072b1d... Merge KK manifest
   <project path="bionic" name="bionic" remote="vanir" revision="kk44" groups="pdk" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
-  <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project path="cts" name="platform/cts"  />
   <project path="dalvik" name="dalvik" remote="vanir" revision="kk44" />
   <project path="development" name="development" remote="vanir" revision="kk44" />
   <project path="device/asus/deb" name="device_asus_deb" remote="vanir" revision="kk44" />
@@ -64,7 +69,7 @@
   <project path="device/lge/d802" name="android_device_lge_d802" remote="cm" revision="cm-10.2" />
   <project path="device/lge/gproj-common" name="android_device_lge_gproj-common" remote="cm" revision="cm-10.2" />
   <project path="device/lge/mako" name="device_lge_mako" remote="vanir" revision="kk44" />
-  <project path="device/lge/hammerhead" name="device/lge/hammerhead" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project path="device/lge/hammerhead" name="device/lge/hammerhead"  />
   <project path="device/lge/msm7x27a-common" name="bart452/android_device_lge_msm7x27a-common" remote="github" revision="cm-10.2" groups="p700" />
   <project path="device/lge/p700" name="bart452/android_device_lge_p700" remote="github" revision="cm-10.2" groups="p700" />
   <project path="device/lge/p880" name="mzhou/vanir_device_lge_p880" remote="github" revision="jb43" />
@@ -123,7 +128,7 @@
   <project path="device/sony/qcom-common" name="android_device_sony_qcom-common" remote="cm" revision="cm-10.2" />
   <project path="device/sony/rhine-common" name="android_device_sony_rhine-common" remote="cm" revision="cm-10.2" />
   <project path="device/sony/yuga" name="android_device_sony_yuga" remote="cm" revision="cm-10.2" />
-  <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project path="docs/source.android.com" name="platform/docs/source.android.com"  />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
   <project path="external/android-mock" name="platform/external/android-mock" />
@@ -142,17 +147,52 @@
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/busybox" name="external_busybox" remote="vanir" revision="kk44" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
-  <project path="external/ceres-solver" name="platform/external/ceres-solver" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project path="external/ceres-solver" name="platform/external/ceres-solver"  />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
   <project path="external/chromium" name="external_chromium" remote="vanir" revision="kk44" />
+<<<<<<< HEAD
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
+=======
+  <project path="external/chromium-libpac" name="platform/external/chromium-libpac"  groups="aosp44" />
+  <project path="external/chromium-trace" name="android_external_chromium-trace" groups="pdk" />
+  <project path="external/chromium_org" name="platform/external/chromium_org"  groups="aosp44" />
+  <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff"  groups="aosp44" />
+  <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest"  groups="aosp44" />
+  <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit"  groups="aosp44" />
+  <project path="external/chromium_org/third_party/angle_dx11" name="platform/external/chromium_org/third_party/angle_dx11"  groups="aosp44" />
+  <project path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" name="platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille"  groups="aosp44" />
+  <project path="external/chromium_org/third_party/freetype" name="platform/external/chromium_org/third_party/freetype"  groups="aosp44" />
+  <project path="external/chromium_org/third_party/icu" name="platform/external/chromium_org/third_party/icu"  groups="aosp44" />
+  <project path="external/chromium_org/third_party/leveldatabase/src" name="platform/external/chromium_org/third_party/leveldatabase/src"  groups="aosp44" />
+  <project path="external/chromium_org/third_party/libjingle/source/talk" name="platform/external/chromium_org/third_party/libjingle/source/talk"  groups="aosp44" />
+  <project path="external/chromium_org/third_party/libphonenumber/src/phonenumbers" name="platform/external/chromium_org/third_party/libphonenumber/src/phonenumbers"  groups="aosp44" />
+  <project path="external/chromium_org/third_party/libphonenumber/src/resources" name="platform/external/chromium_org/third_party/libphonenumber/src/resources"  groups="aosp44" />
+  <project path="external/chromium_org/third_party/mesa/src" name="platform/external/chromium_org/third_party/mesa/src"  groups="aosp44" />
+  <project path="external/chromium_org/third_party/openssl" name="platform/external/chromium_org/third_party/openssl"  groups="aosp44" />
+  <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src"  groups="aosp44" />
+  <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots"  groups="aosp44" />
+  <project path="external/chromium_org/third_party/skia/gyp" name="platform/external/chromium_org/third_party/skia/gyp"  groups="aosp44" />
+  <project path="external/chromium_org/third_party/skia/include" name="platform/external/chromium_org/third_party/skia/include"  groups="aosp44" />
+  <project path="external/chromium_org/third_party/skia/src" name="platform/external/chromium_org/third_party/skia/src"  groups="aosp44" />
+  <project path="external/chromium_org/third_party/smhasher/src" name="platform/external/chromium_org/third_party/smhasher/src"  groups="aosp44" />
+  <project path="external/chromium_org/third_party/yasm/source/patched-yasm" name="platform/external/chromium_org/third_party/yasm/source/patched-yasm"  groups="aosp44" />
+  <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit"  groups="aosp44" />
+  <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp"  groups="aosp44" />
+  <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8"  groups="aosp44" />
+>>>>>>> 7072b1d... Merge KK manifest
   <project path="external/clang" name="external_clang" remote="vanir" revision="kk44" groups="pdk" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="external_dnsmasq" remote="vanir" revision="kk44" groups="pdk" />
+<<<<<<< HEAD
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
+=======
+  <project path="external/doclava" name="android_external_doclava" />
+  <project path="external/dropbear" name="android_external_dropbear" />
+  <project path="external/droiddriver" name="platform/external/droiddriver"  groups="aosp44" />
+>>>>>>> 7072b1d... Merge KK manifest
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="vanir" revision="kk44" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
@@ -164,7 +204,7 @@
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/exfat" name="android_external_exfat" remote="cm" revision="cm-10.2" />
   <project path="external/eyes-free" name="platform/external/eyes-free" />
-  <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools"  />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/ffmpeg" name="external_ffmpeg" remote="vanir" revision="kk44" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
@@ -183,7 +223,8 @@
   <project path="external/guava" name="external_guava" remote="vanir" revision="kk44" />
   <project path="external/hamcrest" name="platform/external/hamcrest" />
   <project path="external/harfbuzz" name="platform/external/harfbuzz" />
-  <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng"  />
+<<<<<<< HEAD
   <project path="external/heimdall" name="android_external_heimdall" remote="cm" revision="cm-10.2" />
   <project path="external/htop" name="android_external_htop" remote="cm" revision="cm-10.2" />
   <project path="external/hyphenation" name="platform/external/hyphenation" />
@@ -198,6 +239,23 @@
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" />
   <project path="external/jmdns" name="platform/external/jmdns" />
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" />
+=======
+  <project path="external/heimdall" name="android_external_heimdall" />
+  <project path="external/htop" name="android_external_htop" />
+  <project path="external/hyphenation" name="android_external_hyphenation" />
+  <project path="external/icu4c" name="android_external_icu4c" groups="pdk" />
+  <project path="external/iproute2" name="android_external_iproute2" groups="pdk" />
+  <project path="external/ipsec-tools" name="android_external_ipsec-tools" />
+  <project path="external/iptables" name="android_external_iptables" />
+  <project path="external/iputils" name="platform/external/iputils"  groups="aosp44" />
+  <project path="external/jack" name="android_external_jack" />
+  <project path="external/javasqlite" name="android_external_javasqlite" />
+  <project path="external/javassist" name="android_external_javassist" />
+  <project path="external/jdiff" name="android_external_jdiff" />
+  <project path="external/jhead" name="android_external_jhead" groups="pdk" />
+  <project path="external/jmdns" name="android_external_jmdns" />
+  <project path="external/jmonkeyengine" name="android_external_jmonkeyengine" />
+>>>>>>> 7072b1d... Merge KK manifest
   <project path="external/jpeg" name="external_jpeg" remote="vanir" revision="kk44" groups="pdk" />
   <project path="external/jsilver" name="platform/external/jsilver" />
   <project path="external/jsr305" name="platform/external/jsr305" />
@@ -211,7 +269,7 @@
   <project path="external/koush/Widgets" name="koush/Widgets" remote="github" revision="master" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
   <project path="external/libffi" name="platform/external/libffi" />
-  <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project path="external/libgsm" name="platform/external/libgsm" groups="pdk"  />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libminiz" name="codefireXperiment/external_libminiz" remote="github" revision="jb-devel-mr2-release" />
   <project path="external/libmtp" name="platform/external/libmtp" />
@@ -225,23 +283,38 @@
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
   <project path="external/libphonenumbergoogle" name="android_external_libphonenumbergoogle" remote="cm" revision="cm-10.2" />
   <project path="external/libpng" name="external_libpng" remote="vanir" revision="kk44" groups="pdk" />
+<<<<<<< HEAD
   <project path="external/libppp" name="platform/external/libppp" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
   <project path="external/libsepol" name="platform/external/libsepol" groups="pdk" />
   <project path="external/libusb" name="platform/external/libusb" />
-<!--  <project path="external/libusb_aah" name="platform/external/libusb_aah" groups="libusb_aah" remote="aosp" revision="refs/tags/android-4.4_r1" />-->
+<!--  <project path="external/libusb_aah" name="platform/external/libusb_aah" groups="libusb_aah"  />-->
   <project path="external/libusb-compat" name="platform/external/libusb-compat" />
   <project path="external/libvorbis" name="platform/external/libvorbis" />
   <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" />
   <project path="external/libxml2" name="platform/external/libxml2" />
   <project path="external/libxslt" name="platform/external/libxslt" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv" />
+=======
+  <project path="external/libppp" name="android_external_libppp" />
+  <project path="external/libselinux" name="android_external_libselinux" groups="pdk" />
+  <project path="external/libsepol" name="android_external_libsepol" groups="pdk" />
+  <project path="external/libusb" name="android_external_libusb" />
+  <project path="external/libusb-compat" name="android_external_libusb-compat" />
+  <project path="external/libvorbis" name="android_external_libvorbis" />
+  <project path="external/libvpx" name="android_external_libvpx" groups="pdk" />
+  <project path="external/libxml2" name="android_external_libxml2" />
+  <project path="external/libxslt" name="android_external_libxslt" />
+  <project path="external/libyuv" name="android_external_libyuv" groups="libyuv" />
+>>>>>>> 7072b1d... Merge KK manifest
   <project path="external/linux-tools-perf" name="external_linux-tools-perf" remote="vanir" revision="kk44" />
   <project path="external/littlemock" name="platform/external/littlemock" />
   <project path="external/llvm" name="external_llvm" remote="vanir" revision="kk44" groups="pdk" />
+  <project path="external/lzma" name="platform/external/lzma"  groups="aosp44" />
   <project path="external/lrzsz" name="external_lrzsz" remote="vanir" revision="kk44" />
   <project path="external/lsof" name="external_lsof" remote="vanir" revision="kk44" />
-  <project path="external/marisa-trie" name="platform/external/marisa-trie" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project path="external/marisa-trie" name="platform/external/marisa-trie"  />
+<<<<<<< HEAD
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" />
   <project path="external/mksh" name="platform/external/mksh" groups="pdk" />
@@ -253,16 +326,31 @@
   <project path="external/netperf" name="platform/external/netperf" />
   <project path="external/neven" name="platform/external/neven" />
   <project path="external/nist-sip" name="platform/external/nist-sip" />
-  <project path="external/noto-fonts" name="platform/external/noto-fonts" remote="aosp" revision="refs/tags/android-4.4_r1" />
+=======
+  <project path="external/markdown" name="android_external_markdown" />
+  <project path="external/mdnsresponder" name="android_external_mdnsresponder" groups="pdk" />
+  <project path="external/mesa3d" name="platform/external/mesa3d"  groups="aosp44" />
+  <project path="external/mksh" name="android_external_mksh" groups="pdk" />
+  <project path="external/mockwebserver" name="android_external_mockwebserver" />
+  <project path="external/mp4parser" name="android_external_mp4parser" />
+  <project path="external/mtpd" name="android_external_mtpd" />
+  <project path="external/naver-fonts" name="android_external_naver-fonts" />
+  <project path="external/netcat" name="android_external_netcat" />
+  <project path="external/netperf" name="android_external_netperf" />
+  <project path="external/neven" name="android_external_neven" />
+  <project path="external/nist-sip" name="android_external_nist-sip" />
+>>>>>>> 7072b1d... Merge KK manifest
+  <project path="external/noto-fonts" name="platform/external/noto-fonts"  />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="cm" revision="cm-10.2" />
   <project path="external/oauth" name="platform/external/oauth" />
   <project path="external/okhttp" name="platform/external/okhttp" />
-  <project path="external/open-vcdiff" name="platform/external/open-vcdiff" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project path="external/open-vcdiff" name="platform/external/open-vcdiff"  />
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
   <project path="external/openssh" name="external_openssh" remote="vanir" revision="kk44" />
   <project path="external/openssl" name="external_openssl" remote="vanir" revision="kk44" groups="pdk" />
   <project path="external/oprofile" name="external_oprofile" remote="vanir" revision="kk44" />
+<<<<<<< HEAD
   <project path="external/pigz" name="android_external_pigz" remote="cm" revision="cm-10.2" />
   <project path="external/ping" name="external_ping" remote="vanir" revision="kk44" />
   <project path="external/ping6" name="external_ping6" remote="vanir" revision="kk44" />
@@ -276,13 +364,32 @@
   <project path="external/quake" name="external_quake" remote="vanir" revision="kk44" />
   <project path="external/regex-re2" name="platform/external/regex-re2" />
   <project path="external/replicaisland" name="platform/external/replicaisland" />
-  <project path="external/robolectric" name="platform/external/robolectric" remote="aosp" revision="refs/tags/android-4.4_r1" />
+=======
+  <project path="external/pigz" name="android_external_pigz" />
+  <project path="external/pixman" name="platform/external/pixman"  groups="aosp44" />
+  <project path="external/powertop" name="android_external_powertop" />
+  <project path="external/ppp" name="android_external_ppp" />
+  <project path="external/proguard" name="android_external_proguard" groups="pdk" />
+  <project path="external/protobuf" name="android_external_protobuf" groups="pdk" />
+  <project path="external/qemu" name="android_external_qemu" />
+  <project path="external/qemu-pc-bios" name="android_external_qemu-pc-bios" />
+  <project path="external/qrngd" name="android_external_qrngd" />
+  <project path="external/regex-re2" name="android_external_regex-re2" />
+  <project path="external/replicaisland" name="android_external_replicaisland" />
+>>>>>>> 7072b1d... Merge KK manifest
+  <project path="external/robolectric" name="platform/external/robolectric"  />
   <project path="external/rsync" name="android_external_rsync" remote="cm" revision="cm-10.2" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
-  <project path="external/scrypt" name="platform/external/scrypt" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project path="external/scrypt" name="platform/external/scrypt"  />
+<<<<<<< HEAD
   <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" />
+=======
+  <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" />
+  <project path="external/sfntly" name="platform/external/sfntly"  groups="aosp44" />
+  <project path="external/sil-fonts" name="platform/external/sil-fonts"  groups="aosp44" />
+>>>>>>> 7072b1d... Merge KK manifest
   <project path="external/skia" name="external_skia" remote="vanir" revision="kk44" />
-  <project path="external/smack" name="platform/external/smack" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project path="external/smack" name="platform/external/smack"  />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="external_sonivox" remote="vanir" revision="kk44" groups="pdk" />
   <project path="external/speex" name="external_speex" remote="vanir" revision="kk44" groups="pdk" />
@@ -296,8 +403,9 @@
   <project path="external/svox" name="platform/external/svox" />
   <project path="external/tagsoup" name="platform/external/tagsoup" />
   <project path="external/tcpdump" name="external_tcpdump" remote="vanir" revision="kk44" />
-  <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support"  />
   <project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk" />
+  <project path="external/tinycompress" name="platform/external/tinycompress" groups="aosp44 pdk" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
@@ -340,6 +448,7 @@
   <project path="frameworks/rs" name="frameworks_rs" remote="vanir" revision="kk44" />
   <project path="frameworks/support" name="frameworks_support" remote="vanir" revision="kk44" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
+  <project path="frameworks/uiautomator" name="platform/frameworks/uiautomator" groups="aosp44" />
   <project path="frameworks/volley" name="platform/frameworks/volley" />
   <project path="frameworks/webview" name="platform/frameworks/webview" />
   <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="vanir" revision="kk44" />
@@ -350,11 +459,12 @@
   <project path="hardware/invensense" name="hardware_invensense" remote="vanir" revision="kk44" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="vanir" revision="kk44" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware-legacy" remote="vanir" revision="kk44" groups="pdk" />
-  <project path="hardware/msm7k" name="hardware_msm7k" remote="vanir" revision="kk44" />
+  <project path="hardware/msm7k" name="hardware_msm7k" remote="vanir" revision="kk44" groups="deleted_in_aosp44" />
   <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="vanir" revision="kk44" groups="qcom" />
   <project path="hardware/qcom/audio-caf" name="hardware_qcom_audio-caf" remote="vanir" revision="kk44" groups="caf" />
   <project path="hardware/qcom/audio-bfam" name="hardware_qcom_audio-bfam" remote="vanir" revision="kk44" groups="honami"/>
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom"/>
+  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="aosp44 qcom" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="vanir" revision="kk44" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="vanir" revision="kk44" groups="caf" />
   <project path="hardware/qcom/display-mdss" name="android_hardware_qcom_display-mdss" groups="honami" remote="cm" revision="cm-10.2" />
@@ -366,6 +476,7 @@
   <project path="hardware/qcom/media-legacy" name="OpenSEMC/android_hardware_qcom_media-legacy" remote="github" revision="cm-10.2" />
   <project path="hardware/qcom/media-v4l2" name="android_hardware_qcom_media-v4l2" groups="honami" remote="cm" revision="cm-10.2" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom/msm8960" />
+  <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="aosp44 msm8x74" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="vanir" revision="kk44" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" />
@@ -379,7 +490,7 @@
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   <project path="libcore" name="libcore" remote="vanir" revision="kk44" />
   <project path="libnativehelper" name="platform/libnativehelper" />
-  <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project path="ndk" name="platform/ndk"  />
   <project path="packages/apps/AppWidgetPicker" name="FruitsAndVeggies/packages_apps_AppWidgetPicker" remote="github" revision="jb" />
   <project path="packages/apps/VoicePlus" name="android_packages_apps_VoicePlus" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
@@ -396,8 +507,10 @@
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="vanir" revision="kk44" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
+  <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" groups="aosp44" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="packages_apps_Launcher2" remote="vanir" revision="kk44" />
+  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3"  groups="aosp44" />
   <project path="packages/apps/Mms" name="packages_apps_Mms" remote="vanir" revision="kk44" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="vanir" revision="kk44" />
@@ -414,6 +527,7 @@
   <project path="packages/apps/SpeakerProximity" name="packages_apps_SpeakerProximity" remote="vanir" revision="kk44" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
+  <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" groups="aosp44" />
   <project path="packages/apps/VanirUpdater" name="packages_apps_VanirUpdater" remote="vanir" revision="kk44" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/inputmethods/LatinIME" name="packages_input_LatinIME" remote="vanir" revision="kk44" />
@@ -421,7 +535,6 @@
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="vanir" revision="kk44" />
-  <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="vanir" revision="kk44" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
@@ -429,6 +542,7 @@
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
+  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" groups="aosp44" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
@@ -437,38 +551,51 @@
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
-  <project path="pdk" name="platform/pdk" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="pdk,linux" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="pdk,linux" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" remote="aosp" revision="refs/tags/android-4.4_r1" groups="pdk" />
-  <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" groups="pdk,darwin,arm" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project path="pdk" name="platform/pdk"  />
+  <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin"  />
+  <project path="prebuilts/clang/darwin-x86/arm/3.3" name="platform/prebuilts/clang/darwin-x86/arm/3.3" groups="darwin,arm" />
+  <project path="prebuilts/clang/darwin-x86/host/3.3" name="platform/prebuilts/clang/darwin-x86/host/3.3" groups="darwin"  />
+  <project path="prebuilts/clang/darwin-x86/mips/3.3" name="platform/prebuilts/clang/darwin-x86/mips/3.3" groups="darwin,mips"  />
+  <project path="prebuilts/clang/darwin-x86/x86/3.3" name="platform/prebuilts/clang/darwin-x86/x86/3.3" groups="darwin,x86"  />
+  <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="pdk,linux"  />
+  <project path="prebuilts/clang/darwin-x86/arm/3.3" name="platform/prebuilts/clang/darwin-x86/arm/3.3" groups="darwin,arm" />
+  <project path="prebuilts/clang/darwin-x86/host/3.3" name="platform/prebuilts/clang/darwin-x86/host/3.3" groups="darwin"  />
+  <project path="prebuilts/clang/darwin-x86/mips/3.3" name="platform/prebuilts/clang/darwin-x86/mips/3.3" groups="darwin,mips"  />
+  <project path="prebuilts/clang/darwin-x86/x86/3.3" name="platform/prebuilts/clang/darwin-x86/x86/3.3" groups="darwin,x86"  />
+  <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="pdk,linux"  />
+  <project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" groups="linux,arm"  />
+  <project path="prebuilts/clang/linux-x86/host/3.3" name="platform/prebuilts/clang/linux-x86/host/3.3" groups="linux"  />
+  <project path="prebuilts/clang/linux-x86/mips/3.3" name="platform/prebuilts/clang/linux-x86/mips/3.3" groups="linux,mips"  />
+  <project path="prebuilts/clang/linux-x86/x86/3.3" name="platform/prebuilts/clang/linux-x86/x86/3.3" groups="linux,x86"  />
+  <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse"  groups="pdk" />
+  <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse"  />
+  <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse"  />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" groups="pdk,darwin,arm"  />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" groups="pdk,darwin,arm" revision="master" remote="aosp" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" groups="pdk,darwin,arm" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" groups="pdk,darwin,arm"  />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" groups="pdk,darwin,arm" remote="aosp" revision="master" />
-  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" groups="pdk,darwin,mips" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="pdk,darwin,x86" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" groups="pdk,darwin,mips"  />
+  <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="pdk,darwin,x86"  />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="pdk,linux,arm"  />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" revision="master" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="cfx" revision="jb-devel" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7-linaro" groups="pdk,linux,arm" revision="master" remote="linaro" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="pdk,linux,arm"  />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8" remote="cfx" revision="jb-devel" />
-  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="pdk,linux" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="pdk,linux" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="pdk,linux" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" groups="lpdk,inux,mips" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="pdk,linux,x86" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project path="prebuilts/misc" name="platform/prebuilts/misc" remote="aosp" revision="refs/tags/android-4.4_r1" groups="pdk" />
-  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" remote="aosp" revision="refs/tags/android-4.4_r1" groups="pdk" />
-  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" remote="aosp" revision="refs/tags/android-4.4_r1" groups="pdk" />
-  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="refs/tags/android-4.4_r1" groups="pdk" />
-  <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.4_r1" groups="pdk" />
+  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="pdk,linux"  />
+  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="pdk,linux"  />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="pdk,linux"  />
+  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" groups="lpdk,inux,mips"  />
+  <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="pdk,linux,x86"  />
+  <project path="prebuilts/misc" name="platform/prebuilts/misc"  groups="pdk" />
+  <project path="prebuilts/ndk" name="platform/prebuilts/ndk"  groups="pdk" />
+  <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin"  />
+  <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux"  />
+  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel"  groups="pdk" />
+  <project path="prebuilts/runtime" name="platform/prebuilts/runtime"  groups="aosp44" />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk"  groups="pdk" />
+  <project path="prebuilts/tools" name="platform/prebuilts/tools"  groups="pdk" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/bluetooth" name="platform/system/bluetooth" groups="pdk" />
   <project path="system/core" name="system_core" remote="vanir" revision="kk44" groups="pdk" />
   <project path="system/extras" name="system_extras" remote="vanir" revision="kk44" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
@@ -476,6 +603,8 @@
   <project path="system/qcom" name="system_qcom" groups="qcom" remote="vanir" revision="kk44" />
   <project path="system/security" name="system_security" remote="vanir" revision="kk44" groups="pdk" />
   <project path="system/vold" name="system_vold" remote="vanir" revision="kk44" groups="pdk" />
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools"  />
+  <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools"  />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="vendor/asus" name="vendor_asus" remote="vanir" revision="kk44" groups="vendor" />
