@@ -5,6 +5,7 @@
 
 export defaultremote=cm
 export defaultrevision=cm-10.2
+export precompiled=
 
 case $1 in
     apache)
@@ -21,9 +22,7 @@ case $1 in
         export kernelsource="kernel_samsung_jf"
     ;;
     hammerhead)
-        export remote="aosp"
-        export remoterevision="refs/tags/android-4.4_r1"
-        export kernelsource="device/lge/hammerhead-kernel"
+        export precompiled=0
     ;;
     m7*|dlx)
         export remote="vanir"
