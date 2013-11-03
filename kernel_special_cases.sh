@@ -45,11 +45,6 @@ case $1 in
         export remoterevision="jim_mr2"
         export kernelsource="jimsth/vanir_tuna"
     ;;
-    u8860)
-        export remote="github"
-        export remoterevision="cm-10.2"
-        export kernelsource="CyanCom/android_kernel_huawei_msm7x30-common"
-    ;;
     vigor*)
         export remote="github"
         export remoterevision="cm-10.2"
