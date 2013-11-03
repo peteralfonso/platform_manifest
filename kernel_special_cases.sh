@@ -23,7 +23,7 @@ case $1 in
     hammerhead)
         export remote="aosp"
         export remoterevision="refs/tags/android-4.4_r1"
-        export kernelsource="platform/device/hammerhead-kernel"
+        export kernelsource="device/lge/hammerhead-kernel"
     ;;
     m7*|dlx)
         export remote="vanir"
