@@ -11,7 +11,7 @@ Please see the [Android source page](http://source.android.com/source/index.html
 
 To initialize your local repository using my trees, use the following command:
 
-    repo init -u git://github.com/VanirAOSP/platform_manifest.git -b jb43
+    repo init -u git://github.com/VanirAOSP/platform_manifest.git -b kk44
 
 Then to sync up:
 
