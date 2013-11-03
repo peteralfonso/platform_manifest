@@ -20,6 +20,11 @@ case $1 in
         export remoterevision="jb43"
         export kernelsource="kernel_samsung_jf"
     ;;
+    hammerhead)
+        export remote="aosp"
+        export remoterevision="refs/tags/android-4.4_r1"
+        export kernelsource="platform/device/hammerhead-kernel"
+    ;;
     m7*|dlx)
         export remote="vanir"
         export remoterevision="sonic-dev"
