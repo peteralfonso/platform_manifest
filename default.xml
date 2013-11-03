@@ -57,7 +57,6 @@
   <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="vanir" revision="kk44" />
   <project path="device/htc/s4-common" name="device_htc_s4-common" remote="vanir" revision="kk44" />
   <project path="device/htc/vigor" name="vigor/device_htc_vigor" remote="github" revision="cm-10.2" />
-  <project path="device/huawei/u8860" name="device_huawei_u8860" remote="vanir" revision="kk44" groups="u8860" />
   <project path="device/lge/e975" name="android_device_lge_e975" remote="cm" revision="cm-10.2" />
   <project path="device/lge/e980" name="android_device_lge_e980" remote="cm" revision="cm-10.2" />
   <project path="device/lge/g2-common" name="device_lge_g2-common" remote="vanir" revision="kk44" />
@@ -375,7 +374,6 @@
   <project path="frameworks/volley" name="platform/frameworks/volley" />
   <project path="frameworks/webview" name="platform/frameworks/webview" />
   <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="vanir" revision="kk44" />
-  <project path="hardware/atheros/wpa_supplicannt/libs" name="CyanCom/android_hardware_atheros_wpa_supplicant_libs" remote="github" revision="cm-10.2" groups="u8860" />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/cm" name="android_hardware_cm" remote="cm" revision="cm-10.2" />
