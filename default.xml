@@ -36,7 +36,6 @@
   <project path="device/asus/flo" name="device_asus_flo" remote="vanir" revision="kk44" />
   <project path="device/asus/grouper" name="device_asus_grouper" remote="vanir" revision="kk44" />
   <project path="device/asus/tilapia" name="device_asus_tilapia" remote="vanir" revision="kk44" groups="device" />
-  <project path="device/asus/tf700t" name="device_asus_tf700t" remote="vanir" revision="kk44" groups="tf700_device" />
   <project path="device/bn/common" name="device_bn_common" remote="vanir" revision="kk44" groups="Ovation_device" />
   <project path="device/bn/ovation" name="android_device_bn_ovation" groups="Ovation_device" remote="cm" revision="cm-10.2" />
   <project path="device/common" name="device/common" groups="pdk" />
