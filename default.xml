@@ -187,30 +187,30 @@
   <project path="external/emma" name="platform/external/emma" />
   <project path="external/esd" name="platform/external/esd" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
-  <project path="external/exfat" name="android_external_exfat" remote="cm" revision="cm-10.2" />
+  <project path="external/exfat" name="android_external_exfat" remote="cm" revision="cm-11.0" />
   <project path="external/eyes-free" name="platform/external/eyes-free" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools"  />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/ffmpeg" name="external_ffmpeg" remote="vanir" revision="kk44" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
   <project path="external/freetype" name="external_freetype" remote="vanir" revision="kk44" groups="pdk" />
-  <project path="external/fsck/msdos" name="android_external_fsck_msdos" remote="cm" revision="cm-10.2" />
+  <project path="external/fsck/msdos" name="android_external_fsck_msdos" remote="cm" revision="cm-11.0" />
   <project path="external/fuse" name="external_fuse" remote="vanir" revision="kk44" />
   <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
   <project path="external/giflib" name="platform/external/giflib" />
-  <project path="external/google" name="android_external_google" remote="cm" revision="cm-10.2" />
+  <project path="external/google" name="android_external_google" remote="cm" revision="cm-11.0" />
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" />
   <project path="external/grub" name="platform/external/grub" />
-  <project path="external/gson" name="android_external_gson" remote="cm" revision="cm-10.2" />
+  <project path="external/gson" name="android_external_gson" remote="cm" revision="cm-11.0" />
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" />
   <project path="external/guava" name="external_guava" remote="vanir" revision="kk44" />
   <project path="external/hamcrest" name="platform/external/hamcrest" />
   <project path="external/harfbuzz" name="platform/external/harfbuzz" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng"  />
-  <project path="external/heimdall" name="android_external_heimdall" remote="cm" revision="cm-10.2" />
-  <project path="external/htop" name="android_external_htop" remote="cm" revision="cm-10.2" />
+  <project path="external/heimdall" name="android_external_heimdall" remote="cm" revision="cm-11.0" />
+  <project path="external/htop" name="android_external_htop" remote="cm" revision="cm-11.0" />
   <project path="external/hyphenation" name="platform/external/hyphenation" />
   <project path="external/icu4c" name="platform/external/icu4c" groups="pdk" />
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" />
@@ -229,9 +229,9 @@
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
-  <project path="external/kissfft" name="android_external_kissfft" remote="cm" revision="cm-10.2" />
+  <project path="external/kissfft" name="android_external_kissfft" remote="cm" revision="cm-11.0" />
   <project path="external/klogripper" name="external_klogripper" remote="vanir" revision="kk44" />
-  <project path="external/koush/Superuser" name="Superuser" remote="cm" revision="cm-10.2" />
+  <project path="external/koush/Superuser" name="Superuser" remote="cm" revision="cm-11.0" />
   <project path="external/koush/Widgets" name="koush/Widgets" remote="github" revision="master" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
   <project path="external/libffi" name="platform/external/libffi" />
@@ -247,7 +247,7 @@
   <project path="external/libogg" name="platform/external/libogg" />
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
-  <project path="external/libphonenumbergoogle" name="android_external_libphonenumbergoogle" remote="cm" revision="cm-10.2" />
+  <project path="external/libphonenumbergoogle" name="android_external_libphonenumbergoogle" remote="cm" revision="cm-11.0" />
   <project path="external/libpng" name="external_libpng" remote="vanir" revision="kk44" groups="pdk" />
   <project path="external/libppp" name="platform/external/libppp" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
@@ -279,7 +279,7 @@
   <project path="external/neven" name="platform/external/neven" />
   <project path="external/nist-sip" name="platform/external/nist-sip" />
   <project path="external/noto-fonts" name="platform/external/noto-fonts"  />
-  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="cm" revision="cm-10.2" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="cm" revision="cm-11.0" />
   <project path="external/oauth" name="platform/external/oauth" />
   <project path="external/okhttp" name="platform/external/okhttp" />
   <project path="external/open-vcdiff" name="platform/external/open-vcdiff"  />
@@ -288,20 +288,20 @@
   <project path="external/openssh" name="external_openssh" remote="vanir" revision="kk44" />
   <project path="external/openssl" name="external_openssl" remote="vanir" revision="kk44" groups="pdk" />
   <project path="external/oprofile" name="external_oprofile" remote="vanir" revision="kk44" />
-  <project path="external/pigz" name="android_external_pigz" remote="cm" revision="cm-10.2" />
+  <project path="external/pigz" name="android_external_pigz" remote="cm" revision="cm-11.0" />
   <project path="external/pixman" name="platform/external/pixman"  groups="aosp44" />
-  <project path="external/powertop" name="android_external_powertop" remote="cm" revision="cm-10.2" />
+  <project path="external/powertop" name="android_external_powertop" remote="cm" revision="cm-11.0" />
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
   <project path="external/qemu" name="platform/external/qemu" />
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
-  <project path="external/qrngd" name="android_external_qrngd" remote="cm" revision="cm-10.2" />
+  <project path="external/qrngd" name="android_external_qrngd" remote="cm" revision="cm-11.0" />
   <project path="external/quake" name="external_quake" remote="vanir" revision="kk44" />
   <project path="external/regex-re2" name="platform/external/regex-re2" />
   <project path="external/replicaisland" name="platform/external/replicaisland" />
   <project path="external/robolectric" name="platform/external/robolectric"  />
-  <project path="external/rsync" name="android_external_rsync" remote="cm" revision="cm-10.2" />
+  <project path="external/rsync" name="android_external_rsync" remote="cm" revision="cm-11.0" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt"  />
   <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" />
@@ -313,7 +313,7 @@
   <project path="external/sonivox" name="external_sonivox" remote="vanir" revision="kk44" groups="pdk" />
   <project path="external/speex" name="external_speex" remote="vanir" revision="kk44" groups="pdk" />
   <project path="external/sqlite" name="external_sqlite" remote="vanir" revision="kk44" groups="pdk" />
-  <project path="external/spongycastle" name="android_external_spongycastle" remote="cm" revision="cm-10.2" />
+  <project path="external/spongycastle" name="android_external_spongycastle" remote="cm" revision="cm-11.0" />
   <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/stlport" name="external_stlport" remote="vanir" revision="kk44" />
@@ -337,7 +337,7 @@
   <project path="external/wpa_supplicant_8_ti" name="external_wpa_supplicant_8_ti" remote="vanir" revision="kk44" groups="pdk" />
   <project path="external/x264" name="external_x264" remote="vanir" revision="kk44" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
-  <project path="external/xmp/toolkit" name="android_external_xmp_toolkit" remote="cm" revision="cm-10.2" />
+  <project path="external/xmp/toolkit" name="android_external_xmp_toolkit" remote="cm" revision="cm-11.0" />
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
@@ -355,7 +355,7 @@
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
   <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
-  <project path="frameworks/opt/hardware" name="android_frameworks_opt_hardware" remote="cm" revision="cm-10.2" />
+  <project path="frameworks/opt/hardware" name="android_frameworks_opt_hardware" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
@@ -373,7 +373,7 @@
   <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="vanir" revision="kk44" />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
-  <project path="hardware/cm" name="android_hardware_cm" remote="cm" revision="cm-10.2" />
+  <project path="hardware/cm" name="android_hardware_cm" remote="cm" revision="cm-11.0" />
   <project path="hardware/invensense" name="hardware_invensense" remote="vanir" revision="kk44" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="vanir" revision="kk44" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware-legacy" remote="vanir" revision="kk44" groups="pdk" />
@@ -385,23 +385,23 @@
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="aosp44 qcom" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="vanir" revision="kk44" groups="qcom" />
   <!--<project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="vanir" revision="kk44" groups="caf" />
-  <project path="hardware/qcom/display-mdss" name="android_hardware_qcom_display-mdss" groups="honami" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/display-legacy" name="OpenSEMC/android_hardware_qcom_display-legacy" remote="github" revision="cm-10.2" />-->
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom" remote="cm" revision="cm-10.2" />
+  <project path="hardware/qcom/display-mdss" name="android_hardware_qcom_display-mdss" groups="honami" remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/display-legacy" name="OpenSEMC/android_hardware_qcom_display-legacy" remote="github" revision="cm-11.0" />-->
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="hardware_qcom_media" remote="vanir" revision="kk44" groups="qcom" />
   <!--<project path="hardware/qcom/media-caf" name="hardware_qcom_media-caf" remote="vanir" revision="kk44" groups="caf" />
-  <project path="hardware/qcom/media-legacy" name="OpenSEMC/android_hardware_qcom_media-legacy" remote="github" revision="cm-10.2" />
-  <project path="hardware/qcom/media-v4l2" name="android_hardware_qcom_media-v4l2" groups="honami" remote="cm" revision="cm-10.2" />-->
+  <project path="hardware/qcom/media-legacy" name="OpenSEMC/android_hardware_qcom_media-legacy" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/media-v4l2" name="android_hardware_qcom_media-v4l2" groups="honami" remote="cm" revision="cm-11.0" />-->
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom/msm8960" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="aosp44 msm8x74" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="vanir" revision="kk44" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" />
   <project path="hardware/ril" name="hardware_ril" remote="vanir" revision="kk44" groups="pdk" />
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="cm-10.2" />
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="cm-11.0" />
   <project path="hardware/samsung_slsi/exynos5" name="hardware_samsung_slsi_exynos5" remote="vanir" revision="kk44" />
-  <project path="hardware/sony/DASH" name="android_hardware_sony_DASH" remote="cm" revision="cm-10.2" />
+  <!--<project path="hardware/sony/DASH" name="android_hardware_sony_DASH" remote="cm" revision="cm-11.0" />-->
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="vanir" revision="kk44" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
@@ -444,7 +444,7 @@
 <!--
   <project path="packages/apps/QuickSearchBox" name="packages_apps_quicksearchbox" remote="vanir" revision="kk44" />
 -->
-  <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" groups="tab2" remote="cm" revision="cm-10.2" />
+  <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" groups="tab2" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="vanir" revision="kk44" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="packages_apps_soundrecorder" remote="vanir" revision="kk44" />
@@ -539,9 +539,9 @@
   <project path="vendor/sony" name="vendor_sony" remote="vanir" revision="kk44" groups="vendor" />
   <project path="vendor/vanir" name="vendor_vanir" remote="vanir" revision="kk44" groups="vendor" />
 <!--
-  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-10.2" />
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.2" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.2" />
+  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-11.0" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-11.0" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-11.0" />
 -->
 
 <!-- Additional vendors -->
