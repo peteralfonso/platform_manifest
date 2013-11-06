@@ -379,12 +379,20 @@
   <project path="hardware/libhardware_legacy" name="hardware_libhardware-legacy" remote="vanir" revision="kk44" groups="pdk" />
   <project path="hardware/msm7k" name="hardware_msm7k" remote="vanir" revision="kk44" groups="deleted_in_aosp44" />
   <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="vanir" revision="kk44" groups="qcom" />
+  <!--<project path="hardware/qcom/audio-caf" name="hardware_qcom_audio-caf" remote="vanir" revision="kk44" groups="caf" />
+  <project path="hardware/qcom/audio-bfam" name="hardware_qcom_audio-bfam" remote="vanir" revision="kk44" groups="honami"/>-->
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom"/>
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="aosp44 qcom" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="vanir" revision="kk44" groups="qcom" />
+  <!--<project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="vanir" revision="kk44" groups="caf" />
+  <project path="hardware/qcom/display-mdss" name="android_hardware_qcom_display-mdss" groups="honami" remote="cm" revision="cm-10.2" />
+  <project path="hardware/qcom/display-legacy" name="OpenSEMC/android_hardware_qcom_display-legacy" remote="github" revision="cm-10.2" />-->
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom" remote="cm" revision="cm-10.2" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="hardware_qcom_media" remote="vanir" revision="kk44" groups="qcom" />
+  <!--<project path="hardware/qcom/media-caf" name="hardware_qcom_media-caf" remote="vanir" revision="kk44" groups="caf" />
+  <project path="hardware/qcom/media-legacy" name="OpenSEMC/android_hardware_qcom_media-legacy" remote="github" revision="cm-10.2" />
+  <project path="hardware/qcom/media-v4l2" name="android_hardware_qcom_media-v4l2" groups="honami" remote="cm" revision="cm-10.2" />-->
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom/msm8960" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="aosp44 msm8x74" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="vanir" revision="kk44" />
@@ -433,6 +441,9 @@
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
+<!--
+  <project path="packages/apps/QuickSearchBox" name="packages_apps_quicksearchbox" remote="vanir" revision="kk44" />
+-->
   <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" groups="tab2" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="vanir" revision="kk44" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
