@@ -380,7 +380,6 @@
   <project path="hardware/msm7k" name="hardware_msm7k" remote="vanir" revision="kk44" groups="deleted_in_aosp44" />
   <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="vanir" revision="kk44" groups="qcom" />
   <project path="hardware/qcom/audio-caf" name="hardware_qcom_audio-caf" remote="vanir" revision="kk44" groups="caf" />
-  <!--<project path="hardware/qcom/audio-bfam" name="hardware_qcom_audio-bfam" remote="vanir" revision="kk44" groups="honami"/>-->
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="cm" revision="cm-11.0" groups="aosp44 qcom" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="vanir" revision="kk44" groups="qcom" />
@@ -441,9 +440,6 @@
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-<!--
-  <project path="packages/apps/QuickSearchBox" name="packages_apps_quicksearchbox" remote="vanir" revision="kk44" />
--->
   <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" groups="tab2" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="vanir" revision="kk44" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
