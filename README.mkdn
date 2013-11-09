@@ -1,7 +1,7 @@
 Team Vanir's repo
 ===========
 
-This branch is for Vanir's android-4.3_r2.1 based ROM
+This branch is for Vanir's android-4.4_r1 based ROM
 
 
 Getting Started
