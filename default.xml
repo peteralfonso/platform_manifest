@@ -339,7 +339,7 @@
   <project path="external/xmlwriter" name="android_external_xmlwriter" />
   <project path="external/xmp/toolkit" name="android_external_xmp_toolkit" />
   <project path="external/yaffs2" name="android_external_yaffs2" groups="pdk" />
-  <project path="external/zlib" name="platform/external/zlib" groups="pdk" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project path="external/zlib" name="android_external_zlib" groups="pdk" />
   <project path="external/zxing" name="android_external_zxing" />
   <project path="frameworks/av" name="frameworks_av" remote="vanir" revision="kk44" groups="pdk" />
   <project path="frameworks/base" name="frameworks_base" remote="vanir" revision="kk44" />
