@@ -16,8 +16,6 @@
           fetch="https://github.com/" />
   <remote name="linaro"
           fetch="git://android.git.linaro.org/" />
-  <remote name="camcory"
-          fetch="https://github.com/camcory/platform_bionic.git" />
   <default revision="cm-11.0"
           sync-j="12"
           remote="cm" />
@@ -29,7 +27,7 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project path="art" name="android_art"  groups="aosp44" />
-  <project path="bionic" name="platform_bionic" remote="camcory" revision="kitkat-release" groups="pdk" />
+  <project path="bionic" name="bionic" remote="vanir" revision="kk44" groups="pdk" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" />
   <project path="cts" name="platform/cts"  remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project path="dalvik" name="dalvik" remote="vanir" revision="kk44" />
