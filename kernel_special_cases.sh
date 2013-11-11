@@ -38,8 +38,10 @@ case $1 in
     ;;
     manta)
         export remoterevision="cm-10.2"
+    ;;
     maserati)
         export remoterevision="cm-10.2"
+    ;;
     ovation)
         export remoterevision="cm-10.2"
     ;;
