@@ -13,11 +13,14 @@ case $1 in
         export remoterevision="cm-10.1"
         export kernelsource="Motorhead1991/samsung-kernel-msm7x30"
     ;;
+    d802|vs980)
+        export remoterevision="cm-10.2"
+    ;;
     e975|e980)
+        export remoterevision="cm-10.2"
         export kernelsource="lge-kernel-gproj"
     ;;
     grouper)
-        export remote="cm"
         export remoterevision="cm-10.2"
     ;;
     jflte*)
@@ -32,6 +35,16 @@ case $1 in
         export remote="vanir"
         export remoterevision="sonic-dev"
         export kernelsource="kernel_htc_m7"
+    ;;
+    manta)
+        export remoterevision="cm-10.2"
+    maserati)
+        export remoterevision="cm-10.2"
+    ovation)
+        export remoterevision="cm-10.2"
+    ;;
+    p3100|p3110|p5100|p5110)
+        export remoterevision="cm-10.2"
     ;;
     p700)
         export remote="github"
