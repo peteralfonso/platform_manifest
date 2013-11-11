@@ -16,6 +16,10 @@ case $1 in
     e975|e980)
         export kernelsource="lge-kernel-gproj"
     ;;
+    grouper)
+        export remote="cm"
+        export remoterevision="cm-10.2"
+    ;;
     jflte*)
         export remote="vanir"
         export remoterevision="jb43"
