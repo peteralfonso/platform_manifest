@@ -17,7 +17,7 @@
   <remote name="linaro"
           fetch="git://android.git.linaro.org/" />
   <remote name="camcory"
-          fetch="https://github.com/camcory/platform_bionic.git" />
+          fetch="https://github.com/camcory/" />
   <default revision="cm-11.0"
           sync-j="12"
           remote="cm" />
