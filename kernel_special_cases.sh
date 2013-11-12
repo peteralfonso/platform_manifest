@@ -20,7 +20,7 @@ case $1 in
         export remoterevision="cm-10.2"
         export kernelsource="lge-kernel-gproj"
     ;;
-    grouper)
+    grouper|tilapia)
         export remoterevision="cm-10.2"
     ;;
     jflte*)
