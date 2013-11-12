@@ -240,8 +240,8 @@
   <project path="external/libminiz" name="codefireXperiment/external_libminiz" remote="github" revision="jb-devel-mr2-release" />
   <project path="external/libmtp" name="android_external_libmtp" />
   <project path="external/libncurses" name="external_libncurses" remote="vanir" revision="kk44" />
-  <project path="external/libnfc-nci" name="platform/external/libnfc-nci" groups="pdk" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="pdk" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project path="external/libnfc-nci" name="android_external_libnfc-nci" groups="pdk" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" groups="pdk" />
   <project path="external/libnl" name="external_libnl" remote="vanir" revision="kk44" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" groups="pdk" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project path="external/libogg" name="android_external_libogg" />
@@ -250,12 +250,12 @@
   <project path="external/libphonenumbergoogle" name="android_external_libphonenumbergoogle" />
   <project path="external/libpng" name="external_libpng" remote="vanir" revision="kk44" groups="pdk" />
   <project path="external/libppp" name="android_external_libppp" />
-  <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project path="external/libsepol" name="platform/external/libsepol" groups="pdk" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project path="external/libselinux" name="android_external_libselinux" groups="pdk" />
+  <project path="external/libsepol" name="android_external_libsepol" groups="pdk" />
   <project path="external/libusb" name="android_external_libusb" />
   <project path="external/libusb-compat" name="android_external_libusb-compat" />
   <project path="external/libvorbis" name="android_external_libvorbis" />
-  <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project path="external/libvpx" name="android_external_libvpx" groups="pdk" />
   <project path="external/libxml2" name="android_external_libxml2" />
   <project path="external/libxslt" name="android_external_libxslt" />
   <project path="external/libyuv" name="android_external_libyuv" groups="libyuv" />
