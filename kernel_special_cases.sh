@@ -13,7 +13,7 @@ case $1 in
         export remoterevision="cm-10.1"
         export kernelsource="Motorhead1991/samsung-kernel-msm7x30"
     ;;
-    d802|vs980)
+    d802|d801|d800|vs980)
         export remoterevision="cm-10.2"
     ;;
     e975|e980)
@@ -25,7 +25,7 @@ case $1 in
     ;;
     jflte*)
         export remote="vanir"
-        export remoterevision="jb43"
+        export remoterevision="kk44"
         export kernelsource="kernel_samsung_jf"
     ;;
     hammerhead)
