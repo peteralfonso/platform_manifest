@@ -60,6 +60,7 @@
   <project path="device/lge/e980" name="android_device_lge_e980" remote="cm" revision="cm-10.2" />
   <project path="device/lge/g2-common" name="device_lge_g2-common" remote="vanir" revision="kk44" />
   <project path="device/lge/d800" name="android_device_lge_d800" remote="cm" revision="cm-10.2" />
+  <project path="device/lge/d801" name="device_lge_d801" remote="vanir" revision="kk44" />
   <project path="device/lge/d802" name="android_device_lge_d802" remote="cm" revision="cm-10.2" />
   <project path="device/lge/gproj-common" name="android_device_lge_gproj-common" remote="cm" revision="cm-10.2" />
   <project path="device/lge/mako" name="device_lge_mako" remote="vanir" revision="kk44" />
