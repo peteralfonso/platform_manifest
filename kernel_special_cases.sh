@@ -23,11 +23,11 @@ case $1 in
     grouper|tilapia)
         export remoterevision="cm-10.2"
     ;;
-    jflte*)
-        export remote="vanir"
-        export remoterevision="kk44"
-        export kernelsource="kernel_samsung_jf"
-    ;;
+#    jflte*)
+    #    export remote="vanir"
+    #    export remoterevision="kk44"
+    #    export kernelsource="kernel_samsung_jf"
+    #;;
     hammerhead)
         export precompiled=0
     ;;
