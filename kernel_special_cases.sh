@@ -25,9 +25,6 @@ case $1 in
         export remoterevision="kk44"
         export kernelsource="kernel_samsung_jf"
     ;;
-    hammerhead)
-        export precompiled=0
-    ;;
     m7*|dlx)
         export remote="vanir"
         export remoterevision="sonic-dev"
