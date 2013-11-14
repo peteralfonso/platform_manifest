@@ -62,7 +62,7 @@
   <project path="device/lge/d800" name="android_device_lge_d800" remote="cm" revision="cm-10.2" />
   <project path="device/lge/d801" name="device_lge_d801" remote="vanir" revision="kk44" />
   <project path="device/lge/d802" name="android_device_lge_d802" remote="cm" revision="cm-10.2" />
-  <project path="device/lge/gproj-common" name="android_device_lge_gproj-common" remote="cm" revision="cm-10.2" />
+  <project path="device/lge/gproj-common" name="android_device_lge_gproj-common" />
   <project path="device/lge/mako" name="device_lge_mako" remote="vanir" revision="kk44" />
   <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" />
   <project path="device/lge/msm7x27a-common" name="bart452/android_device_lge_msm7x27a-common" remote="github" revision="kk44" groups="p700" />
@@ -99,7 +99,7 @@
   <project path="device/samsung/manta" name="device_samsung_manta" remote="vanir" revision="kk44" groups="device" />
   <project path="device/samsung/msm8660-common" name="device_samsung_msm8660-common" remote="vanir" revision="kk44" />
   <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="vanir" revision="kk44" groups="device" />
-  <project path="device/samsung/omap4-common" name="android_device_samsung_omap4-common" groups="tab2" remote="cm" revision="cm-10.2" />
+  <project path="device/samsung/omap4-common" name="android_device_samsung_omap4-common" groups="tab2" />
   <project path="device/samsung/p3100" name="device_samsung_p3100" remote="vanir" revision="kk44" groups="tab2" />
   <project path="device/samsung/p3110" name="android_device_samsung_p3110" groups="tab2" remote="cm" revision="cm-10.2" />
   <project path="device/samsung/p5100" name="device_samsung_p5100" remote="vanir" revision="kk44" groups="tab2" />
@@ -107,22 +107,22 @@
   <project path="device/samsung/quincyatt" name="android_device_samsung_quincyatt" groups="quincy" remote="cm" revision="cm-10.2" />
   <project path="device/samsung/quincytmo" name="android_device_samsung_quincytmo" groups="quincy" remote="cm" revision="cm-10.2" />
   <project path="device/samsung/quincy-common" name="device_samsung_quincy-common" remote="vanir" revision="kk44" groups="quincy" />
-  <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" groups="device" remote="cm" revision="cm-10.2" />
+  <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" groups="device" />
   <project path="device/samsung/smdk4412-qcom-common" name="device_samsung_smdk4412-qcom-common" remote="vanir" revision="kk44" groups="device" />
   <project path="device/samsung/t0lte" name="device_samsung_t0lte" remote="vanir" revision="kk44" groups="device" />
-  <project path="device/samsung/t0lteatt" name="android_device_samsung_t0lteatt" groups="device" remote="cm" revision="cm-10.2" />
-  <project path="device/samsung/t0ltetmo" name="android_device_samsung_t0ltetmo" groups="device" remote="cm" revision="cm-10.2" />
+  <project path="device/samsung/t0lteatt" name="android_device_samsung_t0lteatt" groups="device" />
+  <project path="device/samsung/t0ltetmo" name="android_device_samsung_t0ltetmo" groups="device" />
   <project path="device/samsung/toro" name="device_samsung_toro" remote="vanir" revision="kk44" groups="device" />
   <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="vanir" revision="kk44" groups="device" />
   <project path="device/samsung/tuna" name="device_samsung_tuna" remote="vanir" revision="kk44" groups="device" />
-  <project path="device/sony/common" name="android_device_sony_common" remote="cm" revision="cm-10.2" />
+  <project path="device/sony/common" name="android_device_sony_common" />
   <project path="device/sony/fusion3-common" name="device_sony_fusion3-common" remote="vanir" revision="kk44" groups="device" />
-  <project path="device/sony/honami" name="android_device_sony_honami" remote="cm" revision="cm-10.2" />
+  <project path="device/sony/honami" name="android_device_sony_honami" />
   <project path="device/sony/pollux" name="device_sony_pollux" remote="vanir" revision="kk44" />
   <project path="device/sony/pollux-common" name="android_device_sony_pollux-common" groups="device" remote="cm" revision="cm-10.2" />
-  <project path="device/sony/qcom-common" name="android_device_sony_qcom-common" remote="cm" revision="cm-10.2" />
-  <project path="device/sony/rhine-common" name="android_device_sony_rhine-common" remote="cm" revision="cm-10.2" />
-  <project path="device/sony/yuga" name="android_device_sony_yuga" remote="cm" revision="cm-10.2" />
+  <project path="device/sony/qcom-common" name="android_device_sony_qcom-common" />
+  <project path="device/sony/rhine-common" name="android_device_sony_rhine-common" />
+  <project path="device/sony/yuga" name="android_device_sony_yuga" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.4_r1.1" />
   <project path="external/aac" name="android_external_aac" groups="pdk" />
   <project path="external/android-clat" name="android_external_android-clat" />
