@@ -172,7 +172,7 @@
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp"  groups="aosp44" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8"  groups="aosp44" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project path="external/clang" name="external_clang" remote="vanir" revision="kk44" groups="pdk" />
-  <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
+  <project path="external/compiler-rt" name="android_external_compiler-rt" groups="pdk" />
   <project path="external/dexmaker" name="android_external_dexmaker" />
   <project path="external/dhcpcd" name="android_external_dhcpcd" />
   <project path="external/dnsmasq" name="external_dnsmasq" remote="vanir" revision="kk44" groups="pdk" />
@@ -244,7 +244,7 @@
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" groups="pdk" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" groups="pdk" />
   <project path="external/libnl" name="external_libnl" remote="vanir" revision="kk44" />
-  <project path="external/libnl-headers" name="android_externallibnl-headers" groups="pdk" />
+  <project path="external/libnl-headers" name="android_external_libnl-headers" groups="pdk" />
   <project path="external/libogg" name="android_external_libogg" />
   <project path="external/libpcap" name="android_external_libpcap" />
   <project path="external/libphonenumber" name="android_external_libphonenumber" />
