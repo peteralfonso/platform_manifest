@@ -44,7 +44,7 @@
   <project path="device/generic/goldfish" name="device_generic_goldfish" remote="vanir" revision="kk44" groups="pdk" />
   <project path="device/generic/mips" name="android_device_generic_mips" groups="pdk" />
   <project path="device/generic/x86" name="android_device_generic_x86" groups="pdk" />
-  <project path="device/htc/dlx" name="android_device_htc_dlx" remote="cm" revision="cm-10.2" />
+  <project path="device/htc/dlx" name="android_device_htc_dlx" />
   <project path="device/htc/jewel" name="android_device_htc_jewel" remote="cm" revision="cm-10.2" />
   <project path="device/htc/m7-common" name="device_htc_m7-common" remote="vanir" revision="kk44" />
   <project path="device/htc/m7att" name="android_device_htc_m7att" remote="cm" revision="cm-10.2" />
@@ -74,7 +74,7 @@
   <project path="device/sample" name="android_device_sample" groups="pdk" />
   <project path="device/samsung/apache" name="device_samsung_apache" remote="vanir" revision="kk44" />
   <project path="device/samsung/celox-common" name="android_device_samsung_celox-common" remote="cm" revision="cm-10.2" />
-  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" groups="GS3_device" remote="cm" revision="cm-10.2" />
+  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" groups="GS3_device"  />
   <project path="device/samsung/d2att" name="android_device_samsung_d2att" groups="GS3_device" remote="cm" revision="cm-10.2" />
   <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" groups="GS3_device" remote="cm" revision="cm-10.2" />
   <project path="device/samsung/d2tmo" name="android_device_samsung_d2tmo" groups="GS3_device" remote="cm" revision="cm-10.2" />
