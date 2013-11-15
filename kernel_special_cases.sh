@@ -20,6 +20,11 @@ case $1 in
         export remoterevision="cm-10.2"
         export kernelsource="lge-kernel-gproj"
     ;;
+    hammerhead)
+        export remote="github"
+        export remoterevision="jim_kk_r1_exp"
+        export kernelsource="jimsth/vanir_hammerhead"
+    ;;
     jflte*)
         export remote="vanir"
         export remoterevision="kk44"
