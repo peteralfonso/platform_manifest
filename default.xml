@@ -382,7 +382,7 @@
   <project path="hardware/qcom/audio-caf" name="hardware_qcom_audio-caf" remote="vanir" revision="kk44" groups="caf" />
   <!--<project path="hardware/qcom/audio-bfam" name="hardware_qcom_audio-bfam" remote="vanir" revision="kk44" groups="honami"/>-->
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" />
-  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="aosp44 qcom" />
+  <project path="hardware/qcom/camera" name="hardware_qcom_camera" groups="aosp44 qcom" remote="vanir" revision="kk44"/>
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="vanir" revision="kk44" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="vanir" revision="kk44" groups="caf" />
   <!--<project path="hardware/qcom/display-mdss" name="android_hardware_qcom_display-mdss" groups="honami" />
