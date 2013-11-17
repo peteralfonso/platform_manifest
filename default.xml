@@ -290,7 +290,7 @@
   <project path="external/openssh" name="external_openssh" remote="vanir" revision="kk44" />
   <project path="external/openssl" name="external_openssl" remote="vanir" revision="kk44" groups="pdk" />
   <project path="external/oprofile" name="external_oprofile" remote="vanir" revision="kk44" />
-  <project path="external/pciutils" name="CyanogenMod/android_external_pciutils" />
+  <project path="external/pciutils" name="android_external_pciutils" />
   <project path="external/pigz" name="android_external_pigz" />
   <project path="external/pixman" name="platform/external/pixman" groups="aosp44" remote="aosp" revision="refs/tags/android-4.4_r1.1" />
   <project path="external/powertop" name="android_external_powertop" />
