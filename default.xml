@@ -31,7 +31,7 @@
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" />
   <project path="cts" name="platform/cts"  remote="aosp" revision="refs/tags/android-4.4_r1.1" />
   <project path="dalvik" name="dalvik" remote="vanir" revision="kk44" />
-  <project path="development" name="development" remote="vanir" revision="kk44" />
+  <project path="development" name="android_development" />
   <project path="device/asus/deb" name="device_asus_deb" remote="vanir" revision="kk44" />
   <project path="device/asus/flo" name="device_asus_flo" remote="vanir" revision="kk44" />
   <project path="device/asus/grouper" name="device_asus_grouper" remote="vanir" revision="kk44" />
