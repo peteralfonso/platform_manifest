@@ -232,8 +232,10 @@
   <project path="external/kernel-headers" name="android_external_kernel-headers" />
   <project path="external/kissfft" name="android_external_kissfft" />
   <project path="external/klogripper" name="external_klogripper" remote="vanir" revision="kk44" />
+  <project path="external/koush/ion" name="ion" />
+  <project path="external/koush/AndroidAsync" name="AndroidAsync" />
   <project path="external/koush/Superuser" name="Superuser" />
-  <project path="external/koush/Widgets" name="koush/Widgets" remote="github" revision="master" />
+  <project path="external/koush/Widgets" name="Widgets" />
   <project path="external/libcap-ng" name="android_external_libcap-ng" />
   <project path="external/libffi" name="android_external_libffi" />
   <project path="external/libgsm" name="android_external_libgsm" groups="pdk" />
@@ -254,6 +256,7 @@
   <project path="external/libselinux" name="android_external_libselinux" groups="pdk" />
   <project path="external/libsepol" name="android_external_libsepol" groups="pdk" />
   <project path="external/libusb" name="android_external_libusb" />
+  <project path="external/libusbx" name="android_external_libusbx" />
   <project path="external/libusb-compat" name="android_external_libusb-compat" />
   <project path="external/libvorbis" name="android_external_libvorbis" />
   <project path="external/libvpx" name="android_external_libvpx" groups="pdk" />
@@ -278,6 +281,7 @@
   <project path="external/netcat" name="android_external_netcat" />
   <project path="external/netperf" name="android_external_netperf" />
   <project path="external/neven" name="android_external_neven" />
+  <project path="external/nist-pkits" name="platform/external/nist-pkits" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project path="external/nist-sip" name="android_external_nist-sip" />
   <project path="external/noto-fonts" name="platform/external/noto-fonts" remote="aosp" revision="refs/tags/android-4.4_r1.1" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" />
@@ -300,7 +304,6 @@
   <project path="external/qemu" name="android_external_qemu" />
   <project path="external/qemu-pc-bios" name="android_external_qemu-pc-bios" />
   <project path="external/qrngd" name="android_external_qrngd" />
-  <project path="external/quake" name="external_quake" remote="vanir" revision="kk44" />
   <project path="external/regex-re2" name="android_external_regex-re2" />
   <project path="external/replicaisland" name="android_external_replicaisland" />
   <project path="external/robolectric" name="platform/external/robolectric"  remote="aosp" revision="refs/tags/android-4.4_r1.1" />
@@ -333,6 +336,7 @@
   <project path="external/tremolo" name="android_external_tremolo" groups="pdk" />
   <project path="external/v8" name="external_v8" remote="vanir" revision="kk44" />
   <project path="external/valgrind" name="android_external_valgrind" groups="pdk"/>
+  <project path="external/vim" name="android_external_vim" />
   <project path="external/webp" name="android_external_webp" />
   <project path="external/webrtc" name="android_external_webrtc" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="external_wpa-supplicant-8" remote="vanir" revision="kk44" groups="pdk" />
@@ -410,13 +414,11 @@
   <project path="libcore" name="libcore" remote="vanir" revision="kk44" />
   <project path="libnativehelper" name="android_libnativehelper" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.4_r1.1" />
-  <project path="packages/apps/AppWidgetPicker" name="FruitsAndVeggies/packages_apps_AppWidgetPicker" remote="github" revision="jb" />
   <project path="packages/apps/BasicSmsReceiver" name="android_packages_apps_BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="vanir" revision="kk44" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="vanir" revision="kk44" />
   <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" />
-  <project path="packages/apps/Camera" name="android_packages_apps_Camera" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" />
@@ -434,9 +436,8 @@
   <project path="packages/apps/Launcher2" name="packages_apps_Launcher2" remote="vanir" revision="kk44" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3"  groups="aosp44" />
   <project path="packages/apps/Mms" name="packages_apps_Mms" remote="vanir" revision="kk44" />
-  <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="vanir" revision="kk44" />
-  <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-4.4_r1.1" /> <!-- need to move to cm eventually ? -->
+  <project path="packages/apps/OneTimeInitializer" name="android_packages_apps_OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="vanir" revision="kk44" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Provision" name="android_packages_apps_Provision" />
