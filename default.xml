@@ -69,7 +69,7 @@
   <project path="device/lge/p700" name="bart452/android_device_lge_p700" remote="github" revision="kk44" groups="p700" />
   <project path="device/lge/p880" name="mzhou/vanir_device_lge_p880" remote="github" revision="kk44" />
   <project path="device/lge/vs980" name="android_device_lge_vs980" remote="cm" revision="cm-10.2" />
-  <project path="device/motorola/maserati" name="android_device_motorola_maserati" remote="cm" revision="cm-10.2" />
+  <project path="device/motorola/maserati" name="android_device_motorola_maserati" />
   <project path="device/motorola/omap4-common" name="device_motorola_omap4-common" remote="vanir" revision="kk44" />
   <project path="device/sample" name="android_device_sample" groups="pdk" />
   <project path="device/samsung/apache" name="device_samsung_apache" remote="vanir" revision="kk44" />
@@ -119,7 +119,7 @@
   <project path="device/sony/fusion3-common" name="device_sony_fusion3-common" remote="vanir" revision="kk44" groups="device" />
   <project path="device/sony/honami" name="android_device_sony_honami" />
   <project path="device/sony/pollux" name="device_sony_pollux" remote="vanir" revision="kk44" />
-  <project path="device/sony/pollux-common" name="android_device_sony_pollux-common" groups="device" remote="cm" revision="cm-10.2" />
+  <project path="device/sony/pollux-common" name="android_device_sony_pollux-common" groups="device" />
   <project path="device/sony/qcom-common" name="android_device_sony_qcom-common" />
   <project path="device/sony/rhine-common" name="android_device_sony_rhine-common" />
   <project path="device/sony/yuga" name="android_device_sony_yuga" />
@@ -543,7 +543,7 @@
 <!-- Additional vendors -->
   <project path="vendor/audience" name="TheMuppets/proprietary_vendor_audience" remote="github" revision="cm-11.0" />
   <project path="vendor/broadcom" name="TheMuppets/proprietary_vendor_broadcom" remote="github" revision="cm-11.0" />
-  <project path="vendor/imgtec" name="TheMuppets/proprietary_vendor_imgtec" remote="github" revision="cm-10.2" />
+  <project path="vendor/imgtec" name="TheMuppets/proprietary_vendor_imgtec" remote="github" revision="cm-11.0" />
   <project path="vendor/invensense" name="vendor_invensense" remote="vanir" revision="kk44" />
   <project path="vendor/nvidia" name="vendor_nvidia" remote="vanir" revision="kk44" />
   <project path="vendor/nxp" name="TheMuppets/proprietary_vendor_nxp" remote="github" revision="cm-11.0" />
