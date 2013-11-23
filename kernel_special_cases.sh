@@ -6,7 +6,6 @@
 case $1 in
     apache)
         export remote="github"
-        export remoterevision="cm-10.1"
         export kernelsource="Motorhead1991/samsung-kernel-msm7x30"
     ;;
     d802|d801|d800|vs980)
@@ -30,9 +29,6 @@ case $1 in
         export remote="vanir"
         export remoterevision="sonic-dev"
         export kernelsource="kernel_htc_m7"
-    ;;
-    maserati)
-        export remoterevision="cm-10.2"
     ;;
     ovation)
         export remoterevision="cm-10.2"
