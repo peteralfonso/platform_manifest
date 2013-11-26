@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="vanir"
+          fetch="https://github.com/VanirAOSP/"
+          review="vaniraosp.goo.im" />
+  <remote name="aosp"
+          fetch="https://android.googlesource.com/"
+          review="https://android-review.googlesource.com/" />
+  <remote name="cm"
+          fetch="http://github.com/CyanogenMod"
+          review="review.cyanogenmod.com" />
+  <remote name="cfx"
+          fetch="https://bitbucket.org/codefirex/" />
+  <remote name="github"
+          fetch="https://github.com/" />
+  <remote name="linaro"
+          fetch="git://android.git.linaro.org/" />
+  <default revision="cm-11.0"
+          sync-j="12"
+          remote="cm" />
+
+  <project path="manifest" name="platform_manifest" remote="vanir" revision="commotio" />
+  <project path="build" name="build" remote="vanir" revision="commotio" groups="pdk">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <copyfile src="tools/BUILD_COMMAND_README" dest="BUILD_COMMAND_README" />
+  </project>
+  <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" revision="master" />
+  <project path="art" name="android_art"  groups="aosp44" />
+  <project path="bionic" name="bionic" remote="vanir" revision="commotio" groups="pdk" />
+  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" />
+  <project path="cts" name="platform/cts"  remote="aosp" revision="master" />
+  <project path="dalvik" name="dalvik" remote="vanir" revision="commotio" />
+  <project path="development" name="android_development" remote="vanir" revision="commotio" />
+  <project path="device/asus/deb" name="device_asus_deb" remote="vanir" revision="commotio" />
+  <project path="device/asus/flo" name="device_asus_flo" remote="vanir" revision="commotio" />
+  <project path="device/asus/grouper" name="device_asus_grouper" remote="vanir" revision="commotio" />
+  <project path="device/asus/tilapia" name="device_asus_tilapia" remote="vanir" revision="commotio" groups="device" />
+  <project path="device/bn/common" name="device_bn_common" remote="vanir" revision="commotio" groups="Ovation_device" />
+  <project path="device/bn/ovation" name="android_device_bn_ovation" groups="Ovation_device" remote="cm" revision="cm-10.2" />
+  <project path="device/common" name="android_device_common" groups="pdk" />
+  <project path="device/generic/armv7-a-neon" name="android_device_generic_armv7-a-neon" groups="pdk" />
+  <project path="device/generic/common" name="android_device_generic_common" groups="pdk" />
+  <project path="device/generic/goldfish" name="device_generic_goldfish" remote="vanir" revision="commotio" groups="pdk" />
+  <project path="device/generic/mips" name="android_device_generic_mips" groups="pdk" />
+  <project path="device/generic/x86" name="android_device_generic_x86" groups="pdk" />
+  <project path="device/htc/dlx" name="android_device_htc_dlx" />
+  <project path="device/htc/jewel" name="android_device_htc_jewel" />
+  <project path="device/htc/m7-common" name="device_htc_m7-common" remote="vanir" revision="commotio" />
+  <project path="device/htc/m7att" name="android_device_htc_m7att" />
+  <project path="device/htc/m7spr" name="android_device_htc_m7spr" />
+  <project path="device/htc/m7tmo" name="android_device_htc_m7tmo" />
+  <project path="device/htc/m7ul" name="device_htc_m7ul" remote="vanir" revision="commotio" />
+  <project path="device/htc/m7vzw" name="device_htc_m7vzw" remote="vanir" revision="commotio" />
+  <project path="device/htc/msm8660-common" name="vigor/android_device_htc_msm8660-common" remote="github" revision="cm-11.0" />
+  <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="vanir" revision="commotio" />
+  <project path="device/htc/s4-common" name="device_htc_s4-common" remote="vanir" revision="commotio" />
+  <project path="device/htc/vigor" name="vigor/device_htc_vigor" remote="github" revision="cm-11.0" />
+  <project path="device/lge/e975" name="android_device_lge_e975" />
+  <project path="device/lge/e980" name="android_device_lge_e980" />
+  <project path="device/lge/g2-common" name="device_lge_g2-common" remote="vanir" revision="commotio" />
+  <project path="device/lge/d800" name="android_device_lge_d800" remote="cm" revision="cm-10.2" />
+  <project path="device/lge/d801" name="device_lge_d801" remote="vanir" revision="commotio" />
+  <project path="device/lge/d802" name="android_device_lge_d802" remote="cm" revision="cm-10.2" />
+  <project path="device/lge/gproj-common" name="android_device_lge_gproj-common" />
+  <project path="device/lge/mako" name="device_lge_mako" remote="vanir" revision="commotio" />
+  <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" />
+  <project path="device/lge/msm7x27a-common" name="bart452/android_device_lge_msm7x27a-common" remote="github" revision="commotio" groups="p700" />
+  <project path="device/lge/p700" name="bart452/android_device_lge_p700" remote="github" revision="commotio" groups="p700" />
+  <project path="device/lge/p880" name="mzhou/vanir_device_lge_p880" remote="github" revision="commotio" />
+  <project path="device/lge/vs980" name="android_device_lge_vs980" remote="cm" revision="cm-10.2" />
+  <project path="device/motorola/maserati" name="android_device_motorola_maserati" />
+  <project path="device/motorola/omap4-common" name="device_motorola_omap4-common" remote="vanir" revision="commotio" />
+  <project path="device/sample" name="android_device_sample" groups="pdk" />
+  <project path="device/samsung/apache" name="device_samsung_apache" remote="vanir" revision="commotio" />
+  <project path="device/samsung/celox-common" name="android_device_samsung_celox-common" />
+  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" groups="GS3_device"  />
+  <project path="device/samsung/d2att" name="android_device_samsung_d2att" groups="GS3_device" />
+  <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" groups="GS3_device" />
+  <project path="device/samsung/d2tmo" name="android_device_samsung_d2tmo" groups="GS3_device" />
+  <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" groups="GS3_device" />
+  <project path="device/samsung/d710" name="device_samsung_d710" remote="vanir" revision="commotio" />
+  <project path="device/samsung/galaxys2-common" name="device_samsung_galaxys2-common" remote="vanir" revision="commotio" />
+  <project path="device/samsung/hercules" name="device_samsung_hercules" remote="vanir" revision="commotio" />
+  <project path="device/samsung/i605" name="android_device_samsung_i605" groups="device" />
+  <project path="device/samsung/i9300" name="device_samsung_i9300" remote="vanir" revision="commotio" groups="GS3_device" />
+  <project path="device/samsung/i9305" name="device_samsung_i9305" remote="vanir" revision="commotio" groups="GS3_device" />
+  <project path="device/samsung/jf-common" name="device_samsung_jf-common" remote="vanir" revision="commotio" groups="device" />
+  <project path="device/samsung/jflteatt" name="device_samsung_jflteatt" remote="vanir" revision="commotio" groups="device" />
+  <project path="device/samsung/jfltecan" name="device_samsung_jfltecan" remote="vanir" revision="commotio" groups="device" />
+  <project path="device/samsung/jfltecri" name="device_samsung_jfltecri" remote="vanir" revision="commotio" groups="device" />
+  <project path="device/samsung/jfltespr" name="device_samsung_jfltespr" remote="vanir" revision="commotio" groups="device" />
+  <project path="device/samsung/jfltetmo" name="device_samsung_jfltetmo" remote="vanir" revision="commotio" groups="device" />
+  <project path="device/samsung/jflteusc" name="android_device_samsung_jflteusc" />
+  <project path="device/samsung/jfltevzw" name="device_samsung_jfltevzw" remote="vanir" revision="commotio" groups="device" />
+  <project path="device/samsung/jfltexx" name="device_samsung_jfltexx" remote="vanir" revision="commotio" groups="device" />
+  <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="vanir" revision="commotio" groups="device" />
+  <project path="device/samsung/maguro" name="device_samsung_maguro" remote="vanir" revision="commotio" groups="device" />
+  <project path="device/samsung/manta" name="device_samsung_manta" remote="vanir" revision="commotio" groups="device" />
+  <project path="device/samsung/msm8660-common" name="device_samsung_msm8660-common" remote="vanir" revision="commotio" />
+  <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="vanir" revision="commotio" groups="device" />
+  <project path="device/samsung/omap4-common" name="android_device_samsung_omap4-common" groups="tab2" />
+  <project path="device/samsung/p3100" name="device_samsung_p3100" remote="vanir" revision="commotio" groups="tab2" />
+  <project path="device/samsung/p3110" name="android_device_samsung_p3110" groups="tab2" remote="cm" revision="cm-10.2" />
+  <project path="device/samsung/p5100" name="device_samsung_p5100" remote="vanir" revision="commotio" groups="tab2" />
+  <project path="device/samsung/p5110" name="android_device_samsung_p5110" groups="tab2" remote="cm" revision="cm-10.2" />
+  <project path="device/samsung/quincyatt" name="android_device_samsung_quincyatt" groups="quincy" remote="cm" revision="cm-10.2" />
+  <project path="device/samsung/quincytmo" name="android_device_samsung_quincytmo" groups="quincy" remote="cm" revision="cm-10.2" />
+  <project path="device/samsung/quincy-common" name="device_samsung_quincy-common" remote="vanir" revision="commotio" groups="quincy" />
+  <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" groups="device" />
+  <project path="device/samsung/smdk4412-qcom-common" name="device_samsung_smdk4412-qcom-common" remote="vanir" revision="commotio" groups="device" />
+  <project path="device/samsung/t0lte" name="device_samsung_t0lte" remote="vanir" revision="commotio" groups="device" />
+  <project path="device/samsung/t0lteatt" name="android_device_samsung_t0lteatt" groups="device" />
+  <project path="device/samsung/t0ltetmo" name="android_device_samsung_t0ltetmo" groups="device" />
+  <project path="device/samsung/toro" name="device_samsung_toro" remote="vanir" revision="commotio" groups="device" />
+  <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="vanir" revision="commotio" groups="device" />
+  <project path="device/samsung/tuna" name="device_samsung_tuna" remote="vanir" revision="commotio" groups="device" />
+  <project path="device/sony/common" name="android_device_sony_common" />
+  <project path="device/sony/fusion3-common" name="device_sony_fusion3-common" remote="vanir" revision="commotio" groups="device" />
+  <project path="device/sony/honami" name="android_device_sony_honami" />
+  <project path="device/sony/pollux" name="device_sony_pollux" remote="vanir" revision="commotio" />
+  <project path="device/sony/pollux-common" name="android_device_sony_pollux-common" groups="device" />
+  <project path="device/sony/qcom-common" name="android_device_sony_qcom-common" />
+  <project path="device/sony/rhine-common" name="android_device_sony_rhine-common" />
+  <project path="device/sony/yuga" name="android_device_sony_yuga" />
+  <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="master" />
+  <project path="external/aac" name="external_aac" groups="pdk" remote="vanir" revision="commotio" />
+  <project path="external/android-clat" name="external_android-clat" remote="vanir" revision="commotio" />
+  <project path="external/android-mock" name="external_android-mock" remote="vanir" revision="commotio" />
+  <project path="external/ant-glob" name="external_ant-glob" remote="vanir" revision="commotio" />
+  <project path="external/antlr" name="external_antlr" remote="vanir" revision="commotio" />
+  <project path="external/apache-harmony" name="external_apache-harmony" remote="vanir" revision="commotio" />
+  <project path="external/apache-http" name="external_apache-http" remote="vanir" revision="commotio" />
+  <project path="external/apache-qp" name="external_apache-qp" remote="vanir" revision="commotio" />
+  <project path="external/apache-xml" name="external_apache-xml" remote="vanir" revision="commotio" />
+  <project path="external/arduino" name="external_arduino" remote="vanir" revision="commotio" />
+  <project path="external/bash" name="external_bash" remote="vanir" revision="commotio" />
+  <project path="external/bison" name="external_bison" groups="pdk" remote="vanir" revision="commotio" />
+  <project path="external/blktrace" name="external_blktrace"  remote="vanir" revision="commotio" />
+  <project path="external/bluetooth/bluedroid" name="bluetooth_bluedroid" groups="pdk" remote="vanir" revision="commotio" />
+  <project path="external/bouncycastle" name="external_bouncycastle" remote="vanir" revision="commotio" />
+  <project path="external/bsdiff" name="external_bsdiff" groups="pdk" remote="vanir" revision="commotio" />
+  <project path="external/busybox" name="external_busybox" remote="vanir" revision="commotio" />
+  <project path="external/bzip2" name="external_bzip2" groups="pdk" remote="vanir" revision="commotio" />
+  <project path="external/ceres-solver" name="external_ceres-solver" remote="aosp" revision="master" />
+  <project path="external/checkpolicy" name="external_checkpolicy" groups="pdk" remote="vanir" revision="commotio" />
+  <project path="external/chromium" name="external_chromium" remote="vanir" revision="commotio" />
+  <project path="external/chromium-trace" name="external_chromium-trace" groups="pdk" remote="vanir" revision="commotio" />
+  <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="aosp44" remote="aosp" revision="master" />
+  <project path="external/chromium_org" name="platform/external/chromium_org"  groups="aosp44" remote="aosp" revision="master" />
+  <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff"  groups="aosp44" remote="aosp" revision="master" />
+  <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest"  groups="aosp44" remote="aosp" revision="master" />
+  <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit"  groups="aosp44" remote="aosp" revision="master" />
+  <project path="external/chromium_org/third_party/angle_dx11" name="platform/external/chromium_org/third_party/angle_dx11"  groups="aosp44" remote="aosp" revision="master" />
+  <project path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" name="platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille"  groups="aosp44" remote="aosp" revision="master" />
+  <project path="external/chromium_org/third_party/freetype" name="platform/external/chromium_org/third_party/freetype"  groups="aosp44" remote="aosp" revision="master" />
+  <project path="external/chromium_org/third_party/icu" name="platform/external/chromium_org/third_party/icu"  groups="aosp44" remote="aosp" revision="master" />
+  <project path="external/chromium_org/third_party/leveldatabase/src" name="platform/external/chromium_org/third_party/leveldatabase/src"  groups="aosp44" remote="aosp" revision="master" />
+  <project path="external/chromium_org/third_party/libjingle/source/talk" name="platform/external/chromium_org/third_party/libjingle/source/talk"  groups="aosp44" remote="aosp" revision="master" />
+  <project path="external/chromium_org/third_party/libphonenumber/src/phonenumbers" name="platform/external/chromium_org/third_party/libphonenumber/src/phonenumbers"  groups="aosp44" remote="aosp" revision="master" />
+  <project path="external/chromium_org/third_party/libphonenumber/src/resources" name="platform/external/chromium_org/third_party/libphonenumber/src/resources"  groups="aosp44" remote="aosp" revision="master" />
+  <project path="external/chromium_org/third_party/mesa/src" name="platform/external/chromium_org/third_party/mesa/src"  groups="aosp44" remote="aosp" revision="master" />
+  <project path="external/chromium_org/third_party/openssl" name="platform/external/chromium_org/third_party/openssl"  groups="aosp44" remote="aosp" revision="master" />
+  <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src"  groups="aosp44" remote="aosp" revision="master" />
+  <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots"  groups="aosp44" remote="aosp" revision="master" />
+  <project path="external/chromium_org/third_party/skia/gyp" name="platform/external/chromium_org/third_party/skia/gyp"  groups="aosp44" remote="aosp" revision="master" />
+  <project path="external/chromium_org/third_party/skia/include" name="platform/external/chromium_org/third_party/skia/include"  groups="aosp44" remote="aosp" revision="master" />
+  <project path="external/chromium_org/third_party/skia/src" name="platform/external/chromium_org/third_party/skia/src"  groups="aosp44" remote="aosp" revision="master" />
+  <project path="external/chromium_org/third_party/smhasher/src" name="platform/external/chromium_org/third_party/smhasher/src"  groups="aosp44" remote="aosp" revision="master" />
+  <project path="external/chromium_org/third_party/yasm/source/patched-yasm" name="platform/external/chromium_org/third_party/yasm/source/patched-yasm"  groups="aosp44" remote="aosp" revision="master" />
+  <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit"  groups="aosp44" remote="aosp" revision="master" />
+  <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp"  groups="aosp44" remote="aosp" revision="master" />
+  <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8"  groups="aosp44" remote="aosp" revision="master" />
+  <project path="external/clang" name="external_clang" remote="vanir" revision="commotio" groups="pdk" />
+  <project path="external/compiler-rt" name="external_compiler-rt" groups="pdk" remote="vanir" revision="commotio" />
+  <project path="external/dexmaker" name="external_dexmaker" remote="vanir" revision="commotio" />
+  <project path="external/dhcpcd" name="external_dhcpcd" remote="vanir" revision="commotio" />
+  <project path="external/dnsmasq" name="external_dnsmasq" remote="vanir" revision="commotio" groups="pdk" />
+  <project path="external/doclava" name="external_doclava" remote="vanir" revision="commotio" />
+  <project path="external/dropbear" name="external_dropbear" remote="vanir" revision="commotio" />
+  <project path="external/droiddriver" name="external/droiddriver"  groups="aosp44" remote="vanir" revision="commotio" />
+  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="vanir" revision="commotio" groups="pdk" />
+  <project path="external/easymock" name="external_easymock" remote="vanir" revision="commotio" />
+  <project path="external/eclipse-basebuilder" name="external_eclipse-basebuilder" remote="vanir" revision="commotio" />
+  <project path="external/eclipse-windowbuilder" name="external_eclipse-windowbuilder" remote="vanir" revision="commotio" />
+  <project path="external/elfutils" name="external_elfutils" remote="vanir" revision="commotio" />
+  <project path="external/embunit" name="external_embunit" remote="vanir" revision="commotio" />
+  <project path="external/emma" name="external_emma" remote="vanir" revision="commotio" />
+  <project path="external/esd" name="external_esd" remote="vanir" revision="commotio" />
+  <project path="external/expat" name="external_expat" groups="pdk" remote="vanir" revision="commotio" />
+  <project path="external/exfat" name="external_exfat" remote="vanir" revision="commotio" />
+  <project path="external/eyes-free" name="external_eyes-free" remote="vanir" revision="commotio" />
+  <project path="tools/external/fat32lib" name="tools_external_fat32lib" groups="tools" remote="vanir" revision="commotio" />
+  <project path="external/fdlibm" name="external_fdlibm" remote="vanir" revision="commotio" />
+  <project path="external/ffmpeg" name="external_ffmpeg" remote="vanir" revision="commotio" />
+  <project path="external/flac" name="external_flac" groups="pdk" remote="vanir" revision="commotio" />
+  <project path="external/freetype" name="external_freetype" remote="vanir" revision="commotio" groups="pdk" />
+  <project path="external/fsck/msdos" name="external_fsck_msdos" remote="vanir" revision="commotio" />
+  <project path="external/fuse" name="external_fuse" remote="vanir" revision="commotio" />
+  <project path="external/ganymed-ssh2" name="external_ganymed-ssh2" remote="vanir" revision="commotio" />
+  <project path="external/gcc-demangle" name="external_gcc-demangle" groups="pdk" remote="vanir" revision="commotio" />
+  <project path="external/genext2fs" name="external_genext2fs" remote="vanir" revision="commotio" />
+  <project path="external/giflib" name="external_giflib" remote="vanir" revision="commotio" />
+  <project path="external/google" name="external_google" remote="vanir" revision="commotio" />
+  <project path="external/google-diff-match-patch" name="external_google-diff-match-patch" remote="vanir" revision="commotio" />
+  <project path="external/grub" name="external_grub" remote="vanir" revision="commotio" />
+  <project path="external/gson" name="external_gson" remote="vanir" revision="commotio" />
+  <project path="external/gtest" name="external_gtest" groups="pdk" remote="vanir" revision="commotio" />
+  <project path="external/guava" name="external_guava" remote="vanir" revision="commotio" />
+  <project path="external/hamcrest" name="external_hamcrest" remote="vanir" revision="commotio" />
+  <project path="external/harfbuzz" name="external_harfbuzz" remote="vanir" revision="commotio" />
+  <project path="external/harfbuzz_ng" name="external_harfbuzz_ng" remote="vanir" revision="commotio" />
+  <project path="external/heimdall" name="external_heimdall" remote="vanir" revision="commotio" />
+  <project path="external/htop" name="external_htop" remote="vanir" revision="commotio" />
+  <project path="external/hyphenation" name="external_hyphenation" remote="vanir" revision="commotio" />
+  <project path="external/icu4c" name="external_icu4c" groups="pdk" remote="vanir" revision="commotio" />
+  <project path="external/iproute2" name="external_iproute2" groups="pdk" remote="vanir" revision="commotio" />
+  <project path="external/ipsec-tools" name="external_ipsec-tools" remote="vanir" revision="commotio" />
+  <project path="external/iptables" name="external_iptables" remote="vanir" revision="commotio" />
+  <project path="external/iputils" name="external_iputils" remote="vanir" revision="commotio" groups="aosp44" />
+  <project path="external/jack" name="external_jack" remote="vanir" revision="commotio" />
+  <project path="external/javasqlite" name="external_javasqlite" remote="vanir" revision="commotio" />
+  <project path="external/javassist" name="external_javassist" remote="vanir" revision="commotio" />
+  <project path="external/jdiff" name="external_jdiff" remote="vanir" revision="commotio" />
+  <project path="external/jhead" name="external_jhead" groups="pdk" remote="vanir" revision="commotio" />
+  <project path="external/jmdns" name="external_jmdns" remote="vanir" revision="commotio" />
+  <project path="external/jmonkeyengine" name="external_jmonkeyengine" remote="vanir" revision="commotio" />
+  <project path="external/jpeg" name="external_jpeg" remote="vanir" revision="commotio" groups="pdk" />
+  <project path="external/jsilver" name="external_jsilver" remote="vanir" revision="commotio" />
+  <project path="external/jsr305" name="external_jsr305" remote="vanir" revision="commotio" />
+  <project path="external/junit" name="external_junit" remote="vanir" revision="commotio" />
+  <project path="external/kernel-headers" name="android_external_kernel-headers" />
+  <project path="external/kissfft" name="android_external_kissfft" />
+  <project path="external/klogripper" name="external_klogripper" remote="vanir" revision="commotio" />
+  <project path="external/koush/ion" name="ion" />
+  <project path="external/koush/AndroidAsync" name="AndroidAsync" />
+  <project path="external/koush/Superuser" name="Superuser" />
+  <project path="external/koush/Widgets" name="Widgets" />
+  <project path="external/libcap-ng" name="android_external_libcap-ng" />
+  <project path="external/libffi" name="android_external_libffi" />
+  <project path="external/libgsm" name="android_external_libgsm" groups="pdk" />
+  <project path="external/liblzf" name="android_external_liblzf" groups="pdk" />
+  <project path="external/libminiz" name="codefireXperiment/external_libminiz" remote="github" revision="jb-devel-mr2-release" />
+  <project path="external/libmtp" name="android_external_libmtp" />
+  <project path="external/libncurses" name="external_libncurses" remote="vanir" revision="commotio" />
+  <project path="external/libnfc-nci" name="android_external_libnfc-nci" groups="pdk" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" groups="pdk" />
+  <project path="external/libnl" name="external_libnl" remote="vanir" revision="commotio" />
+  <project path="external/libnl-headers" name="android_external_libnl-headers" groups="pdk" />
+  <project path="external/libogg" name="android_external_libogg" />
+  <project path="external/libpcap" name="android_external_libpcap" />
+  <project path="external/libphonenumber" name="android_external_libphonenumber" />
+  <project path="external/libphonenumbergoogle" name="android_external_libphonenumbergoogle" />
+  <project path="external/libpng" name="external_libpng" remote="vanir" revision="commotio" groups="pdk" />
+  <project path="external/libppp" name="android_external_libppp" />
+  <project path="external/libselinux" name="android_external_libselinux" groups="pdk" />
+  <project path="external/libsepol" name="android_external_libsepol" groups="pdk" />
+  <project path="external/libusb" name="android_external_libusb" />
+  <project path="external/libusbx" name="android_external_libusbx" />
+  <project path="external/libusb-compat" name="android_external_libusb-compat" />
+  <project path="external/libvorbis" name="android_external_libvorbis" />
+  <project path="external/libvpx" name="android_external_libvpx" groups="pdk" />
+  <project path="external/libxml2" name="android_external_libxml2" />
+  <project path="external/libxslt" name="android_external_libxslt" />
+  <project path="external/libyuv" name="android_external_libyuv" groups="libyuv" />
+  <project path="external/linux-tools-perf" name="external_linux-tools-perf" remote="vanir" revision="commotio" />
+  <project path="external/littlemock" name="android_external_littlemock" />
+  <project path="external/llvm" name="external_llvm" remote="vanir" revision="commotio" groups="pdk" />
+  <project path="external/lzma" name="platform/external/lzma"  groups="aosp44" remote="aosp" revision="master" />
+  <project path="external/lrzsz" name="external_lrzsz" remote="vanir" revision="commotio" />
+  <project path="external/lsof" name="external_lsof" remote="vanir" revision="commotio" />
+  <project path="external/marisa-trie" name="platform/external/marisa-trie" remote="aosp" revision="master" />
+  <project path="external/markdown" name="android_external_markdown" />
+  <project path="external/mdnsresponder" name="android_external_mdnsresponder" groups="pdk" />
+  <project path="external/mesa3d" name="platform/external/mesa3d" groups="aosp44" remote="aosp" revision="master" />
+  <project path="external/mksh" name="android_external_mksh" groups="pdk" />
+  <project path="external/mockwebserver" name="android_external_mockwebserver" />
+  <project path="external/mp4parser" name="android_external_mp4parser" />
+  <project path="external/mtpd" name="android_external_mtpd" />
+  <project path="external/naver-fonts" name="android_external_naver-fonts" />
+  <project path="external/netcat" name="android_external_netcat" />
+  <project path="external/netperf" name="android_external_netperf" />
+  <project path="external/neven" name="android_external_neven" />
+  <project path="external/nist-pkits" name="platform/external/nist-pkits" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project path="external/nist-sip" name="android_external_nist-sip" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" remote="aosp" revision="master" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" />
+  <project path="external/oauth" name="android_external_oauth" />
+  <project path="external/objenesis" name="platform/external/objenesis" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project path="external/okhttp" name="android_external_okhttp" />
+  <project path="external/open-vcdiff" name="platform/external/open-vcdiff" remote="aosp" revision="master" />
+  <project path="external/opencv" name="android_external_opencv" />
+  <project path="external/openfst" name="android_external_openfst" />
+  <project path="external/openssh" name="external_openssh" remote="vanir" revision="commotio" />
+  <project path="external/openssl" name="external_openssl" remote="vanir" revision="commotio" groups="pdk" />
+  <project path="external/oprofile" name="external_oprofile" remote="vanir" revision="commotio" />
+  <project path="external/pciutils" name="android_external_pciutils" />
+  <project path="external/pigz" name="android_external_pigz" />
+  <project path="external/pixman" name="platform/external/pixman" groups="aosp44" remote="aosp" revision="master" />
+  <project path="external/powertop" name="android_external_powertop" />
+  <project path="external/ppp" name="android_external_ppp" />
+  <project path="external/proguard" name="android_external_proguard" groups="pdk" />
+  <project path="external/protobuf" name="android_external_protobuf" groups="pdk" />
+  <project path="external/qemu" name="android_external_qemu" />
+  <project path="external/qemu-pc-bios" name="android_external_qemu-pc-bios" />
+  <project path="external/qrngd" name="android_external_qrngd" />
+  <project path="external/regex-re2" name="android_external_regex-re2" />
+  <project path="external/replicaisland" name="android_external_replicaisland" />
+  <project path="external/robolectric" name="platform/external/robolectric"  remote="aosp" revision="master" />
+  <project path="external/rsync" name="android_external_rsync" />
+  <project path="external/safe-iop" name="android_external_safe-iop" groups="pdk" />
+  <project path="external/scrypt" name="platform/external/scrypt" remote="aosp" revision="master" />
+  <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" />
+  <project path="external/sfntly" name="platform/external/sfntly"  groups="aosp44" remote="aosp" revision="master" />
+  <project path="external/sil-fonts" name="platform/external/sil-fonts"  groups="aosp44" remote="aosp" revision="master" />
+  <project path="external/skia" name="external_skia" remote="vanir" revision="commotio" />
+  <project path="external/smack" name="platform/external/smack" remote="aosp" revision="master" />
+  <project path="external/smali" name="android_external_smali" />
+  <project path="external/sonivox" name="external_sonivox" remote="vanir" revision="commotio" groups="pdk" />
+  <project path="external/speex" name="external_speex" remote="vanir" revision="commotio" groups="pdk" />
+  <project path="external/sqlite" name="external_sqlite" remote="vanir" revision="commotio" groups="pdk" />
+  <project path="external/spongycastle" name="android_external_spongycastle" />
+  <project path="external/srec" name="android_external_srec" />
+  <project path="external/srtp" name="android_external_srtp" />
+  <project path="external/stlport" name="external_stlport" remote="vanir" revision="commotio" />
+  <project path="external/strace" name="android_external_strace" />
+  <project path="external/stressapptest" name="android_external_stressapptest" />
+  <project path="external/svox" name="android_external_svox" />
+  <project path="external/tagsoup" name="android_external_tagsoup" />
+  <project path="external/tcpdump" name="external_tcpdump" remote="vanir" revision="commotio" />
+  <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" remote="aosp" revision="master" />
+  <project path="external/tinyalsa" name="android_external_tinyalsa" groups="pdk" />
+  <project path="external/tinycompress" name="platform/external/tinycompress" groups="aosp44 pdk" remote="aosp" revision="master" />
+  <project path="external/tinyxml" name="android_external_tinyxml" groups="pdk" />
+  <project path="external/tinyxml2" name="android_external_tinyxml2" groups="pdk" />
+  <project path="external/tremolo" name="android_external_tremolo" groups="pdk" />
+  <project path="external/v8" name="external_v8" remote="vanir" revision="commotio" />
+  <project path="external/valgrind" name="android_external_valgrind" groups="pdk"/>
+  <project path="external/vim" name="android_external_vim" />
+  <project path="external/webp" name="android_external_webp" />
+  <project path="external/webrtc" name="android_external_webrtc" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="external_wpa-supplicant-8" remote="vanir" revision="commotio" groups="pdk" />
+  <project path="external/wpa_supplicant_8_ti" name="external_wpa_supplicant_8_ti" remote="vanir" revision="commotio" groups="pdk" />
+  <project path="external/x264" name="external_x264" remote="vanir" revision="commotio" />
+  <project path="external/xmlwriter" name="android_external_xmlwriter" />
+  <project path="external/xmp/toolkit" name="android_external_xmp_toolkit" />
+  <project path="external/yaffs2" name="android_external_yaffs2" groups="pdk" />
+  <project path="external/zlib" name="android_external_zlib" groups="pdk" />
+  <project path="external/zxing" name="android_external_zxing" />
+  <project path="frameworks/av" name="frameworks_av" remote="vanir" revision="commotio" groups="pdk" />
+  <project path="frameworks/base" name="frameworks_base" remote="vanir" revision="commotio" />
+  <project path="frameworks/compile/libbcc" name="frameworks_compile_libbcc" remote="vanir" revision="commotio" groups="pdk" />
+  <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" remote="vanir" revision="commotio" />
+  <project path="frameworks/compile/slang" name="frameworks_compile_slang" remote="vanir" revision="commotio" groups="pdk" />
+  <project path="frameworks/ex" name="frameworks_ex" remote="vanir" revision="commotio" />
+  <project path="frameworks/mff" name="android_frameworks_mff" />
+  <project path="frameworks/ml" name="android_frameworks_ml" />
+  <project path="frameworks/native" name="frameworks_native" remote="vanir" revision="commotio" groups="pdk" />
+  <project path="frameworks/opt/calendar" name="android_frameworks_opt_calendar" />
+  <project path="frameworks/opt/carddav" name="android_frameworks_opt_carddav" />
+  <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" />
+  <project path="frameworks/opt/datetimepicker" name="android_frameworks_opt_datetimepicker" />
+  <project path="frameworks/opt/emoji" name="android_frameworks_opt_emoji" />
+  <project path="frameworks/opt/hardware" name="android_frameworks_opt_hardware" />
+  <project path="frameworks/opt/inputmethodcommon" name="android_frameworks_opt_inputmethodcommon" />
+  <project path="frameworks/opt/mailcommon" name="android_frameworks_opt_mailcommon" />
+  <project path="frameworks/opt/mms" name="android_frameworks_opt_mms" />
+  <project path="frameworks/opt/net/voip" name="frameworks_opt_net_voip" remote="vanir" revision="commotio" />
+  <project path="frameworks/opt/photoviewer" name="android_frameworks_opt_photoviewer" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="vanir" revision="commotio" groups="pdk" />
+  <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" />
+  <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" />
+  <project path="frameworks/rs" name="frameworks_rs" remote="vanir" revision="commotio" />
+  <project path="frameworks/support" name="frameworks_support" remote="vanir" revision="commotio" />
+  <project path="frameworks/testing" name="android_frameworks_testing" />
+  <project path="frameworks/uiautomator" name="platform/frameworks/uiautomator" groups="aosp44" remote="aosp" revision="master" />
+  <project path="frameworks/volley" name="android_frameworks_volley" />
+  <project path="frameworks/webview" name="android_frameworks_webview" />
+  <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="vanir" revision="commotio" />
+  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" />
+  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" />
+  <project path="hardware/cm" name="android_hardware_cm" />
+  <project path="hardware/invensense" name="hardware_invensense" remote="vanir" revision="commotio" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="vanir" revision="commotio" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware-legacy" remote="vanir" revision="commotio" groups="pdk" />
+  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="vanir" revision="commotio" groups="qcom" />
+  <project path="hardware/qcom/audio-caf" name="hardware_qcom_audio-caf" remote="vanir" revision="commotio" groups="caf" />
+  <!--<project path="hardware/qcom/audio-bfam" name="hardware_qcom_audio-bfam" remote="vanir" revision="commotio" groups="honami"/>-->
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" />
+  <project path="hardware/qcom/camera" name="hardware_qcom_camera" groups="aosp44 qcom" remote="vanir" revision="commotio"/>
+  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="vanir" revision="commotio" groups="qcom" />
+  <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="vanir" revision="commotio" groups="caf" />
+  <!--<project path="hardware/qcom/display-mdss" name="android_hardware_qcom_display-mdss" groups="honami" />-->
+  <project path="hardware/qcom/display-legacy" name="OpenSEMC/android_hardware_qcom_display-legacy" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom" />
+  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="vanir" revision="commotio" groups="qcom" />
+  <project path="hardware/qcom/media-caf" name="hardware_qcom_media-caf" remote="vanir" revision="commotio" groups="caf" />
+  <project path="hardware/qcom/media-legacy" name="OpenSEMC/android_hardware_qcom_media-legacy" remote="github" revision="cm-11.0" />
+  <!--<project path="hardware/qcom/media-v4l2" name="android_hardware_qcom_media-v4l2" groups="honami" />-->
+  <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" groups="qcom/msm8960" />
+  <project path="hardware/qcom/msm8x74" name="android_hardware_qcom_msm8x74" groups="qcom_msm8x74" />
+  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="vanir" revision="commotio" />
+  <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" />
+  <project path="hardware/ril" name="hardware_ril" remote="vanir" revision="commotio" groups="pdk" />
+  <project path="hardware/samsung" name="android_hardware_samsung" />
+  <project path="hardware/samsung_slsi/exynos5" name="hardware_samsung_slsi_exynos5" remote="vanir" revision="commotio" />
+  <!--<project path="hardware/sony/DASH" name="android_hardware_sony_DASH" />-->
+  <project path="hardware/ti/omap3" name="android_hardware_ti_omap3" />
+  <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="vanir" revision="commotio" />
+  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" />
+  <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" />
+  <project path="libcore" name="libcore" remote="vanir" revision="commotio" />
+  <project path="libnativehelper" name="android_libnativehelper" />
+  <project path="ndk" name="platform/ndk" remote="aosp" revision="master" />
+  <project path="packages/apps/BasicSmsReceiver" name="android_packages_apps_BasicSmsReceiver" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="vanir" revision="commotio" />
+  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="vanir" revision="commotio" />
+  <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" />
+  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" />
+  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" />
+  <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" />
+  <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="vanir" revision="commotio" />
+  <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="vanir" revision="commotio" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" />
+  <project path="packages/apps/DSPManager" name="packages_apps_DSPManager" remote="vanir" revision="commotio" />
+  <project path="packages/apps/Email" name="android_packages_apps_Email" />
+  <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" />
+  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="vanir" revision="commotio" />
+  <project path="packages/apps/HTMLViewer" name="android_packages_apps_HTMLViewer" />
+  <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" groups="aosp44" />
+  <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" />
+  <project path="packages/apps/Launcher2" name="packages_apps_Launcher2" remote="vanir" revision="commotio" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3"  groups="aosp44" />
+  <project path="packages/apps/Mms" name="packages_apps_Mms" remote="vanir" revision="commotio" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="vanir" revision="commotio" />
+  <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="vanir" revision="commotio" />
+  <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" />
+  <project path="packages/apps/Provision" name="android_packages_apps_Provision" />
+  <project path="packages/apps/QuickSearchBox" name="packages_apps_quicksearchbox" remote="vanir" revision="commotio" />
+  <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" groups="tab2" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="vanir" revision="commotio" />
+  <project path="packages/apps/SmartCardService" name="android_packages_apps_SmartCardService" />
+  <project path="packages/apps/SoundRecorder" name="packages_apps_soundrecorder" remote="vanir" revision="commotio" />
+  <project path="packages/apps/SpeakerProximity" name="packages_apps_SpeakerProximity" remote="vanir" revision="commotio" />
+  <project path="packages/apps/SpeechRecorder" name="android_packages_apps_SpeechRecorder" />
+  <project path="packages/apps/Stk" name="android_packages_apps_Stk" />
+  <project path="packages/apps/Tag" name="android_packages_apps_Tag" />
+  <project path="packages/apps/Torch" name="android_packages_apps_Torch" />
+  <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" groups="aosp44" />
+  <project path="packages/apps/VanirUpdater" name="packages_apps_VanirUpdater" remote="vanir" revision="commotio" />
+  <project path="packages/apps/VoiceDialer" name="android_packages_apps_VoiceDialer" />
+  <project path="packages/inputmethods/LatinIME" name="packages_input_LatinIME" remote="vanir" revision="commotio" />
+  <project path="packages/providers/ApplicationsProvider" name="android_packages_providers_ApplicationsProvider" />
+  <project path="packages/providers/CalendarProvider" name="android_packages_providers_CalendarProvider" />
+  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="vanir" revision="commotio" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="vanir" revision="commotio" />
+  <project path="packages/providers/PartnerBookmarksProvider" name="android_packages_providers_PartnerBookmarksProvider" />
+  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" />
+  <project path="packages/providers/UserDictionaryProvider" name="android_packages_providers_UserDictionaryProvider" />
+  <project path="packages/screensavers/Basic" name="android_packages_screensavers_Basic" />
+  <project path="packages/screensavers/PhotoTable" name="android_packages_screensavers_PhotoTable" />
+  <project path="packages/screensavers/WebView" name="android_packages_screensavers_WebView" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" groups="aosp44" />
+  <project path="packages/wallpapers/Basic" name="android_packages_wallpapers_Basic" />
+  <project path="packages/wallpapers/Galaxy4" name="android_packages_wallpapers_Galaxy4" />
+  <project path="packages/wallpapers/HoloSpiral" name="android_packages_wallpapers_HoloSpiral" />
+  <project path="packages/wallpapers/LivePicker" name="android_packages_wallpapers_LivePicker" />
+  <project path="packages/wallpapers/MagicSmoke" name="android_packages_wallpapers_MagicSmoke" />
+  <project path="packages/wallpapers/MusicVisualization" name="android_packages_wallpapers_MusicVisualization" />
+  <project path="packages/wallpapers/NoiseField" name="android_packages_wallpapers_NoiseField" />
+  <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" />
+  <project path="pdk" name="platform/pdk"  remote="aosp" revision="master" />
+  <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin" remote="aosp" revision="master" />
+  <project path="prebuilts/clang/darwin-x86/arm/3.3" name="platform/prebuilts/clang/darwin-x86/arm/3.3" groups="darwin,arm" remote="aosp" revision="master" />
+  <project path="prebuilts/clang/darwin-x86/host/3.3" name="platform/prebuilts/clang/darwin-x86/host/3.3" groups="darwin"  remote="aosp" revision="master" />
+  <project path="prebuilts/clang/darwin-x86/mips/3.3" name="platform/prebuilts/clang/darwin-x86/mips/3.3" groups="darwin,mips"  remote="aosp" revision="master" />
+  <project path="prebuilts/clang/darwin-x86/x86/3.3" name="platform/prebuilts/clang/darwin-x86/x86/3.3" groups="darwin,x86"  remote="aosp" revision="master" />
+  <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="pdk,linux"  remote="aosp" revision="master" />
+  <project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" groups="linux,arm"  remote="aosp" revision="master" />
+  <project path="prebuilts/clang/linux-x86/host/3.3" name="platform/prebuilts/clang/linux-x86/host/3.3" groups="linux"  remote="aosp" revision="master" />
+  <project path="prebuilts/clang/linux-x86/mips/3.3" name="platform/prebuilts/clang/linux-x86/mips/3.3" groups="linux,mips"  remote="aosp" revision="master" />
+  <project path="prebuilts/clang/linux-x86/x86/3.3" name="platform/prebuilts/clang/linux-x86/x86/3.3" groups="linux,x86"  remote="aosp" revision="master" />
+  <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse"  groups="pdk" remote="aosp" revision="master" />
+  <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse"  remote="aosp" revision="master" />
+  <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse"  remote="aosp" revision="master" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" groups="pdk,darwin,arm"  remote="aosp" revision="master" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" groups="pdk,darwin,arm" revision="master" remote="aosp" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" groups="pdk,darwin,arm"  remote="aosp" revision="master" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" groups="pdk,darwin,arm" remote="aosp" revision="master" />
+  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" groups="pdk,darwin,mips"  remote="aosp" revision="master" />
+  <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="pdk,darwin,x86"  remote="aosp" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="pdk,linux,arm"  remote="aosp" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" revision="master" remote="aosp" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="cfx" revision="jb-devel" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="pdk,linux,arm"  remote="aosp" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8" remote="cfx" revision="jb-devel" />
+  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="pdk,linux"  remote="aosp" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="pdk,linux"  remote="aosp" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="pdk,linux"  remote="aosp" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" groups="lpdk,inux,mips"  remote="aosp" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="pdk,linux,x86"  remote="aosp" revision="master" />
+  <project path="prebuilts/misc" name="platform/prebuilts/misc"  groups="pdk" remote="aosp" revision="master" />
+  <project path="prebuilts/ndk" name="platform/prebuilts/ndk"  groups="pdk" remote="aosp" revision="master" />
+  <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin"  remote="aosp" revision="master" />
+  <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux"  remote="aosp" revision="master" />
+  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel"  groups="pdk" remote="aosp" revision="master" />
+  <project path="prebuilts/runtime" name="platform/prebuilts/runtime"  groups="aosp44" remote="aosp" revision="master" />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk"  groups="pdk" remote="aosp" revision="master" />
+  <project path="prebuilts/tools" name="platform/prebuilts/tools"  groups="pdk" remote="aosp" revision="master" />
+  <project path="sdk" name="android_sdk" />
+  <project path="system/core" name="system_core" remote="vanir" revision="commotio" groups="pdk" />
+  <project path="system/extras" name="system_extras" remote="vanir" revision="commotio" groups="pdk" />
+  <project path="system/media" name="android_system_media" groups="pdk" />
+  <project path="system/netd" name="android_system_netd" groups="pdk" />
+  <project path="system/qcom" name="system_qcom" groups="qcom" remote="vanir" revision="commotio" />
+  <project path="system/security" name="system_security" remote="vanir" revision="commotio" groups="pdk" />
+  <project path="system/vold" name="system_vold" remote="vanir" revision="commotio" groups="pdk" />
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools"  remote="aosp" revision="master" />
+  <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools"  remote="aosp" revision="master" />
+  <project path="tools/build" name="platform/tools/build" groups="toolsbuild" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
+  <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
+  <project path="vendor/asus" name="vendor_asus" remote="vanir" revision="commotio" groups="vendor" />
+  <project path="vendor/bn" name="vendor_bn" remote="vanir" revision="commotio" groups="vendor" />
+  <project path="vendor/htc" name="vendor_htc" remote="vanir" revision="commotio" />
+  <project path="vendor/lge" name="vendor_lge" remote="vanir" revision="commotio" />
+  <project path="vendor/huawei" name="vendor_huawei" remote="vanir" revision="commotio" />
+  <project path="vendor/motorola" name="vendor_motorola" remote="vanir" revision="commotio" groups="vendor" />
+  <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" remote="cm" revision="cm-10.2" />
+  <project path="vendor/samsung" name="vendor_samsung" remote="vanir" revision="commotio" groups="vendor" />
+  <project path="vendor/sony" name="vendor_sony" remote="vanir" revision="commotio" groups="vendor" />
+  <project path="vendor/vanir" name="vendor_vanir" remote="vanir" revision="commotio" groups="vendor" />
+  <project path="vendor/tmobile/apps/ThemeChooser" name="vendor_tmobile_apps_ThemeChooser" remote="vanir" revision="commotio" groups="vendor" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" />
+
+<!-- Additional vendors -->
+  <project path="vendor/audience" name="TheMuppets/proprietary_vendor_audience" remote="github" revision="cm-11.0" />
+  <project path="vendor/broadcom" name="TheMuppets/proprietary_vendor_broadcom" remote="github" revision="cm-11.0" />
+  <project path="vendor/imgtec" name="TheMuppets/proprietary_vendor_imgtec" remote="github" revision="cm-11.0" />
+  <project path="vendor/invensense" name="vendor_invensense" remote="vanir" revision="commotio" />
+  <project path="vendor/nvidia" name="vendor_nvidia" remote="vanir" revision="commotio" />
+  <project path="vendor/nxp" name="TheMuppets/proprietary_vendor_nxp" remote="github" revision="cm-11.0" />
+  <project path="vendor/widevine" name="vendor_widevine" remote="vanir" revision="commotio" />
+
+</manifest>
