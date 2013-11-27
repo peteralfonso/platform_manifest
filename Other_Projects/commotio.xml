@@ -147,7 +147,7 @@
   <project path="external/bzip2" name="external_bzip2" groups="pdk" remote="vanir" revision="commotio" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" remote="aosp" revision="master" />
   <project path="external/checkpolicy" name="external_checkpolicy" groups="pdk" remote="vanir" revision="commotio" />
-  <project path="external/chromium" name="external_chromium" remote="vanir" revision="commotio" />
+  <project path="external/chromium" name="external_chromium" remote="vanir" revision="commotio" remote="vanir" revision="commotio" />
   <project path="external/chromium-trace" name="external_chromium-trace" groups="pdk" remote="vanir" revision="commotio" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac"  groups="aosp44" remote="aosp" revision="master" />
   <project path="external/chromium_org" name="platform/external/chromium_org"  groups="aosp44" remote="aosp" revision="master" />
