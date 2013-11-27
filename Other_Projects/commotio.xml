@@ -199,7 +199,7 @@
   <project path="external/flac" name="android_external_flac" groups="pdk" />
   <project path="external/freetype" name="external_freetype" remote="vanir" revision="commotio" groups="pdk" />
   <project path="external/fsck/msdos" name="android_external_fsck_msdos" />
-  <project path="external/fuse" name="external_fuse" remote="vanir" revision="commotio" />
+  <project path="external/fuse" name="external_fuse" remote="vanir" revision="kk44" />
   <project path="external/ganymed-ssh2" name="android_external_ganymed-ssh2" />
   <project path="external/gcc-demangle" name="android_external_gcc-demangle" groups="pdk" />
   <project path="external/genext2fs" name="android_external_genext2fs" />
