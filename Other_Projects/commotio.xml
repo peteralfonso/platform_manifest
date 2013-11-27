@@ -127,28 +127,28 @@
   <project path="device/sony/rhine-common" name="android_device_sony_rhine-common" />
   <project path="device/sony/yuga" name="android_device_sony_yuga" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="master" />
-  <project path="external/aac" name="external_aac" groups="pdk" remote="vanir" revision="commotio" />
-  <project path="external/android-clat" name="external_android-clat" remote="vanir" revision="commotio" />
-  <project path="external/android-mock" name="external_android-mock" remote="vanir" revision="commotio" />
-  <project path="external/ant-glob" name="external_ant-glob" remote="vanir" revision="commotio" />
-  <project path="external/antlr" name="external_antlr" remote="vanir" revision="commotio" />
-  <project path="external/apache-harmony" name="external_apache-harmony" remote="vanir" revision="commotio" />
-  <project path="external/apache-http" name="external_apache-http" remote="vanir" revision="commotio" />
-  <project path="external/apache-qp" name="external_apache-qp" remote="vanir" revision="commotio" />
-  <project path="external/apache-xml" name="external_apache-xml" remote="vanir" revision="commotio" />
-  <project path="external/arduino" name="external_arduino" remote="vanir" revision="commotio" />
+  <project path="external/aac" name="android_external_aac" groups="pdk" />
+  <project path="external/android-clat" name="android_external_android-clat" />
+  <project path="external/android-mock" name="android_external_android-mock" />
+  <project path="external/ant-glob" name="android_external_ant-glob" />
+  <project path="external/antlr" name="android_external_antlr" />
+  <project path="external/apache-harmony" name="android_external_apache-harmony" />
+  <project path="external/apache-http" name="android_external_apache-http" />
+  <project path="external/apache-qp" name="android_external_apache-qp" />
+  <project path="external/apache-xml" name="android_external_apache-xml" />
+  <project path="external/arduino" name="android_external_arduino" />
   <project path="external/bash" name="external_bash" remote="vanir" revision="commotio" />
-  <project path="external/bison" name="external_bison" groups="pdk" remote="vanir" revision="commotio" />
-  <project path="external/blktrace" name="external_blktrace" remote="vanir" revision="commotio" />
+  <project path="external/bison" name="android_external_bison" groups="pdk" />
+  <project path="external/blktrace" name="android_external_blktrace" />
   <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" groups="pdk" remote="vanir" revision="commotio" />
-  <project path="external/bouncycastle" name="external_bouncycastle" remote="vanir" revision="commotio" />
-  <project path="external/bsdiff" name="external_bsdiff" groups="pdk" remote="vanir" revision="commotio" />
+  <project path="external/bouncycastle" name="android_external_bouncycastle" />
+  <project path="external/bsdiff" name="android_external_bsdiff" groups="pdk" />
   <project path="external/busybox" name="external_busybox" remote="vanir" revision="commotio" />
-  <project path="external/bzip2" name="external_bzip2" groups="pdk" remote="vanir" revision="commotio" />
+  <project path="external/bzip2" name="android_external_bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" remote="aosp" revision="master" />
-  <project path="external/checkpolicy" name="external_checkpolicy" groups="pdk" remote="vanir" revision="commotio" />
-  <project path="external/chromium" name="external_chromium" remote="vanir" revision="commotio" remote="vanir" revision="commotio" />
-  <project path="external/chromium-trace" name="external_chromium-trace" groups="pdk" remote="vanir" revision="commotio" />
+  <project path="external/checkpolicy" name="android_external_checkpolicy" groups="pdk" />
+  <project path="external/chromium" name="external_chromium" remote="vanir" revision="commotio" />
+  <project path="external/chromium-trace" name="android_external_chromium-trace" groups="pdk" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac"  groups="aosp44" remote="aosp" revision="master" />
   <project path="external/chromium_org" name="platform/external/chromium_org"  groups="aosp44" remote="aosp" revision="master" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff"  groups="aosp44" remote="aosp" revision="master" />
@@ -175,63 +175,63 @@
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp"  groups="aosp44" remote="aosp" revision="master" />
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8"  groups="aosp44" remote="aosp" revision="master" />
   <project path="external/clang" name="external_clang" remote="vanir" revision="commotio" groups="pdk" />
-  <project path="external/compiler-rt" name="external_compiler-rt" groups="pdk" remote="vanir" revision="commotio" />
-  <project path="external/dexmaker" name="external_dexmaker" remote="vanir" revision="commotio" />
-  <project path="external/dhcpcd" name="external_dhcpcd" remote="vanir" revision="commotio" />
+  <project path="external/compiler-rt" name="android_external_compiler-rt" groups="pdk" />
+  <project path="external/dexmaker" name="android_external_dexmaker" />
+  <project path="external/dhcpcd" name="android_external_dhcpcd" />
   <project path="external/dnsmasq" name="external_dnsmasq" remote="vanir" revision="commotio" groups="pdk" />
-  <project path="external/doclava" name="external_doclava" remote="vanir" revision="commotio" />
-  <project path="external/dropbear" name="external_dropbear" remote="vanir" revision="commotio" />
+  <project path="external/doclava" name="android_external_doclava" />
+  <project path="external/dropbear" name="android_external_dropbear" />
   <project path="external/droiddriver" name="platform/external/droiddriver"  groups="aosp44" remote="aosp" revision="master" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="vanir" revision="commotio" groups="pdk" />
-  <project path="external/easymock" name="external_easymock" remote="vanir" revision="commotio" />
-  <project path="external/eclipse-basebuilder" name="external_eclipse-basebuilder" remote="vanir" revision="commotio" />
-  <project path="external/eclipse-windowbuilder" name="external_eclipse-windowbuilder" remote="vanir" revision="commotio" />
+  <project path="external/easymock" name="android_external_easymock" />
+  <project path="external/eclipse-basebuilder" name="android_external_eclipse-basebuilder" />
+  <project path="external/eclipse-windowbuilder" name="android_external_eclipse-windowbuilder" />
   <project path="external/elfutils" name="external_elfutils" remote="vanir" revision="commotio" />
   <project path="external/embunit" name="external_embunit" remote="vanir" revision="commotio" />
-  <project path="external/emma" name="external_emma" remote="vanir" revision="commotio" />
-  <project path="external/esd" name="external_esd" remote="vanir" revision="commotio" />
-  <project path="external/expat" name="external_expat" groups="pdk" remote="vanir" revision="commotio" />
-  <project path="external/exfat" name="external_exfat" remote="vanir" revision="commotio" />
-  <project path="external/eyes-free" name="external_eyes-free" remote="vanir" revision="commotio" />
+  <project path="external/emma" name="android_external_emma" />
+  <project path="external/esd" name="android_external_esd" />
+  <project path="external/expat" name="android_external_expat" groups="pdk" />
+  <project path="external/exfat" name="android_external_exfat" />
+  <project path="external/eyes-free" name="android_external_eyes-free" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" remote="aosp" revision="master" />
-  <project path="external/fdlibm" name="external_fdlibm" remote="vanir" revision="commotio" />
+  <project path="external/fdlibm" name="android_external_fdlibm" />
   <project path="external/ffmpeg" name="external_ffmpeg" remote="vanir" revision="commotio" />
-  <project path="external/flac" name="external_flac" groups="pdk" remote="vanir" revision="commotio" />
+  <project path="external/flac" name="android_external_flac" groups="pdk" />
   <project path="external/freetype" name="external_freetype" remote="vanir" revision="commotio" groups="pdk" />
-  <project path="external/fsck/msdos" name="external_fsck_msdos" remote="vanir" revision="commotio" />
+  <project path="external/fsck/msdos" name="android_external_fsck_msdos" />
   <project path="external/fuse" name="external_fuse" remote="vanir" revision="commotio" />
-  <project path="external/ganymed-ssh2" name="external_ganymed-ssh2" remote="vanir" revision="commotio" />
-  <project path="external/gcc-demangle" name="external_gcc-demangle" groups="pdk" remote="vanir" revision="commotio" />
-  <project path="external/genext2fs" name="external_genext2fs" remote="vanir" revision="commotio" />
-  <project path="external/giflib" name="external_giflib" remote="vanir" revision="commotio" />
-  <project path="external/google" name="external_google" remote="vanir" revision="commotio" />
-  <project path="external/google-diff-match-patch" name="external_google-diff-match-patch" remote="vanir" revision="commotio" />
-  <project path="external/grub" name="external_grub" remote="vanir" revision="commotio" />
-  <project path="external/gson" name="external_gson" remote="vanir" revision="commotio" />
-  <project path="external/gtest" name="external_gtest" groups="pdk" remote="vanir" revision="commotio" />
+  <project path="external/ganymed-ssh2" name="android_external_ganymed-ssh2" />
+  <project path="external/gcc-demangle" name="android_external_gcc-demangle" groups="pdk" />
+  <project path="external/genext2fs" name="android_external_genext2fs" />
+  <project path="external/giflib" name="android_external_giflib" />
+  <project path="external/google" name="android_external_google" />
+  <project path="external/google-diff-match-patch" name="android_external_google-diff-match-patch" />
+  <project path="external/grub" name="android_external_grub" />
+  <project path="external/gson" name="android_external_gson" />
+  <project path="external/gtest" name="android_external_gtest" groups="pdk" />
   <project path="external/guava" name="external_guava" remote="vanir" revision="commotio" />
-  <project path="external/hamcrest" name="external_hamcrest" remote="vanir" revision="commotio" />
-  <project path="external/harfbuzz" name="external_harfbuzz" remote="vanir" revision="commotio" />
+  <project path="external/hamcrest" name="android_external_hamcrest" />
+  <project path="external/harfbuzz" name="android_external_harfbuzz" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" remote="aosp" revision="master" />
-  <project path="external/heimdall" name="external_heimdall" remote="vanir" revision="commotio" />
-  <project path="external/htop" name="external_htop" remote="vanir" revision="commotio" />
-  <project path="external/hyphenation" name="external_hyphenation" remote="vanir" revision="commotio" />
-  <project path="external/icu4c" name="external_icu4c" groups="pdk" remote="vanir" revision="commotio" />
-  <project path="external/iproute2" name="external_iproute2" groups="pdk" remote="vanir" revision="commotio" />
-  <project path="external/ipsec-tools" name="external_ipsec-tools" remote="vanir" revision="commotio" />
-  <project path="external/iptables" name="external_iptables" remote="vanir" revision="commotio" />
+  <project path="external/heimdall" name="android_external_heimdall" />
+  <project path="external/htop" name="android_external_htop" />
+  <project path="external/hyphenation" name="android_external_hyphenation" />
+  <project path="external/icu4c" name="android_external_icu4c" groups="pdk" />
+  <project path="external/iproute2" name="android_external_iproute2" groups="pdk" />
+  <project path="external/ipsec-tools" name="android_external_ipsec-tools" />
+  <project path="external/iptables" name="android_external_iptables" />
   <project path="external/iputils" name="external_iputils" remote="vanir" revision="commotio" groups="aosp44" />
-  <project path="external/jack" name="external_jack" remote="vanir" revision="commotio" />
-  <project path="external/javasqlite" name="external_javasqlite" remote="vanir" revision="commotio" />
-  <project path="external/javassist" name="external_javassist" remote="vanir" revision="commotio" />
-  <project path="external/jdiff" name="external_jdiff" remote="vanir" revision="commotio" />
-  <project path="external/jhead" name="external_jhead" groups="pdk" remote="vanir" revision="commotio" />
-  <project path="external/jmdns" name="external_jmdns" remote="vanir" revision="commotio" />
-  <project path="external/jmonkeyengine" name="external_jmonkeyengine" remote="vanir" revision="commotio" />
+  <project path="external/jack" name="android_external_jack" />
+  <project path="external/javasqlite" name="android_external_javasqlite" />
+  <project path="external/javassist" name="android_external_javassist" />
+  <project path="external/jdiff" name="android_external_jdiff" />
+  <project path="external/jhead" name="android_external_jhead" groups="pdk" />
+  <project path="external/jmdns" name="android_external_jmdns" />
+  <project path="external/jmonkeyengine" name="android_external_jmonkeyengine" />
   <project path="external/jpeg" name="external_jpeg" remote="vanir" revision="commotio" groups="pdk" />
-  <project path="external/jsilver" name="external_jsilver" remote="vanir" revision="commotio" />
-  <project path="external/jsr305" name="external_jsr305" remote="vanir" revision="commotio" />
-  <project path="external/junit" name="external_junit" remote="vanir" revision="commotio" />
+  <project path="external/jsilver" name="android_external_jsilver" />
+  <project path="external/jsr305" name="android_external_jsr305" />
+  <project path="external/junit" name="android_external_junit" />
   <project path="external/kernel-headers" name="android_external_kernel-headers" />
   <project path="external/kissfft" name="android_external_kissfft" />
   <project path="external/klogripper" name="external_klogripper" remote="vanir" revision="commotio" />
