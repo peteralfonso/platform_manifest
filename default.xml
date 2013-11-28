@@ -347,7 +347,7 @@
   <project path="external/yaffs2" name="android_external_yaffs2" groups="pdk" />
   <project path="external/zlib" name="android_external_zlib" groups="pdk" />
   <project path="external/zxing" name="android_external_zxing" />
-  <project path="frameworks/av" name="frameworks_av" remote="vanir" revision="kk44" groups="pdk" />
+  <project path="frameworks/av" name="frameworks_av" remote="vanir" revision="adb02aeb36cc9eabd83184e04c3dee5775e5f6b6" groups="pdk" />
   <project path="frameworks/base" name="frameworks_base" remote="vanir" revision="kk44" />
   <project path="frameworks/compile/libbcc" name="frameworks_compile_libbcc" remote="vanir" revision="kk44" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" remote="vanir" revision="kk44" />
