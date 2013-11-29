@@ -104,9 +104,6 @@
   <project path="device/samsung/p3110" name="android_device_samsung_p3110" groups="tab2" remote="cm" revision="cm-10.2" />
   <project path="device/samsung/p5100" name="device_samsung_p5100" remote="vanir" revision="kk44" groups="tab2" />
   <project path="device/samsung/p5110" name="android_device_samsung_p5110" groups="tab2" remote="cm" revision="cm-10.2" />
-  <project path="device/samsung/quincyatt" name="android_device_samsung_quincyatt" groups="quincy" remote="cm" revision="cm-10.2" />
-  <project path="device/samsung/quincytmo" name="android_device_samsung_quincytmo" groups="quincy" remote="cm" revision="cm-10.2" />
-  <project path="device/samsung/quincy-common" name="device_samsung_quincy-common" remote="vanir" revision="kk44" groups="quincy" />
   <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" groups="device" />
   <project path="device/samsung/smdk4412-qcom-common" name="device_samsung_smdk4412-qcom-common" remote="vanir" revision="kk44" groups="device" />
   <project path="device/samsung/t0lte" name="device_samsung_t0lte" remote="vanir" revision="kk44" groups="device" />
