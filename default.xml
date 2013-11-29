@@ -385,19 +385,16 @@
   <project path="hardware/libhardware_legacy" name="hardware_libhardware-legacy" remote="vanir" revision="kk44" groups="pdk" />
   <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="vanir" revision="kk44" groups="qcom" />
   <project path="hardware/qcom/audio-caf" name="hardware_qcom_audio-caf" remote="vanir" revision="kk44" groups="caf" />
-  <!--<project path="hardware/qcom/audio-bfam" name="hardware_qcom_audio-bfam" remote="vanir" revision="kk44" groups="honami"/>-->
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="hardware_qcom_camera" groups="aosp44 qcom" remote="vanir" revision="kk44"/>
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="vanir" revision="kk44" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="vanir" revision="kk44" groups="caf" />
-  <!--<project path="hardware/qcom/display-mdss" name="android_hardware_qcom_display-mdss" groups="honami" />-->
   <project path="hardware/qcom/display-legacy" name="OpenSEMC/android_hardware_qcom_display-legacy" remote="github" revision="cm-10.2" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="hardware_qcom_media" remote="vanir" revision="kk44" groups="qcom" />
   <project path="hardware/qcom/media-caf" name="hardware_qcom_media-caf" remote="vanir" revision="kk44" groups="caf" />
   <project path="hardware/qcom/media-legacy" name="OpenSEMC/android_hardware_qcom_media-legacy" remote="github" revision="cm-11.0" />
-  <!--<project path="hardware/qcom/media-v4l2" name="android_hardware_qcom_media-v4l2" groups="honami" />-->
   <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" groups="qcom/msm8960" />
   <project path="hardware/qcom/msm8x74" name="android_hardware_qcom_msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="vanir" revision="kk44" />
