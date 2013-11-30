@@ -35,8 +35,8 @@ case $1 in
     ;;
     p700)
         export remote="github"
-        export remoterevision="android-msm-3.4-jb4.3"
-        export kernelsource="bart452/lge-kernel-lproj"
+        export remoterevision="android-msm-3.4-kk"
+        export kernelsource="TeamHackLG/lge-kernel-lproj"
     ;;
     p880)
         export remote="github"
