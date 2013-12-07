@@ -8,9 +8,6 @@ case $1 in
         export remote="github"
         export kernelsource="Motorhead1991/samsung-kernel-msm7x30"
     ;;
-    d802|d801|d800|vs980)
-        export remoterevision="cm-10.2"
-    ;;
     e975|e980)
         export remoterevision="cm-10.2"
         export kernelsource="lge-kernel-gproj"
