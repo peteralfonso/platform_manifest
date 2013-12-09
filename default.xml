@@ -101,11 +101,6 @@
   <project path="device/samsung/manta" name="device_samsung_manta" remote="vanir" revision="kk44" groups="device" />
   <project path="device/samsung/msm8660-common" name="device_samsung_msm8660-common" remote="vanir" revision="kk44" />
   <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="vanir" revision="kk44" groups="device" />
-  <project path="device/samsung/omap4-common" name="android_device_samsung_omap4-common" groups="tab2" />
-  <project path="device/samsung/p3100" name="device_samsung_p3100" remote="vanir" revision="kk44" groups="tab2" />
-  <project path="device/samsung/p3110" name="android_device_samsung_p3110" groups="tab2" remote="cm" revision="cm-10.2" />
-  <project path="device/samsung/p5100" name="device_samsung_p5100" remote="vanir" revision="kk44" groups="tab2" />
-  <project path="device/samsung/p5110" name="android_device_samsung_p5110" groups="tab2" remote="cm" revision="cm-10.2" />
   <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" groups="device" />
   <project path="device/samsung/smdk4412-qcom-common" name="device_samsung_smdk4412-qcom-common" remote="vanir" revision="kk44" groups="device" />
   <project path="device/samsung/t0lte" name="device_samsung_t0lte" remote="vanir" revision="kk44" groups="device" />
@@ -439,7 +434,6 @@
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Provision" name="android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="packages_apps_quicksearchbox" remote="vanir" revision="kk44" />
-  <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" groups="tab2" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="vanir" revision="kk44" />
   <project path="packages/apps/SmartCardService" name="android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="packages_apps_soundrecorder" remote="vanir" revision="kk44" />

@@ -27,9 +27,6 @@ case $1 in
         export remoterevision="sonic-dev"
         export kernelsource="kernel_htc_m7"
     ;;
-    p3100|p3110|p5100|p5110)
-        export remoterevision="cm-10.2"
-    ;;
     p700)
         export remote="github"
         export remoterevision="android-msm-3.4-kk"
