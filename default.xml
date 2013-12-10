@@ -38,8 +38,6 @@
   <project path="device/asus/flo" name="device_asus_flo" remote="vanir" revision="kk44" />
   <project path="device/asus/grouper" name="device_asus_grouper" remote="vanir" revision="kk44" />
   <project path="device/asus/tilapia" name="device_asus_tilapia" remote="vanir" revision="kk44" groups="device" />
-  <project path="device/bn/common" name="device_bn_common" remote="vanir" revision="kk44" groups="Ovation_device" />
-  <project path="device/bn/ovation" name="android_device_bn_ovation" groups="Ovation_device" remote="cm" revision="cm-10.2" />
   <project path="device/common" name="android_device_common" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="android_device_generic_armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="android_device_generic_common" groups="pdk" />
@@ -518,7 +516,6 @@
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="vendor/asus" name="vendor_asus" remote="vanir" revision="kk44" groups="vendor" />
-  <project path="vendor/bn" name="vendor_bn" remote="vanir" revision="kk44" groups="vendor" />
   <project path="vendor/htc" name="vendor_htc" remote="vanir" revision="kk44" />
   <project path="vendor/lge" name="vendor_lge" remote="vanir" revision="kk44" />
   <project path="vendor/huawei" name="vendor_huawei" remote="vanir" revision="kk44" />
