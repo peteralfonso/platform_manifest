@@ -24,7 +24,7 @@ case $1 in
     ;;
     m7*|dlx)
         export remote="vanir"
-        export remoterevision="sonic-dev"
+        export remoterevision="kk44"
         export kernelsource="kernel_htc_m7"
     ;;
     p700)
