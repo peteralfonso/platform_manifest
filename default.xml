@@ -507,7 +507,7 @@
   <project path="sdk" name="android_sdk" />
   <project path="system/core" name="system_core" remote="vanir" revision="kk44" groups="pdk" />
   <project path="system/extras" name="system_extras" remote="vanir" revision="kk44" groups="pdk" />
-  <project path="system/media" name="android_system_media" groups="pdk" />
+  <project path="system/media" name="android_system_media" groups="pdk" remote="vanir" revision="kk44" />
   <project path="system/netd" name="android_system_netd" groups="pdk" />
   <project path="system/qcom" name="system_qcom" groups="qcom" remote="vanir" revision="kk44" />
   <project path="system/security" name="system_security" remote="vanir" revision="kk44" groups="pdk" />
