@@ -423,7 +423,6 @@
   <project path="packages/apps/HTMLViewer" name="android_packages_apps_HTMLViewer" />
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" groups="aosp44" remote="vanir" revision="kk44" />
   <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" />
-  <project path="packages/apps/Launcher2" name="packages_apps_Launcher2" remote="vanir" revision="kk44" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="cm" revision="cm-11.0"/>
   <project path="packages/apps/Mms" name="packages_apps_Mms" remote="vanir" revision="kk44" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="vanir" revision="kk44" />
