@@ -188,6 +188,7 @@
   <project path="external/expat" name="android_external_expat" groups="pdk" />
   <project path="external/exfat" name="android_external_exfat" />
   <project path="external/eyes-free" name="android_external_eyes-free" />
+  <project path="external/f2fs-tools" name="android_external_f2fs-tools" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="external/fdlibm" name="android_external_fdlibm" />
   <project path="external/ffmpeg" name="external_ffmpeg" remote="vanir" revision="kk44" />
