@@ -104,7 +104,7 @@
   <project path="device/samsung/manta" name="device_samsung_manta" remote="vanir" revision="kk44" groups="device" />
   <project path="device/samsung/msm8660-common" name="device_samsung_msm8660-common" remote="vanir" revision="kk44" />
   <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="vanir" revision="kk44" groups="device" />
-  <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" groups="device" />
+  <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common" groups="device" remote="vanir" revision="kk44" />
   <project path="device/samsung/smdk4412-qcom-common" name="device_samsung_smdk4412-qcom-common" remote="vanir" revision="kk44" groups="device" />
   <project path="device/samsung/t0lte" name="device_samsung_t0lte" remote="vanir" revision="kk44" groups="device" />
   <project path="device/samsung/t0lteatt" name="android_device_samsung_t0lteatt" groups="device" />
