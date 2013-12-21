@@ -16,11 +16,11 @@ case $1 in
         export remoterevision="jim_kk_r1_exp"
         export kernelsource="jimsth/vanir_hammerhead"
     ;;
-    jflte*)
-        export remote="vanir"
-        export remoterevision="kk44"
-        export kernelsource="kernel_samsung_jf"
-    ;;
+#    jflte*)
+#        export remote="vanir"
+#        export remoterevision="kk44"
+#        export kernelsource="kernel_samsung_jf"
+#    ;;
     m7*|dlx)
         export remote="vanir"
         export remoterevision="kk44"
