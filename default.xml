@@ -530,7 +530,7 @@
   <project path="vendor/samsung" name="vendor_samsung" remote="vanir" revision="kk44" groups="vendor" />
   <project path="vendor/sony" name="vendor_sony" remote="vanir" revision="kk44" groups="vendor" />
   <project path="vendor/vanir" name="vendor_vanir" remote="vanir" revision="kk44" groups="vendor" />
-  <project path="vendor/tmobile/apps/ThemeChooser" name="vendor_tmobile_apps_ThemeChooser" remote="vanir" revision="kk44" groups="vendor" />
+  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" />
 
