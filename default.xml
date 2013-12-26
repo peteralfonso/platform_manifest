@@ -119,7 +119,7 @@
   <project path="device/sony/pollux_windy" name="android_device_sony_pollux_windy" />
   <project path="device/sony/pollux-common" name="android_device_sony_pollux-common" groups="device" />
   <project path="device/sony/qcom-common" name="android_device_sony_qcom-common" />
-  <project path="device/sony/rhine-common" name="android_device_sony_rhine-common" />
+  <project path="device/sony/rhine-common" name="device_sony_rhine-common" remote="vanir" revision="kk44" />
   <project path="device/sony/yuga" name="android_device_sony_yuga" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="external/aac" name="android_external_aac" groups="pdk" />
