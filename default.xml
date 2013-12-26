@@ -114,12 +114,10 @@
   <project path="device/samsung/tuna" name="device_samsung_tuna" remote="vanir" revision="kk44" groups="device" />
   <project path="device/sony/common" name="android_device_sony_common" />
   <project path="device/sony/fusion3-common" name="device_sony_fusion3-common" remote="vanir" revision="kk44" groups="device" />
-  <project path="device/sony/honami" name="android_device_sony_honami" />
   <project path="device/sony/pollux" name="device_sony_pollux" remote="vanir" revision="kk44" />
   <project path="device/sony/pollux_windy" name="android_device_sony_pollux_windy" />
   <project path="device/sony/pollux-common" name="android_device_sony_pollux-common" groups="device" />
   <project path="device/sony/qcom-common" name="android_device_sony_qcom-common" />
-  <project path="device/sony/rhine-common" name="device_sony_rhine-common" remote="vanir" revision="kk44" />
   <project path="device/sony/yuga" name="android_device_sony_yuga" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="external/aac" name="android_external_aac" groups="pdk" />
