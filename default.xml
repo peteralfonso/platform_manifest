@@ -87,6 +87,10 @@
   <project path="device/samsung/d710" name="device_samsung_d710" remote="vanir" revision="kk44" />
   <project path="device/samsung/galaxys2-common" name="device_samsung_galaxys2-common" remote="vanir" revision="kk44" />
   <project path="device/samsung/hercules" name="device_samsung_hercules" remote="vanir" revision="kk44" />
+  <project path="device/samsung/hlte-common" name="android_device_samsung_hlte-common" groups="hlte_device" />
+  <project path="device/samsung/hltespr" name="android_device_samsung_hltespr" groups="hlte_device" />
+  <project path="device/samsung/hltetmo" name="android_device_samsung_hltetmo" groups="hlte_device" />
+  <project path="device/samsung/hltexx" name="android_device_samsung_hltexx" groups="hlte_device" />
   <project path="device/samsung/i605" name="android_device_samsung_i605" groups="device" />
   <project path="device/samsung/i9300" name="device_samsung_i9300" remote="vanir" revision="kk44" groups="GS3_device" />
   <project path="device/samsung/i9305" name="device_samsung_i9305" remote="vanir" revision="kk44" groups="GS3_device" />
