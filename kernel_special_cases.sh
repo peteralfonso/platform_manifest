@@ -33,8 +33,8 @@ case $1 in
     ;;
     p880)
         export remote="github"
-        export remoterevision="cm-10.2"
-        export kernelsource="mzhou/lge-kernel-p880-cyanogenmod"
+        export remoterevision="kitkat"
+        export kernelsource="MagicDevTeam/lge-kernel-p880/"
     ;;
     toro|toroplus|maguro)
         export remote="github"
