@@ -5,7 +5,7 @@
           fetch="https://github.com/VanirAOSP/"
           review="vaniraosp.goo.im" />
   <remote name="vanir_clang"
-          fetch="https://github.com/vanirclang/"
+          fetch="https://github.com/vanirclang/" />
   <remote name="aosp"
           fetch="https://android.googlesource.com/"
           review="https://android-review.googlesource.com/" />
