@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
   <remote name="vanir"
@@ -81,10 +81,10 @@
   <project path="device/samsung/celox-common" name="android_device_samsung_celox-common" />
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" groups="GS3_device"  />
   <project path="device/samsung/d2att" name="android_device_samsung_d2att" groups="GS3_device" />
-  <project path="device/samsung/d2cri" name="android_device_samsung_d2cri" remote="cm" revision="cm-11.0" />
+  <project path="device/samsung/d2cri" name="android_device_samsung_d2cri" groups="GS3_device" />
   <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" groups="GS3_device" />
   <project path="device/samsung/d2tmo" name="android_device_samsung_d2tmo" groups="GS3_device" />
-  <project path="device/samsung/d2usc" name="android_device_samsung_d2usc" remote="cm" revision="cm-11.0" />
+  <project path="device/samsung/d2usc" name="android_device_samsung_d2usc" groups="GS3_device" />
   <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" groups="GS3_device" />
   <project path="device/samsung/d710" name="device_samsung_d710" remote="vanir" revision="kk44" />
   <project path="device/samsung/galaxys2-common" name="device_samsung_galaxys2-common" remote="vanir" revision="kk44" />
