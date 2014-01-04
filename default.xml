@@ -81,6 +81,7 @@
   <project path="device/samsung/celox-common" name="android_device_samsung_celox-common" />
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" groups="GS3_device"  />
   <project path="device/samsung/d2att" name="android_device_samsung_d2att" groups="GS3_device" />
+  <project path="device/samsung/d2cri" name="android_device_samsung_d2cri" remote="cm" revision="cm-11.0" />
   <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" groups="GS3_device" />
   <project path="device/samsung/d2tmo" name="android_device_samsung_d2tmo" groups="GS3_device" />
   <project path="device/samsung/d2usc" name="android_device_samsung_d2usc" remote="cm" revision="cm-11.0" />
