@@ -59,6 +59,10 @@
   <project path="device/lge/e975" name="android_device_lge_e975" />
   <project path="device/lge/e980" name="android_device_lge_e980" />
   <project path="device/lge/g2-common" name="device_lge_g2-common" remote="vanir" revision="kk44" />
+  <project path="device/lge/gee-common" name="xboxfanj/android_device_lge_gee-common" remote="github" revision="vanir" />
+  <project path="device/lge/geeb" name="chadouming/android_device_lge_geeb" remote="github" revision="android-4.4" />
+  <project path="device/lge/geehrc" name="chadouming/android_device_lge_geehrc" remote="github" revision="android-4.4" />
+  <project path="device/lge/geespr" name="chadouming/android_device_lge_geespr" remote="github" revision="android-4.4" />
   <project path="device/lge/d800" name="android_device_lge_d800" />
   <project path="device/lge/d801" name="device_lge_d801" remote="vanir" revision="kk44" />
   <project path="device/lge/d802" name="android_device_lge_d802" />
