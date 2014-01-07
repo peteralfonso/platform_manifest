@@ -82,7 +82,6 @@
   <project path="device/motorola/xt1060" name="android_device_motorola_xt1060" />
   <project path="device/sample" name="android_device_sample" groups="pdk" />
   <project path="device/samsung/apache" name="device_samsung_apache" remote="vanir" revision="kk44" />
-  <project path="device/samsung/celox-common" name="android_device_samsung_celox-common" />
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" groups="GS3_device"  />
   <project path="device/samsung/d2att" name="android_device_samsung_d2att" groups="GS3_device" />
   <project path="device/samsung/d2cri" name="android_device_samsung_d2cri" groups="GS3_device" />
@@ -92,7 +91,6 @@
   <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" groups="GS3_device" />
   <project path="device/samsung/d710" name="device_samsung_d710" remote="vanir" revision="kk44" />
   <project path="device/samsung/galaxys2-common" name="device_samsung_galaxys2-common" remote="vanir" revision="kk44" />
-  <project path="device/samsung/hercules" name="device_samsung_hercules" remote="vanir" revision="kk44" />
   <project path="device/samsung/hlte-common" name="android_device_samsung_hlte-common" groups="hlte_device" />
   <project path="device/samsung/hltespr" name="android_device_samsung_hltespr" groups="hlte_device" />
   <project path="device/samsung/hltetmo" name="android_device_samsung_hltetmo" groups="hlte_device" />
