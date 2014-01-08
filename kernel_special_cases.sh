@@ -18,7 +18,7 @@ case $1 in
     ;;
     hammerhead)
         export remote="vanir"
-        export remoterevision="kk44"
+        export remoterevision="jim_kk_r1_exp"
         export kernelsource="vanir_hammerhead"
     ;;
     jflte*)
