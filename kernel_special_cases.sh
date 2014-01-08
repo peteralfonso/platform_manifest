@@ -17,9 +17,9 @@ case $1 in
 	export kernelsource="xboxfanj/kernel_msm"
     ;;
     hammerhead)
-        export remote="vanir"
+        export remote="github"
         export remoterevision="jim_kk_r1_exp"
-        export kernelsource="vanir_hammerhead"
+        export kernelsource="jimsth/vanir_hammerhead"
     ;;
     jflte*)
         export remote="vanir"
