@@ -241,7 +241,7 @@
   <project path="external/klogripper" name="external_klogripper" remote="vanir" revision="kk44" />
   <project path="external/koush/ion" name="ion" />
   <project path="external/koush/AndroidAsync" name="AndroidAsync" />
-  <project path="external/koush/Superuser" name="Superuser" />
+  <project path="external/koush/Superuser" name="Superuser" remote="vanir" revision="kk44" />
   <project path="external/koush/Widgets" name="Widgets" />
   <project path="external/libcap-ng" name="android_external_libcap-ng" />
   <project path="external/libffi" name="android_external_libffi" />
