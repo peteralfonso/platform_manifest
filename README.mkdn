@@ -21,6 +21,12 @@ Our gerrit:
 
 	http://vaniraosp.goo.im/#/q/status:open,n,z
 
+Translations:
+
+[TUT] How to translate strings
+
+    http://pastebin.com/tV4rrvFV
+
 Vanir developer Resources:
 
 [TUT] initializing the build environment
