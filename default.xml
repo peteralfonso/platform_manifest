@@ -316,7 +316,7 @@
   <project path="external/rsync" name="android_external_rsync" />
   <project path="external/safe-iop" name="android_external_safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
-  <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" />
+  <project path="external/sepolicy" name="external_sepolicy" groups="pdk" remote="vanir" revision="kk44" />
   <project path="external/sfntly" name="platform/external/sfntly"  groups="aosp44" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts"  groups="aosp44" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="external/skia" name="external_skia" remote="vanir" revision="kk44" />
