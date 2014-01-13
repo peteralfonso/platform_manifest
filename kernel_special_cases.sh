@@ -38,8 +38,8 @@ case $1 in
     ;;
     p880)
         export remote="github"
-        export remoterevision="kitkat"
-        export kernelsource="MagicDevTeam/lge-kernel-p880/"
+        export remoterevision="cm-11.0"
+        export kernelsource="P880-dev/android_kernel_lge_x3"
     ;;
     toro|toroplus|maguro)
         export remote="github"
