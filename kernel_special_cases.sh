@@ -8,7 +8,7 @@ case $1 in
         export remote="github"
         export kernelsource="Motorhead1991/samsung-kernel-msm7x30"
     ;;
-    e975|e980)
+    e980)
         export kernelsource="lge-kernel-gproj"
     ;;
     geeb|geehrc|geespr)
