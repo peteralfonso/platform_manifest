@@ -11,6 +11,11 @@ case $1 in
     e980)
         export kernelsource="lge-kernel-gproj"
     ;;
+    geeb|geehrc|geespr)
+	export remote="github"
+	export remoterevision="vanir"
+	export kernelsource="xboxfanj/kernel_msm"
+    ;;
     hammerhead)
         export remote="github"
         export remoterevision="jim_kk_r1_exp"
