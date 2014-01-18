@@ -97,7 +97,7 @@
   <project path="device/samsung/hltevzw" name="android_device_samsung_hltevzw" groups="hlte_device" />
   <project path="device/samsung/hltexx" name="android_device_samsung_hltexx" groups="hlte_device" />
   <project path="device/samsung/i605" name="android_device_samsung_i605" groups="device" />
-  <project path="device/samsung/i9100g" name="android_device_samsung_i9100g" groups="i9100g_device" />
+  <project path="device/samsung/i9100g" name="device_samsung_i9100g" remote="vanir" revision="kk44" groups="i9100g_device" />
   <project path="device/samsung/i9300" name="device_samsung_i9300" remote="vanir" revision="kk44" groups="GS3_device" />
   <project path="device/samsung/i9305" name="device_samsung_i9305" remote="vanir" revision="kk44" groups="GS3_device" />
   <project path="device/samsung/jf-common" name="device_samsung_jf-common" remote="vanir" revision="kk44" groups="device" />
