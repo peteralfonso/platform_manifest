@@ -8,13 +8,18 @@ case $1 in
         export remote="github"
         export kernelsource="Motorhead1991/samsung-kernel-msm7x30"
     ;;
+    d2)
+        export remote="vanir"
+        export remoterevision="kk44"
+        export kernelsource="kernel_samsung_d2"
+    ;;
     e980)
         export kernelsource="lge-kernel-gproj"
     ;;
     geeb|geehrc|geespr)
-	export remote="github"
-	export remoterevision="vanir"
-	export kernelsource="xboxfanj/kernel_msm"
+        export remote="github"
+        export remoterevision="vanir"
+        export kernelsource="xboxfanj/kernel_msm"
     ;;
     hammerhead)
         export remote="github"
