@@ -78,6 +78,10 @@
   <project path="device/motorola/omap4-common" name="device_motorola_omap4-common" remote="vanir" revision="kk44" />
   <project path="device/motorola/qcom-common" name="android_device_motorola_qcom-common" />
   <project path="device/motorola/xt907" name="android_device_motorola_xt907" />
+  <project path="device/motorola/xt925" name="android_device_motorola_xt925" />
+  <project path="device/motorola/xt926" name="android_device_motorola_xt926" />
+  <project path="device/motorola/xt1053" name="android_device_motorola_xt1053" />
+  <project path="device/motorola/xt1058" name="android_device_motorola_xt1058" />
   <project path="device/motorola/xt1060" name="android_device_motorola_xt1060" />
   <project path="device/sample" name="android_device_sample" groups="pdk" />
   <project path="device/samsung/apache" name="device_samsung_apache" remote="vanir" revision="kk44" />
