@@ -195,7 +195,7 @@
   <project path="external/emma" name="android_external_emma" />
   <project path="external/esd" name="android_external_esd" />
   <project path="external/expat" name="android_external_expat" groups="pdk" />
-  <project path="external/exfat" name="android_external_exfat" />
+  <project path="external/exfat" name="external_exfat" remote="vanir" revision="kk44" />
   <project path="external/eyes-free" name="android_external_eyes-free" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
