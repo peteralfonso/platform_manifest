@@ -379,7 +379,7 @@
   <project path="frameworks/opt/net/voip" name="frameworks_opt_net_voip" remote="vanir" revision="kk44" />
   <project path="frameworks/opt/photoviewer" name="android_frameworks_opt_photoviewer" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="vanir" revision="kk44" groups="pdk" />
-  <project path="frameworks/opt/telephony-legacy" name="hardware_libhardware-legacy" remote="vanir" revision="kk44" groups="d710" />
+  <project path="frameworks/opt/telephony-legacy" name="frameworks_opt_telephony" remote="vanir" revision="kk44-legacy" groups="d710" />
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" />
   <project path="frameworks/rs" name="frameworks_rs" remote="vanir" revision="kk44" />
