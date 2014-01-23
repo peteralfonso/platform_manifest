@@ -13,6 +13,11 @@ case $1 in
         export remoterevision="kk44"
         export kernelsource="kernel_samsung_d2"
     ;;
+    d710)
+        export remote="github"
+        export remoterevision="cm-11.0"
+        export kernelsource="Team-Hydra/android_kernel_samsung_smdk4412"
+    ;;
     e980)
         export kernelsource="lge-kernel-gproj"
     ;;
