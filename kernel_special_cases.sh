@@ -8,11 +8,6 @@ case $1 in
         export remote="github"
         export kernelsource="Motorhead1991/samsung-kernel-msm7x30"
     ;;
-    d2*)
-        export remote="vanir"
-        export remoterevision="kk44"
-        export kernelsource="kernel_samsung_d2"
-    ;;
     d710)
         export remote="github"
         export remoterevision="cm-11.0"
