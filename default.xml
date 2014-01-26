@@ -205,7 +205,6 @@
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="external/fdlibm" name="android_external_fdlibm" />
-  <project path="external/ffmpeg" name="external_ffmpeg" remote="vanir" revision="kk44" />
   <project path="external/flac" name="android_external_flac" groups="pdk" />
   <project path="external/freetype" name="external_freetype" remote="vanir" revision="kk44" groups="pdk" />
   <project path="external/fsck/msdos" name="android_external_fsck_msdos" />
@@ -353,7 +352,6 @@
   <project path="external/webrtc" name="android_external_webrtc" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="external_wpa-supplicant-8" remote="vanir" revision="kk44" groups="pdk" />
   <project path="external/wpa_supplicant_8_ti" name="external_wpa_supplicant_8_ti" remote="vanir" revision="kk44" groups="pdk" />
-  <project path="external/x264" name="external_x264" remote="vanir" revision="kk44" />
   <project path="external/xmlwriter" name="android_external_xmlwriter" />
   <project path="external/xmp/toolkit" name="android_external_xmp_toolkit" />
   <project path="external/yaffs2" name="android_external_yaffs2" groups="pdk" />
