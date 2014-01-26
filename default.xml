@@ -56,10 +56,8 @@
   <project path="device/htc/m7tmo" name="android_device_htc_m7tmo" />
   <project path="device/htc/m7ul" name="device_htc_m7ul" remote="vanir" revision="kk44" />
   <project path="device/htc/m7vzw" name="device_htc_m7vzw" remote="vanir" revision="kk44" />
-  <project path="device/htc/msm8660-common" name="vigor/android_device_htc_msm8660-common" remote="github" revision="cm-11.0" />
   <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="vanir" revision="kk44" />
   <project path="device/htc/s4-common" name="device_htc_s4-common" remote="vanir" revision="kk44" />
-  <project path="device/htc/vigor" name="vigor/device_htc_vigor" remote="github" revision="cm-11.0" />
   <project path="device/lge/e980" name="android_device_lge_e980" />
   <project path="device/lge/g2-common" name="device_lge_g2-common" remote="vanir" revision="kk44" />
   <project path="device/lge/gee-common" name="xboxfanj/android_device_lge_gee-common" remote="github" revision="vanir" />
@@ -88,7 +86,6 @@
   <project path="device/motorola/xt1058" name="android_device_motorola_xt1058" />
   <project path="device/motorola/xt1060" name="android_device_motorola_xt1060" />
   <project path="device/sample" name="android_device_sample" groups="pdk" />
-  <project path="device/samsung/apache" name="device_samsung_apache" remote="vanir" revision="kk44" />
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" groups="GS3_device"  />
   <project path="device/samsung/d2att" name="android_device_samsung_d2att" groups="GS3_device" />
   <project path="device/samsung/d2cri" name="android_device_samsung_d2cri" groups="GS3_device" />
@@ -405,12 +402,10 @@
   <project path="hardware/qcom/camera" name="hardware_qcom_camera" groups="aosp44 qcom" remote="vanir" revision="kk44"/>
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="vanir" revision="kk44" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="vanir" revision="kk44" groups="caf" />
-  <project path="hardware/qcom/display-legacy" name="OpenSEMC/android_hardware_qcom_display-legacy" remote="github" revision="cm-10.2" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" groups="qcom" remote="vanir" revision="kk44" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="hardware_qcom_media" remote="vanir" revision="kk44" groups="qcom" />
   <project path="hardware/qcom/media-caf" name="hardware_qcom_media-caf" remote="vanir" revision="kk44" groups="caf" />
-  <project path="hardware/qcom/media-legacy" name="OpenSEMC/android_hardware_qcom_media-legacy" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" groups="qcom/msm8960" />
   <project path="hardware/qcom/msm8x74" name="android_hardware_qcom_msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="vanir" revision="kk44" />

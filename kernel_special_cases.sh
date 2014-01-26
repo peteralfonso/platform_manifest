@@ -4,10 +4,6 @@
 ## all non-specified kernels are assumed to be from CyanogenMod
 
 case $1 in
-    apache)
-        export remote="github"
-        export kernelsource="Motorhead1991/samsung-kernel-msm7x30"
-    ;;
     d710)
         export remote="github"
         export remoterevision="cm-11.0"
@@ -50,11 +46,6 @@ case $1 in
         export remote="github"
         export remoterevision="jim_mr2"
         export kernelsource="jimsth/vanir_tuna"
-    ;;
-    vigor*)
-        export remote="github"
-        export remoterevision="cm-11.0"
-        export kernelsource="vigor/vigor_aosp_kernel"
     ;;
     yuga)
         export remote="bitbucket"
