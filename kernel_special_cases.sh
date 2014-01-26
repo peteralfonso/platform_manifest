@@ -56,6 +56,11 @@ case $1 in
         export remoterevision="cm-11.0"
         export kernelsource="vigor/vigor_aosp_kernel"
     ;;
+    yuga)
+        export remote="bitbucket"
+        export remoterevision="cm-11.0"
+        export kernelsource="nikhiljan93/XzAOSP"
+    ;;
     *)
         export remote="cm"
         export remoterevision="cm-11.0"
