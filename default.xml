@@ -10,7 +10,7 @@
   <remote name="bitbucket"
           fetch="https://bitbucket.org/" />
   <remote name="cm"
-          fetch="http://github.com/CyanogenMod"
+          fetch="https://github.com/CyanogenMod"
           review="review.cyanogenmod.com" />
   <remote name="cfx"
           fetch="https://bitbucket.org/codefirex/" />
