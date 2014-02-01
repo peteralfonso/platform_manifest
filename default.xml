@@ -70,8 +70,6 @@
   <project path="device/lge/gproj-common" name="device_lge_gproj-common" remote="vanir" revision="kk44" />
   <project path="device/lge/mako" name="device_lge_mako" remote="vanir" revision="kk44" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="vanir" revision="kk44" />
-  <project path="device/lge/msm7x27a-common" name="bart452/android_device_lge_msm7x27a-common" remote="github" revision="kk44" groups="p700" />
-  <project path="device/lge/p700" name="bart452/android_device_lge_p700" remote="github" revision="kk44" groups="p700" />
   <project path="device/lge/p880" name="P880-dev/android_device_lge_p880" remote="github" revision="cm-11.0" />
   <project path="device/lge/vs980" name="device_lge_vs980" remote="vanir" revision="kk44" />
   <project path="device/motorola/maserati" name="android_device_motorola_maserati" />
