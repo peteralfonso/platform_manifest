@@ -47,11 +47,11 @@ case $1 in
         export remoterevision="jim_mr2"
         export kernelsource="jimsth/vanir_tuna"
     ;;
-    yuga)
-        export remote="bitbucket"
-        export remoterevision="cm-11.0"
-        export kernelsource="nikhiljan93/XzAOSP"
-    ;;
+#    yuga)  #we have multiple devices that use the 8064 kernel... this being JUST for yuga makes repo sync one on top of the other quasideterministically
+#        export remote="bitbucket"
+#        export remoterevision="cm-11.0"
+#        export kernelsource="nikhiljan93/XzAOSP"
+#    ;;
     *)
         export remote="cm"
         export remoterevision="cm-11.0"
