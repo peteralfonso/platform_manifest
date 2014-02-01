@@ -7,7 +7,7 @@ case $1 in
     d710)
         export remote="github"
         export remoterevision="kk-mkt"
-        export kernelsource="MoKee/android_kernel_samsung_d710
+        export kernelsource="MoKee/android_kernel_samsung_d710"
     ;;
     e980)
         export kernelsource="lge-kernel-gproj"
