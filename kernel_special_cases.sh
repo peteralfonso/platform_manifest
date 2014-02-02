@@ -3,7 +3,10 @@
 
 ## all non-specified kernels are assumed to be from CyanogenMod
 
-case $1 in
+case $1 in 
+    hlte)
+        export remoterevision="wip"
+    ;;
     d710)
         export remote="github"
         export remoterevision="kk_mkt"
