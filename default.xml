@@ -389,7 +389,7 @@
   <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="vanir" revision="kk44" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" />
-  <project path="hardware/cm" name="android_hardware_cm" />
+  <project path="hardware/cm" name="hardware_cm" remote="vanir" revision="kk44" />
   <project path="hardware/invensense" name="hardware_invensense" remote="vanir" revision="kk44" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="vanir" revision="kk44" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware-legacy" remote="vanir" revision="kk44" groups="pdk" />
