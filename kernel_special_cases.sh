@@ -32,11 +32,6 @@ case $1 in
         export remoterevision="kk44"
         export kernelsource="kernel_htc_m7"
     ;;
-    p700)
-        export remote="github"
-        export remoterevision="android-msm-3.4-kk"
-        export kernelsource="TeamHackLG/lge-kernel-lproj"
-    ;;
     p880)
         export remote="github"
         export remoterevision="cm-11.0"
