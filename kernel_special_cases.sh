@@ -3,12 +3,7 @@
 
 ## all non-specified kernels are assumed to be from CyanogenMod
 
-case $1 in
-    vs980|d80[0-3])
-        export remote="github"
-        export remoterevision="kitkat"
-        export kernelsource="Ayysir/android_kernel_lge_msm8974"
-    ;;
+case $1 in 
     hlte)
         export remoterevision="wip"
     ;;
