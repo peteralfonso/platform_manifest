@@ -7,6 +7,10 @@ case $1 in
     hlte)
         export remoterevision="wip"
     ;;
+    apache)
+        export remote="github"
+        export kernelsource="Motorhead1991/samsung-kernel-msm7x30"
+    ;;
     d710)
         export remote="github"
         export remoterevision="kk_mkt"

@@ -84,6 +84,7 @@
   <project path="device/motorola/xt1058" name="android_device_motorola_xt1058" />
   <project path="device/motorola/xt1060" name="android_device_motorola_xt1060" />
   <project path="device/sample" name="android_device_sample" groups="pdk" />
+  <project path="device/samsung/apache" name="device_samsung_apache" remote="vanir" revision="kk44" />
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" groups="GS3_device"  />
   <project path="device/samsung/d2att" name="android_device_samsung_d2att" groups="GS3_device" />
   <project path="device/samsung/d2cri" name="android_device_samsung_d2cri" groups="GS3_device" />
