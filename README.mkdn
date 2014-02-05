@@ -13,6 +13,10 @@ To initialize your local repository using my trees, use the following command:
 
     repo init -u git://github.com/VanirAOSP/platform_manifest.git -b kk44
 
+Mac Users: initialize your local repository using:
+
+    repo init -u git://github.com/VanirAOSP/platform_manifest.git -b kk44 -g darwin
+
 Then to sync up:
 
     repo sync -j8
