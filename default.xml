@@ -394,6 +394,7 @@
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="vanir" revision="kk44" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="vanir" revision="kk44" groups="caf" />
   <project path="hardware/qcom/display-caf-new" name="hardware_qcom_display-caf-new" remote="vanir" revision="kk44" groups="caf" />
+  <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" groups="qcom" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" groups="qcom" remote="vanir" revision="kk44" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="hardware_qcom_media" remote="vanir" revision="kk44" groups="qcom" />
