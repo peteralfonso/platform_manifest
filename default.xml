@@ -93,7 +93,7 @@
   <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" groups="GS3_device" />
   <project path="device/samsung/d710" name="device_samsung_d710" remote="vanir" revision="kk44-mokee" groups="d710" />
   <project path="device/samsung/d710-common" name="MoKee/android_device_samsung_d710-common" remote="github" revision="kk_mkt" groups="d710" />
-  <project path="device/samsung/hlte" name="android_device_samsung_hlte" groups="hlte_device" />
+  <project path="device/samsung/hlte" name="device_samsung_hlte" groups="hlte_device" remote="vanir" revision="kk44" />
   <project path="device/samsung/i605" name="android_device_samsung_i605" groups="device" />
   <project path="device/samsung/i9100g" name="device_samsung_i9100g" remote="vanir" revision="kk44" groups="i9100g_device" />
   <project path="device/samsung/i9300" name="device_samsung_i9300" remote="vanir" revision="kk44" groups="GS3_device" />
