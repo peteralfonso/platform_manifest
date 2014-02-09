@@ -16,6 +16,11 @@ case $1 in
         export remoterevision="kk_mkt"
         export kernelsource="MoKee/android_kernel_samsung_d710"
     ;;
+    d80*|ls980|vs980)
+        export remote="vanir"
+        export remoterevision="k444"
+        export kernelsource="kernel_lge_msm8974"
+    ;;
     e980)
         export kernelsource="lge-kernel-gproj"
     ;;
