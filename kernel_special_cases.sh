@@ -16,11 +16,6 @@ case $1 in
         export remoterevision="kk_mkt"
         export kernelsource="MoKee/android_kernel_samsung_d710"
     ;;
-    d803)
-        export remote="github"
-        export remoterevision="kitkat"
-        export kernelsource="AOSPA-legacy/android_kernel_lge_msm8974"
-    ;;
     e980)
         export kernelsource="lge-kernel-gproj"
     ;;
