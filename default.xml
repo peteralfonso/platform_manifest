@@ -66,7 +66,7 @@
   <project path="device/lge/d800" name="android_device_lge_d800" />
   <project path="device/lge/d801" name="device_lge_d801" remote="vanir" revision="kk44" />
   <project path="device/lge/d802" name="android_device_lge_d802" />
-  <project path="device/lge/d803" name="AOSPA-legacy/device_lge_d803" remote="github" revision="kitkat" />
+  <project path="device/lge/d803" name="AOSPA-legacy/android_device_lge_d803" remote="github" revision="kitkat" />
   <project path="device/lge/gproj-common" name="device_lge_gproj-common" remote="vanir" revision="kk44" />
   <project path="device/lge/ls980" name="android_device_lge_ls980" />
   <project path="device/lge/mako" name="device_lge_mako" remote="vanir" revision="kk44" />
