@@ -14,7 +14,7 @@ case $1 in
     d710)
         export remote="github"
         export remoterevision="cm-11.0"
-        export kernelsource="Team-Hydra/android_kernel_samsung_smdk4412"
+        export kernelsource="mtb3000gt/CM_android_kernel_samsung_smdk4412"
     ;;
     d80*|ls980|vs980)
         export remote="vanir"
