@@ -87,6 +87,7 @@
   <project path="device/qcom/common" name="android_device_qcom_common" />
   <project path="device/sample" name="android_device_sample" groups="pdk" />
   <project path="device/samsung/apache" name="device_samsung_apache" remote="vanir" revision="kk44" />
+  <project path="device/samsung/aries-common" name="android_device_samsung_aries-common" />
   <project path="device/samsung/d2lte" name="android_device_samsung_d2lte" groups="GS3_device"  />
   <project path="device/samsung/d710" name="device_samsung_d710" remote="vanir" revision="kk44-mokee" groups="d710" />
   <project path="device/samsung/d710-common" name="MoKee/android_device_samsung_d710-common" remote="github" revision="kk_mkt" groups="d710" />
