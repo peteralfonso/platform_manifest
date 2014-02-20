@@ -77,16 +77,10 @@
   <project path="device/lge/p880" name="android_device_lge_p880" />
   <project path="device/lge/vs980" name="device_lge_vs980" remote="vanir" revision="kk44" />
   <project path="device/motorola/maserati" name="android_device_motorola_maserati" />
-  <project path="device/motorola/msm8960-common" name="android_device_motorola_msm8960-common" />
-  <project path="device/motorola/msm8960dt-common" name="android_device_motorola_msm8960dt-common" />
+  <project path="device/motorola/moto_msm8960" name="android_device_motorola_moto_msm8960" />
+  <project path="device/motorola/moto_msm8960dt" name="android_device_motorola_moto_msm8960dt" />
   <project path="device/motorola/omap4-common" name="device_motorola_omap4-common" remote="vanir" revision="kk44" />
   <project path="device/motorola/qcom-common" name="android_device_motorola_qcom-common" />
-  <project path="device/motorola/xt907" name="android_device_motorola_xt907" />
-  <project path="device/motorola/xt925" name="android_device_motorola_xt925" />
-  <project path="device/motorola/xt926" name="android_device_motorola_xt926" />
-  <project path="device/motorola/xt1053" name="android_device_motorola_xt1053" />
-  <project path="device/motorola/xt1058" name="android_device_motorola_xt1058" />
-  <project path="device/motorola/xt1060" name="android_device_motorola_xt1060" />
   <project path="device/qcom/common" name="device_qcom_common" remote="vanir" revision="kk44" />
   <project path="device/sample" name="android_device_sample" groups="pdk" />
   <project path="device/samsung/apache" name="device_samsung_apache" remote="vanir" revision="kk44" />
