@@ -24,6 +24,11 @@ case $1 in
     e980)
         export kernelsource="lge-kernel-gproj"
     ;;
+    galaxys*mtd)
+        export kernelsource="ts1506/samsung-kernel-aries"
+        export remote="github"
+        export remoterevision="kk-4.4"
+    ;;
     geeb|gee)
         export remote="github"
         export remoterevision="vanir"
