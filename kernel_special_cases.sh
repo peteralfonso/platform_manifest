@@ -4,9 +4,6 @@
 ## all non-specified kernels are assumed to be from CyanogenMod
 
 case $1 in 
-    hlte)
-        export remoterevision="wip"
-    ;;
     apache)
         export remote="github"
         export kernelsource="Motorhead1991/samsung-kernel-msm7x30"
