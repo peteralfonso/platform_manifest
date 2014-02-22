@@ -2,6 +2,8 @@
 #this is brittle, but it ought to get the job done.
 
 ## all non-specified kernels are assumed to be from CyanogenMod
+export remote="cm"
+export remoterevision="cm-11.0"
 
 case $1 in 
     apache)
@@ -55,9 +57,5 @@ case $1 in
         export remote="github"
         export remoterevision="jim_mr2"
         export kernelsource="jimsth/vanir_tuna"
-    ;;
-    *)
-        export remote="cm"
-        export remoterevision="cm-11.0"
     ;;
 esac
