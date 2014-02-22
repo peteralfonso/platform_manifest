@@ -24,7 +24,7 @@ case $1 in
         export kernelsource="lge-kernel-gproj"
     ;;
     galaxysmtd)
-        export kernelsource="kernel_samsung_ares"
+        export kernelsource="kernel_samsung_aries"
         export remote="vanir"
         export remoterevision="kk44"
     ;;
