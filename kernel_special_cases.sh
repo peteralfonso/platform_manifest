@@ -26,7 +26,7 @@ case $1 in
         export remote="github"
         export remoterevision="kk-4.4"
     ;;
-    geeb|gee)
+    gee*)
         export remote="github"
         export remoterevision="vanir"
         export kernelsource="xboxfanj/kernel_msm"
@@ -56,11 +56,6 @@ case $1 in
         export remoterevision="jim_mr2"
         export kernelsource="jimsth/vanir_tuna"
     ;;
-#    yuga)  #we have multiple devices that use the 8064 kernel... this being JUST for yuga makes repo sync one on top of the other quasideterministically
-#        export remote="bitbucket"
-#        export remoterevision="cm-11.0"
-#        export kernelsource="nikhiljan93/XzAOSP"
-#    ;;
     *)
         export remote="cm"
         export remoterevision="cm-11.0"
