@@ -84,7 +84,7 @@
   <project path="device/motorola/xt1053" name="android_device_motorola_xt1053" />
   <project path="device/motorola/xt1058" name="android_device_motorola_xt1058" />
   <project path="device/motorola/xt1060" name="android_device_motorola_xt1060" />
-  <project path="device/qcom/common" name="android_device_qcom_common" />
+  <project path="device/qcom/common" name="device_qcom_common" remote="vanir" revision="kk44" />
   <project path="device/sample" name="android_device_sample" groups="pdk" />
   <project path="device/samsung/apache" name="device_samsung_apache" remote="vanir" revision="kk44" />
   <project path="device/samsung/aries-common" name="android_device_samsung_aries-common" />
