@@ -48,6 +48,11 @@ case $1 in
         export remoterevision="kk44"
         export kernelsource="kernel_htc_m7"
     ;;
+    p880)
+        export remote="cm"
+        export remoterevision="cm-11.0"
+        export kernelsource="lge-kernel-p880"
+    ;;
     toro|toroplus|maguro)
         export remote="github"
         export remoterevision="jim_mr2"
