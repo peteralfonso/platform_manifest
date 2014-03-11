@@ -16,8 +16,9 @@ case $1 in
         export kernelsource="mtb3000gt/CM_android_kernel_samsung_smdk4412"
     ;;
     d80*|ls980|vs980)
-        export remote="vanir"
-        export remoterevision="kk44"
+        export remote="github"
+        export remoterevision="kk44-dev"
+        export kernelsource="bart452/kernel_lge_msm8974"
     ;;
     e980)
         export kernelsource="lge-kernel-gproj"
