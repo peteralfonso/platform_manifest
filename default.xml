@@ -71,7 +71,7 @@
   <project path="device/lge/ls980" name="device_lge_ls980" remote="vanir" revision="kk44" />
   <project path="device/lge/mako" name="device_lge_mako" remote="vanir" revision="kk44" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="vanir" revision="kk44" />
-  <project path="device/lge/p880" name="device_lge_p880" remote="vanir" revision="kk44" />
+  <project path="device/lge/p880" name="android_device_lge_p880" />
   <project path="device/lge/vs980" name="device_lge_vs980" remote="vanir" revision="kk44" />
   <project path="device/motorola/maserati" name="android_device_motorola_maserati" />
   <project path="device/motorola/msm8960-common" name="android_device_motorola_msm8960-common" />
