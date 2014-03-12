@@ -17,7 +17,7 @@ case $1 in
     ;;
     d80*|ls980|vs980)
         export remote="github"
-        export remoterevision="kk44-dev"
+        export remoterevision="kk44-stable"
         export kernelsource="bart452/kernel_lge_msm8974"
     ;;
     e980)
