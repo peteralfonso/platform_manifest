@@ -6,6 +6,11 @@ export remote="cm"
 export remoterevision="cm-11.0"
 
 case $1 in 
+    anzu)
+        export kernelsource="LegacyXperia/msm7x30-3.4.x-nAa"
+        export remote="lx"
+        export remoterevision="cm-11.0"
+    ;;
     apache)
         export remote="github"
         export kernelsource="Motorhead1991/samsung-kernel-msm7x30"
