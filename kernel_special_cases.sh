@@ -38,11 +38,6 @@ case $1 in
         export remoterevision="vanir"
         export kernelsource="xboxfanj/kernel_msm"
     ;;
-    mako)
-    export remote="github"
-    export remoterevision="kitkat-cm"
-    export kernelsource="mathkid95/linux_lg_kitkat"
-    ;;
     hammerhead)
         export remote="github"
         export remoterevision="jim_kk_mr1"
