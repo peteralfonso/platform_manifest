@@ -15,6 +15,11 @@ case $1 in
         export remote="github"
         export kernelsource="Motorhead1991/samsung-kernel-msm7x30"
     ;;
+    codinalte)
+        export remote="github"
+        export remoterevision="kk44"
+        export kernelsource="Team-Exhibit/android_kernel_samsung_codinalte"
+    ;;
     d710)
         export remote="github"
         export remoterevision="cm-11.0"
