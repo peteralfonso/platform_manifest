@@ -20,6 +20,11 @@ case $1 in
         export remoterevision="kk44"
         export kernelsource="Team-Exhibit/android_kernel_samsung_codinalte"
     ;;
+    coconut)
+        export kernelsource="LegacyXperia/msm7x30-3.4.x-nAa"
+        export remote="lx"
+        export remoterevision="cm-11.0"
+    ;;
     d710)
         export remote="github"
         export remoterevision="cm-11.0"

@@ -119,6 +119,7 @@
   <project path="device/semc/msm7x30-common" name="device_semc_msm7x30-common" remote="vanir" revision="kk44" />
   <project path="device/semc/mogami-common" name="LegacyXperia/android_device_semc_mogami-common" remote="lx" revision="cm-11.0" />
   <project path="device/semc/anzu" name="LegacyXperia/android_device_semc_anzu" remote="lx" revision="cm-11.0" />
+  <project path="device/semc/coconut" name="LegacyXperia/android_device_semc_coconut" remote="lx" revision="cm-11.0" />
   <project path="device/sony/common" name="android_device_sony_common" />
   <project path="device/sony/fusion3-common" name="device_sony_fusion3-common" remote="vanir" revision="kk44" groups="device" />
   <project path="device/sony/nicki" name="rebelos/android_device_sony_nicki" remote="github" revision="cm-11.0" />
