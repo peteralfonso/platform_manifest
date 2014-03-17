@@ -58,6 +58,11 @@ case $1 in
         export remoterevision="kk44"
         export kernelsource="kernel_htc_m7"
     ;;
+    nicki)
+         export kernelsource="freexperia/android_Kernel_sony_msm8x27"
+         export remote="github"
+         export remoterevision="cm-11.0"
+     ;;
     p880)
         export remote="cm"
         export remoterevision="cm-11.0"
