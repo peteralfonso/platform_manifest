@@ -43,6 +43,11 @@ case $1 in
         export remote="vanir"
         export remoterevision="kk44"
     ;;
+    golden)
+        export remote="github"
+        export remoterevision="kk44"
+        export kernelsource="Team-Exhibit/android_kernel_samsung_golden"
+    ;;
     gee*)
         export remote="github"
         export remoterevision="vanir"
@@ -72,6 +77,11 @@ case $1 in
         export remote="cm"
         export remoterevision="cm-11.0"
         export kernelsource="lge-kernel-p880"
+    ;;
+    skomer)
+        export remote="github"
+        export remoterevision="kk44"
+        export kernelsource="Team-Exhibit/android_kernel_samsung_skomer"
     ;;
     toro|toroplus|maguro)
         export remote="github"
