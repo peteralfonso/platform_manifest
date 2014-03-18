@@ -122,6 +122,13 @@
   <project path="device/semc/mogami-common" name="LegacyXperia/android_device_semc_mogami-common" remote="lx" revision="cm-11.0" />
   <project path="device/semc/anzu" name="LegacyXperia/android_device_semc_anzu" remote="lx" revision="cm-11.0" />
   <project path="device/semc/coconut" name="LegacyXperia/android_device_semc_coconut" remote="lx" revision="cm-11.0" />
+  <project path="device/semc/haida" name="LegacyXperia/android_device_semc_haida" remote="lx" revision="cm-11.0" />
+  <project path="device/semc/hallon" name="LegacyXperia/android_device_semc_hallon" remote="lx" revision="cm-11.0" />
+  <project path="device/semc/iyokan" name="LegacyXperia/android_device_semc_iyokan" remote="lx" revision="cm-11.0" />
+  <project path="device/semc/mango" name="LegacyXperia/android_device_semc_mango" remote="lx" revision="cm-11.0" />
+  <project path="device/semc/satsuma" name="LegacyXperia/android_device_semc_satsuma" remote="lx" revision="cm-11.0" />
+  <project path="device/semc/smultron" name="LegacyXperia/android_device_semc_smultron" remote="lx" revision="cm-11.0" />
+  <project path="device/semc/urushi" name="LegacyXperia/android_device_semc_urushi" remote="lx" revision="cm-11.0" />
   <project path="device/sony/common" name="android_device_sony_common" />
   <project path="device/sony/fusion3-common" name="device_sony_fusion3-common" remote="vanir" revision="kk44" groups="device" />
   <project path="device/sony/nicki" name="rebelos/android_device_sony_nicki" remote="github" revision="cm-11.0" />
