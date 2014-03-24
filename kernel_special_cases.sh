@@ -25,10 +25,15 @@ case $1 in
         export remoterevision="cm-11.0"
         export kernelsource="mtb3000gt/CM_android_kernel_samsung_smdk4412"
     ;;
-    d80*|ls980|vs980)
+    d80*)
         export remote="github"
         export remoterevision="kk44-stable"
         export kernelsource="bart452/kernel_lge_msm8974"
+    ;;
+    ls980|vs980)
+        export remote="github"
+        export remoterevision="refs/heads/7ffd2e99e4"
+        export kernelsource="savoca/furnace_kernel_lge_msm8974"
     ;;
     e980)
         export kernelsource="lge-kernel-gproj"
