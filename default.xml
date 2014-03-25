@@ -16,6 +16,8 @@
           fetch="https://bitbucket.org/codefirex/" />
   <remote name="github"
           fetch="https://github.com/" />
+  <remote name="bart"
+          fetch="https://github.com/bart452/" />
   <remote name="omni"
           fetch="https://github.com/omnirom/" />
   <remote name="linaro"
