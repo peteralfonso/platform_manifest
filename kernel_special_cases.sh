@@ -32,7 +32,7 @@ case $1 in
     ;;
     ls980|vs980)
         export remote="github"
-        export remoterevision="7ffd2e99e4bcf2c32cc856c9dfb6877e7bcb9c58"
+        export remoterevision="cadee560ef1cc94b73e93525e2f48fa3e9024982"
         export kernelsource="savoca/furnace_kernel_lge_msm8974"
     ;;
     e980)
