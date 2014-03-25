@@ -32,8 +32,8 @@ case $1 in
     ;;
     ls980|vs980)
         export remote="github"
-        export remoterevision="cadee560ef1cc94b73e93525e2f48fa3e9024982"
-        export kernelsource="savoca/furnace_kernel_lge_msm8974"
+        export remoterevision="82071252f94599159c06bc841a51e2cd40298f9d" #before it got crappy
+        export kernelsource="bart452/kernel_lge_msm8974"
     ;;
     e980)
         export kernelsource="lge-kernel-gproj"
