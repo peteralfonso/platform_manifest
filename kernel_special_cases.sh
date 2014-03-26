@@ -31,7 +31,7 @@ case $1 in
         export kernelsource="bart452/kernel_lge_msm8974"
     ;;
     ls980|vs980)
-        export remote="bart452"
+        export remote="bart"
         export remoterevision="82071252f94599159c06bc841a51e2cd40298f9d" #before it got crappy
         export kernelsource="kernel_lge_msm8974"
     ;;
