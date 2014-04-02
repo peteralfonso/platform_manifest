@@ -36,6 +36,9 @@ Vanir developer Resources:
 [TUT] initializing the build environment
 
 	http://pastebin.com/1DD9ZfQ4
+	
+*USE THIS LINK FOR CORRECT ORACLE SUN JAVA INSTALL:
+	http://www.webupd8.org/2012/11/oracle-sun-java-6-installer-available.html
 
 [TUT] capturing logcats
 	
