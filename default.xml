@@ -313,6 +313,7 @@
   <project path="external/ppp" name="android_external_ppp" />
   <project path="external/proguard" name="android_external_proguard" groups="pdk" />
   <project path="external/protobuf" name="android_external_protobuf" groups="pdk" />
+  <project path="external/protobuf-c" name="android_external_protobuf-c" />
   <project path="external/qemu" name="android_external_qemu" />
   <project path="external/qemu-pc-bios" name="android_external_qemu-pc-bios" />
   <project path="external/qrngd" name="android_external_qrngd" />
