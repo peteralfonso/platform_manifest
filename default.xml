@@ -152,6 +152,7 @@
   <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" groups="pdk" remote="vanir" revision="kk44" />
   <project path="external/bouncycastle" name="android_external_bouncycastle" />
   <project path="external/bsdiff" name="android_external_bsdiff" groups="pdk" />
+  <project path="external/bson" name="android_external_bson" />
   <project path="external/busybox" name="external_busybox" remote="vanir" revision="kk44" />
   <project path="external/bzip2" name="android_external_bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
@@ -185,6 +186,7 @@
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8"  groups="aosp44" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="external/clang" name="external_clang" remote="vanir" revision="kk44" groups="pdk" />
   <project path="external/compiler-rt" name="android_external_compiler-rt" groups="pdk" />
+  <project path="external/curl" name="android_external_curl" />
   <project path="external/dexmaker" name="android_external_dexmaker" />
   <project path="external/dhcpcd" name="android_external_dhcpcd" />
   <project path="external/dnsmasq" name="external_dnsmasq" remote="vanir" revision="kk44" groups="pdk" />
