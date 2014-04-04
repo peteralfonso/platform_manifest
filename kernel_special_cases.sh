@@ -7,9 +7,9 @@ export remoterevision="cm-11.0"
 
 case $1 in 
     anzu|coconut|haida|hallon|iyokan|mango|satsuma|smultron|urushi)
-        export kernelsource="LegacyXperia/msm7x30-3.4.x-nAa"
+        export kernelsource="LegacyXperia/android_kernel_msm7x30"
         export remote="lx"
-        export remoterevision="cm-11.0"
+        export remoterevision="semc-wip"
     ;;
     apache)
         export remote="github"

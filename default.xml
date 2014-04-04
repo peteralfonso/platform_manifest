@@ -116,7 +116,7 @@
   <project path="device/samsung/toro" name="device_samsung_toro" remote="vanir" revision="kk44" groups="device" />
   <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="vanir" revision="kk44" groups="device" />
   <project path="device/samsung/tuna" name="device_samsung_tuna" remote="vanir" revision="kk44" groups="device" />
-  <project path="device/semc/msm7x30-common" name="device_semc_msm7x30-common" remote="vanir" revision="kk44" />
+  <project path="device/semc/msm7x30-common" name="LegacyXperia/android_device_semc_msm7x30-common" remote="lx" revision="cm-11.0" />
   <project path="device/semc/mogami-common" name="LegacyXperia/android_device_semc_mogami-common" remote="lx" revision="cm-11.0" />
   <project path="device/semc/anzu" name="LegacyXperia/android_device_semc_anzu" remote="lx" revision="cm-11.0" />
   <project path="device/semc/coconut" name="LegacyXperia/android_device_semc_coconut" remote="lx" revision="cm-11.0" />
