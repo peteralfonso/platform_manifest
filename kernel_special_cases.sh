@@ -25,12 +25,7 @@ case $1 in
         export remoterevision="cm-11.0"
         export kernelsource="mtb3000gt/CM_android_kernel_samsung_smdk4412"
     ;;
-    d80*)
-        export remote="github"
-        export remoterevision="kk44-stable"
-        export kernelsource="bart452/kernel_lge_msm8974"
-    ;;
-    ls980|vs980)
+    d80*|ls980|vs980)
         export remote="bart"
         export remoterevision="82071252f94599159c06bc841a51e2cd40298f9d" #before it got crappy
         export kernelsource="kernel_lge_msm8974"
