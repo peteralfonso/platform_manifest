@@ -9,7 +9,7 @@ case $1 in
     anzu|coconut|haida|hallon|iyokan|mango|satsuma|smultron|urushi)
         export kernelsource="LegacyXperia/android_kernel_semc_msm7x30"
         export remote="lx"
-        export remoterevision="semc-wip"
+        export remoterevision="cm-11.0"
     ;;
     apache)
         export remote="github"
