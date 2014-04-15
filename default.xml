@@ -57,6 +57,7 @@
   <project path="device/generic/x86" name="android_device_generic_x86" groups="pdk" />
   <project path="device/htc/dlx" name="android_device_htc_dlx" />
   <project path="device/htc/jewel" name="android_device_htc_jewel" />
+  <project path="device/htc/m4" name="android_device_htc_m4" />
   <project path="device/htc/m7-common" name="device_htc_m7-common" remote="vanir" revision="kk44" />
   <project path="device/htc/m7att" name="android_device_htc_m7att" />
   <project path="device/htc/m7spr" name="android_device_htc_m7spr" />
