@@ -513,6 +513,7 @@
   <project path="prebuilts/clang/linux-x86/host/3.3" name="platform/prebuilts/clang/linux-x86/host/3.3" groups="linux" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="prebuilts/clang/linux-x86/mips/3.3" name="platform/prebuilts/clang/linux-x86/mips/3.3" groups="linux,mips" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="prebuilts/clang/linux-x86/x86/3.3" name="platform/prebuilts/clang/linux-x86/x86/3.3" groups="linux,x86" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
+ <project path="prebuilts/clang/linux-x86/host/3.4" name="platform/prebuilts/clang/linux-x86/host/3.4" remote="aosp" revision="master" groups="pdk,linux" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" groups="notdefault,pdk,darwin,x86" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
