@@ -292,6 +292,7 @@
   <project path="external/mesa3d" name="platform/external/mesa3d" groups="aosp44" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="external/mksh" name="android_external_mksh" groups="pdk" />
   <project path="external/mockwebserver" name="android_external_mockwebserver" />
+  <project path="external/mockito" name="platform/external/mockito" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="external/mp4parser" name="android_external_mp4parser" />
   <project path="external/mtpd" name="android_external_mtpd" />
   <project path="external/naver-fonts" name="android_external_naver-fonts" />
