@@ -88,9 +88,4 @@ case $1 in
         export remoterevision="jim_mr2"
         export kernelsource="jimsth/vanir_tuna"
     ;;
-    u8833)
-        export remote="github"
-        export remoterevision="kitkat"
-        export kernelsource="Dazzozo/huawei-kernel-3.4"
-    ;;
 esac

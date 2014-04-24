@@ -55,8 +55,6 @@
   <project path="device/generic/goldfish" name="device_generic_goldfish" remote="vanir" revision="kk44" groups="pdk" />
   <project path="device/generic/mips" name="android_device_generic_mips" groups="pdk" />
   <project path="device/generic/x86" name="android_device_generic_x86" groups="pdk" />
-  <project path="device/huawei/u8833" name="Dazzozo/android_device_huawei_u8833" remote="github" />
-  <project path="device/huawei/msm7x27a-common" name="Dazzozo/android_device_huawei_msm7x27a-common" remote="github" />
   <project path="device/htc/dlx" name="device_htc_dlx" remote="vanir" revision="kk44" />
   <project path="device/htc/jewel" name="android_device_htc_jewel" />
   <project path="device/htc/m4" name="android_device_htc_m4" />
@@ -400,7 +398,6 @@
   <project path="frameworks/webview" name="frameworks_webview" remote="vanir" revision="kk44" />
   <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="vanir" revision="kk44" />
   <project path="hardware/akm" name="android_hardware_akm" groups="pdk" />
-  <project path="hardware/atheros/wifi/ath6kl-huawei" name="Dazzozo/android_hardware_atheros_wifi_ath6kl-huawei" remote="github" revision="master" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" />
   <project path="hardware/cm" name="hardware_cm" remote="vanir" revision="kk44" />
@@ -570,7 +567,6 @@
   <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="vendor/asus" name="vendor_asus" remote="vanir" revision="kk44" groups="vendor" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" remote="github" />
-  <project path="vendor/huawei" name="Dazzozo/proprietary_vendor_huawei" remote="github" revision="kitkat" />
   <project path="vendor/htc" name="vendor_htc" remote="vanir" revision="kk44" />
   <project path="vendor/lge" name="vendor_lge" remote="vanir" revision="kk44" />
   <project path="vendor/motorola" name="vendor_motorola" remote="vanir" revision="kk44" groups="vendor" />
