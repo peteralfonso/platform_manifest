@@ -56,7 +56,7 @@
   <project path="device/generic/mips" name="android_device_generic_mips" groups="pdk" />
   <project path="device/generic/x86" name="android_device_generic_x86" groups="pdk" />
   <project path="device/huawei/u8833" name="Dazzozo/android_device_huawei_u8833" remote="github" />
-  <project path="device/huawei/msm7x27a-common" name="Dazzozo/ndroid_device_huawei_msm7x27a-common" remote="github" />
+  <project path="device/huawei/msm7x27a-common" name="Dazzozo/android_device_huawei_msm7x27a-common" remote="github" />
   <project path="device/htc/dlx" name="device_htc_dlx" remote="vanir" revision="kk44" />
   <project path="device/htc/jewel" name="android_device_htc_jewel" />
   <project path="device/htc/m4" name="android_device_htc_m4" />
