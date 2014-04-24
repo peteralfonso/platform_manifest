@@ -400,7 +400,7 @@
   <project path="frameworks/webview" name="frameworks_webview" remote="vanir" revision="kk44" />
   <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="vanir" revision="kk44" />
   <project path="hardware/akm" name="android_hardware_akm" groups="pdk" />
-  <project path="hardware/atheros/wifi/ath6kl-huawei" name="Dazzozo/android_hardware_atheros_wifi_ath6kl-huawei" groups="github" />
+  <project path="hardware/atheros/wifi/ath6kl-huawei" name="Dazzozo/android_hardware_atheros_wifi_ath6kl-huawei" remote="github" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" />
   <project path="hardware/cm" name="hardware_cm" remote="vanir" revision="kk44" />
