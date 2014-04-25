@@ -26,8 +26,8 @@ case $1 in
         export kernelsource="mtb3000gt/CM_android_kernel_samsung_smdk4412"
     ;;
     d80*|ls980|vs980)
-        export remote="bart"
-        export remoterevision="82071252f94599159c06bc841a51e2cd40298f9d" #before it got crappy
+        export remote="sudosurootdev"
+        export remoterevision="kk44"
         export kernelsource="kernel_lge_msm8974"
     ;;
     e980)
