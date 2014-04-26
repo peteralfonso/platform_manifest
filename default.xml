@@ -20,6 +20,8 @@
           fetch="https://github.com/bart452/" />
   <remote name="bart452"
           fetch="https://github.com/bart452/" />
+  <remote name="sudosurootdev"
+          fetch="https://github.com/sudosurootdev" />
   <remote name="omni"
           fetch="https://github.com/omnirom/" />
   <remote name="linaro"
