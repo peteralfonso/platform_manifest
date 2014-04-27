@@ -69,9 +69,9 @@ case $1 in
         export kernelsource="kernel_htc_m7"
     ;;
     nicki)
-         export kernelsource="freexperia/android_Kernel_sony_msm8x27"
+         export kernelsource="nolinuxnoparty/bbqnicki"
          export remote="github"
-         export remoterevision="cm-11.0"
+         export remoterevision="master"
      ;;
     p880)
         export remote="cm"

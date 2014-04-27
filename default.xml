@@ -133,7 +133,7 @@
   <project path="device/semc/urushi" name="LegacyXperia/android_device_semc_urushi" remote="lx" revision="cm-11.0" />
   <project path="device/sony/common" name="android_device_sony_common" />
   <project path="device/sony/fusion3-common" name="device_sony_fusion3-common" remote="vanir" revision="kk44" groups="device" />
-  <project path="device/sony/nicki" name="rebelos/android_device_sony_nicki" remote="github" revision="cm-11.0" />
+  <project path="device/sony/nicki" name="nolinuxnoparty/android_device_sony_nicki" remote="github" revision="cm-11.0" />
   <project path="device/sony/pollux" name="device_sony_pollux" remote="vanir" revision="kk44" />
   <project path="device/sony/pollux_windy" name="android_device_sony_pollux_windy" />
   <project path="device/sony/pollux-common" name="android_device_sony_pollux-common" groups="device" />
