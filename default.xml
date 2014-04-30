@@ -25,7 +25,7 @@
   <remote name="omni"
           fetch="https://github.com/omnirom/" />
   <remote name="linaro"
-          fetch="git://android.git.linaro.org/" />
+          fetch="http://android.git.linaro.org/git-ro/" />
   <remote name="horn3t"
           fetch="https://github.com/horn3t/" />
   <remote  name="lx"
