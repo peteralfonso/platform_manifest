@@ -89,6 +89,9 @@
   <project path="device/motorola/moto_msm8960dt" name="android_device_motorola_moto_msm8960dt" />
   <project path="device/motorola/omap4-common" name="device_motorola_omap4-common" remote="vanir" revision="kk44" />
   <project path="device/motorola/qcom-common" name="android_device_motorola_qcom-common" />
+  <project path="device/oppo/apq8064-common-common" name="android_device_oppo_apq8064-common" device="oppo_n1" />
+  <project path="device/oppo/find5" name="android_device_oppo_find5" device="find5" />
+  <project path="device/oppo/n1-common-common" name="android_device_oppo_n1" device="oppo_n1" />
   <project path="device/qcom/common" name="device_qcom_common" remote="vanir" revision="kk44" />
   <project path="device/sample" name="android_device_sample" groups="pdk" />
   <project path="device/samsung/apache" name="device_samsung_apache" remote="vanir" revision="kk44" />
@@ -573,6 +576,7 @@
   <project path="vendor/htc" name="vendor_htc" remote="vanir" revision="kk44" />
   <project path="vendor/lge" name="vendor_lge" remote="vanir" revision="kk44" />
   <project path="vendor/motorola" name="vendor_motorola" remote="vanir" revision="kk44" groups="vendor" />
+  <project path="vendor/oppo" name="TheMuppets/proprietary_vendor_oppo" remote="github" revision="cm-11.0" />
   <project path="vendor/qcom/opt" name="vendor_qcom_opt" remote="vanir" revision="kk44" />
   <project path="vendor/samsung" name="vendor_samsung" remote="vanir" revision="kk44" groups="vendor" />
   <project path="vendor/semc" name="LegacyXperia/proprietary_vendor_semc" remote="lx" revision="cm-11.0" />
