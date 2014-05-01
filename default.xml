@@ -33,7 +33,6 @@
            review="legacyxperia.us.to:8080" />
   <default revision="cm-11.0"
           sync-j="12"
-          sync-q=""
           remote="cm" />
 
   <project path="manifest" name="platform_manifest" remote="vanir" revision="kk44" /> <!-- DO NOT MOVE - whine to Nuclearmistake -->
