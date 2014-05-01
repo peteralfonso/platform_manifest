@@ -73,9 +73,9 @@ case $1 in
         export kernelsource="crpalmer/android_kernel_samsung_mondrianwifi"
     ;;
     nicki)
-         export kernelsource="nolinuxnoparty/bbqnicki"
+         export kernelsource="nolinuxnoparty/android_kernel_sony_msm8x27"
          export remote="github"
-         export remoterevision="master"
+         export remoterevision="kk"
      ;;
     p880)
         export remote="cm"
