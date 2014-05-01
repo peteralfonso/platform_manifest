@@ -90,6 +90,7 @@
   <project path="device/motorola/omap4-common" name="device_motorola_omap4-common" remote="vanir" revision="kk44" />
   <project path="device/motorola/qcom-common" name="android_device_motorola_qcom-common" />
   <project path="device/oppo/apq8064-common" name="android_device_oppo_apq8064-common" device="oppo_n1" />
+  <project path="device/oppo/common" name="android_device_oppo_common" device="oppo_n1" />
   <project path="device/oppo/find5" name="android_device_oppo_find5" device="find5" />
   <project path="device/oppo/n1" name="android_device_oppo_n1" device="oppo_n1" />
   <project path="device/qcom/common" name="device_qcom_common" remote="vanir" revision="kk44" />
