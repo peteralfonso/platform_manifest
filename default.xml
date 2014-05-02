@@ -148,6 +148,7 @@
   <project path="external/aac" name="android_external_aac" groups="pdk" />
   <project path="external/android-clat" name="android_external_android-clat" />
   <project path="external/android-mock" name="android_external_android-mock" />
+  <project path="external/android-visualizer" name="android_external_android-visualizer" />
   <project path="external/ant-glob" name="android_external_ant-glob" />
   <project path="external/antlr" name="android_external_antlr" />
   <project path="external/apache-harmony" name="android_external_apache-harmony" />
