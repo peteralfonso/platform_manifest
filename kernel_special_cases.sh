@@ -75,7 +75,7 @@ case $1 in
     nicki)
          export kernelsource="nolinuxnoparty/android_kernel_sony_msm8x27"
          export remote="github"
-         export remoterevision="kk"
+         export remoterevision="cm-11.0" # thanks for both superficially renaming your repo, and getting the revision wrong. win.
      ;;
     p880)
         export remote="cm"
