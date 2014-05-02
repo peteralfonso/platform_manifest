@@ -418,14 +418,12 @@
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="vanir" revision="kk44" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="vanir" revision="kk44" groups="caf" />
   <project path="hardware/qcom/display-caf-new" name="hardware_qcom_display-caf-new" remote="vanir" revision="kk44" groups="caf" />
-  <project path="hardware/qcom/display-legacy" name="LegacyXperia/android_hardware_qcom_display-legacy" remote="lx" revision="cm-11.0_old" />
   <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" groups="qcom" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" groups="qcom" remote="vanir" revision="kk44" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="hardware_qcom_media" remote="vanir" revision="kk44" groups="qcom" />
   <project path="hardware/qcom/media-caf" name="hardware_qcom_media-caf" remote="vanir" revision="kk44" groups="caf" />
   <project path="hardware/qcom/media-caf-new" name="hardware_qcom_media-caf-new" remote="vanir" revision="kk44" groups="caf" />
-  <project path="hardware/qcom/media-legacy" name="LegacyXperia/android_hardware_qcom_media-legacy" remote="lx" revision="cm-11.0_old" />
   <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" groups="qcom/msm8960" />
   <project path="hardware/qcom/msm8x74" name="android_hardware_qcom_msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="vanir" revision="kk44" />
@@ -438,7 +436,7 @@
   <project path="hardware/ti/omap3" name="android_hardware_ti_omap3" />
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="vanir" revision="kk44" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" />
-  <project path="hardware/ti/wpan" name="LegacyXperia/android_hardware_ti_wpan" remote="lx" />
+  <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" />
   <project path="libcore" name="libcore" remote="vanir" revision="kk44" />
   <project path="libnativehelper" name="android_libnativehelper" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
