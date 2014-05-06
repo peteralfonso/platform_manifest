@@ -217,6 +217,7 @@
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="external/fdlibm" name="android_external_fdlibm" />
+  <project path="external/ffmpeg" name="android_external_ffmpeg" />
   <project path="external/flac" name="android_external_flac" groups="pdk" />
   <project path="external/freetype" name="external_freetype" remote="vanir" revision="kk44" groups="pdk" />
   <project path="external/fsck/msdos" name="android_external_fsck_msdos" />
@@ -350,6 +351,7 @@
   <project path="external/srec" name="android_external_srec" />
   <project path="external/srtp" name="android_external_srtp" />
   <project path="external/stlport" name="external_stlport" remote="vanir" revision="kk44" />
+  <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" />
   <project path="external/strace" name="android_external_strace" />
   <project path="external/stressapptest" name="android_external_stressapptest" />
   <project path="external/svox" name="android_external_svox" />
