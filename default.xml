@@ -368,7 +368,6 @@
   <project path="external/vim" name="android_external_vim" />
   <project path="external/webp" name="android_external_webp" />
   <project path="external/webrtc" name="android_external_webrtc" groups="pdk" />
-  <project path="external/webkit" name="LegacyXperia/android_external_webkit" remote="lx" revision="cm-11.0" />
   <project path="external/wpa_supplicant_8" name="external_wpa-supplicant-8" remote="vanir" revision="kk44" groups="pdk" />
   <project path="external/wpa_supplicant_8_ti" name="external_wpa_supplicant_8_ti" remote="vanir" revision="kk44" groups="pdk" />
   <project path="external/xmlwriter" name="android_external_xmlwriter" />
@@ -447,7 +446,6 @@
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="vanir" revision="kk44" />
   <project path="packages/apps/BluetoothExt" name="android_packages_apps_BluetoothExt" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="vanir" revision="kk44" />
-  <project path="packages/apps/Browser-antique" name="packages_apps_Browser-antique" remote="vanir" revision="kk44" />
   <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="vanir" revision="kk44" />
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="vanir" revision="kk44" />
