@@ -96,7 +96,6 @@
   <project path="device/oppo/n1" name="android_device_oppo_n1" device="oppo_n1" />
   <project path="device/qcom/common" name="device_qcom_common" remote="vanir" revision="kk44" />
   <project path="device/sample" name="android_device_sample" groups="pdk" />
-  <project path="device/samsung/apache" name="device_samsung_apache" remote="vanir" revision="kk44" />
   <project path="device/samsung/aries-common" name="android_device_samsung_aries-common" />
   <project path="device/samsung/codinalte" name="Team-Exhibit/android_device_samsung_codinalte" remote="github" revision="kk44" />
   <project path="device/samsung/d2lte" name="android_device_samsung_d2lte" groups="GS3_device"  />
