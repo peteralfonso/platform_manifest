@@ -68,10 +68,6 @@ case $1 in
         export remoterevision="kk44"
         export kernelsource="kernel_htc_m7"
     ;;
-    mondrianwifi)
-        export remote="github"
-        export kernelsource="crpalmer/android_kernel_samsung_mondrianwifi"
-    ;;
     nicki)
          export kernelsource="nolinuxnoparty/android_kernel_sony_msm8x27"
          export remote="github"
