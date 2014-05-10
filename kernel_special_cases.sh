@@ -67,11 +67,6 @@ case $1 in
         export remote="vanir"
         export remoterevision="kk44"
         export kernelsource="kernel_htc_m7"
-   ;;
-    ville)
-        export remote="github"
-        export remoterevision="cm-11.0"
-        export kernelsource="EthanJ99/android_kernel_htc_msm8960"
     ;;
     nicki)
          export kernelsource="nolinuxnoparty/android_kernel_sony_msm8x27"
