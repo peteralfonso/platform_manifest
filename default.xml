@@ -205,6 +205,7 @@
   <project path="external/droiddriver" name="platform/external/droiddriver"  groups="aosp44" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="vanir" revision="kk44" groups="pdk" />
   <project path="external/easymock" name="android_external_easymock" />
+  <project path="external/ebtables" name="android_external_ebtables" />
   <project path="external/eclipse-basebuilder" name="android_external_eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="android_external_eclipse-windowbuilder" />
   <project path="external/elfutils" name="external_elfutils" remote="vanir" revision="kk44" />
