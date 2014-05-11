@@ -67,7 +67,7 @@
   <project path="device/htc/m7ul" name="device_htc_m7ul" remote="vanir" revision="kk44" />
   <project path="device/htc/m7vzw" name="device_htc_m7vzw" remote="vanir" revision="kk44" />
   <project path="device/htc/m8" name="android_device_htc_m8" />
-  <project path="device/htc/ville" name="android_device_htc_ville" />
+  <project path="device/htc/ville" name="EthanJ99/android_device_htc_ville" remote="github" revision="vanir" />
   <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="vanir" revision="kk44" />
   <project path="device/htc/s4-common" name="device_htc_s4-common" remote="vanir" revision="kk44" />
   <project path="device/lge/e980" name="device_lge_e980" remote="vanir" revision="kk44" />
