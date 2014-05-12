@@ -48,6 +48,11 @@ case $1 in
         export remoterevision="vanir"
         export kernelsource="xboxfanj/kernel_msm"
     ;;
+    grouper)
+        export remote="github"
+        export remoterevision="kk_mr1"
+        export kernelsource="faux123/Nexus-grouper"
+    ;;
     mako)
         export remote="github"
         export remoterevision="kitkat-cm"
