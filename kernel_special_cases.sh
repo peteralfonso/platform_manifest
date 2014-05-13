@@ -93,9 +93,9 @@ case $1 in
         export remoterevision="jim_mr2"
         export kernelsource="jimsth/vanir_tuna"
     ;;
-    ville)
+    ville|jewel)
         export remote="github"
-        export remoterevision="simple"
+        export remoterevision="vanir"
         export kernelsource="EthanJ99/android_kernel_htc_msm8960"
     ;;
 esac
