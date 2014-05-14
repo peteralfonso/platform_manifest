@@ -68,6 +68,11 @@ case $1 in
         export remoterevision="kk44"
         export kernelsource="kernel_samsung_jf"
     ;;
+    klte)
+        export remote="vanir"
+        export remoterevision="kk44"
+        export kernelsource="kernel_samsung_klte"
+    ;;
     m7*|dlx)
         export remote="vanir"
         export remoterevision="kk44"
