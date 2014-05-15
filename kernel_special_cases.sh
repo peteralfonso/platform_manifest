@@ -33,6 +33,11 @@ case $1 in
     e980)
         export kernelsource="lge-kernel-gproj"
     ;;
+    find5|n1)
+        export remote="vanir"
+        export remoterevision="kk44"
+        export kernelsource="kernel_oppo_n1"
+    ;;
     galaxysmtd)
         export kernelsource="kernel_samsung_aries"
         export remote="vanir"
@@ -62,6 +67,11 @@ case $1 in
         export remote="github"
         export remoterevision="jim_kk_mr1"
         export kernelsource="jimsth/vanir_hammerhead"
+    ;;
+    jewel)
+        export remote="github"
+        export remoterevision="cm-11.0"
+        export kernelsource="CyanogenMod/android_kernel_htc_msm8960"
     ;;
     jflte*)
         export remote="vanir"
@@ -102,10 +112,5 @@ case $1 in
         export remote="github"
         export remoterevision="vanir"
         export kernelsource="EthanJ99/android_kernel_htc_msm8960"
-    ;;
-    jewel)
-        export remote="github"
-        export remoterevision="cm-11.0"
-        export kernelsource="CyanogenMod/android_kernel_htc_msm8960"
     ;;
 esac
