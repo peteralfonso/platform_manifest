@@ -480,7 +480,7 @@
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Provision" name="android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="packages_apps_quicksearchbox" remote="vanir" revision="kk44" />
-  <project path="packages/apps/packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" />
+  <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="vanir" revision="kk44" />
   <project path="packages/apps/SmartCardService" name="android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="packages_apps_soundrecorder" remote="vanir" revision="kk44" />
