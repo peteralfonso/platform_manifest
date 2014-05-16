@@ -68,6 +68,11 @@ case $1 in
         export remoterevision="jim_kk_mr1"
         export kernelsource="jimsth/vanir_hammerhead"
     ;;
+    jewel)
+        export remote="github"
+        export remoterevision="cm-11.0"
+        export kernelsource="CyanogenMod/android_kernel_htc_msm8960"
+    ;;
     jflte*)
         export remote="vanir"
         export remoterevision="kk44"
