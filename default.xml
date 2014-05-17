@@ -587,7 +587,7 @@
   <project path="vendor/oppo" name="TheMuppets/proprietary_vendor_oppo" remote="github" revision="cm-11.0" />
   <project path="vendor/qcom/opt" name="vendor_qcom_opt" remote="vanir" revision="kk44" />
   <project path="vendor/samsung" name="vendor_samsung" remote="vanir" revision="kk44" groups="vendor" />
-  <project path="vendor/samsung/klte" name="garwynn/proprietary_vendor_samsung_klte" remote="github" revision="cm-11.0" />
+  <project path="vendor/samsung/klte" name="tdm/proprietary_vendor_samsung_klte" remote="github" revision="cm-11.0" />
   <project path="vendor/semc" name="LegacyXperia/proprietary_vendor_semc" remote="lx" revision="cm-11.0" />
   <project path="vendor/sony" name="vendor_sony" remote="vanir" revision="kk44" groups="vendor" />
   <project path="vendor/vanir" name="vendor_vanir" remote="vanir" revision="kk44" groups="vendor" />
