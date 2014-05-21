@@ -593,9 +593,8 @@
   <project path="vendor/semc" name="LegacyXperia/proprietary_vendor_semc" remote="lx" revision="cm-11.0" />
   <project path="vendor/sony" name="vendor_sony" remote="vanir" revision="kk44" groups="vendor" />
   <project path="vendor/vanir" name="vendor_vanir" remote="vanir" revision="kk44" groups="vendor" />
-  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" />
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" />
+  <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" />
+  <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" />
 
 <!-- Additional vendors -->
   <project path="vendor/audience" name="TheMuppets/proprietary_vendor_audience" remote="github" revision="cm-11.0" />
