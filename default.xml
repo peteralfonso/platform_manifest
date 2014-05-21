@@ -175,7 +175,7 @@
   <project path="external/chromium" name="external_chromium" remote="vanir" revision="kk44" />
   <project path="external/chromium-trace" name="android_external_chromium-trace" groups="pdk" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac"  groups="aosp44" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
-  <project path="external/chromium_org" name="android_external_chromium_org" />
+  <project path="external/chromium_org" name="external_chromium_org" remote="vanir" revision="kk44" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff"  groups="aosp44" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest"  groups="aosp44" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit"  groups="aosp44" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
