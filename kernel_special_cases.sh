@@ -113,7 +113,7 @@ case $1 in
         export remoterevision="vanir"
         export kernelsource="EthanJ99/android_kernel_htc_msm8960"
     ;;
-    jactivelte)
+    jactivelte*)
         export remote="github"
         export remoteversion="cm-11.0"
         export kernelsource="spegelius/android_kernel_samsung_jactivelte"
