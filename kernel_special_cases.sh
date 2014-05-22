@@ -113,9 +113,9 @@ case $1 in
         export remoterevision="vanir"
         export kernelsource="EthanJ99/android_kernel_htc_msm8960"
     ;;
-    jactiveltexx)
+    jactivelte)
         export remote="github"
-	export remoteversion="cm-11.0"
-        export kernelsource="spegelius/android_kernel_samsung_jactiveltexx"
+        export remoteversion="cm-11.0"
+        export kernelsource="spegelius/android_kernel_samsung_jactivelte"
     ;;
 esac

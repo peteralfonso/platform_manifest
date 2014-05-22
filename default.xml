@@ -606,6 +606,6 @@
   <project path="vendor/widevine" name="TheMuppets/proprietary_vendor_widevine" remote="github" revision="cm-11.0" />
 
 <!-- Add Support for S4 Active -->
-  <project path="device/samsung/jactiveltexx" name="spegelius/android_device_samsung_jactivelte" remote="github" revision="cm-11.0" />
+  <project path="device/samsung/jactivelte" name="spegelius/android_device_samsung_jactivelte" remote="github" revision="cm-11.0" />
   <project path="device/samsung/jactivelte-common" name="spegelius/android_device_samsung_jactivelte-common" remote="github" revision="cm-11.0" />
 </manifest>
