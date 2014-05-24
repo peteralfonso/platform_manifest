@@ -118,4 +118,9 @@ case $1 in
         export remoteversion="cm-11.0"
         export kernelsource="spegelius/android_kernel_samsung_jactivelte"
     ;;
+    m8)
+        export remote="github"
+        export remoterevision="kk44"
+        export kernelsource="xboxfanj/android_kernel_htc_msm8974"
+    ;;
 esac
