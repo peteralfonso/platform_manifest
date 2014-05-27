@@ -73,7 +73,7 @@ case $1 in
         export remoteversion="cm-11.0"
         export kernelsource="spegelius/android_kernel_samsung_jactivelte"
     ;;
-    jewel)
+    jewel|ville)
         export remote="github"
         export remoterevision="cm-11.0"
         export kernelsource="CyanogenMod/android_kernel_htc_msm8960"
@@ -117,10 +117,5 @@ case $1 in
         export remote="github"
         export remoterevision="jim_mr2"
         export kernelsource="jimsth/vanir_tuna"
-    ;;
-    ville|jewel)
-        export remote="github"
-        export remoterevision="vanir"
-        export kernelsource="EthanJ99/android_kernel_htc_msm8960"
     ;;
 esac
