@@ -68,6 +68,11 @@ case $1 in
         export remoterevision="jim_kk_mr1"
         export kernelsource="jimsth/vanir_hammerhead"
     ;;
+    jactivelte*)
+        export remote="github"
+        export remoteversion="cm-11.0"
+        export kernelsource="spegelius/android_kernel_samsung_jactivelte"
+    ;;
     jewel)
         export remote="github"
         export remoterevision="cm-11.0"
@@ -87,6 +92,11 @@ case $1 in
         export remote="vanir"
         export remoterevision="kk44"
         export kernelsource="kernel_htc_m7"
+    ;;
+    m8)
+        export remote="github"
+        export remoterevision="kk44"
+        export kernelsource="xboxfanj/android_kernel_htc_msm8974"
     ;;
     nicki)
          export kernelsource="nolinuxnoparty/android_kernel_sony_msm8x27"
@@ -108,19 +118,9 @@ case $1 in
         export remoterevision="jim_mr2"
         export kernelsource="jimsth/vanir_tuna"
     ;;
-    ville)
+    ville|jewel)
         export remote="github"
         export remoterevision="vanir"
         export kernelsource="EthanJ99/android_kernel_htc_msm8960"
-    ;;
-    jactivelte*)
-        export remote="github"
-        export remoteversion="cm-11.0"
-        export kernelsource="spegelius/android_kernel_samsung_jactivelte"
-    ;;
-    m8)
-        export remote="github"
-        export remoterevision="kk44"
-        export kernelsource="xboxfanj/android_kernel_htc_msm8974"
     ;;
 esac
