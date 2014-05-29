@@ -74,9 +74,9 @@ case $1 in
         export kernelsource="spegelius/android_kernel_samsung_jactivelte"
     ;;
     jewel|ville)
-        export remote="github"
+        export remote="cm"
         export remoterevision="cm-11.0"
-        export kernelsource="CyanogenMod/android_kernel_htc_msm8960"
+        export kernelsource="android_kernel_htc_msm8960"
     ;;
     jflte*)
         export remote="vanir"
