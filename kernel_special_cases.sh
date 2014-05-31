@@ -109,9 +109,9 @@ case $1 in
         export kernelsource="Team-Exhibit/android_kernel_samsung_skomer"
     ;;
     tf700t)
-        export remote="github"
-        export remoterevision="cm-11.0"
-        export kernelsource="Hardslog/android_kernel_asus_tf700t"
+        export remote="vanir"
+        export remoterevision="kk44"
+        export kernelsource="kernel_asus_tf700t"
     ;;
     toro|toroplus|maguro)
         export remote="github"
