@@ -122,7 +122,7 @@
   <project path="device/samsung/msm8660-common" name="device_samsung_msm8660-common" remote="vanir" revision="kk44" />
   <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="vanir" revision="kk44" groups="device" />
   <project path="device/samsung/msm8974-common" name="device_samsung_msm8974-common" remote="vanir" revision="kk44" groups="device" />
-  <project path="device/samsung/p3100" name="android_device_samsung_p3100" remote="vanir" revision="kk44" groups="p3110" />
+  <project path="device/samsung/p3100" name="device_samsung_p3100" remote="vanir" revision="kk44" groups="p3110" />
   <project path="device/samsung/p3110" name="android_device_samsung_p3110" groups="p3110" />
   <project path="device/samsung/skomer" name="Team-Exhibit/android_device_samsung_skomer" remote="github" revision="kk44" />
   <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common" groups="device" remote="vanir" revision="kk44" />
