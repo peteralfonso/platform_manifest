@@ -274,7 +274,7 @@
   <project path="external/koush/Superuser" name="Superuser" remote="vanir" revision="kk44" />
   <project path="external/koush/Widgets" name="Widgets" />
   <project path="external/libcap-ng" name="android_external_libcap-ng" />
-  <project path="external/libexif" name="platform/external/libexif" remote="aosp" revision="refs/tags/android-4.4.3_1.1" />
+  <project path="external/libexif" name="platform/external/libexif" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="external/libffi" name="android_external_libffi" />
   <project path="external/libgsm" name="android_external_libgsm" groups="pdk" />
   <project path="external/liblzf" name="android_external_liblzf" groups="pdk" />
