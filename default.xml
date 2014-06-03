@@ -114,7 +114,7 @@
   <project path="device/samsung/i9500" name="CyanogenMod/android_device_samsung_i9500" remote="github" revision="cm-11.0" />
   <project path="device/samsung/jflte" name="device_samsung_jflte" remote="vanir" revision="kk44" groups="device" />
   <project path="device/samsung/klte" name="device_samsung_klte" remote="vanir" revision="kk44" />
-  <project path="device/samsung/omap4-common" name="android_device_samsung_omap4-common" groups="i9100g_device" />
+  <project path="device/samsung/omap4-common" name="android_device_samsung_omap4-common" groups="i9100g, p3110" />
   <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="vanir" revision="kk44" groups="device" />
   <project path="device/samsung/maguro" name="device_samsung_maguro" remote="vanir" revision="kk44" groups="device" />
   <project path="device/samsung/manta" name="device_samsung_manta" remote="vanir" revision="kk44" groups="device" />
@@ -122,6 +122,8 @@
   <project path="device/samsung/msm8660-common" name="device_samsung_msm8660-common" remote="vanir" revision="kk44" />
   <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="vanir" revision="kk44" groups="device" />
   <project path="device/samsung/msm8974-common" name="device_samsung_msm8974-common" remote="vanir" revision="kk44" groups="device" />
+  <project path="device/samsung/p3100" name="device_samsung_p3100" remote="vanir" revision="kk44" groups="p3110" />
+  <project path="device/samsung/p3110" name="android_device_samsung_p3110" groups="p3110" />
   <project path="device/samsung/skomer" name="Team-Exhibit/android_device_samsung_skomer" remote="github" revision="kk44" />
   <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common" groups="device" remote="vanir" revision="kk44" />
   <project path="device/samsung/smdk4412-qcom-common" name="device_samsung_smdk4412-qcom-common" remote="vanir" revision="kk44" groups="device" />
