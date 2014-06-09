@@ -16,6 +16,8 @@
           fetch="https://github.com/codefireXperiment/" />
   <remote name="github"
           fetch="https://github.com/" />
+  <remote name="gitorious"
+          fetch="https://gitorious.org/" />
   <remote name="bart"
           fetch="https://github.com/bart452/" />
   <remote name="sudosurootdev"
@@ -289,6 +291,7 @@
   <project path="external/libphonenumbergoogle" name="android_external_libphonenumbergoogle" />
   <project path="external/libpng" name="external_libpng" remote="vanir" revision="kk44" groups="pdk" />
   <project path="external/libppp" name="android_external_libppp" />
+  <project path="external/libsamsung-ipc" name="replicant/external_libsamsung-ipc" remote="gitorious" revision="master" groups="samsung_ril" />
   <project path="external/libselinux" name="android_external_libselinux" groups="pdk" />
   <project path="external/libsepol" name="android_external_libsepol" groups="pdk" />
   <project path="external/libssh2" name="platform/external/libssh2" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
@@ -444,6 +447,7 @@
   <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" />
   <project path="hardware/ril" name="hardware_ril" remote="vanir" revision="kk44" groups="pdk" />
+  <project path="hardware/ril-samsung-ril" name="replicant/hardware_ril_samsung-ril" remote="gitorious" revision="master" groups="samsung_ril" />
   <project path="hardware/samsung" name="hardware_samsung" remote="vanir" revision="kk44" />
   <project path="hardware/samsung_slsi/exynos5" name="hardware_samsung_slsi_exynos5" remote="vanir" revision="kk44" />
   <project path="hardware/samsung_slsi/exynos5410" name="CyanogenMod/android_hardware_samsung_slsi_exynos5410" remote="github" revision="cm-11.0" />
