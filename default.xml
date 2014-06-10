@@ -71,7 +71,7 @@
   <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="vanir" revision="kk44" />
   <project path="device/htc/s4-common" name="device_htc_s4-common" remote="vanir" revision="kk44" />
   <project path="device/lge/e980" name="device_lge_e980" remote="vanir" revision="kk44" />
-  <project path="device/lge/g2-common" name="device_lge_g2-common" remote="bart" revision="kk44" />
+  <project path="device/lge/g2-common" name="device_lge_g2-common" remote="vanir" revision="kk44" />
   <project path="device/lge/gee-common" name="xboxfanj/android_device_lge_gee-common" remote="github" revision="vanir" />
   <project path="device/lge/geeb" name="xboxfanj/android_device_lge_geeb" remote="github" revision="android-4.4" />
   <project path="device/lge/gee" name="xboxfanj/android_device_lge_gee" remote="github" revision="android-4.4" />
