@@ -73,6 +73,11 @@ case $1 in
         export remoterevision="jim_kk_mr2"
         export kernelsource="jimsth/vanir_hammerhead"
     ;;
+    honami)
+        export remote="github"
+        export remoterevision="cm-11.0"
+        export kernelsource="a2441918/kernel_sony_msm8974"
+    ;;
     jactivelte*)
         export remote="github"
         export remoteversion="cm-11.0"
