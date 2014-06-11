@@ -73,6 +73,11 @@ case $1 in
         export remoteversion="cm-11.0"
         export kernelsource="spegelius/android_kernel_samsung_jactivelte"
     ;;
+    janice)
+        export remote="github"
+        export remoteversion="cm-11.0"
+        export kernelsource="TeamCanjica/Samsung_STE_Kernel"
+    ;;
     jflte*)
         export remote="vanir"
         export remoterevision="kk44"
