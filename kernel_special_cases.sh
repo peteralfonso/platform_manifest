@@ -75,7 +75,7 @@ case $1 in
     ;;
     janice)
         export remote="github"
-        export remoteversion="cm-11.0"
+        export remoteversion="3.0.101"
         export kernelsource="TeamCanjica/Samsung_STE_Kernel"
     ;;
     jflte*)
