@@ -15,6 +15,11 @@ case $1 in
         export remote="github"
         export kernelsource="Motorhead1991/samsung-kernel-msm7x30"
     ;;
+    codina|janice)
+        export remote="github"
+        export remoteversion="kk44"
+        export kernelsource="Team-Exhibit/android_kernel_samsung_u8500"
+    ;;
     codinalte)
         export remote="github"
         export remoterevision="kk44"
@@ -72,11 +77,6 @@ case $1 in
         export remote="github"
         export remoteversion="cm-11.0"
         export kernelsource="spegelius/android_kernel_samsung_jactivelte"
-    ;;
-    janice)
-        export remote="github"
-        export remoteversion="3.0.101"
-        export kernelsource="TeamCanjica/Samsung_STE_Kernel"
     ;;
     jflte*)
         export remote="vanir"
