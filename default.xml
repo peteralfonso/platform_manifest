@@ -111,7 +111,7 @@
   <project path="device/samsung/i9300" name="device_samsung_i9300" remote="vanir" revision="kk44" groups="GS3_device" />
   <project path="device/samsung/i9305" name="device_samsung_i9305" remote="vanir" revision="kk44" groups="GS3_device" />
   <project path="device/samsung/i9500" name="android_device_samsung_i9500" />
-  <project path="device/samsung/janice" name="Team-Exhibit/android_device_samsung_janice" remote="github" revision="kk44" groups="ste" />
+  <project path="device/samsung/janice" name="device_samsung_janice" remote="vanir" revision="kk44" groups="ste" />
   <project path="device/samsung/jflte" name="device_samsung_jflte" remote="vanir" revision="kk44" groups="device" />
   <project path="device/samsung/klte" name="device_samsung_klte" remote="vanir" revision="kk44" />
   <project path="device/samsung/omap4-common" name="android_device_samsung_omap4-common" groups="i9100g, p3110" />
