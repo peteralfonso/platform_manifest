@@ -571,7 +571,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/linaro" name="linaro_toolchains_2014" remote="vanir" revision="kk44" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="cfx" revision="kk-devel" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" remote="linaro" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9-linaro" remote="bart" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" remote="linaro" revision="master" />
   <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="prebuilts/misc" name="prebuilts_misc" groups="pdk" remote="vanir" revision="kk44" />
