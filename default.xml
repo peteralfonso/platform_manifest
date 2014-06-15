@@ -400,7 +400,7 @@
   <project path="frameworks/ml" name="android_frameworks_ml" />
   <project path="frameworks/native" name="frameworks_native" remote="vanir" revision="kk44" groups="pdk" />
   <project path="frameworks/opt/calendar" name="android_frameworks_opt_calendar" />
-  <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" remote="github" revision="kk4.4" />
+  <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="vanir" revision="kk44" />
   <project path="frameworks/opt/carddav" name="android_frameworks_opt_carddav" />
   <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" />
   <project path="frameworks/opt/datetimepicker" name="android_frameworks_opt_datetimepicker" />
