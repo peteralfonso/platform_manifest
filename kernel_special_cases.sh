@@ -118,6 +118,11 @@ case $1 in
         export remoterevision="kk44"
         export kernelsource="Team-Exhibit/android_kernel_samsung_skomer"
     ;;
+    taoshan)
+        export remote="github"
+        export remoterevision="cm-11.0"
+        export kernelsource="freexperia/android_kernel_sony_msm8930"
+    ;;
     tf700t)
         export remote="vanir"
         export remoterevision="kk44"
