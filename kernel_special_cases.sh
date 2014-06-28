@@ -25,11 +25,6 @@ case $1 in
         export remoterevision="kk44"
         export kernelsource="Team-Exhibit/android_kernel_samsung_codinalte"
     ;;
-    d710)
-        export remote="github"
-        export remoterevision="cm-11.0"
-        export kernelsource="mtb3000gt/CM_android_kernel_samsung_smdk4412"
-    ;;
     d80*|ls980|vs980)
         export remote="vanir"
         export remoterevision="kk44"
