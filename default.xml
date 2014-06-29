@@ -87,6 +87,8 @@
   <project path="device/lge/p880" name="device_lge_p880" remote="vanir" revision="kk44" />
   <project path="device/lge/v500" name="android_device_lge_v500" />
   <project path="device/lge/vs980" name="device_lge_vs980" remote="vanir" revision="kk44" />
+  <project path="device/motorola/falcon" name="EthanJ99/device_motorola_falcon" remote="github" revision="kk44" />
+  <project path="device/motorola/msm8226-common" name="EthanJ99/device_motorola_msm8226-common" remote="github" revision="kk44" />
   <project path="device/motorola/maserati" name="android_device_motorola_maserati" />
   <project path="device/motorola/moto_msm8960" name="device_motorola_moto_msm8960" remote="vanir" revision="kk44" />
   <project path="device/motorola/moto_msm8960dt" name="android_device_motorola_moto_msm8960dt" />
