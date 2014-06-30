@@ -104,8 +104,8 @@
   <project path="device/samsung/codina" name="Team-Exhibit/android_device_samsung_codina" remote="github" revision="kk44" groups="ste" />
   <project path="device/samsung/codinalte" name="Team-Exhibit/android_device_samsung_codinalte" remote="github" revision="kk44" groups="ste" />
   <project path="device/samsung/d2lte" name="android_device_samsung_d2lte" groups="GS3_device"  />
-  <project path="device/samsung/d710" name="device_samsung_d710" remote="vanir" revision="kk44" groups="d710" />
-  <project path="device/samsung/galaxys2-common" name="android_device_samsung_galaxys2-common" />
+  <project path="device/samsung/d710" name="device_samsung_d710" remote="vanir" revision="kk44-mokee" groups="d710" />
+  <project path="device/samsung/d710-common" name="MoKee/android_device_samsung_d710-common" remote="github" revision="kk_mkt" groups="d710" />
   <project path="device/samsung/galaxysmtd" name="android_device_samsung_galaxysmtd" />
   <project path="device/samsung/golden" name="Team-Exhibit/android_device_samsung_golden" remote="github" revision="kk44" groups="ste"  />
   <project path="device/samsung/hlte" name="device_samsung_hlte" groups="hlte_device" remote="vanir" revision="kk44" />
