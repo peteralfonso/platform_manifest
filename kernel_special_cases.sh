@@ -128,4 +128,9 @@ case $1 in
         export remoterevision="jim_mr2"
         export kernelsource="jimsth/vanir_tuna"
     ;;
+    ville|evita|jewel|m4)
+        export remote="github"
+        export remoterevision="kk44"
+        export kernelsource="EthanJ99/kernel_htc_msm8960"
+    ;;
 esac
